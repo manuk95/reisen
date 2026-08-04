@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import List from '../../components/CollectionList.astro';import {getCollection} from 'astro:content';const items=await getCollection('restaurants');
+---
+<Base title="Restaurants"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Restaurants</h1><List {items} section="restaurants" /></div></Base>
