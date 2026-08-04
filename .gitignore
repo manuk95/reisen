@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+Georgienreise_2026_Manuel_Martina*.docx
+Georgienreise_2026_Manuel_Martina*.pdf
+playwright-report/
+test-results/
+.DS_Store

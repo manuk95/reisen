@@ -1,0 +1,22 @@
+---
+title: "Newport Hotel Kutaisi"
+slug: newport-kutaisi
+trip: georgien-2026
+country: Georgien
+region: "Kutaisi"
+summary: "Design- und Komfortoption im Zentrum."
+categories: [hotel]
+status: vorschlag
+days: [tag-07, tag-08]
+related: []
+sources: [{label: "Hotelvergleich der Reiseplanung; Anbieterangaben vor Buchung prüfen", url: "https://www.booking.com/"}]
+updated: 2026-08-03
+---
+
+## Vorschlag · noch nicht gebucht
+
+**Preis- und Bewertungsstand 3. August 2026:** CHF 85–125 · Bewertung 9.1. Bewertungen bleiben je Plattform getrennt und müssen vor Buchung neu geprüft werden.
+
+Design- und Komfortoption im Zentrum.
+
+**Ausstattung:** eigenes Badezimmer; Pool nur wo oben ausdrücklich genannt. Endpreis, Stornierung, Frühstück, Parkplatz und saisonale Poolöffnung kontrollieren.
