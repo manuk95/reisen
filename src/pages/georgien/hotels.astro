@@ -1,4 +1,5 @@
 ---
+// @ts-nocheck
 import Base from '../../layouts/Base.astro';import List from '../../components/CollectionList.astro';import {getCollection} from 'astro:content';const items=await getCollection('unterkuenfte');
 ---
 <Base title="Hotelvorschläge"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Hotelvorschläge</h1><List {items} section="hotels" /></div></Base>

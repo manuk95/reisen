@@ -10,6 +10,9 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: true
+# The Pages source is configured manually in repository settings as "GitHub Actions".
+# Do not call the GitHub Pages REST API from this workflow; the default
+# GITHUB_TOKEN cannot update that repository-level setting and fails with 403.
 jobs:
   build:
     runs-on: ubuntu-latest
