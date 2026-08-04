@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import List from '../../components/CollectionList.astro';import {getCollection} from 'astro:content';const items=await getCollection('sehenswuerdigkeiten');
+---
+<Base title="Sehenswürdigkeiten"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Sehenswürdigkeiten</h1><List {items} section="sehenswuerdigkeiten" /></div></Base>

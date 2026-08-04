@@ -1,0 +1,3 @@
+export const points=[
+ {name:'Flughafen Tbilisi',type:'airport',lat:41.6692,lon:44.9547},{name:'Tbilisi',type:'place',lat:41.6938,lon:44.8015},{name:'Mtskheta',type:'place',lat:41.8421,lon:44.7215},{name:'Ananuri',type:'sight',lat:42.1639,lon:44.7028},{name:'Stepantsminda',type:'place',lat:42.6578,lon:44.6458},{name:'Gergeti',type:'sight',lat:42.6625,lon:44.6205},{name:'Vardzia',type:'sight',lat:41.3814,lon:43.2842},{name:'Kutaisi',type:'place',lat:42.2679,lon:42.6946},{name:'Shekvetili',type:'hotel',lat:41.9219,lon:41.7675},{name:'Batumi',type:'place',lat:41.6168,lon:41.6367},{name:'Flughafen Batumi',type:'airport',lat:41.6103,lon:41.5997}
+];
