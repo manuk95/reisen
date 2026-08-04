@@ -1,0 +1,25 @@
+{
+  "name": "reisen",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "test": "node scripts/validate.mjs"
+  },
+  "dependencies": {
+    "@astrojs/check": "latest",
+    "@astrojs/mdx": "latest",
+    "@astrojs/sitemap": "latest",
+    "astro": "latest",
+    "leaflet": "^1.9.4",
+    "typescript": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "pagefind": "latest",
+    "@types/leaflet": "^1.9.21"
+  }
+}

@@ -1,0 +1,4 @@
+---
+import Base from '../../layouts/Base.astro';import {getCollection} from 'astro:content';const days=(await getCollection('reisetage')).sort((a,b)=>a.data.day-b.data.day);const base=import.meta.env.BASE_URL;
+---
+<Base title="Reiseplan Georgien"><div class="wrap"><p class="eyebrow">14 Reisetage</p><h1>Reiseplan</h1><p>Fixe Flugtermine sind rot markiert. Empfehlungen bleiben flexibel; Wetter und Strassen entscheiden im Kaukasus.</p><div class="grid">{days.map(d=><article class="card"><span class="badge">Tag {d.data.day}</span><h2><a href={`${base}georgien/tag/${d.data.slug}/`}>{d.data.date.toLocaleDateString('de-CH',{weekday:'long',day:'numeric',month:'long'})}</a></h2><p><strong>{d.data.from} → {d.data.to}</strong></p><p>{d.data.character}</p>{d.data.fixed.length>0&&<span class="badge fix">{d.data.fixed.length} fixe Termine</span>}</article>)}</div></div></Base>
