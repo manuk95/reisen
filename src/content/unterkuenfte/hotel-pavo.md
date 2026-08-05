@@ -9,8 +9,10 @@ categories: [hotel]
 status: vorschlag
 days: [tag-01, tag-02, tag-03]
 related: []
-sources: [{label: "Hotelvergleich der Reiseplanung; Anbieterangaben vor Buchung prüfen", url: "https://www.booking.com/"}]
+sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=hotel%20pavo%20Georgia"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Vorschlag · noch nicht gebucht

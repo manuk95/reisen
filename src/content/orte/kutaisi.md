@@ -12,12 +12,14 @@ days: [tag-07, tag-08, tag-09]
 related: []
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Charakter
 
-Westgeorgische Kulturstadt als Basis für Klöster und Höhlen. Verknüpfte Tagespläne und Genussthemen werden aus den Metadaten erzeugt.
+Westgeorgische Kulturstadt als Basis für Klöster und Höhlen. Die passenden Tagesprogramme sind unten als Links aufgeführt. Kombiniere den Besuch mit nahegelegenen Orten, statt zusätzliche Fahrten nur für einen einzelnen Stopp einzuplanen.
 
 ## Vor Ort
 
-Adressen und Koordinaten bleiben offline verfügbar; aktuelle Öffnungen vor Ort prüfen.
+Koordinaten und Grundinformationen sind offline verfügbar. Öffnungszeiten, Zufahrten, Eintrittspreise und saisonale Einschränkungen vor dem Besuch erneut prüfen.

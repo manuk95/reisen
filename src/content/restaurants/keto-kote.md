@@ -11,6 +11,8 @@ days: [tag-02]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Profil
