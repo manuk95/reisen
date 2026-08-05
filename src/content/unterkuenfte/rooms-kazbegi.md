@@ -9,8 +9,10 @@ categories: [hotel]
 status: vorschlag
 days: [tag-04, tag-05, tag-06]
 related: []
-sources: [{label: "Hotelvergleich der Reiseplanung; Anbieterangaben vor Buchung prüfen", url: "https://www.booking.com/"}]
+sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=rooms%20kazbegi%20Georgia"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Vorschlag · noch nicht gebucht

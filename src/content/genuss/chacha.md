@@ -11,6 +11,8 @@ days: []
 related: [tbilisi, kutaisi]
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Probieren
@@ -19,4 +21,4 @@ Kräftiger Tresterbrand; bewusst und nie vor dem Fahren trinken. Regionale Zuber
 
 ## Passt dazu
 
-Die Ortsbezüge stehen in den Metadaten und erscheinen automatisch in verwandten Listen.
+Entlang der Route passt dieser Eintrag zu den verknüpften Orten und Reisetagen. Die genaue Auswahl vor Ort bleibt flexibel; Öffnungszeiten, Verfügbarkeit und Allergene kurz vorher prüfen.

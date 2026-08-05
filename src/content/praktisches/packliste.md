@@ -11,6 +11,8 @@ days: []
 related: []
 sources: [{label: "EDA Reisehinweise Georgien", url: "https://www.eda.admin.ch/de/reisehinweise-fuer-georgien"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 Reisepass, Versicherungsnachweis, Führerausweis, Karten, Powerbank, Adapter für geerdeten Schweizer Stecker, Regenhülle, Fleece/Daune, Mütze, Handschuhe, Wanderschuhe, Badekleider, Reiseapotheke sowie Sonnen- und Insektenschutz.

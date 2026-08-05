@@ -12,12 +12,14 @@ days: [tag-07]
 related: []
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
+image: images/georgia-route.svg
+imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Charakter
 
-Mittelalterliche Höhlenstadt und fixer, aber logistisch anspruchsvoller Routenpunkt. Verknüpfte Tagespläne und Genussthemen werden aus den Metadaten erzeugt.
+Mittelalterliche Höhlenstadt und fixer, aber logistisch anspruchsvoller Routenpunkt. Die passenden Tagesprogramme sind unten als Links aufgeführt. Kombiniere den Besuch mit nahegelegenen Orten, statt zusätzliche Fahrten nur für einen einzelnen Stopp einzuplanen.
 
 ## Vor Ort
 
-Adressen und Koordinaten bleiben offline verfügbar; aktuelle Öffnungen vor Ort prüfen.
+Koordinaten und Grundinformationen sind offline verfügbar. Öffnungszeiten, Zufahrten, Eintrittspreise und saisonale Einschränkungen vor dem Besuch erneut prüfen.
