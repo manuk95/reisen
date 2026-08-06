@@ -21,8 +21,10 @@ climate: "20/13 °C · Meer ca. 21 °C"
 bathing: "wetterabhängig"
 fixed: []
 recommended: [{time: '09:00', label: 'Wetterentscheid'}, {time: '10:30', label: 'Kolkheti-Bootstour oder Gurien-Ausflug'}, {time: '14:00', label: 'Lokales Mittagessen'}, {time: '16:30', label: 'Rückkehr und Spa'}, {time: '19:30', label: 'Gurischen Wein Chkhaveri probieren'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+distance: "Ausflug nach Wetter"
+driveTime: "Boot / kurze Transfers"
+sunrise: "07:17 Uhr · Shekvetili"
+sunset: "18:44 Uhr · Shekvetili"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

@@ -21,8 +21,10 @@ climate: "21/14 °C · Meer ca. 21 °C"
 bathing: "wetterabhängig"
 fixed: []
 recommended: [{time: '08:30', label: 'Abfahrt zum Botanischen Garten Batumi'}, {time: '10:00', label: 'Botanischer Garten und Küstenblicke, 2.5–3 Stunden'}, {time: '13:30', label: 'Mittagessen in Batumi'}, {time: '15:00', label: 'Altstadt, Piazza, Boulevard, Ali und Nino'}, {time: '18:30', label: 'Frühes Abendessen'}, {time: '20:30', label: 'Rückfahrt nach Shekvetili'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+distance: "ca. 100 km"
+driveTime: "ca. 2 h plus Stadtwege"
+sunrise: "07:18 Uhr · Shekvetili"
+sunset: "18:42 Uhr · Shekvetili"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

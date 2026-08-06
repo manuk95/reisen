@@ -1,4 +1,4 @@
 ---
 const {items,section,showStatus=true}=Astro.props;const base=import.meta.env.BASE_URL;
 ---
-<div class="grid">{items.map((x:any)=><article class="card">{(x.data.image || section==='genuss')&&<img class="card-image" src={`${base}${x.data.image || 'images/georgia-route.svg'}`} alt={x.data.imageCredit || x.data.title} loading="lazy"/>}{showStatus&&<span class:list={['badge',x.data.status==='fix'&&'fix']}>{x.data.status.replaceAll('-',' ')}</span>}<h2><a href={`${base}georgien/${section}/${x.data.slug}/`}>{x.data.title}</a></h2><p>{x.data.summary}</p><p class="meta">{x.data.region}</p></article>)}</div>
+<div class="grid">{items.map((x:any)=><article class="card">{x.data.image&&<img class="card-image" src={`${base}${x.data.image}`} alt={x.data.imageAlt} loading="lazy" decoding="async"/>}{showStatus&&<span class:list={['badge',x.data.status==='fix'&&'fix']}>{x.data.status.replaceAll('-',' ')}</span>}<h2><a href={`${base}georgien/${section}/${x.data.slug}/`}>{x.data.title}</a></h2><p>{x.data.summary}</p><p class="meta">{x.data.region}</p></article>)}</div>

@@ -23,8 +23,8 @@ climate: "12/2 °C"
 bathing: "nicht vorgesehen"
 fixed: []
 recommended: [{time: '08:30', label: 'Mietwagen übernehmen und Tbilisi verlassen'}, {time: '10:00', label: 'Ananuri und Schinwali-Stausee'}, {time: '12:00', label: 'Mittagessen in Pasanauri: Chinkali'}, {time: '14:00', label: 'Gudauri-Freundschaftsmonument'}, {time: '15:30', label: 'Kreuzpass und Mineralquelle'}, {time: '17:00', label: 'Stepantsminda, Check-in und früher Abend'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+sunrise: "06:57 Uhr · Tbilisi"
+sunset: "18:44 Uhr · Stepantsminda"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

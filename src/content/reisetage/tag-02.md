@@ -21,8 +21,10 @@ climate: "23/13 °C"
 bathing: "nicht vorgesehen"
 fixed: []
 recommended: [{time: '09:00', label: 'Metekhi, Altstadt und Abanotubani'}, {time: '11:00', label: 'Narikala-Festung und Kartlis Deda; Seilbahn oder zu Fuss'}, {time: '13:00', label: 'Mittagessen: Chinkali und Pchali'}, {time: '15:00', label: 'Nationalmuseum oder Dry Bridge Market'}, {time: '18:00', label: 'Schwefelbad im privaten Raum – reservieren'}, {time: '20:00', label: 'Abendessen und Naturweinbar'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+distance: "Stadtwege"
+driveTime: "zu Fuss / Seilbahn"
+sunrise: "06:55 Uhr · Tbilisi"
+sunset: "18:47 Uhr · Tbilisi"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

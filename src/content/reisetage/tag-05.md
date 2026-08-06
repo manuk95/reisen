@@ -21,8 +21,10 @@ climate: "10/1 °C"
 bathing: "nicht vorgesehen"
 fixed: []
 recommended: [{time: '08:30', label: 'Wettercheck und Frühstück'}, {time: '10:00', label: 'Wanderung zur Gergetier Dreifaltigkeitskirche, 2–3 Stunden retour'}, {time: '13:30', label: 'Mittagessen in Stepantsminda'}, {time: '15:30', label: 'Sno, Steinköpfe und kurze Talwanderung'}, {time: '18:30', label: 'Abendessen mit Kazbekblick'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+distance: "Wanderung 2–3 h · Talwege"
+driveTime: "zu Fuss / lokales 4×4 bei Bedarf"
+sunrise: "06:59 Uhr · Stepantsminda"
+sunset: "18:42 Uhr · Stepantsminda"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

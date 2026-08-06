@@ -23,8 +23,8 @@ climate: "Tbilisi 23/13 °C"
 bathing: "nicht vorgesehen"
 fixed: []
 recommended: [{time: '08:30', label: 'Abfahrt nach Dschwari'}, {time: '09:15', label: 'Dschwari-Kloster und Flussblick'}, {time: '10:30', label: 'Mtskheta und Swetizchoweli'}, {time: '12:30', label: 'Mittagessen in Mtskheta'}, {time: '14:00', label: 'Rückfahrt nach Tbilisi'}, {time: '17:00', label: 'Mtatsminda oder freie Altstadtzeit'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+sunrise: "06:56 Uhr · Tbilisi"
+sunset: "18:45 Uhr · Tbilisi"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

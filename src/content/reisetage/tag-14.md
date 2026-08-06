@@ -17,12 +17,14 @@ character: "Heimkehr"
 lodging: "—"
 optional: []
 
-climate: "–"
-bathing: "–"
+climate: "Ankunftstag"
+bathing: "nicht vorgesehen"
+distance: "Flugtag · Heimreise"
+driveTime: "Flug und ÖV/Transfer"
 fixed: [{time: '09:55', label: 'Ankunft Zürich'}]
 recommended: [{time: '11:00', label: 'Gepäck und Heimreise'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+sunrise: "07:38 Uhr · Zürich"
+sunset: "18:47 Uhr · Zürich"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

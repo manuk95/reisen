@@ -24,16 +24,16 @@ if (fs.existsSync('dist')) {
 
 // Bildaudit: meldet fehlende, externe, kaputte und wiederverwendete Item-Bilder.
 const imageCollections=['orte','sehenswuerdigkeiten','unterkuenfte','restaurants','genuss'];
-const used=new Map();const imageWarnings=[];
+const used=new Map();
 for(const root of imageCollections) for(const f of fs.readdirSync(`src/content/${root}`)){
   const s=fs.readFileSync(`src/content/${root}/${f}`,'utf8');const m=s.match(/^image:\s*["']?([^"'\n]+)["']?$/m);
-  if(!m){imageWarnings.push(`${root}/${f}: kein rechtlich geklärtes lokales Bild`);continue}
+  if(!m){fail.push(`${root}/${f}: kein rechtlich geklärtes lokales Bild`);continue}
   const image=m[1].trim();if(/^https?:/.test(image))fail.push(`${root}/${f}: externer Bild-Hotlink`);
-  if(/route|placeholder|default/i.test(image))fail.push(`${root}/${f}: Platzhalter-/Routenbild`);
+  if(/georgia-route\.svg|placeholder|default/i.test(image))fail.push(`${root}/${f}: Platzhalter-/Routenbild`);
   const target=path.join('public',image.replace(/^\//,''));if(!fs.existsSync(target))fail.push(`${root}/${f}: Bilddatei fehlt ${image}`);
   const prior=used.get(image)||[];prior.push(`${root}/${f}`);used.set(image,prior);
-  if(!/^imageCredit:/m.test(s))fail.push(`${root}/${f}: Bildnachweis fehlt`);
+  if(!/^imageAlt:\s*\S/m.test(s))fail.push(`${root}/${f}: präziser Alternativtext fehlt`);
+  for(const key of ['creator:','originalUrl:','license:','edited:','accessed:'])if(!s.includes(key))fail.push(`${root}/${f}: Bildnachweis ${key} fehlt`);
 }
-for(const [image,files] of used)if(files.length>1)imageWarnings.push(`${image}: identisch auf ${files.length} Item-Seiten`);
-if(imageWarnings.length)console.warn('BILDAUDIT (bewusste Ausnahmen):\n'+imageWarnings.join('\n'));
+for(const [image,files] of used)if(files.length>1)fail.push(`${image}: identisch auf ${files.length} Item-Seiten`);
 if(fail.length){console.error(fail.join('\n'));process.exit(1)}

@@ -23,8 +23,8 @@ climate: "21/14 °C"
 bathing: "bis Nachmittag vorgesehen"
 fixed: [{time: '18:45', label: 'Abfahrt Shekvetili'}, {time: '20:00', label: 'Mietwagenrückgabe und Check-in'}, {time: '22:40', label: 'Abflug via Istanbul'}]
 recommended: [{time: '09:00', label: 'Frühstück und freier Vormittag'}, {time: '12:00', label: 'Letztes Baden / Spa'}, {time: '15:30', label: 'Duschen, Packen und spätes Mittagessen'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+sunrise: "07:19 Uhr · Shekvetili"
+sunset: "18:41 Uhr · Flughafen Batumi"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

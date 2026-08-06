@@ -23,8 +23,8 @@ climate: "Vardzia 17/6 °C · Kutaisi 20/12 °C"
 bathing: "nicht vorgesehen"
 fixed: []
 recommended: [{time: '05:30', label: 'Sehr frühe Abfahrt aus Stepantsminda; Wetter und Strassen prüfen'}, {time: '11:30', label: 'Voraussichtliche Ankunftszone Vardzia; pausenabhängig'}, {time: '12:00', label: 'Vardzia kompakt besichtigen, mindestens 1.5–2 Stunden'}, {time: '14:15', label: 'Mittagessen und Weiterfahrt'}, {time: '19:00–21:00', label: 'Ankunft Kutaisi je nach Route, Verkehr und Pausen'}]
-sunrise: "vor Reise für den Tagesort prüfen"
-sunset: "vor Reise für den Tagesort prüfen"
+sunrise: "07:01 Uhr · Stepantsminda"
+sunset: "18:47 Uhr · Kutaisi"
 ---
 
 Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.
