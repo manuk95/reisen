@@ -12,6 +12,14 @@ days: [tag-07]
 related: []
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
+image: images/georgien/orte/vardzia.jpg
+imageAlt: "Français : Ensemble monastique de Vardzia, Géorgie English: Vardzia Cave Monastery, Georgia"
+imageCredit:
+  creator: "Bernard Gagnon"
+  originalUrl: "https://commons.wikimedia.org/wiki/File%3AVardzia_Cave_Monastery_13.jpg"
+  license: "Creative Commons Attribution-Share Alike 4.0"
+  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
+  accessed: 2026-08-06
 ---
 
 ## Charakter

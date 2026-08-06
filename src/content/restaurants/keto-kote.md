@@ -11,6 +11,14 @@ days: [tag-02]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
 updated: 2026-08-03
+image: images/georgien/restaurants/keto-kote.jpg
+imageAlt: "English: Dress from famous Georgian film \"Keto and Kote\" — Art Palace of Georgia"
+imageCredit:
+  creator: "Ekkatterrinna"
+  originalUrl: "https://commons.wikimedia.org/wiki/File%3ADress_from_famous_Georgian_film.jpg"
+  license: "Creative Commons Attribution-Share Alike 4.0"
+  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
+  accessed: 2026-08-06
 ---
 
 ## Profil

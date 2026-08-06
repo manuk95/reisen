@@ -12,6 +12,22 @@ days: [tag-08]
 related: []
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
+image: images/georgien/sehenswuerdigkeiten/gelati.jpg
+imageAlt: "ქართული: გელათის მონასტერი - ღვთისმშობლის ტაძარი. გელათი, ტყიბულის მუნიციპალიტეტი, საქართველო. Polski: Monastyr Gelati - katedra Narodzenia NMP. Gelati, dystrykt Tkibuli, Imeretia, Gruzja. English: Gelati Monastery - Cathedral of the Nativity of the Virgin. Gelati, Tkibuli Municipality, Imereti, Georgia. Русский: Гелатский монастырь - Собор Рождества Присвятой Богородицы. Гелати, Ткибульский муниципалитет, Имеретия, Грузия."
+imageCredit:
+  creator: "Marcin Konsek"
+  originalUrl: "https://commons.wikimedia.org/wiki/File%3A2014_Imeretia%2C_Gelati%2C_Monastyr_Gelati_(19).jpg"
+  license: "Creative Commons Attribution-Share Alike 4.0"
+  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
+  accessed: 2026-08-06
+image: images/georgien/sehenswuerdigkeiten/gelati.jpg
+imageAlt: "ქართული: გელათის მონასტერი - ღვთისმშობლის ტაძარი. გელათი, ტყიბულის მუნიციპალიტეტი, საქართველო. Polski: Monastyr Gelati - katedra Narodzenia NMP. Gelati, dystrykt Tkibuli, Imeretia, Gruzja. English: Gelati Monastery - Cathedral of the Nativity of the Virgin. Gelati, Tkibuli Municipality, Imereti, Georgia. Русский: Гелатский монастырь - Собор Рождества Присвятой Богородицы. Гелати, Ткибульский муниципалитет, Имеретия, Грузия."
+imageCredit:
+  creator: "Marcin Konsek"
+  originalUrl: "https://commons.wikimedia.org/wiki/File%3A2014_Imeretia%2C_Gelati%2C_Monastyr_Gelati_(19).jpg"
+  license: "Creative Commons Attribution-Share Alike 4.0"
+  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
+  accessed: 2026-08-06
 ---
 
 ## Warum besonders

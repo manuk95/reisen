@@ -11,6 +11,14 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
+image: images/georgien/genuss/chatschapuri.jpg
+imageAlt: "English: Georgian tranditional food Khachapuri sold in Guangzhou"
+imageCredit:
+  creator: "Allervous"
+  originalUrl: "https://commons.wikimedia.org/wiki/File%3AKhachapuri_in_Guangzhou.jpg"
+  license: "Creative Commons Attribution-Share Alike 4.0"
+  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
+  accessed: 2026-08-06
 ---
 
 ## Probieren
