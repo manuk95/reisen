@@ -17,8 +17,14 @@ character: "Panoramafahrt auf der Heerstrasse"
 distance: "155 km"
 driveTime: "6–8 h mit Stopps"
 lodging: "Kazbegi-Vorschlag"
-fixed: []
-recommended: [{time: '08:30', label: 'Mietwagen übernehmen'}, {time: '10:00', label: 'Ananuri und Schinwali-Stausee'}, {time: '14:00', label: 'Gudauri-Freundschaftsmonument'}, {time: '17:00', label: 'Check-in'}]
 optional: []
+
+climate: "12/2 °C"
+bathing: "nicht vorgesehen"
+fixed: []
+recommended: [{time: '08:30', label: 'Mietwagen übernehmen und Tbilisi verlassen'}, {time: '10:00', label: 'Ananuri und Schinwali-Stausee'}, {time: '12:00', label: 'Mittagessen in Pasanauri: Chinkali'}, {time: '14:00', label: 'Gudauri-Freundschaftsmonument'}, {time: '15:30', label: 'Kreuzpass und Mineralquelle'}, {time: '17:00', label: 'Stepantsminda, Check-in und früher Abend'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

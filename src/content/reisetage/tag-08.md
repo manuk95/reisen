@@ -15,8 +15,14 @@ from: "Kutaisi"
 to: "Kutaisi"
 character: "Klöster, Höhle und Imeretien"
 lodging: "Kutaisi-Vorschlag"
-fixed: []
-recommended: [{time: '08:30', label: 'Bagrati-Kathedrale'}, {time: '10:00', label: 'Gelati'}, {time: '11:45', label: 'Motsameta'}, {time: '15:30', label: 'Prometheus-Höhle oder Tskaltubo'}]
 optional: []
+
+climate: "20/12 °C"
+bathing: "nicht vorgesehen"
+fixed: []
+recommended: [{time: '08:30', label: 'Bagrati-Kathedrale'}, {time: '10:00', label: 'Gelati-Kloster'}, {time: '11:45', label: 'Motsameta-Kloster'}, {time: '13:30', label: 'Mittagessen in Kutaisi'}, {time: '15:30', label: 'Prometheus-Höhle oder Tskaltubo'}, {time: '19:30', label: 'Imeretisches Abendessen und Wein'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

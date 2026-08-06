@@ -17,8 +17,14 @@ character: "UNESCO und freie Stadtzeit"
 distance: "55 km"
 driveTime: "1.5 h"
 lodging: "Tbilisi-Vorschlag"
-fixed: []
-recommended: [{time: '08:30', label: 'Abfahrt nach Dschwari'}, {time: '10:30', label: 'Mtskheta und Swetizchoweli'}, {time: '17:00', label: 'Mtatsminda oder Altstadt'}]
 optional: ['Chronik Georgiens']
+
+climate: "Tbilisi 23/13 °C"
+bathing: "nicht vorgesehen"
+fixed: []
+recommended: [{time: '08:30', label: 'Abfahrt nach Dschwari'}, {time: '09:15', label: 'Dschwari-Kloster und Flussblick'}, {time: '10:30', label: 'Mtskheta und Swetizchoweli'}, {time: '12:30', label: 'Mittagessen in Mtskheta'}, {time: '14:00', label: 'Rückfahrt nach Tbilisi'}, {time: '17:00', label: 'Mtatsminda oder freie Altstadtzeit'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

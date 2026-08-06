@@ -15,8 +15,14 @@ from: "Stepantsminda"
 to: "Stepantsminda"
 character: "Wetterabhängiges Bergabenteuer"
 lodging: "Kazbegi-Vorschlag"
-fixed: []
-recommended: [{time: '08:00', label: 'Trusso oder Dschuta nach Wetter wählen'}, {time: '09:00', label: 'Lokaler Fahrer / 4×4'}, {time: '10:00', label: 'Wanderung und Picknick'}]
 optional: ['Dariali-Schlucht / Gveleti']
+
+climate: "9/0 °C"
+bathing: "nicht vorgesehen"
+fixed: []
+recommended: [{time: '08:00', label: 'Trusso oder Dschuta nach Wetter und Strassenzustand wählen'}, {time: '09:00', label: 'Lokaler Fahrer/4×4; keine riskanten Nebenstrassen mit normalem Mietwagen'}, {time: '10:00–16:00', label: 'Wanderung und Picknick'}, {time: '17:00', label: 'Dariali-Schlucht/Gveleti nur bei genügend Zeit und Licht'}, {time: '19:30', label: 'Gemütlicher Abend'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

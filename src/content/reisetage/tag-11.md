@@ -15,8 +15,14 @@ from: "Shekvetili"
 to: "Shekvetili"
 character: "Natur oder Genuss in Gurien"
 lodging: "Küstenhotel-Vorschlag"
-fixed: []
-recommended: [{time: '09:00', label: 'Wetterentscheid'}, {time: '10:30', label: 'Kolkheti-Bootstour oder Gurien'}, {time: '16:30', label: 'Spa'}]
 optional: ['Bei Regen: Musikpark und langes Essen']
+
+climate: "20/13 °C · Meer ca. 21 °C"
+bathing: "wetterabhängig"
+fixed: []
+recommended: [{time: '09:00', label: 'Wetterentscheid'}, {time: '10:30', label: 'Kolkheti-Bootstour oder Gurien-Ausflug'}, {time: '14:00', label: 'Lokales Mittagessen'}, {time: '16:30', label: 'Rückkehr und Spa'}, {time: '19:30', label: 'Gurischen Wein Chkhaveri probieren'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

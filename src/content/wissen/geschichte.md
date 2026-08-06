@@ -11,34 +11,68 @@ days: []
 related: [mtskheta, gelati, vardzia, tbilisi]
 sources: [{label: "Encyclopaedia Britannica: Georgia history", url: "https://www.britannica.com/place/Georgia/History"}, {label: "Auswärtiges Amt: Georgien - Überblick", url: "https://www.auswaertiges-amt.de/de/service/laender/georgien-node"}]
 updated: 2026-08-03
-image: images/georgia-route.svg
-imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
-## Frühe Reiche: Kolchis und Iberien
+## 7.1 Vorgeschichte und frühe Besiedlung
 
-Im Westen lag das antike Kolchis, im Osten Iberien/Kartli. Beide Räume erklären, warum Georgien bis heute westliche Schwarzmeerküste, fruchtbare Täler und östliche Transitachsen verbindet. Archäologie, Weinbau und Handelskontakte sind deshalb kein Beiwerk, sondern Teil der Landesidentität.
+Dmanissi lieferte etwa 1.8 Mio. Jahre alte Homininenfunde. Im Südkaukasus entwickelten sich früh Landwirtschaft, Metallurgie und Weinbau.
 
-## Christianisierung und Mtskheta
+## 7.2 Kolchis, Iberien und das Goldene Vlies
 
-Im 4. Jahrhundert wurde das Christentum prägend. Mtskheta blieb religiöses Zentrum; Dschwari und Swetizchoweli sind für die Reise deshalb wichtiger als reine Fotostopps. Klöster waren zugleich Glaubens-, Bildungs- und Machtorte.
+Westgeorgien war als Kolchis Teil der griechischen Vorstellungswelt; der Mythos von Jason und dem Goldenen Vlies wird mit Goldgewinnung in Gebirgsflüssen verbunden. Ostgeorgien bildete das Königreich Iberien/Kartli.
 
-## Mittelalterliches Königreich
+## 7.3 Christianisierung
 
-Zwischen dem 11. und frühen 13. Jahrhundert erreichte das geeinte Georgien unter David dem Erbauer und Königin Tamar grosse politische und kulturelle Bedeutung. Gelati steht für diese Epoche: Kloster, Akademie, Königsidee und Kunst gehören dort zusammen.
+Im 4. Jahrhundert wurde das Christentum Staatsreligion, traditionell mit der heiligen Nino verbunden. Mtskheta wurde zum geistlichen Zentrum.
 
-## Zersplitterung und Grossmächte
+## 7.4 Entstehung des Königreichs
 
-Mongolische Angriffe, regionale Fürstentümer sowie osmanischer und persischer Druck schwächten Georgien über Jahrhunderte. Viele Festungen, Höhlenklöster und Grenzlandschaften wirken romantisch, entstanden aber aus realer Unsicherheit.
+Bagrat III. vereinte um 1000 wesentliche georgische Gebiete. Die Bagrationi-Dynastie prägte das Mittelalter.
 
-## Russisches Reich und kurze Republik
+## 7.5 Goldenes Zeitalter
 
-Ab dem 19. Jahrhundert geriet Georgien schrittweise unter russische Herrschaft. 1918 entstand kurzzeitig eine demokratische Republik, die 1921 von der Roten Armee beendet wurde.
+Unter David IV. dem Erbauer und Königin Tamar im 12./frühen 13. Jahrhundert erreichte Georgien politische und kulturelle Blüte. Gelati, Literatur und Kirchenkunst spiegeln diese Phase.
 
-## Sowjetzeit
+## 7.6 Mongolen, Perser und Osmanen
 
-Die Sowjetzeit brachte Industrialisierung, Repression, Migration und eine widersprüchliche Modernisierung. Stalin stammte aus Gori; seine Rolle sollte nicht nostalgisch verklärt werden.
+Invasionen und regionale Rivalitäten zersplitterten das Land. Georgische Königreiche standen über Jahrhunderte unter Druck persischer und osmanischer Mächte.
 
-## Unabhängigkeit, Kriege und Gegenwart
+## 7.7 Anschluss an Russland
 
-Seit 1991 ist Georgien unabhängig. Bürgerkrieg, wirtschaftliche Krisen, die Konflikte um Abchasien und Südossetien sowie der Krieg 2008 prägen Politik und Sicherheitsdenken bis heute. Die Reise meidet diese Gebiete; aktuelle Demonstrationen und politische Spannungen werden als zeitabhängiges Risiko behandelt.
+Ostgeorgische Herrscher suchten Schutz beim Russischen Reich; 1801 annektierte Russland Kartli-Kachetien. Im 19. Jahrhundert folgten weitere georgische Gebiete.
+
+## 7.8 Demokratische Republik 1918–1921
+
+Nach dem Ende des Zarenreichs entstand eine kurzlebige demokratische Republik. 1921 eroberte die Rote Armee Georgien.
+
+## 7.9 Sowjetzeit
+
+Industrialisierung, Alphabetisierung und Infrastruktur standen politischer Repression, Zwangskollektivierung und Russifizierung gegenüber. Nationales Bewusstsein blieb stark.
+
+## 7.10 Stalin und Beria
+
+Josef Stalin und Lawrenti Beria waren Georgier und zentrale Täter des sowjetischen Terrors. Ihre Herkunft ist kein Randdetail, darf aber weder als georgische Kollektivschuld noch als Grund zur Verharmlosung behandelt werden.
+
+## 7.11 Unabhängigkeit ab 1991
+
+Die frühe Unabhängigkeit war von wirtschaftlichem Kollaps, Bürgerkrieg und schwachen Institutionen geprägt.
+
+## 7.12 Territoriale Konflikte
+
+Kriege in Abchasien und Südossetien vertrieben Hunderttausende. Die Konflikte bleiben offen und prägen Politik sowie Familiengeschichten.
+
+## 7.13 Rosenrevolution und Reformen
+
+2003 stürzte eine friedliche Protestbewegung die alte Führung. Unter Micheil Saakaschwili wurden Polizei und Verwaltung radikal reformiert, zugleich nahmen Machtkonzentration und Menschenrechtsprobleme zu.
+
+## 7.14 Krieg 2008
+
+Im August 2008 eskalierte der Konflikt um Südossetien zum Krieg mit Russland. Russland erkannte Abchasien und Südossetien als unabhängig an; Georgien und die grosse Mehrheit der Staaten betrachten sie als besetzte georgische Gebiete.
+
+## 7.15 Entwicklungen seit 2012
+
+Georgischer Traum löste Saakaschwilis Partei ab. Anfangs gab es friedliche Machtwechsel und EU-Annäherung; seit 2024/25 dokumentieren EU und Menschenrechtsorganisationen deutliche demokratische Rückschritte.
+
+## 7.16 Wirkung bis heute
+
+Kirche, Sprache und Erinnerung an Fremdherrschaft erklären starken Nationalstolz. Gleichzeitig teilt die Gesellschaft ein proeuropäisches Selbstbild und einen konservativen Wertekanon, der zunehmend politisch instrumentalisiert wird.

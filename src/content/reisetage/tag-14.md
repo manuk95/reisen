@@ -15,8 +15,14 @@ from: "Flug"
 to: "Zürich"
 character: "Heimkehr"
 lodging: "—"
-fixed: [{time: '09:55', label: 'Gebuchte Ankunft Zürich'}]
-recommended: []
 optional: []
+
+climate: "–"
+bathing: "–"
+fixed: [{time: '09:55', label: 'Ankunft Zürich'}]
+recommended: [{time: '11:00', label: 'Gepäck und Heimreise'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.
