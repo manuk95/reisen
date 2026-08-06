@@ -11,6 +11,9 @@ days: [tag-07]
 related: [vardzia]
 sources: [{label: "Georgia Travel: Samtskhe-Javakheti", url: "https://georgia.travel/regions/samtskhe-javakheti"}]
 updated: 2026-08-06
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für die Rabati-Festung"
+imageStatus: platzhalter
 ---
 
 Rabati vereint Festungsmauern, religiöse Bauten und Museumsräume. Die stark restaurierte Anlage ist kein unverändertes Mittelalterbild, aber ein guter Ort, um die osmanischen, georgischen und armenischen Schichten der Grenzregion zu verstehen.

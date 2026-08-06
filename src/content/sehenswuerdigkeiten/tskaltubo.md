@@ -11,6 +11,9 @@ days: [tag-08]
 related: [prometheus]
 sources: [{label: "Georgia Travel: Imereti", url: "https://georgia.travel/regions/imereti"}]
 updated: 2026-08-06
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Zqaltubo"
+imageStatus: platzhalter
 ---
 
 Zqaltubo war ein bedeutender sowjetischer Kurort. Heute treffen restaurierte Anlagen, verfallene Sanatorien und die Geschichte von Binnenvertriebenen aufeinander. Nicht in unsichere Gebäude eindringen; eine geführte, legale Tour ist die sinnvollere Form des Besuchs.
