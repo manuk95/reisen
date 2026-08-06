@@ -24,7 +24,7 @@ Kapitelnummern des Word-Dokuments sind ausschliesslich interne Quellenangaben. S
    Alle vorgesehenen Seiten werden als einzelne Zeile geführt. Seiten-IDs werden in Navigationsreihenfolge fortlaufend vergeben. Spalte J dokumentiert ausschliesslich Menü-, Footer- und Übersichtsaufrufe; automatische Textverweise werden nicht einzeln aufgeführt.
 
 3. **Umsetzungsplan aus dem Register ableiten**
-   Der Plan gliedert die Arbeiten nach Datenmodell, Inhaltsmigration, Übersichten, Navigation, Link-Erkennung, Bildversorgung und Qualitätssicherung. Bestehende Routen und Einträge werden wiederverwendet, statt parallel neu gebaut.
+   Der detaillierte und gegen den Projektstand geprüfte Plan liegt in [UMSETZUNGSPLAN_SCHRITT_3.md](UMSETZUNGSPLAN_SCHRITT_3.md) vor. Er gliedert die Arbeiten nach Datenmodell, Inhaltsmigration, Übersichten, Navigation, Link-Erkennung, Bildversorgung und Qualitätssicherung. Bestehende Routen und Einträge werden wiederverwendet, statt parallel neu gebaut.
 
 4. **Informationsarchitektur umsetzen**
    Neue oder angepasste Content-Collections und generische Routen erzeugen Übersichten und Detailseiten. Das aufklappbare Hauptmenü und der Footer werden ausschliesslich aus der im Register dokumentierten Navigation aufgebaut.
