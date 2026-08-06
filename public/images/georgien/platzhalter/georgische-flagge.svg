@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-label="Georgische Flagge">
+  <rect width="1000" height="600" fill="#fff"/>
+  <path fill="#e8112d" d="M440 0h120v240h240v120H560v240H440V360H200V240h240z"/>
+  <g fill="#e8112d">
+    <path d="M170 70h30v60h60v30h-60v60h-30v-60h-60v-30h60zM800 70h30v60h60v30h-60v60h-30v-60h-60v-30h60zM170 380h30v60h60v30h-60v60h-30v-60h-60v-30h60zM800 380h30v60h60v30h-60v-60h-60v-30h60z"/>
+  </g>
+</svg>

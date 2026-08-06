@@ -14,20 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/sehenswuerdigkeiten/heerstrasse.jpg
 imageAlt: "English: Georgian Military Road. Sioni, Khevi, Georgia. Русский: Военно-Грузинская дорога. Сиони, Хеви, Грузия."
-imageCredit:
-  creator: "Vyacheslav Argenberg"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3ASioni%2C_Georgian_Military_Road%2C_Khevi%2C_Georgia.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
-image: images/georgien/sehenswuerdigkeiten/heerstrasse.jpg
-imageAlt: "English: Georgian Military Road. Sioni, Khevi, Georgia. Русский: Военно-Грузинская дорога. Сиони, Хеви, Грузия."
-imageCredit:
-  creator: "Vyacheslav Argenberg"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3ASioni%2C_Georgian_Military_Road%2C_Khevi%2C_Georgia.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Warum besonders

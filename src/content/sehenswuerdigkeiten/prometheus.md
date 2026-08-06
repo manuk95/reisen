@@ -14,12 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/sehenswuerdigkeiten/prometheus.jpg
 imageAlt: "English: Prometheus cave, Georgia"
-imageCredit:
-  creator: "Jon Gudorf Photography"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3APrometheus_cave%2C_Georgia_-_36291500224.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Warum besonders

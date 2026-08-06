@@ -13,12 +13,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/genuss/chinkali.jpg
 imageAlt: "Aragvi 832 Sheppard Ave W, Toronto"
-imageCredit:
-  creator: "Sandra C from Canada"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3AKhinkali%2C_Restaurant_Aragvi.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Probieren

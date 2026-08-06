@@ -13,13 +13,7 @@ related: []
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
 image: images/georgien/sehenswuerdigkeiten/botanischer-garten-batumi.jpg
-imageAlt: "English: The Batumi Botanical Garden is a 111 hectare area of land 9 km north of the city of Batumi, capital of Autonomous Republic of Adjara, Georgia. Located at the place called Mtsvane Kontskhi (\"The Green Cape\") on the Black Sea shore, it is one of the largest botanical gardens in the former Soviet Union. ქართული: ბათუმის ბოტანიკური ბაღი, საქართველოს მეცნიერებათა აკადემიისა, გაშენებულია ბათუმიდან 9 კმ-ის დაშორებით, მწვანე კონცხზე, 111 ჰა ფართობზე. Deutsch: Der Botanische Garten Batumi der Georgischen Akademie der Wissenschaften ist mit 114 Hektar der zweitgrößte in Georgien. Er wurde am 3. November 1912 gegründet und gehört seit 1950 zur Akademie."
-imageCredit:
-  creator: "Wikimedia Commons contributors"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3ABatumi_Botanical_Garden_(25).jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
+imageAlt: "English: The Batumi Botanical Garden is a 111 hectare area of land 9 km north of the city of Batumi, capital of Autonomous Republic of Adjara, Georgia. Located at the place called Mtsvane Kontskhi ('The Green Cape') on the Black Sea shore, it is one of the largest botanical gardens in the former Soviet Union. ქართული: ბათუმის ბოტანიკური ბაღი, საქართველოს მეცნიერებათა აკადემიისა, გაშენებულია ბათუმიდან 9 კმ-ის დაშორებით, მწვანე კონცხზე, 111 ჰა ფართობზე. Deutsch: Der Botanische Garten Batumi der Georgischen Akademie der Wissenschaften ist mit 114 Hektar der zweitgrößte in Georgien. Er wurde am 3. November 1912 gegründet und gehört seit 1950 zur Akademie."
 ---
 
 ## Warum besonders

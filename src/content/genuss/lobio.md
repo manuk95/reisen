@@ -13,12 +13,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/genuss/lobio.jpg
 imageAlt: "Русский: Лобио с гранатовым соком"
-imageCredit:
-  creator: "Georgian Recipes at Georgia About"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3ALobio_with_pomegranate_juice.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Probieren

@@ -11,6 +11,8 @@ days: [tag-07, tag-08]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=newport%20kutaisi%20Georgia"}]
 updated: 2026-08-03
+image: images/georgien/platzhalter/georgische-flagge.svg
+imageAlt: "Georgische Flagge als Platzhalter für Newport Hotel Kutaisi"
 ---
 
 ## Vorschlag · noch nicht gebucht

@@ -13,20 +13,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/genuss/pchali.jpg
 imageAlt: "English: Georgian cuisine: Pkhali, Badrijani and Ajika on table"
-imageCredit:
-  creator: "salvagekat"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3APkhali%2C_Badrijani_and_Ajika.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
-image: images/georgien/genuss/pchali.jpg
-imageAlt: "English: Georgian cuisine: Pkhali, Badrijani and Ajika on table"
-imageCredit:
-  creator: "salvagekat"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3APkhali%2C_Badrijani_and_Ajika.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Probieren

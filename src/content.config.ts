@@ -20,13 +20,6 @@ const editorial = {
   updated: z.coerce.date(),
   image: z.string().optional(),
   imageAlt: z.string().optional(),
-  imageCredit: z.object({
-    creator: z.string(),
-    originalUrl: z.string().url(),
-    license: z.string(),
-    edited: z.string(),
-    accessed: z.coerce.date(),
-  }).optional(),
 };
 
 const contentLoader = (collection: string) => glob({ pattern: '**/*.{md,mdx}', base: `./src/content/${collection}` });

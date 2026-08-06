@@ -14,12 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/sehenswuerdigkeiten/narikala.jpg
 imageAlt: "English: The fortress of Narikala ნარიყალა and church of st. Nicolas."
-imageCredit:
-  creator: "This work is created by George Melashvili. You can redistribute it or modify it under the terms of the terms of Cc-by-sa-3.0 (See below)"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3ANarikala_fortress%2C_Tbilisi%2C_Georgia.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Warum besonders

@@ -13,12 +13,6 @@ sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmi
 updated: 2026-08-03
 image: images/georgien/restaurants/barbarestan.jpg
 imageAlt: "Polski: Pałac królowej Daredżan. Tbilisi, Gruzja. English: Queen Darejan's palace. Tbilisi, Georgia. Русский: Дворец царицы Дареджан. Тбилиси, Грузия."
-imageCredit:
-  creator: "Marcin Konsek"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3A2014_Tbilisi%2C_Pa%C5%82ac_kr%C3%B3lowej_Dared%C5%BCan_(01).jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Profil

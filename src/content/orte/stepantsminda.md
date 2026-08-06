@@ -14,12 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/orte/stepantsminda.jpg
 imageAlt: "English: Kazbegi, Stepantsminda, Mtskheta-Mtianeti, Georgia. Русский: Казбеги, Степанцминда, Мцхета-Мтианети, Грузия."
-imageCredit:
-  creator: "Vyacheslav Argenberg"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3AKazbegi%2C_Stepantsminda%2C_Georgia.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Charakter

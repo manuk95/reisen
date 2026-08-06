@@ -14,12 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/sehenswuerdigkeiten/vardzia.jpg
 imageAlt: "English: Vardzia, a medieval cave-city in Georgia"
-imageCredit:
-  creator: "Image by falco from Pixabay"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3AVardzia%2C_a_medieval_cave-city_in_Georgia.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Warum besonders

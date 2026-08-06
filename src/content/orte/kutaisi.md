@@ -14,12 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/orte/kutaisi.jpg
 imageAlt: "ქართული: სინაგოგა. ქუთაისი, საქართველო. Polski: Wielka Synagoga. Kutaisi, Imeretia, Gruzja. English: Kutaisi Great Synagogue. Kutaisi, Imereti, Georgia. Русский: Большая синагога. Кутаиси, Имеретия, Грузия."
-imageCredit:
-  creator: "Marcin Konsek"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3A2014_Kutaisi%2C_Wielka_Synagoga_(01).jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Charakter

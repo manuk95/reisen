@@ -14,12 +14,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/orte/batumi.jpg
 imageAlt: "Deutsch: Beschreibung: Das Schiffswrack Özlem im schwarzen Meer, nördlich bei Batumi, Georgien English: Description: The Shipwreck Ozlem at Black Sea coast laying north of Batumi, Georgia Français : Description: Épave de l'Ozlem dans la Mer Noire au nord de Batoumi, en Géorgie."
-imageCredit:
-  creator: "Richard Bartz, Munich aka Makro Freak"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3AShipwreck_Batumi_Georgia_R_Bartz.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Charakter

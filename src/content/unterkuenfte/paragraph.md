@@ -11,6 +11,8 @@ days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=paragraph%20Georgia"}]
 updated: 2026-08-03
+image: images/georgien/platzhalter/georgische-flagge.svg
+imageAlt: "Georgische Flagge als Platzhalter für Paragraph Resort & Spa"
 ---
 
 ## Vorschlag · noch nicht gebucht

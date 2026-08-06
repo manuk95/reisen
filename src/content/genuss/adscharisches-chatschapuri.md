@@ -13,20 +13,6 @@ sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://ge
 updated: 2026-08-03
 image: images/georgien/genuss/adscharisches-chatschapuri.jpg
 imageAlt: "English: Adjarian khachapuri is a traditional dish from the Adjara region of Georgia. It consists of a baked bread shaped like a boat and filled with melted cheese. Before serving, a raw egg and butter are placed on top, and they are mixed into the cheese while the dish is still hot. Русский: Аджарский хачапури, традиционное блюдо грузинской кухни из региона Аджария. Представляет собой выпеченную лепёшку в форме лодочки, наполненную расплавленным сыром. Перед подачей сверху добавляют сырое яйцо и кусочек масла, которые перемешивают с горячей начинкой."
-imageCredit:
-  creator: "Eugene Krasnaok"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3AKhachapuri_Adjaruli_with_egg_and_butter_2016.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
-image: images/georgien/genuss/adscharisches-chatschapuri.jpg
-imageAlt: "English: Adjarian khachapuri is a traditional dish from the Adjara region of Georgia. It consists of a baked bread shaped like a boat and filled with melted cheese. Before serving, a raw egg and butter are placed on top, and they are mixed into the cheese while the dish is still hot. Русский: Аджарский хачапури, традиционное блюдо грузинской кухни из региона Аджария. Представляет собой выпеченную лепёшку в форме лодочки, наполненную расплавленным сыром. Перед подачей сверху добавляют сырое яйцо и кусочек масла, которые перемешивают с горячей начинкой."
-imageCredit:
-  creator: "Eugene Krasnaok"
-  originalUrl: "https://commons.wikimedia.org/wiki/File%3AKhachapuri_Adjaruli_with_egg_and_butter_2016.jpg"
-  license: "Creative Commons Attribution-Share Alike 4.0"
-  edited: "Lokaler Zuschnitt auf höchstens 1600 Pixel Breite; keine inhaltliche Bearbeitung."
-  accessed: 2026-08-06
 ---
 
 ## Probieren

@@ -11,6 +11,8 @@ days: [tag-02, tag-04]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
 updated: 2026-08-03
+image: images/georgien/platzhalter/georgische-flagge.svg
+imageAlt: "Georgische Flagge als Platzhalter für Pasanauri"
 ---
 
 ## Profil
