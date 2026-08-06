@@ -15,8 +15,14 @@ from: "Tbilisi"
 to: "Tbilisi"
 character: "Altstadt · Kultur · Genuss"
 lodging: "Tbilisi-Vorschlag"
-fixed: []
-recommended: [{time: '09:00', label: 'Metekhi, Altstadt und Abanotubani'}, {time: '11:00', label: 'Narikala und Kartlis Deda'}, {time: '15:00', label: 'Nationalmuseum oder Dry Bridge'}, {time: '18:00', label: 'Privates Schwefelbad – reservieren'}]
 optional: []
+
+climate: "23/13 °C"
+bathing: "nicht vorgesehen"
+fixed: []
+recommended: [{time: '09:00', label: 'Metekhi, Altstadt und Abanotubani'}, {time: '11:00', label: 'Narikala-Festung und Kartlis Deda; Seilbahn oder zu Fuss'}, {time: '13:00', label: 'Mittagessen: Chinkali und Pchali'}, {time: '15:00', label: 'Nationalmuseum oder Dry Bridge Market'}, {time: '18:00', label: 'Schwefelbad im privaten Raum – reservieren'}, {time: '20:00', label: 'Abendessen und Naturweinbar'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

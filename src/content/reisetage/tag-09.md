@@ -17,8 +17,14 @@ character: "Sanfter Übergang ans Meer"
 distance: "110 km"
 driveTime: "2–4 h mit Stopp"
 lodging: "Küstenhotel-Vorschlag"
-fixed: []
-recommended: [{time: '09:00', label: 'Gemütliche Abfahrt'}, {time: '15:00', label: 'Check-in Shekvetili'}, {time: '16:00', label: 'Meer, Spa oder Strand'}]
 optional: ['Baia’s Wine – nur vorreserviert', 'Poti/Kolkheti oder Ozurgeti']
+
+climate: "21/14 °C · Meer ca. 21 °C"
+bathing: "wetterabhängig"
+fixed: []
+recommended: [{time: '09:00', label: 'Gemütliche Abfahrt'}, {time: '10:00', label: 'Optional Baia’s Wine oder Familienkellerei – vorher reservieren'}, {time: '13:00', label: 'Mittagessen unterwegs'}, {time: '15:00', label: 'Check-in Shekvetili'}, {time: '16:00', label: 'Meer, Spa oder Strandspaziergang'}, {time: '19:30', label: 'Abendessen im Hotel oder nahe der Küste'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

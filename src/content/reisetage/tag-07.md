@@ -17,8 +17,14 @@ character: "Extrem langer Fahrtag"
 distance: "ca. 600 km"
 driveTime: "13–15 h"
 lodging: "Kutaisi-Vorschlag"
-fixed: []
-recommended: [{time: '05:30', label: 'Sehr frühe Abfahrt'}, {time: '12:00', label: 'Vardzia, mindestens 1.5–2 h'}, {time: '19:00', label: 'Ankunftsfenster Kutaisi'}]
 optional: ['Zwischenübernachtung Vardzia/Achalziche dringend abwägen']
+
+climate: "Vardzia 17/6 °C · Kutaisi 20/12 °C"
+bathing: "nicht vorgesehen"
+fixed: []
+recommended: [{time: '05:30', label: 'Sehr frühe Abfahrt aus Stepantsminda; Wetter und Strassen prüfen'}, {time: '11:30', label: 'Voraussichtliche Ankunftszone Vardzia; pausenabhängig'}, {time: '12:00', label: 'Vardzia kompakt besichtigen, mindestens 1.5–2 Stunden'}, {time: '14:15', label: 'Mittagessen und Weiterfahrt'}, {time: '19:00–21:00', label: 'Ankunft Kutaisi je nach Route, Verkehr und Pausen'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.

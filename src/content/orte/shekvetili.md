@@ -12,8 +12,6 @@ days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
 updated: 2026-08-03
-image: images/georgia-route.svg
-imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Charakter

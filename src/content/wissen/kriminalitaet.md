@@ -11,8 +11,6 @@ days: []
 related: []
 sources: [{label: "Geostat und Quellenverzeichnis der Reiseplanung", url: "https://www.geostat.ge/en"}]
 updated: 2026-08-03
-image: images/georgia-route.svg
-imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
 ## Einordnung

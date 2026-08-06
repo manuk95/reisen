@@ -1,9 +1,4 @@
 ---
-import { getCollection } from 'astro:content';
-const { days = [] } = Astro.props;
-const base = import.meta.env.BASE_URL;
-const all = (await getCollection('reisetage')).sort((a,b)=>a.data.day-b.data.day);
-const map = new Map(all.map((d)=>[d.data.slug,d]));
-const format = (d:any)=>d.data.date.toLocaleDateString('de-CH',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+import {getCollection} from 'astro:content';const {days=[]}=Astro.props;const base=import.meta.env.BASE_URL;const entries=(await getCollection('reisetage')).filter(d=>days.includes(d.data.slug)).sort((a,b)=>a.data.day-b.data.day);
 ---
-{days.length > 0 && <aside class="alert day-links"><strong>Passende Reisetage:</strong><ul>{days.map((slug:string)=>{const d=map.get(slug);return d ? <li><a href={`${base}georgien/tag/${d.data.slug}/`}>Tag {d.data.day} – {d.data.from} nach {d.data.to}</a><br/><small>{format(d)} · Tagesprogramm öffnen</small></li> : <li>{slug}</li>})}</ul></aside>}
+{entries.length>0&&<nav class="day-links" aria-label="Zugehörige Reisetage"><h2>Im Tagesprogramm</h2><ul>{entries.map(d=><li><a href={`${base}georgien/tag/${d.data.slug}/`}>Tag {d.data.day} – {d.data.character}</a></li>)}</ul></nav>}

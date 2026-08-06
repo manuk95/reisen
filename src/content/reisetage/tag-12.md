@@ -15,8 +15,14 @@ from: "Shekvetili"
 to: "Batumi / Shekvetili"
 character: "Subtropischer Garten und Stadt"
 lodging: "Küstenhotel-Vorschlag"
-fixed: []
-recommended: [{time: '08:30', label: 'Abfahrt'}, {time: '10:00', label: 'Botanischer Garten, 2.5–3 h'}, {time: '15:00', label: 'Piazza, Boulevard, Ali und Nino'}, {time: '20:30', label: 'Rückfahrt'}]
 optional: []
+
+climate: "21/14 °C · Meer ca. 21 °C"
+bathing: "wetterabhängig"
+fixed: []
+recommended: [{time: '08:30', label: 'Abfahrt zum Botanischen Garten Batumi'}, {time: '10:00', label: 'Botanischer Garten und Küstenblicke, 2.5–3 Stunden'}, {time: '13:30', label: 'Mittagessen in Batumi'}, {time: '15:00', label: 'Altstadt, Piazza, Boulevard, Ali und Nino'}, {time: '18:30', label: 'Frühes Abendessen'}, {time: '20:30', label: 'Rückfahrt nach Shekvetili'}]
+sunrise: "vor Reise für den Tagesort prüfen"
+sunset: "vor Reise für den Tagesort prüfen"
 ---
-Fixe Termine stehen oben in der Zeitleiste. Wetter, Strassenzustand und saisonale Öffnung jeweils am Vortag prüfen.
+
+Die Klimawerte sind Richtwerte aus der Reiseplanung (Stand 3. August 2026). Wetter, Strassenzustand sowie saisonale Öffnungen am Vortag prüfen.
