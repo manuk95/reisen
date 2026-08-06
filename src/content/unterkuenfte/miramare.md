@@ -1,5 +1,6 @@
 ---
 title: "Miramare Magnetic Beach Hotel"
+pageId: 170
 slug: miramare
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=miramare%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Miramare Magnetic Beach Hotel"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Miramare Magnetic Beach Hotel"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

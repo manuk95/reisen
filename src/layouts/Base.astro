@@ -1,13 +1,56 @@
 ---
 import '../styles/global.css';
-const {title='Reisen',description='Persönliche Reiseführer von Manuel und Martina'}=Astro.props;
-const base=import.meta.env.BASE_URL;
-const menu=[
- ['Reiseplan und Zeitprogramm','georgien/reiseplan/'],['Vorbereitung und Buchungen','georgien/praktisches/'],['Karte','georgien/karte/'],['Suche','suche/'],
- ['Attraktionen nach Regionen','georgien/sehenswuerdigkeiten/'],['Regionen und Orte','georgien/orte/'],['Sprache und Schrift','georgien/wissen/sprache/'],['Land, Natur und Bevölkerung','georgien/wissen/natur/'],['Geschichte','georgien/wissen/geschichte/'],['Politik und Beziehungen','georgien/wissen/politik/'],['Religion und Gesellschaft','georgien/wissen/religion-kultur/'],['Menschenrechte','georgien/wissen/menschenrechte/'],['Kultur und Traditionen','georgien/wissen/religion-kultur/'],['Küche und Getränke','georgien/genuss/'],['Wirtschaft','georgien/wissen/wirtschaft/'],['Hotels','georgien/hotels/'],['Restaurants','georgien/restaurants/'],['Praktische Reiseinformationen','georgien/praktisches/'],['Vergleich Schweiz–Georgien','georgien/wissen/vergleich-schweiz/'],['Quellen und Bildnachweise','bildnachweis/']];
-const quick=[['Heute','georgien/heute/'],['Kompletter Reiseplan','georgien/reiseplan/'],['Karte','georgien/karte/'],['Orte','georgien/orte/'],['Attraktionen','georgien/sehenswuerdigkeiten/'],['Hotels','georgien/hotels/'],['Restaurants','georgien/restaurants/'],['Essen & Getränke','georgien/genuss/'],['Praktische Hinweise','georgien/praktisches/'],['Suche','suche/'],['Quellen & Bildnachweise','bildnachweis/']];
-const url=new URL(Astro.url.pathname,Astro.site);
+import { footerNavigation, mainNavigation, mobileNavigation } from '../data/site-pages';
+const { title = 'Reisen', description = 'Persönliche Reiseführer von Manuel und Martina' } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const url = new URL(Astro.url.pathname, Astro.site);
 ---
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#173f35"><meta name="description" content={description}><link rel="canonical" href={url}><link rel="manifest" href={`${base}manifest.webmanifest`}><link rel="icon" href={`${base}icons/icon.svg`}><title>{title} · Unsere Reisen</title></head>
-<body><a class="skip" href="#inhalt">Zum Inhalt springen</a><div id="offline" role="status" hidden>Offline – Reisewissen bleibt verfügbar, die Karte benötigt Internet.</div><header><a class="brand" href={base}>Manuel & Martina <small>unterwegs</small></a><button id="menuToggle" class="menu-toggle" aria-controls="mainMenu" aria-expanded="false"><span>☰</span> Menü</button><button id="theme" aria-label="Farbschema wechseln">◐</button></header><div id="scrim" hidden></div><nav id="mainMenu" class="drawer" aria-label="Hauptmenü" hidden><div class="drawer-head"><strong>Reiseführer Georgien 2026</strong><button id="menuClose" aria-label="Menü schliessen">×</button></div><details open><summary>Attraktionen nach Regionen</summary><a href={`${base}georgien/sehenswuerdigkeiten/`}>Alle Attraktionen</a><a href={`${base}georgien/orte/tbilisi/`}>Tbilisi</a><a href={`${base}georgien/orte/stepantsminda/`}>Kazbegi / Hochkaukasus</a><a href={`${base}georgien/orte/kutaisi/`}>Imeretien / Kutaisi</a><a href={`${base}georgien/orte/batumi/`}>Schwarzmeerküste</a></details>{menu.map(([n,p])=><a class:list={{active:Astro.url.pathname.includes(p.replace(/\/$/,''))}} href={`${base}${p}`}>{n}</a>)}</nav><main id="inhalt"><slot /></main><nav class="bottom" aria-label="Mobile Quicklinks">{quick.slice(0,5).map(([n,p])=><a href={`${base}${p}`}>{n}</a>)}</nav><footer><div class="footer-grid"><section><h2>Planung</h2>{quick.slice(0,3).map(([n,p])=><a href={`${base}${p}`}>{n}</a>)}</section><section><h2>Entdecken</h2>{quick.slice(3,8).map(([n,p])=><a href={`${base}${p}`}>{n}</a>)}</section><section><h2>Nachschlagen</h2>{quick.slice(8).map(([n,p])=><a href={`${base}${p}`}>{n}</a>)}</section></div><p>Persönlicher Reiseführer · ohne Tracking. Stand redaktioneller Angaben: 3. August 2026; zeitabhängige Angaben vor Ort erneut prüfen.</p></footer>
-<script is:inline define:vars={{base}}>const root=document.documentElement,saved=localStorage.getItem('theme');if(saved)root.dataset.theme=saved;document.querySelector('#theme')?.addEventListener('click',()=>{const n=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=n;localStorage.setItem('theme',n)});const offline=document.querySelector('#offline');function network(){offline.hidden=navigator.onLine}addEventListener('online',network);addEventListener('offline',network);network();if('serviceWorker'in navigator)navigator.serviceWorker.register(base+'sw.js',{scope:base});const t=document.querySelector('#menuToggle'),m=document.querySelector('#mainMenu'),c=document.querySelector('#menuClose'),s=document.querySelector('#scrim');function openMenu(){m.hidden=false;s.hidden=false;t.setAttribute('aria-expanded','true');c.focus()}function closeMenu(){m.hidden=true;s.hidden=true;t.setAttribute('aria-expanded','false');t.focus()}t.addEventListener('click',()=>m.hidden?openMenu():closeMenu());c.addEventListener('click',closeMenu);s.addEventListener('click',closeMenu);addEventListener('keydown',e=>{if(e.key==='Escape'&&!m.hidden)closeMenu()});</script></body></html>
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#173f35" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={url} />
+    <link rel="manifest" href={`${base}manifest.webmanifest`} />
+    <link rel="icon" href={`${base}icons/icon.svg`} />
+    <title>{title} · Unsere Reisen</title>
+  </head>
+  <body>
+    <a class="skip" href="#inhalt">Zum Inhalt springen</a>
+    <div id="offline" role="status" hidden>Offline – Reisewissen bleibt verfügbar, die Karte benötigt Internet.</div>
+    <header>
+      <a class="brand" href={base}>Manuel & Martina <small>unterwegs</small></a>
+      <button id="menuToggle" class="menu-toggle" aria-controls="mainMenu" aria-expanded="false"><span>☰</span> Menü</button>
+      <button id="theme" aria-label="Farbschema wechseln">◐</button>
+    </header>
+    <div id="scrim" hidden></div>
+    <nav id="mainMenu" class="drawer" aria-label="Hauptmenü" hidden>
+      <div class="drawer-head"><strong>Reiseführer Georgien 2026</strong><button id="menuClose" aria-label="Menü schliessen">×</button></div>
+      {mainNavigation.map((group) => group.items ? (
+        <details open={group.label === 'Entdecken'}>
+          <summary>{group.label}</summary>
+          {group.items.map((item) => <a class:list={{ active: Astro.url.pathname === `${base}${item.path}` }} href={`${base}${item.path}`}>{item.label}</a>)}
+        </details>
+      ) : <a class:list={{ active: Astro.url.pathname === `${base}${group.path}` }} href={`${base}${group.path}`}>{group.label}</a>)}
+    </nav>
+    <main id="inhalt"><slot /></main>
+    <nav class="bottom" aria-label="Mobile Quicklinks">{mobileNavigation.map((item) => <a href={`${base}${item.path}`}>{item.label}</a>)}</nav>
+    <footer>
+      <div class="footer-grid">{footerNavigation.map((group) => <section><h2>{group.label}</h2>{group.items.map((item) => <a href={`${base}${item.path}`}>{item.label}</a>)}</section>)}</div>
+      <p>Persönlicher Reiseführer · ohne Tracking. Stand redaktioneller Angaben: 6. August 2026; zeitabhängige Angaben vor Ort erneut prüfen.</p>
+    </footer>
+    <script is:inline define:vars={{base}}>
+      const root=document.documentElement,saved=localStorage.getItem('theme');if(saved)root.dataset.theme=saved;
+      document.querySelector('#theme')?.addEventListener('click',()=>{const n=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=n;localStorage.setItem('theme',n)});
+      const offline=document.querySelector('#offline');function network(){offline.hidden=navigator.onLine}addEventListener('online',network);addEventListener('offline',network);network();
+      if('serviceWorker'in navigator)navigator.serviceWorker.register(base+'sw.js',{scope:base});
+      const t=document.querySelector('#menuToggle'),m=document.querySelector('#mainMenu'),c=document.querySelector('#menuClose'),s=document.querySelector('#scrim');
+      function openMenu(){m.hidden=false;s.hidden=false;t.setAttribute('aria-expanded','true');c.focus()}
+      function closeMenu(){m.hidden=true;s.hidden=true;t.setAttribute('aria-expanded','false');t.focus()}
+      t.addEventListener('click',()=>m.hidden?openMenu():closeMenu());c.addEventListener('click',closeMenu);s.addEventListener('click',closeMenu);addEventListener('keydown',e=>{if(e.key==='Escape'&&!m.hidden)closeMenu()});
+    </script>
+  </body>
+</html>

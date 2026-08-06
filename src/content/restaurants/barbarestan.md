@@ -1,5 +1,6 @@
 ---
 title: "Barbarestan"
+pageId: 159
 slug: barbarestan
 trip: georgien-2026
 country: Georgien

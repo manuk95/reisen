@@ -1,5 +1,6 @@
 ---
 title: "Old Town Mtatsminda"
+pageId: 172
 slug: old-town-mtatsminda
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-01, tag-02, tag-03]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=old%20town%20mtatsminda%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Old Town Mtatsminda"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Old Town Mtatsminda"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

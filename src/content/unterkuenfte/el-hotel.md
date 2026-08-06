@@ -1,5 +1,6 @@
 ---
 title: "EL Hotel"
+pageId: 166
 slug: el-hotel
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-07, tag-08]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=el%20hotel%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für EL Hotel"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für EL Hotel"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

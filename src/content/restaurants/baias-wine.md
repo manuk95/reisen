@@ -1,5 +1,6 @@
 ---
 title: "Baia’s Wine"
+pageId: 158
 slug: baias-wine
 trip: georgien-2026
 country: Georgien

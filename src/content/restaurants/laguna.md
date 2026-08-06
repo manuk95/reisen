@@ -1,5 +1,6 @@
 ---
 title: "Laguna"
+pageId: 161
 slug: laguna
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-12]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Laguna"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Laguna"
+imageStatus: platzhalter
 ---
 
 ## Profil

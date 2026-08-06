@@ -1,5 +1,6 @@
 ---
 title: "Magnetic Resort Ureki"
+pageId: 169
 slug: magnetic-resort
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=magnetic%20resort%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Magnetic Resort Ureki"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Magnetic Resort Ureki"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

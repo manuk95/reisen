@@ -1,0 +1,5 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Offline-Hinweis" description="Offline-Fallback für den Reiseführer."><div class="wrap"><p class="eyebrow">Offline</p><h1>Diese Seite ist gerade nicht verfügbar.</h1><p class="lead">Bereits besuchte Inhalte bleiben wenn möglich im Zwischenspeicher. Kartenkacheln, aktuelle Öffnungszeiten und externe Quellen benötigen eine Verbindung.</p><p><a class="button" href={`${base}georgien/`}>Zur Georgien-Startseite</a></p></div></Base>

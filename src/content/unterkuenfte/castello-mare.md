@@ -1,5 +1,6 @@
 ---
 title: "Castello Mare Hotel & Wellness Resort"
+pageId: 165
 slug: castello-mare
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=castello%20mare%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Castello Mare Hotel & Wellness Resort"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Castello Mare Hotel & Wellness Resort"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

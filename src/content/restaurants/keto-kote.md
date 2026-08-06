@@ -1,5 +1,6 @@
 ---
 title: "Keto & Kote"
+pageId: 160
 slug: keto-kote
 trip: georgien-2026
 country: Georgien

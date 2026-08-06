@@ -1,5 +1,6 @@
 ---
 title: "Palaty"
+pageId: 162
 slug: palaty
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-08]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Palaty"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Palaty"
+imageStatus: platzhalter
 ---
 
 ## Profil
