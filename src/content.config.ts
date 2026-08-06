@@ -5,6 +5,7 @@ import { z } from 'astro:schema';
 const source = z.object({ label: z.string(), url: z.string().url() });
 const coords = z.object({ lat: z.number(), lon: z.number() });
 const editorial = {
+  pageId: z.number().int().positive().optional(),
   title: z.string(),
   slug: z.string(),
   trip: z.string().default('georgien-2026'),
@@ -16,10 +17,16 @@ const editorial = {
   coordinates: coords.optional(),
   days: z.array(z.string()).default([]),
   related: z.array(z.string()).default([]),
+  aliases: z.array(z.string()).default([]),
   sources: z.array(source).min(1),
   updated: z.coerce.date(),
   image: z.string().optional(),
   imageAlt: z.string().optional(),
+  imageStatus: z.enum(['lizenziert', 'platzhalter']).optional(),
+  imageCredit: z.string().optional(),
+  imageSource: z.string().url().optional(),
+  imageLicense: z.string().optional(),
+  imageEdit: z.string().optional(),
 };
 
 const contentLoader = (collection: string) => glob({ pattern: '**/*.{md,mdx}', base: `./src/content/${collection}` });

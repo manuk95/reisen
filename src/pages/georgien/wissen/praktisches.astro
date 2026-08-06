@@ -1,0 +1,20 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+const base = import.meta.env.BASE_URL;
+const order = ['einreise', 'geld', 'mobilitaet', 'gesundheit', 'sicherheit'];
+const entries = (await getCollection('praktisches')).filter((entry) => entry.data.slug !== 'packliste').sort((a, b) => order.indexOf(a.data.slug) - order.indexOf(b.data.slug));
+const rendered = await Promise.all(entries.map(async (entry) => ({ entry, Content: (await render(entry)).Content })));
+---
+
+<Base title="Praktisches" description="Einreise, Geld, Mobilität, Gesundheit, Sicherheit und Alltag für Georgien.">
+  <div class="wrap">
+    <p><a href={`${base}georgien/`}>Georgien</a> / <a href={`${base}georgien/wissen/`}>Wissen über Georgien</a> / Praktisches</p>
+    <p class="eyebrow">Vor der Abreise und unterwegs</p>
+    <h1>Praktisches</h1>
+    <p class="lead">Einreise, Geld, Mobilität, Gesundheit, Sicherheit und Alltag an einem Ort. Zeitabhängige Angaben unmittelbar vor der Reise nochmals offiziell kontrollieren.</p>
+    <nav class="region-menu" aria-label="Abschnitte">{rendered.map(({ entry }) => <a href={`#${entry.data.slug}`}>{entry.data.title.replace(' und Alltag', '')}</a>)}<a href="#alltag">Verbindung & Alltag</a><a href={`${base}georgien/wissen/packliste/`}>Packliste</a></nav>
+    {rendered.map(({ entry, Content }) => <section id={entry.data.slug}><h2>{entry.data.title}</h2><article class="prose"><Content /></article><p><a href={entry.data.sources[0].url} rel="noopener noreferrer" target="_blank">Quelle: {entry.data.sources[0].label}</a></p></section>)}
+    <section id="alltag"><h2>Verbindung & Alltag</h2><p>Mobilfunk, Steckdosen, Zeitverschiebung und lokale Gewohnheiten können sich ändern. Für die Reise sind eine Offline-Karte, eine lokale oder digitale SIM-Option, Powerbank und ein passender Adapter sinnvoll. Öffentliche Hinweise und die Unterkunft helfen bei aktuellen Details weiter.</p></section>
+  </div>
+</Base>

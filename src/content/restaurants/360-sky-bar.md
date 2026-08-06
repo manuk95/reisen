@@ -1,5 +1,6 @@
 ---
 title: "360 Sky Bar"
+pageId: 157
 slug: 360-sky-bar
 trip: georgien-2026
 country: Georgien

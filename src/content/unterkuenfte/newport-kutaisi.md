@@ -1,5 +1,6 @@
 ---
 title: "Newport Hotel Kutaisi"
+pageId: 171
 slug: newport-kutaisi
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-07, tag-08]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=newport%20kutaisi%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Newport Hotel Kutaisi"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Newport Hotel Kutaisi"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

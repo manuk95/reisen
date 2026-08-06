@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+const { title, eyebrow = 'Georgien 2026', lead } = Astro.props;
+const base = import.meta.env.BASE_URL;
+---
+
+<Base {title} description={lead}>
+  <div class="wrap">
+    <p><a href={`${base}georgien/`}>Georgien</a> / {title}</p>
+    <p class="eyebrow">{eyebrow}</p>
+    <h1>{title}</h1>
+    <p class="lead">{lead}</p>
+    <article class="prose"><slot /></article>
+  </div>
+</Base>

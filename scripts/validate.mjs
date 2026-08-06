@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';
-const roots=['reisen','reisetage','orte','sehenswuerdigkeiten','unterkuenfte','restaurants','genuss','wissen','praktisches'];let fail=[];for(const root of roots){for(const f of fs.readdirSync(`src/content/${root}`)){const s=fs.readFileSync(`src/content/${root}/${f}`,'utf8');for(const key of ['title:','slug:','sources:','updated:'])if(!s.includes(key))fail.push(`${root}/${f}: ${key} fehlt`)}}
+const roots=['reisen','reisetage','orte','sehenswuerdigkeiten','unterkuenfte','restaurants','genuss','wissen','praktisches'];let fail=[];const pageIds=new Map();for(const root of roots){for(const f of fs.readdirSync(`src/content/${root}`)){const s=fs.readFileSync(`src/content/${root}/${f}`,'utf8');for(const key of ['title:','slug:','sources:','updated:'])if(!s.includes(key))fail.push(`${root}/${f}: ${key} fehlt`);const id=s.match(/^pageId:\s*(\d+)\s*$/m)?.[1];if(id){const previous=pageIds.get(id);if(previous)fail.push(`Seiten-ID ${id} doppelt: ${previous} und ${root}/${f}`);pageIds.set(id,`${root}/${f}`)}if(['restaurants','unterkuenfte'].includes(root)&&!id)fail.push(`${root}/${f}: Seiten-ID fehlt`)}}
 for(const f of fs.readdirSync('public',{recursive:true})){if(String(f).includes('Georgienreise_'))fail.push('Privates Eingabedokument in public')}
 const astro=fs.readFileSync('astro.config.mjs','utf8'),manifest=fs.readFileSync('public/manifest.webmanifest','utf8'),sw=fs.readFileSync('public/sw.js','utf8');if(!astro.includes("base:'/reisen'"))fail.push('Astro-Basispfad');if(!manifest.includes('/reisen/'))fail.push('Manifest-Basispfad');if(!sw.includes("BASE='/reisen/'"))fail.push('SW-Basispfad');if(fail.length){console.error(fail.join('\n'));process.exit(1)}console.log('Metadaten, Datenschutz und /reisen/-Basispfade geprüft.');
 
@@ -32,10 +32,10 @@ for(const root of imageCollections) for(const f of fs.readdirSync(`src/content/$
   const s=fs.readFileSync(`src/content/${root}/${f}`,'utf8');const m=s.match(/^image:\s*["']?([^"'\n]+)["']?$/m);
   if(!m){fail.push(`${root}/${f}: kein rechtlich geklärtes lokales Bild`);continue}
   const image=m[1].trim();if(/^https?:/.test(image))fail.push(`${root}/${f}: externer Bild-Hotlink`);
-  if(/georgia-route\.svg|placeholder|default/i.test(image) && !/georgische-flagge\.svg$/.test(image))fail.push(`${root}/${f}: Platzhalter-/Routenbild`);
+  const placeholder=/images\/platzhalter\.png$/.test(image);if(/georgia-route\.svg|default/i.test(image))fail.push(`${root}/${f}: ungeeignetes Bild`);if(placeholder&&!/^imageStatus:\s*platzhalter\s*$/m.test(s))fail.push(`${root}/${f}: Platzhalter ohne imageStatus`);
   const target=path.join('public',image.replace(/^\//,''));if(!fs.existsSync(target))fail.push(`${root}/${f}: Bilddatei fehlt ${image}`);
   const prior=used.get(image)||[];prior.push(`${root}/${f}`);used.set(image,prior);
   if(!/^imageAlt:\s*\S/m.test(s))fail.push(`${root}/${f}: präziser Alternativtext fehlt`);
 }
-for(const [image,files] of used)if(files.length>1&&!/georgische-flagge\.svg$/.test(image))fail.push(`${image}: identisch auf ${files.length} Item-Seiten`);
+for(const [image,files] of used)if(files.length>1&&!/images\/platzhalter\.png$/.test(image))fail.push(`${image}: identisch auf ${files.length} Item-Seiten`);
 if(fail.length){console.error(fail.join('\n'));process.exit(1)}

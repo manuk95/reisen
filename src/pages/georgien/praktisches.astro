@@ -1,4 +1,4 @@
 ---
-import Base from '../../layouts/Base.astro';import List from '../../components/CollectionList.astro';import {getCollection} from 'astro:content';const items=await getCollection('praktisches');
+import Base from '../../layouts/Base.astro';const base=import.meta.env.BASE_URL;
 ---
-<Base title="Praktisches"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Praktisches</h1><List {items} section="praktisches" /></div></Base>
+<Base title="Praktisches"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Praktisches</h1><p class="lead">Die praktischen Hinweise wurden in den Wissensbereich verschoben.</p><p><a class="button" href={`${base}georgien/wissen/praktisches/`}>Praktische Hinweise öffnen</a></p></div></Base>

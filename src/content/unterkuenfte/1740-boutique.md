@@ -1,5 +1,6 @@
 ---
 title: "1740 Boutique Hotel Kazbegi"
+pageId: 164
 slug: 1740-boutique
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-04, tag-05, tag-06]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=1740%20boutique%20Georgia"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für 1740 Boutique Hotel Kazbegi"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für 1740 Boutique Hotel Kazbegi"
+imageStatus: platzhalter
 ---
 
 ## Vorschlag · noch nicht gebucht

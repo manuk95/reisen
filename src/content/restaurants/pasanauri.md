@@ -1,5 +1,6 @@
 ---
 title: "Pasanauri"
+pageId: 163
 slug: pasanauri
 trip: georgien-2026
 country: Georgien
@@ -11,8 +12,9 @@ days: [tag-02, tag-04]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
 updated: 2026-08-03
-image: images/georgien/platzhalter/georgische-flagge.svg
-imageAlt: "Georgische Flagge als Platzhalter für Pasanauri"
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Pasanauri"
+imageStatus: platzhalter
 ---
 
 ## Profil

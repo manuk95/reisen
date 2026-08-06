@@ -1,0 +1,18 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getEntry, render } from 'astro:content';
+const base = import.meta.env.BASE_URL;
+const entry = await getEntry('praktisches', 'packliste');
+const { Content } = await render(entry!);
+---
+
+<Base title="Packliste" description={entry!.data.summary}>
+  <div class="wrap">
+    <p><a href={`${base}georgien/`}>Georgien</a> / <a href={`${base}georgien/wissen/`}>Wissen über Georgien</a> / Packliste</p>
+    <p class="eyebrow">Unterwegs</p>
+    <h1>Packliste</h1>
+    <p class="lead">{entry!.data.summary}</p>
+    <article class="prose"><Content /></article>
+    <p><a href={entry!.data.sources[0].url} rel="noopener noreferrer" target="_blank">Quelle: {entry!.data.sources[0].label}</a></p>
+  </div>
+</Base>
