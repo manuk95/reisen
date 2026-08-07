@@ -1,25 +1,35 @@
 ---
-title: "Rustaweli-Allee und Nationalmuseum"
+title: "Rustaweli und Georgisches Nationalmuseum"
 slug: rustaweli-nationalmuseum
 trip: georgien-2026
 country: Georgien
 region: Tbilisi
-summary: "Boulevard, Kulturinstitutionen und ein konzentrierter Überblick über Georgiens Geschichte."
-categories: [kultur, museum]
+summary: "Tbilisis repräsentative Hauptachse und das Nationalmuseum als Schlüssel zu Archäologie, Goldschätzen und sowjetischer Geschichte."
+categories: [museum, stadt, geschichte]
 status: empfohlen
-days: [tag-03]
-related: [tbilisi]
+days: [tag-02]
+related: [dry-bridge-fabrika, mtatsminda]
 sources: [{label: "Georgian National Museum", url: "https://museum.ge/"}]
-updated: 2026-08-06
+updated: 2026-08-07
 image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Rustaweli-Allee und Nationalmuseum"
+imageAlt: "Platzhalterbild für Rustaweli und das Nationalmuseum"
 imageStatus: platzhalter
 ---
 
-## Stadtachse mit Geschichte
+## Die repräsentative Achse der Hauptstadt
 
-Die Rustaweli-Allee verbindet Theater, Museen, Parlament und Hotels. Sie erzählt vom Tbilisi des 19. und 20. Jahrhunderts ebenso wie von heutigen gesellschaftlichen Debatten. Das Nationalmuseum ist besonders bei Regen eine gute Ergänzung zum Altstadtprogramm.
+Die Rustaweli Avenue verbindet wichtige Kultur-, Regierungs- und Theaterbauten. Sie zeigt eine andere Seite Tbilisis als die engen Gassen der Altstadt: breitere Stadträume, Architektur des 19. und 20. Jahrhunderts und die politische Bühne der Hauptstadt.
 
-## Was den Besuch spannend macht
+Auch jüngere Protestbewegungen und politische Kundgebungen konzentrieren sich häufig in diesem Bereich. Aktuelle Demonstrationen können deshalb die Atmosphäre und Zugänglichkeit kurzfristig verändern.
 
-Nehmt euch Zeit für die archäologischen Bestände und die Einordnung der sowjetischen Repression. So lassen sich viele Orte der Reise – von [Mtskheta](/reisen/georgien/orte/mtskheta/) bis Gori – besser einordnen. Öffnungszeiten und aktuelle Ausstellungen vorher prüfen.
+## Georgisches Nationalmuseum
+
+Der Museumsverbund besitzt zentrale archäologische und historische Sammlungen des Landes. Besonders relevant sind die frühen Goldschmiedearbeiten aus dem Gebiet des heutigen Georgien sowie Ausstellungen zur sowjetischen Besatzung und zum 20. Jahrhundert.
+
+Ein Museumsbesuch hilft, Dinge einzuordnen, die ihr später in Mtskheta, Vardzia oder Uplisziche seht. Gleichzeitig ist er die beste Schlechtwetteroption in Tbilisi.
+
+## Für Tag 2
+
+Plant das Museum nur fest ein, wenn ihr wirklich **1,5 bis 2 Stunden** dafür reservieren wollt. Bei Sonnenschein ist der erste Tbilisi-Tag draussen wertvoller; das Museum eignet sich hervorragend als wetterabhängiger Baustein.
+
+Öffnungstage, aktuelle Ausstellungen und gegebenenfalls geschlossene Säle unmittelbar vor Besuch auf der Museumsseite prüfen.

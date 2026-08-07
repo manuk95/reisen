@@ -4,24 +4,40 @@ slug: heerstrasse
 trip: georgien-2026
 country: Georgien
 region: "Kaukasus"
-summary: "Historische Gebirgsroute über Ananuri, Gudauri und Kreuzpass."
+summary: "Historische Nord-Süd-Route durch den Grossen Kaukasus – für euch nicht nur Anfahrt, sondern einer der landschaftlichen Haupttage der Reise."
 categories: [kultur]
 status: empfohlen
 coordinates: {lat: 42.42, lon: 44.5}
 days: [tag-04]
 related: []
-sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
-updated: 2026-08-03
+sources: [{label: "Georgia Travel: Georgian Military Road", url: "https://georgia.travel/georgian-military-road"}]
+updated: 2026-08-07
 image: images/georgien/sehenswuerdigkeiten/heerstrasse.jpg
 imageAlt: "English: Georgian Military Road. Sioni, Khevi, Georgia. Русский: Военно-Грузинская дорога. Сиони, Хеви, Грузия."
 ---
 
-## Warum besonders
+## Eine Strasse mit jahrtausendealter Funktion
 
-Historische Gebirgsroute über Ananuri, Gudauri und Kreuzpass.
+Die Georgische Heerstrasse verbindet Tbilisi über den Grossen Kaukasus mit dem Raum nördlich der heutigen russischen Grenze. Der moderne Name stammt aus der Zeit des Russischen Imperiums, doch die Passroute selbst wurde lange zuvor für Handel, Migration und militärische Bewegungen genutzt.
 
-## Besuch
+Für euch ist die Strasse **Teil des Reiseerlebnisses**, nicht bloss die Verbindung nach Stepantsminda. Innerhalb weniger Stunden verändert sich die Landschaft von den trockeneren Hügeln Kartlis über Stausee und Festungen bis in hochalpine Täler.
 
-Zeitbedarf und Zugänglichkeit hängen von Wetter und Saison ab. Keine unverlässlich aktuellen Eintrittspreise oder Öffnungszeiten werden behauptet. Koordinaten: **42.42, 44.5**.
+## Eure wichtigsten Stationen
 
-[In OpenStreetMap öffnen](https://www.openstreetmap.org/?mlat=42.42&mlon=44.5#map=15/42.42/44.5) · [Mit Google Maps navigieren](https://www.google.com/maps/dir/?api=1&destination=42.42,44.5)
+- Schinwali-Stausee und Ananuri,
+- Pasanauri / Aragwi-Tal,
+- Gudauri,
+- Freundschaftsdenkmal,
+- Kreuzpass,
+- Mineral-/Travertinquellen,
+- Abfahrt nach Kobi und Stepantsminda.
+
+Mit diesen Stopps wird aus einer Nettofahrt von wenigen Stunden ein sinnvoller **ganzer Reisetag von etwa 6–8 Stunden**.
+
+## Verkehr und Wetter
+
+Die Route ist Hauptverkehrsachse zur russischen Grenze. Lastwagenkolonnen, Baustellen, Nebel oder Wetter können Fahrzeiten stark verändern. Anfang Oktober ist Winterwetter am Pass bereits möglich. Nicht auf einer fixen Minutenplanung bestehen.
+
+Koordinaten dienen nur als Orientierung: **42.42, 44.5**.
+
+[In OpenStreetMap öffnen](https://www.openstreetmap.org/?mlat=42.42&mlon=44.5#map=10/42.42/44.5)
