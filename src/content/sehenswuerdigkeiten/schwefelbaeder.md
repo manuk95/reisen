@@ -1,27 +1,39 @@
 ---
-title: "Schwefelbäder Abanotubani"
+title: "Schwefelbäder von Abanotubani"
 slug: schwefelbaeder
 trip: georgien-2026
 country: Georgien
 region: "Tbilisi"
-summary: "Traditionelles Bäderviertel; privaten Raum reservieren."
-categories: [kultur]
+summary: "Heisse Quellen unter Ziegelkuppeln – Ursprungserzählung, Badekultur und eines der charakteristischsten Viertel Tbilisis."
+categories: [kultur, wellness, stadt]
 status: empfohlen
-coordinates: {lat: 41.6879, lon: 44.811}
+coordinates: {lat: 41.688, lon: 44.811}
 days: [tag-02]
-related: []
-sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
-updated: 2026-08-03
+related: [narikala, altstadt-metekhi]
+sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}]
+updated: 2026-08-07
 image: images/georgien/sehenswuerdigkeiten/schwefelbaeder.jpg
-imageAlt: "עברית: מרחצאות הגפרית בטביליסי גאורגיה. English: SULFUR BATHS OF TBILISI"
+imageAlt: "Ziegelkuppeln der Schwefelbäder in Abanotubani"
 ---
 
-## Warum besonders
+## Warum Tbilisi hier entstand
 
-Traditionelles Bäderviertel; privaten Raum reservieren.
+Abanotubani liegt direkt unterhalb von Narikala an natürlichen warmen Schwefelquellen. Der Name Tbilisi wird traditionell mit dem georgischen Wort für „warm“ verbunden; die berühmte Gründungslegende erzählt, König Wachtang Gorgassali habe die heissen Quellen bei einer Jagd entdeckt und hier eine Stadt gründen lassen.
 
-## Besuch
+Die Legende ist keine exakte Stadtgründungsurkunde, erklärt aber, wie zentral die Quellen für die Identität Tbilisis sind.
 
-Zeitbedarf und Zugänglichkeit hängen von Wetter und Saison ab. Keine unverlässlich aktuellen Eintrittspreise oder Öffnungszeiten werden behauptet. Koordinaten: **41.6879, 44.811**.
+## Die Kuppeln gehören zum Stadtbild
 
-[In OpenStreetMap öffnen](https://www.openstreetmap.org/?mlat=41.6879&mlon=44.811#map=15/41.6879/44.811) · [Mit Google Maps navigieren](https://www.google.com/maps/dir/?api=1&destination=41.6879,44.811)
+Viele Badehäuser liegen teilweise unter dem Strassenniveau; sichtbar sind vor allem gemauerte Kuppeln mit Öffnungen zur Belüftung. Das Viertel verbindet sich direkt mit Altstadt, Leghvtakhevi-Schlucht und [Narikala](/reisen/georgien/sehenswuerdigkeiten/narikala/).
+
+## Baden statt nur anschauen
+
+Für euch lohnt sich ein **privater Baderaum** als echtes Erlebnis. Je nach Haus unterscheiden sich Zustand, Preis, Becken und Zusatzleistungen deutlich. Ein traditionelles Peeling/Massage-Ritual kann separat gebucht werden.
+
+Das Wasser riecht deutlich nach Schwefel und ist warm bis sehr heiss. Schmuck, empfindliche Haut und Kreislauf berücksichtigen; Zeit zum Abkühlen einplanen.
+
+## Für euren Tag 2
+
+Den Badetermin eher am späten Nachmittag oder Abend setzen. Dann könnt ihr Altstadt und Narikala vorher zu Fuss erkunden und müsst nach dem Bad nicht wieder in ein dichtes Besichtigungsprogramm wechseln.
+
+Aktuelle Preise, Hygiene-Bewertungen, Privatraum und Reservation direkt beim gewählten Bad prüfen.

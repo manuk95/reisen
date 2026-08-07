@@ -4,22 +4,32 @@ slug: sameba-kathedrale
 trip: georgien-2026
 country: Georgien
 region: Tbilisi
-summary: "Monumentaler neuer Sakralbau und eindrücklicher Blick über die Hauptstadt."
-categories: [kultur, religion]
+summary: "Monumentale Dreifaltigkeitskathedrale über dem linken Mtkvari-Ufer – Symbol der postsowjetischen orthodoxen Wiederbelebung."
+categories: [religion, kultur]
 status: empfohlen
 days: [tag-02]
-related: [tbilisi]
+related: [altstadt-metekhi, narikala]
 sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}]
-updated: 2026-08-06
+updated: 2026-08-07
 image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die Sameba-Kathedrale in Tbilisi"
+imageAlt: "Platzhalterbild für die Sameba-Kathedrale"
 imageStatus: platzhalter
 ---
 
-## Ein Bauwerk der Gegenwart
+## Alt wirkende Architektur, moderner Bau
 
-Die Dreifaltigkeitskathedrale, meist Sameba genannt, prägt seit dem frühen 21. Jahrhundert die Silhouette Tbilisis. Sie macht sichtbar, welchen Stellenwert die georgisch-orthodoxe Kirche im heutigen Georgien hat – und bildet einen deutlichen Kontrast zu den kleinen, viel älteren Kirchen der Altstadt.
+Die Sameba- oder Heilige-Dreifaltigkeitskathedrale wirkt auf den ersten Blick wie ein jahrhundertealtes georgisches Monument. Tatsächlich wurde sie erst nach dem Ende der Sowjetunion errichtet und 2004 geweiht. Gerade das macht sie historisch interessant: Sie steht für die starke öffentliche Rückkehr der Georgisch-Orthodoxen Kirche im unabhängigen Georgien.
 
-## Besuch
+Die Kathedrale gehört zu den grössten orthodoxen Kirchen der Region und dominiert von ihrem Hügel aus die Stadtsilhouette.
 
-Der weite Hügel bietet einen ruhigen Stadtblick. Im Inneren gelten die üblichen Kirchenregeln: zurückhaltende Kleidung, leise sprechen und Gottesdienste respektieren.
+## Worauf ihr achten könnt
+
+Vergleicht Sameba bewusst mit älteren Kirchen in Mtskheta oder Gergeti. Formensprache und Materialien zitieren historische georgische Architektur, aber Massstab und Entstehungskontext sind modern.
+
+Der Komplex umfasst mehr als nur den Hauptraum; auch Vorplätze und Blickachsen auf die Stadt gehören zum Erlebnis.
+
+## Für euren Tbilisi-Tag
+
+Sameba eignet sich gut am Morgen oder als Verbindung zwischen linkem Flussufer und Altstadt. Für einen konzentrierten Besuch reichen ungefähr **30 bis 45 Minuten**.
+
+Es ist ein aktiver Gottesdienstort. Kleidung entsprechend wählen und bei Liturgien Abstand halten; aktuelle religiöse Veranstaltungen können den Zugang beeinflussen.

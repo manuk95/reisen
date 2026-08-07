@@ -1,27 +1,39 @@
 ---
-title: "Höhlenstadt Vardzia"
+title: "Vardzia"
 slug: vardzia
 trip: georgien-2026
 country: Georgien
 region: "Samtskhe-Dschawachetien"
-summary: "Felskloster und Höhlenstadt aus dem 12. Jahrhundert."
-categories: [kultur]
+summary: "Monumentale Höhlenstadt des 12. Jahrhunderts mit Kirche, Fresken, Tunneln und Qvevri-Weinkellern."
+categories: [kultur, geschichte]
 status: empfohlen
-coordinates: {lat: 41.3814, lon: 43.2842}
+coordinates: {lat: 41.381, lon: 43.284}
 days: [tag-07]
-related: []
-sources: [{label: "Offizielles Tourismusportal Georgia Travel", url: "https://georgia.travel/"}]
-updated: 2026-08-03
+related: [chertwisi, rabati]
+sources: [{label: "Georgia Travel: Vardzia", url: "https://georgia.travel/vardzia"}]
+updated: 2026-08-07
 image: images/georgien/sehenswuerdigkeiten/vardzia.jpg
-imageAlt: "English: Vardzia, a medieval cave-city in Georgia"
+imageAlt: "Höhlenstadt Vardzia im Fels über dem Mtkvari-Tal"
 ---
 
-## Warum besonders
+## Eine Stadt im Fels – nicht nur ein Kloster
 
-Felskloster und Höhlenstadt aus dem 12. Jahrhundert.
+Vardzia wurde vor allem im 12. Jahrhundert unter König Giorgi III. und seiner Tochter Königin Tamar ausgebaut. Die Anlage war religiöses Zentrum, befestigter Rückzugsort und komplexe Siedlung mit Wohnräumen, Lagern, Wasserführung, Tunneln, Weinkellern und Kirchen.
 
-## Besuch
+Der Felskomplex erstreckt sich über rund 900 Meter. Erdbeben und Kriege zerstörten grosse Teile und öffneten viele Räume, die ursprünglich im Innern des Berges lagen. Das heutige spektakuläre Fassadenbild ist also teilweise Folge dieser Zerstörungen.
 
-Zeitbedarf und Zugänglichkeit hängen von Wetter und Saison ab. Keine unverlässlich aktuellen Eintrittspreise oder Öffnungszeiten werden behauptet. Koordinaten: **41.3814, 43.2842**.
+## Herzstück: Mariä-Entschlafens-Kirche
 
-[In OpenStreetMap öffnen](https://www.openstreetmap.org/?mlat=41.3814&mlon=43.2842#map=15/41.3814/43.2842) · [Mit Google Maps navigieren](https://www.google.com/maps/dir/?api=1&destination=41.3814,43.2842)
+Die Kirche bewahrt bedeutende Fresken, darunter Darstellungen von Giorgi III. und Königin Tamar. Sie geben Vardzia eine aussergewöhnliche historische Tiefe: Tamar ist hier nicht nur eine legendäre Figur, sondern in einem zeitnahen Bildprogramm präsent.
+
+## Wein gehörte zur Infrastruktur
+
+Georgia Travel nennt für die Blütezeit zahlreiche Weinkeller und hunderte Qvevri. Wein war damit nicht folkloristische Dekoration, sondern Teil der Versorgung und Wirtschaft der Anlage.
+
+## Für euren Tag 7
+
+Vardzia ist einer der wichtigsten Orte der ganzen Reise und rechtfertigt den Umweg nur, wenn ihr ihm **mindestens 2 bis 3 Stunden** gebt. Durch Tunnel, Treppen und unebene Wege ist der Besuch körperlicher als eine normale Museumsbesichtigung.
+
+Euer Tag von Kazbegi Richtung Kutaisi ist ohnehin kritisch lang. Die Fahrroute muss deshalb vorab realistisch festgelegt werden; Vardzia nicht als schnellen 45-Minuten-Stopp behandeln.
+
+Koordinaten: **41.381, 43.284**. Letzten Einlass, Strassenlage und Wetter vor Abfahrt prüfen.
