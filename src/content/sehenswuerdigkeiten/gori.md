@@ -4,16 +4,28 @@ slug: gori
 trip: georgien-2026
 country: Georgien
 region: Shida Kartli
-summary: "Regionalstadt zwischen Festungshügel, sowjetischer Erinnerung und dem nahen Uplisziche."
+summary: "Regionalstadt mit mittelalterlicher Festung, sowjetischer Erinnerung und unmittelbarer Nähe zur Felsenstadt Uplisziche."
 categories: [stadt, geschichte]
 status: optional
 days: []
 related: [stalin-museum, uplisziche]
-sources: [{label: "Georgia Travel: Shida Kartli", url: "https://georgia.travel/regions/shida-kartli"}]
-updated: 2026-08-06
+sources: [{label: "Georgia Travel: Gori", url: "https://georgia.travel/cities-towns/gori"}, {label: "Georgia Travel: Gori Fortress", url: "https://georgia.travel/gori-fortress"}]
+updated: 2026-08-07
 image: images/platzhalter.png
 imageAlt: "Platzhalterbild für Gori"
 imageStatus: platzhalter
 ---
 
-Gori verbindet eine alte regionale Stadtstruktur mit der schwierigen Erinnerung an Stalin, der hier geboren wurde. Der Ort ist vor allem sinnvoll, wenn ihr [Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/) besucht und die Geschichte des 20. Jahrhunderts bewusst einordnen möchtet.
+## Mehr als Stalins Geburtsort
+
+Gori ist Verwaltungszentrum von Shida Kartli und wird touristisch fast automatisch mit Josef Stalin verbunden. Das greift zu kurz. Auf dem Felshügel im Zentrum steht die Gori-Festung, deren strategische Lage über Jahrhunderte für die Kontrolle der Region wichtig war. Die heutige Bausubstanz wurde mehrfach erneuert; ein starkes Erdbeben 1920 prägte auch die moderne Stadtentwicklung.
+
+## Schwierige Geschichte sinnvoll einordnen
+
+Das Stalin-Museum ist der sichtbarste sowjetische Erinnerungsort. Wer es besucht, sollte die Ausstellung kritisch lesen und Stalins Herrschaft nicht mit lokalem Stolz verwechseln. Für eine breitere historische Perspektive sind Festung und das nahe [Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/) wichtig.
+
+## Passt es in eure Reise?
+
+Gori liegt **nicht im fixen Tagesprogramm**. Ein Besuch wäre am ehesten als eigener Ausflug von Tbilisi mit Uplisziche und eventuell Ateni sinnvoll. In den ohnehin langen Tag 7 gehört Gori nicht zusätzlich hinein.
+
+Wenn ihr einen halben bis ganzen Zusatztag gewinnt, ist die Kombination Gori + Uplisziche deutlich sinnvoller als Gori allein.
