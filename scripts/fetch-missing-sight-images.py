@@ -55,7 +55,7 @@ def clean_html(value: str) -> str:
 
 
 def get_with_retry(url: str, *, params=None, timeout=60, attempts=6):
-    delay = 4
+    delay = 3
     last = None
     for attempt in range(1, attempts + 1):
         r = SESSION.get(url, params=params, timeout=timeout)
@@ -69,7 +69,7 @@ def get_with_retry(url: str, *, params=None, timeout=60, attempts=6):
         wait = int(retry_after) if retry_after and retry_after.isdigit() else delay
         print(f"HTTP {r.status_code} für {url}; neuer Versuch in {wait}s ({attempt}/{attempts})")
         time.sleep(wait)
-        delay = min(delay * 2, 40)
+        delay = min(delay * 2, 24)
     assert last is not None
     last.raise_for_status()
 
@@ -92,15 +92,13 @@ def commons_info(filename: str) -> dict:
     meta = info.get("extmetadata", {})
     license_name = clean_html(meta.get("LicenseShortName", {}).get("value", ""))
     author = clean_html(meta.get("Artist", {}).get("value", "")) or "Wikimedia-Commons-Beitragende"
-    description = clean_html(meta.get("ImageDescription", {}).get("value", ""))
     lower = license_name.lower()
     if not ("cc by" in lower or "cc0" in lower or "public domain" in lower or lower == "pd"):
         raise RuntimeError(f"Nicht freigegebene oder unklare Lizenz für {filename}: {license_name!r}")
     return {
-        "url": info.get("thumburl") or info["url"],
+        "url": (info.get("thumburl") or info["url"]).split("?", 1)[0],
         "author": author,
         "license": license_name,
-        "description": description,
         "source": "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_"), safe="_-().,%E2%80%94"),
     }
 
@@ -115,7 +113,6 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
     if "image: images/platzhalter.png" not in text:
         print(f"{slug}: kein Platzhalterbild mehr; Markdown bleibt unverändert")
         return
-
     block = "\n".join([
         f"image: images/georgien/sehenswuerdigkeiten/{slug}.jpg",
         f"imageAlt: {yaml_string(alt)}",
@@ -125,7 +122,6 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
         f"imageLicense: {yaml_string(meta['license'])}",
         'imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."',
     ])
-
     text = re.sub(
         r"image: images/platzhalter\.png\r?\nimageAlt: [^\r\n]*\r?\nimageStatus: platzhalter",
         block,
@@ -141,14 +137,8 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
 def download_image(slug: str, meta: dict) -> None:
     target = Path("public/images/georgien/sehenswuerdigkeiten") / f"{slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
-    try:
-        r = get_with_retry(meta["url"], timeout=90, attempts=2)
-    except requests.HTTPError as exc:
-        if exc.response is None or exc.response.status_code != 429:
-            raise
-        proxy = "https://images.weserv.nl/?url=" + quote(meta["url"], safe="") + "&w=1600&output=jpg&q=86"
-        print(f"{slug}: Wikimedia limitiert den Download; nutze einmaligen Bildproxy für denselben Commons-Inhalt")
-        r = get_with_retry(proxy, timeout=90, attempts=6)
+    proxy = "https://images.weserv.nl/?url=" + quote(meta["url"], safe="") + "&w=1600&output=jpg&q=86"
+    r = get_with_retry(proxy, timeout=60, attempts=4)
     image = Image.open(BytesIO(r.content))
     image = ImageOps.exif_transpose(image).convert("RGB")
     image.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
@@ -163,7 +153,7 @@ def main() -> None:
         meta = commons_info(filename)
         download_image(slug, meta)
         update_markdown(slug, alt, meta)
-        time.sleep(0.7)
+        time.sleep(0.5)
     print("Alle fehlenden Sehenswürdigkeitsbilder wurden ergänzt.")
 
 
