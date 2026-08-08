@@ -43,6 +43,6 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "Add missing sight images [skip ci]"
+          git commit -m "Add remaining sight images [skip ci]"
           git pull --rebase origin chatgpt/schritt-5-inhalte
           git push origin HEAD:chatgpt/schritt-5-inhalte
