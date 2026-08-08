@@ -10,10 +10,14 @@ status: optional
 days: [tag-07]
 related: [vardzia]
 sources: [{label: "Georgia Travel: Borjomi", url: "https://georgia.travel/cities-towns/borjomi"}, {label: "Georgia Travel: Borjomi Central Park", url: "https://georgia.travel/borjomi-central-park"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Bordschomi"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/bordschomi.jpg
+imageAlt: "Mineralwasserpark im georgischen Kurort Bordschomi"
+imageStatus: lizenziert
+imageCredit: "Armineaghayan"
+imageSource: "https://commons.wikimedia.org/wiki/File:Borjomi_Central_Park_(Mineral_Water_Park)_(4).jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Mehr als die grüne Mineralwasserflasche

@@ -10,10 +10,14 @@ status: optional
 days: [tag-06]
 related: [gergeti]
 sources: [{label: "Georgia Travel: Stepantsminda", url: "https://georgia.travel/cities-towns/stepantsminda"}, {label: "Georgia Travel: Dariali Monastery", url: "https://georgia.travel/dariali-monastery"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die Dariali-Schlucht und Gveleti"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/dariali-gveleti.jpg
+imageAlt: "Wasserfall in der Dariali-Schlucht nördlich von Stepantsminda"
+imageStatus: lizenziert
+imageCredit: "Kober"
+imageSource: "https://commons.wikimedia.org/wiki/File:Waterfall_in_Dariali_Gorge,_Georgia.jpg"
+imageLicense: "Public domain"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Das Tor durch den Kaukasus

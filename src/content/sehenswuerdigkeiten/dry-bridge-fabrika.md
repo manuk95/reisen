@@ -10,10 +10,14 @@ status: optional
 days: [tag-03]
 related: [tbilisi]
 sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}, {label: "Fabrika Tbilisi", url: "https://fabrikatbilisi.com/"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Dry Bridge und Fabrika"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/dry-bridge-fabrika.jpg
+imageAlt: "Antiquitäten und Alltagsgegenstände auf dem Dry-Bridge-Markt in Tbilisi"
+imageStatus: lizenziert
+imageCredit: "Ekkatterrinna"
+imageSource: "https://commons.wikimedia.org/wiki/File:Dry_Bridge_Market._Tbilisi.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Zwei Seiten des heutigen Tbilisi

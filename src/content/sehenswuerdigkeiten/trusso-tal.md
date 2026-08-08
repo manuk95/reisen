@@ -10,10 +10,14 @@ status: empfohlen
 days: [tag-06]
 related: [juta, gergeti, dariali-gveleti]
 sources: [{label: "Georgia Travel: Kazbegi National Park", url: "https://georgia.travel/kazbegi-national-park"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für das Trusso-Tal"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/trusso-tal.jpg
+imageAlt: "Travertin- und Mineralablagerungen am Terek im Trusso-Tal"
+imageStatus: lizenziert
+imageCredit: "Tadeáš Gregor"
+imageSource: "https://commons.wikimedia.org/wiki/File:Truso_valley_fossil_travertines.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Eine andere Seite von Kazbegi

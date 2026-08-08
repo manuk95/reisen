@@ -10,10 +10,14 @@ status: optional
 days: [tag-07]
 related: [vardzia]
 sources: [{label: "Georgia Travel: Samtskhe-Javakheti", url: "https://georgia.travel/regions/samtskhe-javakheti"}, {label: "UNESCO: Vardzia-Khertvisi Tentative List", url: "https://whc.unesco.org/en/tentativelists/5236/"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die Chertwisi-Festung"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/chertwisi.jpg
+imageAlt: "Festung Chertwisi auf einem Felsrücken in Samtskhe-Dschawachetien"
+imageStatus: lizenziert
+imageCredit: "Jaba1977"
+imageSource: "https://commons.wikimedia.org/wiki/File:Fortress_of_Khertvisi1.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Festung an einer strategischen Engstelle

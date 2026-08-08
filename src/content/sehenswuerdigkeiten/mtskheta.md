@@ -11,10 +11,14 @@ coordinates: {lat: 41.8451, lon: 44.7188}
 days: [tag-03]
 related: [swetizchoweli, dschwari-kloster]
 sources: [{label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}, {label: "UNESCO: World Heritage management in Mtskheta", url: "https://whc.unesco.org/en/canopy/mtskheta/"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die historische Stadt Mtskheta am Zusammenfluss von Aragwi und Mtkvari"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/mtskheta.jpg
+imageAlt: "Panorama von Mtskheta mit der Swetizchoweli-Kathedrale"
+imageStatus: lizenziert
+imageCredit: "efratedri from Pixabay"
+imageSource: "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Mtskheta_with_the_Svetitskhoveli_Cathedral.jpg"
+imageLicense: "CC0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Warum Mtskheta weit mehr als ein Tagesausflug ist

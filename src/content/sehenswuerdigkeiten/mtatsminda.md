@@ -10,10 +10,14 @@ status: empfohlen
 days: [tag-02]
 related: [altstadt-metekhi, narikala]
 sources: [{label: "Mtatsminda Park", url: "https://park.ge/"}, {label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Mtatsminda"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/mtatsminda.jpg
+imageAlt: "Panoramablick vom Mtatsminda über Tbilisi"
+imageStatus: lizenziert
+imageCredit: "Kober"
+imageSource: "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Tbilisi_from_Mtatsminda_Park.JPG"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Tbilisi von oben lesen

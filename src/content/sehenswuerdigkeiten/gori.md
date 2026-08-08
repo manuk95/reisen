@@ -10,10 +10,14 @@ status: optional
 days: []
 related: [stalin-museum, uplisziche]
 sources: [{label: "Georgia Travel: Gori", url: "https://georgia.travel/cities-towns/gori"}, {label: "Georgia Travel: Gori Fortress", url: "https://georgia.travel/gori-fortress"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Gori"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/gori.jpg
+imageAlt: "Festung von Gori über der Stadt in Shida Kartli"
+imageStatus: lizenziert
+imageCredit: "Kober"
+imageSource: "https://commons.wikimedia.org/wiki/File:Gori_Fortress,_Georgia.jpg"
+imageLicense: "Public domain"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Mehr als Stalins Geburtsort

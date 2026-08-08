@@ -10,10 +10,14 @@ status: empfohlen
 days: [tag-08]
 related: [gelati]
 sources: [{label: "Georgia Travel: Bagrati Cathedral", url: "https://georgia.travel/bagrati-cathedral"}, {label: "UNESCO: Gelati Monastery – history of the former Bagrati and Gelati property", url: "https://whc.unesco.org/en/list/710/"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die Bagrati-Kathedrale"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/bagrati-kathedrale.jpg
+imageAlt: "Bagrati-Kathedrale auf dem Hügel über Kutaisi"
+imageStatus: lizenziert
+imageCredit: "Dudva"
+imageSource: "https://commons.wikimedia.org/wiki/File:Bagrati_Cathedral.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Ein Bauwerk für ein geeintes Königreich

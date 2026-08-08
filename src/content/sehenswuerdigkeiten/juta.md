@@ -10,10 +10,14 @@ status: optional
 days: [tag-06]
 related: [trusso-tal, gergeti]
 sources: [{label: "Georgia Travel: Stepantsminda", url: "https://georgia.travel/cities-towns/stepantsminda"}, {label: "Georgia Travel: What to Do in Kazbegi", url: "https://georgia.travel/what-to-do-in-kazbegi"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Juta und die Chaukhi-Berge"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/juta.jpg
+imageAlt: "Bergdorf Juta in der Hochgebirgslandschaft des Grossen Kaukasus"
+imageStatus: lizenziert
+imageCredit: "Levan Gokadze"
+imageSource: "https://commons.wikimedia.org/wiki/File:Khevi,_Georgia_%E2%80%94_Mountainous_Village_Juta.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Der wildere Bergtag östlich von Stepantsminda

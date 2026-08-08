@@ -10,10 +10,14 @@ status: optional
 days: [tag-07]
 related: [chertwisi, vardzia]
 sources: [{label: "Georgia Travel: Akhaltsikhe", url: "https://georgia.travel/cities-towns/akhaltsikhe"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Rabati"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/rabati.jpg
+imageAlt: "Festungsanlage Rabati in Achalziche"
+imageStatus: lizenziert
+imageCredit: "Julia Wasążnik"
+imageSource: "https://commons.wikimedia.org/wiki/File:Rabati_Castle.jpg"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Grenzgeschichte in einer Festung
