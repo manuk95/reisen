@@ -10,10 +10,14 @@ status: optional
 days: []
 related: [gori, stalin-museum, ateni-tal]
 sources: [{label: "Georgia Travel: Uplistsikhe Cave Town", url: "https://georgia.travel/uplistsikhe-cave-town"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Uplisziche"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/uplisziche.jpg
+imageAlt: "Felsarchitektur und Ruinen der Höhlenstadt Uplisziche"
+imageStatus: lizenziert
+imageCredit: "Agostino Fedeli from Milano, Italy"
+imageSource: "https://commons.wikimedia.org/wiki/File:Uplistsikhe.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Viel älter als die mittelalterlichen Höhlenstädte

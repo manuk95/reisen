@@ -10,10 +10,14 @@ status: optional
 days: []
 related: [gori, uplisziche]
 sources: [{label: "Georgia Travel: The Stalin Museum in Gori", url: "https://georgia.travel/the-stalin-museum-in-gori"}, {label: "Georgia Travel: Things to do in Gori", url: "https://georgia.travel/top-things-to-do-in-gori-georgia"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für das Stalin-Museum in Gori"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/stalin-museum.jpg
+imageAlt: "Stalin-Museum in Gori"
+imageStatus: lizenziert
+imageCredit: "DAVID HOLT from London, England"
+imageSource: "https://commons.wikimedia.org/wiki/File:Stalin_museum_in_Gori.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Ein Museum, das man nicht unkritisch lesen sollte
