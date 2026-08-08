@@ -1,12 +1,6 @@
 name: Fetch missing sight images
 
 on:
-  push:
-    branches:
-      - chatgpt/schritt-5-inhalte
-    paths:
-      - scripts/fetch-missing-sight-images.py
-      - .github/workflows/fetch-missing-sight-images.yml
   workflow_dispatch:
 
 permissions:
@@ -47,4 +41,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/images/georgien/sehenswuerdigkeiten src/content/sehenswuerdigkeiten
           git commit -m "Add missing sight images [skip ci]"
+          git pull --rebase origin chatgpt/schritt-5-inhalte
           git push origin HEAD:chatgpt/schritt-5-inhalte
