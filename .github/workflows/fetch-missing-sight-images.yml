@@ -12,6 +12,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: fetch-missing-sight-images
+  cancel-in-progress: true
+
 jobs:
   fetch-images:
     runs-on: ubuntu-latest
