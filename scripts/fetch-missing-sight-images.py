@@ -19,7 +19,7 @@ SESSION.headers.update({"User-Agent": UA})
 
 IMAGES = {
     "altstadt-metekhi": ("Metekhi Church.jpg", "Metekhi-Kirche über dem Mtkvari in der Altstadt von Tbilisi"),
-    "ananuri-schinwali": ("Ananuri (G).jpg", "Blick von der Festung Ananuri über den Schinwali-Stausee"),
+    "ananuri-schinwali": ("Zhinvali reservoir from Ananuri.jpg", "Blick von der Festung Ananuri über den Schinwali-Stausee"),
     "ateni-tal": ("Atenis Sioni view.jpg", "Ateni-Sioni-Kirche im landschaftlich und vom Weinbau geprägten Ateni-Tal"),
     "bagrati-kathedrale": ("Bagrati Cathedral.jpg", "Bagrati-Kathedrale auf dem Hügel über Kutaisi"),
     "bordschomi": ("Borjomi Central Park (Mineral Water Park) (4).jpg", "Mineralwasserpark im georgischen Kurort Bordschomi"),
@@ -39,11 +39,11 @@ IMAGES = {
     "rustaweli-nationalmuseum": ("თბილისი - სიმონ ჯანაშიას სახელობის საქართველოს მუზეუმი 0520.jpg", "Simon-Dschanaschia-Museum des Georgischen Nationalmuseums in Tbilisi"),
     "sameba-kathedrale": ("Sameba Cathedral, Christian Orthodox Church, Tbilisi, Georgia.jpg", "Sameba-Kathedrale auf dem Elia-Hügel in Tbilisi"),
     "sataplia": ("Sataplia Cave, Imereti, Georgia.jpg", "Beleuchtete Tropfsteinformationen in der Sataplia-Höhle bei Kutaisi"),
-    "stalin-museum": ("Stalin Museum in Gori.jpg", "Ausstellung im Stalin-Museum in Gori"),
-    "swetizchoweli": ("Svetitskhoveli Cathedral, Mtskheta, Georgia 01.jpg", "Swetizchoweli-Kathedrale im historischen Zentrum von Mtskheta"),
+    "stalin-museum": ("Stalin museum in Gori.jpg", "Stalin-Museum in Gori"),
+    "swetizchoweli": ("The Svetitskhoveli Cathedral.jpg", "Swetizchoweli-Kathedrale im historischen Zentrum von Mtskheta"),
     "trusso-tal": ("Truso valley fossil travertines.jpg", "Travertin- und Mineralablagerungen am Terek im Trusso-Tal"),
-    "tskaltubo": ("Sanatorium of the Ministry of Defense of the Soviet Union. Tsqaltubo, Georgia. 1957.jpg", "Historische Aufnahme eines sowjetischen Sanatoriums in Tskaltubo"),
-    "uplisziche": ("Uplistsikhe Cave City Georgia.jpg", "In den Fels gehauene Räume der Höhlenstadt Uplisziche"),
+    "tskaltubo": ("Sanatorium Zheleznodorozhnik in Tsqaltubo, Georgia. 1957.jpg", "Historisches sowjetisches Sanatorium in Tskaltubo"),
+    "uplisziche": ("Uplistsikhe.jpg", "Felsarchitektur und Ruinen der Höhlenstadt Uplisziche"),
 }
 
 
