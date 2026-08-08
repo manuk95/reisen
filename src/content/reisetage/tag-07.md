@@ -22,8 +22,8 @@ day: 7
 from: "Stepantsminda"
 to: "Kutaisi via Vardzia"
 character: "Sehr langer Fahrtag · zwei Routenvarianten"
-distance: "Variante A ca. 600 km · Variante B ca. 500 km, nur bei Freigabe/SUV"
-driveTime: "A etwa 13–15 h als Gesamttag · B kürzer, aber strassenabhängig"
+distance: "Variante A ca. 600 km · Variante B deutlich kürzer; exakte Distanz und Befahrbarkeit kurz vor Abfahrt prüfen"
+driveTime: "A etwa 13–15 h als Gesamttag · B kürzer, aber stark strassen- und wetterabhängig"
 lodging: "Kutaisi-Vorschlag"
 optional: ["Chertwisi nur als kurzer Fotostopp", "Vardzia streichen, falls Wetter/Strasse den Tag unvernünftig machen"]
 climate: "Vardzia 17/6 °C · Kutaisi 20/12 °C"
@@ -44,7 +44,7 @@ sunset: "18:47 Uhr · Kutaisi"
 
 [Stepantsminda](/reisen/georgien/orte/stepantsminda/) → [Vardzia](/reisen/georgien/sehenswuerdigkeiten/vardzia/) → [Kutaisi](/reisen/georgien/orte/kutaisi/) ist **machbar, aber nicht entspannt**. Die bisherige pauschale 600-km-Angabe erklärt nicht, warum Karten unterschiedliche Werte zeigen: Entscheidend ist, ob nach Vardzia die lange, robuste Hauptroute oder die wesentlich direktere Bergverbindung über Abastumani–Zekari–Sairme genutzt wird.
 
-Für euch sollten deshalb **zwei Varianten** auf der Seite stehen.
+Für euch stehen deshalb **zwei Varianten** auf der Seite. Die Distanz der kurzen Bergvariante wird bewusst nicht als feste Kilometerzahl angegeben, weil Kartenrouting, saisonale Sperrungen und die für euren Fahrzeugtyp zulässige Strecke bis zur Reise noch ändern können.
 
 # Variante A – robuste Hauptroute für normalen Mietwagen
 
@@ -112,7 +112,7 @@ Am **9. Juni 2026** meldete das Roads Department auf km 78–88 der Kutaisi–Ba
 
 [Google Maps – Variante B über Abastumani/Zekari/Sairme](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CTsalka%2C+Georgia%7CVardzia%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7CAbastumani%2C+Georgia%7CSairme%2C+Georgia&travelmode=driving)
 
-**Wichtig:** Google Maps ist hier nur eine Navigationshilfe. Eine angezeigte Route ist **keine Bestätigung**, dass die Strasse für euren Mietwagen aktuell legal und sinnvoll befahrbar ist.
+**Wichtig:** Google Maps ist hier nur eine Navigationshilfe. Eine angezeigte Route ist **keine Bestätigung**, dass die Strasse für euren Mietwagen aktuell legal und sinnvoll befahrbar ist. Distanz und Fahrzeit dieser Variante deshalb unmittelbar vor der Reise mit dem tatsächlich freigegebenen Strassenverlauf neu bestimmen.
 
 ---
 
