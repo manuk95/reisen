@@ -6,7 +6,7 @@ import re
 import time
 from io import BytesIO
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 import requests
 from PIL import Image, ImageOps
@@ -17,8 +17,6 @@ TODAY = "2026-08-08"
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": UA})
 
-# Manuell geprüfte Commons-Motive. Die Lizenzdaten werden vor dem Download nochmals
-# direkt über die Wikimedia-Commons-API gelesen und nur freie Lizenzen akzeptiert.
 IMAGES = {
     "altstadt-metekhi": ("Metekhi Church.jpg", "Metekhi-Kirche über dem Mtkvari in der Altstadt von Tbilisi"),
     "ananuri-schinwali": ("Ananuri (G).jpg", "Blick von der Festung Ananuri über den Schinwali-Stausee"),
@@ -54,7 +52,7 @@ def clean_html(value: str) -> str:
     return html.unescape(value).strip()
 
 
-def get_with_retry(url: str, *, params=None, timeout=60, attempts=6):
+def get_with_retry(url: str, *, params=None, timeout=60, attempts=5):
     delay = 3
     last = None
     for attempt in range(1, attempts + 1):
@@ -67,7 +65,7 @@ def get_with_retry(url: str, *, params=None, timeout=60, attempts=6):
             break
         retry_after = r.headers.get("Retry-After")
         wait = int(retry_after) if retry_after and retry_after.isdigit() else delay
-        print(f"HTTP {r.status_code} für {url}; neuer Versuch in {wait}s ({attempt}/{attempts})")
+        print(f"HTTP {r.status_code}; neuer Versuch in {wait}s ({attempt}/{attempts})")
         time.sleep(wait)
         delay = min(delay * 2, 24)
     assert last is not None
@@ -81,7 +79,6 @@ def commons_info(filename: str) -> dict:
         "formatversion": "2",
         "prop": "imageinfo",
         "iiprop": "url|extmetadata",
-        "iiurlwidth": "1600",
         "titles": f"File:{filename}",
     }
     r = get_with_retry(API, params=params, timeout=45)
@@ -96,7 +93,7 @@ def commons_info(filename: str) -> dict:
     if not ("cc by" in lower or "cc0" in lower or "public domain" in lower or lower == "pd"):
         raise RuntimeError(f"Nicht freigegebene oder unklare Lizenz für {filename}: {license_name!r}")
     return {
-        "url": (info.get("thumburl") or info["url"]).split("?", 1)[0],
+        "url": info["url"].split("?", 1)[0],
         "author": author,
         "license": license_name,
         "source": "https://commons.wikimedia.org/wiki/File:" + quote(filename.replace(" ", "_"), safe="_-().,%E2%80%94"),
@@ -107,11 +104,15 @@ def yaml_string(value: str) -> str:
     return json.dumps(value, ensure_ascii=False)
 
 
+def has_placeholder(slug: str) -> bool:
+    path = Path("src/content/sehenswuerdigkeiten") / f"{slug}.md"
+    return "image: images/platzhalter.png" in path.read_text(encoding="utf-8")
+
+
 def update_markdown(slug: str, alt: str, meta: dict) -> None:
     path = Path("src/content/sehenswuerdigkeiten") / f"{slug}.md"
     text = path.read_text(encoding="utf-8")
     if "image: images/platzhalter.png" not in text:
-        print(f"{slug}: kein Platzhalterbild mehr; Markdown bleibt unverändert")
         return
     block = "\n".join([
         f"image: images/georgien/sehenswuerdigkeiten/{slug}.jpg",
@@ -137,7 +138,8 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
 def download_image(slug: str, meta: dict) -> None:
     target = Path("public/images/georgien/sehenswuerdigkeiten") / f"{slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
-    proxy = "https://images.weserv.nl/?url=" + quote(meta["url"], safe="") + "&w=1600&output=jpg&q=86"
+    source = unquote(meta["url"])
+    proxy = "https://images.weserv.nl/?url=" + quote(source, safe="") + "&w=1600&output=jpg&q=86"
     r = get_with_retry(proxy, timeout=60, attempts=4)
     image = Image.open(BytesIO(r.content))
     image = ImageOps.exif_transpose(image).convert("RGB")
@@ -147,14 +149,27 @@ def download_image(slug: str, meta: dict) -> None:
 
 
 def main() -> None:
-    print(f"Bearbeite {len(IMAGES)} fehlende Sehenswürdigkeitsbilder")
+    failures = []
+    print(f"Bearbeite bis zu {len(IMAGES)} fehlende Sehenswürdigkeitsbilder")
     for index, (slug, (filename, alt)) in enumerate(IMAGES.items(), start=1):
+        if not has_placeholder(slug):
+            print(f"[{index}/{len(IMAGES)}] {slug}: bereits erledigt, übersprungen")
+            continue
         print(f"[{index}/{len(IMAGES)}] {slug} ← {filename}")
-        meta = commons_info(filename)
-        download_image(slug, meta)
-        update_markdown(slug, alt, meta)
+        try:
+            meta = commons_info(filename)
+            download_image(slug, meta)
+            update_markdown(slug, alt, meta)
+        except Exception as exc:
+            failures.append((slug, str(exc)))
+            print(f"FEHLER {slug}: {exc}")
         time.sleep(0.5)
-    print("Alle fehlenden Sehenswürdigkeitsbilder wurden ergänzt.")
+    if failures:
+        print("Noch offene Motive:")
+        for slug, error in failures:
+            print(f"- {slug}: {error}")
+    else:
+        print("Alle fehlenden Sehenswürdigkeitsbilder wurden ergänzt.")
 
 
 if __name__ == "__main__":
