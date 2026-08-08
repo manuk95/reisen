@@ -12,11 +12,11 @@ related: [altstadt-metekhi, narikala]
 sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}]
 updated: 2026-08-08
 image: images/georgien/sehenswuerdigkeiten/sameba-kathedrale.jpg
-imageAlt: "Sameba-Kathedrale auf dem Elia-Hügel in Tbilisi"
+imageAlt: "Nahansicht der hellen Steinfassade und der goldenen Kuppel der Sameba-Kathedrale in Tbilisi"
 imageStatus: lizenziert
-imageCredit: "Vyacheslav Argenberg"
-imageSource: "https://commons.wikimedia.org/wiki/File:Sameba_Cathedral,_Christian_Orthodox_Church,_Tbilisi,_Georgia.jpg"
-imageLicense: "CC BY 4.0"
+imageCredit: "Mostafameraji"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sameba_Cathedral,_Tbilisi_%DA%A9%D9%84%DB%8C%D8%B3%D8%A7%DB%8C_%D8%B3%D8%A7%D9%85%D8%A8%D8%A7_%D8%AF%D8%B1_%D8%AA%D9%81%D9%84%DB%8C%D8%B3_%DA%AF%D8%B1%D8%AC%D8%B3%D8%AA%D8%A7%D9%86_42.jpg"
+imageLicense: "CC BY-SA 4.0"
 imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
