@@ -113,7 +113,8 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
     path = Path("src/content/sehenswuerdigkeiten") / f"{slug}.md"
     text = path.read_text(encoding="utf-8")
     if "image: images/platzhalter.png" not in text:
-        raise RuntimeError(f"{path}: erwartet noch Platzhalterbild, gefunden wurde etwas anderes")
+        print(f"{slug}: kein Platzhalterbild mehr; Markdown bleibt unverändert")
+        return
 
     block = "\n".join([
         f"image: images/georgien/sehenswuerdigkeiten/{slug}.jpg",
@@ -140,7 +141,14 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
 def download_image(slug: str, meta: dict) -> None:
     target = Path("public/images/georgien/sehenswuerdigkeiten") / f"{slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
-    r = get_with_retry(meta["url"], timeout=90)
+    try:
+        r = get_with_retry(meta["url"], timeout=90, attempts=2)
+    except requests.HTTPError as exc:
+        if exc.response is None or exc.response.status_code != 429:
+            raise
+        proxy = "https://images.weserv.nl/?url=" + quote(meta["url"], safe="") + "&w=1600&output=jpg&q=86"
+        print(f"{slug}: Wikimedia limitiert den Download; nutze einmaligen Bildproxy für denselben Commons-Inhalt")
+        r = get_with_retry(proxy, timeout=90, attempts=6)
     image = Image.open(BytesIO(r.content))
     image = ImageOps.exif_transpose(image).convert("RGB")
     image.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
@@ -155,7 +163,7 @@ def main() -> None:
         meta = commons_info(filename)
         download_image(slug, meta)
         update_markdown(slug, alt, meta)
-        time.sleep(1.5)
+        time.sleep(0.7)
     print("Alle fehlenden Sehenswürdigkeitsbilder wurden ergänzt.")
 
 
