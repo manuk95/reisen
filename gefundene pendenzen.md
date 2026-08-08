@@ -53,3 +53,16 @@ Die Seite soll nicht nur Namen auflisten, sondern jeweils kurz erklären, weshal
 - Alle 14 Tagesseiten systematisch kontrollieren.
 - Wo ein Ort, eine Sehenswürdigkeit, ein Gericht, Restaurant, Hotel oder eine passende Wissensseite bereits eine eigene Detailseite besitzt, soll diese sinnvoll verlinkt werden.
 - Keine übermässige Verlinkung jedes wiederholten Begriffs; Links sollen vor Ort bei der Reiseplanung einen klaren Nutzen haben.
+
+## 6. Neue Sehenswürdigkeitsseite: Chronicles of Georgia
+
+- Für das Monument **Chronicles of Georgia / Chronicle of Georgia** bei Tbilisi fehlt noch eine eigene Sehenswürdigkeitsseite.
+- Die Seite soll als reguläre Detailseite unter **Sehenswürdigkeiten** erstellt werden.
+- Inhaltlich mindestens behandeln:
+  - Entstehung und Künstler Zurab Tsereteli
+  - monumentale Säulen und dargestellte Szenen aus georgischer Geschichte
+  - christliche Motive und religiöse Bedeutung
+  - Einordnung des Monuments in die georgische Geschichtsdarstellung
+  - Aussicht über den Tbilisi Sea / Tbilisi Reservoir
+  - praktische Hinweise für Anfahrt und Besuch
+- Die Sehenswürdigkeit soll auf einer passenden Tbilisi-Tagesseite als optionale Aktivität verlinkt werden.
