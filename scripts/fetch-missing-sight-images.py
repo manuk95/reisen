@@ -3,6 +3,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import time
 from io import BytesIO
 from pathlib import Path
 from urllib.parse import quote
@@ -13,6 +14,8 @@ from PIL import Image, ImageOps
 API = "https://commons.wikimedia.org/w/api.php"
 UA = "reisen-georgien-image-fetcher/1.0 (GitHub Actions; travel guide image attribution)"
 TODAY = "2026-08-08"
+SESSION = requests.Session()
+SESSION.headers.update({"User-Agent": UA})
 
 # Manuell geprüfte Commons-Motive. Die Lizenzdaten werden vor dem Download nochmals
 # direkt über die Wikimedia-Commons-API gelesen und nur freie Lizenzen akzeptiert.
@@ -51,6 +54,26 @@ def clean_html(value: str) -> str:
     return html.unescape(value).strip()
 
 
+def get_with_retry(url: str, *, params=None, timeout=60, attempts=6):
+    delay = 4
+    last = None
+    for attempt in range(1, attempts + 1):
+        r = SESSION.get(url, params=params, timeout=timeout)
+        last = r
+        if r.status_code != 429 and r.status_code < 500:
+            r.raise_for_status()
+            return r
+        if attempt == attempts:
+            break
+        retry_after = r.headers.get("Retry-After")
+        wait = int(retry_after) if retry_after and retry_after.isdigit() else delay
+        print(f"HTTP {r.status_code} für {url}; neuer Versuch in {wait}s ({attempt}/{attempts})")
+        time.sleep(wait)
+        delay = min(delay * 2, 40)
+    assert last is not None
+    last.raise_for_status()
+
+
 def commons_info(filename: str) -> dict:
     params = {
         "action": "query",
@@ -58,10 +81,10 @@ def commons_info(filename: str) -> dict:
         "formatversion": "2",
         "prop": "imageinfo",
         "iiprop": "url|extmetadata",
+        "iiurlwidth": "1600",
         "titles": f"File:{filename}",
     }
-    r = requests.get(API, params=params, headers={"User-Agent": UA}, timeout=45)
-    r.raise_for_status()
+    r = get_with_retry(API, params=params, timeout=45)
     page = r.json()["query"]["pages"][0]
     if page.get("missing"):
         raise RuntimeError(f"Commons-Datei fehlt: {filename}")
@@ -74,7 +97,7 @@ def commons_info(filename: str) -> dict:
     if not ("cc by" in lower or "cc0" in lower or "public domain" in lower or lower == "pd"):
         raise RuntimeError(f"Nicht freigegebene oder unklare Lizenz für {filename}: {license_name!r}")
     return {
-        "url": info["url"],
+        "url": info.get("thumburl") or info["url"],
         "author": author,
         "license": license_name,
         "description": description,
@@ -117,8 +140,7 @@ def update_markdown(slug: str, alt: str, meta: dict) -> None:
 def download_image(slug: str, meta: dict) -> None:
     target = Path("public/images/georgien/sehenswuerdigkeiten") / f"{slug}.jpg"
     target.parent.mkdir(parents=True, exist_ok=True)
-    r = requests.get(meta["url"], headers={"User-Agent": UA}, timeout=90)
-    r.raise_for_status()
+    r = get_with_retry(meta["url"], timeout=90)
     image = Image.open(BytesIO(r.content))
     image = ImageOps.exif_transpose(image).convert("RGB")
     image.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
@@ -128,10 +150,12 @@ def download_image(slug: str, meta: dict) -> None:
 
 def main() -> None:
     print(f"Bearbeite {len(IMAGES)} fehlende Sehenswürdigkeitsbilder")
-    for slug, (filename, alt) in IMAGES.items():
+    for index, (slug, (filename, alt)) in enumerate(IMAGES.items(), start=1):
+        print(f"[{index}/{len(IMAGES)}] {slug} ← {filename}")
         meta = commons_info(filename)
         download_image(slug, meta)
         update_markdown(slug, alt, meta)
+        time.sleep(1.5)
     print("Alle fehlenden Sehenswürdigkeitsbilder wurden ergänzt.")
 
 
