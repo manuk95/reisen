@@ -66,3 +66,139 @@ Die Seite soll nicht nur Namen auflisten, sondern jeweils kurz erklären, weshal
   - Aussicht über den Tbilisi Sea / Tbilisi Reservoir
   - praktische Hinweise für Anfahrt und Besuch
 - Die Sehenswürdigkeit soll auf einer passenden Tbilisi-Tagesseite als optionale Aktivität verlinkt werden.
+
+## 7. Neue Seite: Fahrten – Mietwagen oder Fahrer
+
+- Eine neue Seite **Fahrten** erstellen.
+- Ziel der Seite ist eine fundierte Entscheidung, ob die Georgienreise mit einem **eigenen Mietwagen** oder überwiegend mit **Fahrer / Transferdiensten** durchgeführt werden soll.
+- Als Alternativen mindestens berücksichtigen:
+  - Mietwagen / Selbstfahrer
+  - GoTrip mit privatem Fahrer
+  - vorab gebuchte private Transfers
+  - Taxi
+  - Bolt beziehungsweise vergleichbare App-Dienste, soweit auf der jeweiligen Strecke realistisch verfügbar
+  - lokale Fahrer / 4x4-Fahrer für Bergregionen
+- Uber nur aufnehmen, wenn der Dienst zum Reisezeitpunkt in Georgien tatsächlich verfügbar und für die jeweilige Strecke relevant ist; Dienste nicht ungeprüft als verfügbar darstellen.
+
+### Alle relevanten Fahrten erfassen
+
+Mindestens alle längeren Transfers zwischen den Übernachtungsorten auflisten, insbesondere:
+
+- Tbilisi → Stepantsminda / Kazbegi
+- Stepantsminda → Vardzia → Kutaisi
+- Kutaisi → Shekvetili
+- Shekvetili → Flughafen Batumi
+
+Zusätzlich alle Tagesausflüge beziehungsweise längeren Fahrten ausserhalb der jeweiligen Stadt berücksichtigen, zum Beispiel:
+
+- Tbilisi → Mtskheta / Dschwari → Tbilisi
+- Ananuri / Gudauri / Kreuzpass entlang der Georgischen Heerstrasse
+- Stepantsminda → Trusso-Tal
+- Stepantsminda → Juta / Sno
+- Stepantsminda → Dariali / Gveleti, falls relevant
+- Kutaisi → Gelati / Motsameta / Prometheus-Höhle / Tskaltubo
+- Shekvetili → Poti / Kolkheti oder Gurien, falls im Tagesprogramm vorgesehen
+- Shekvetili → Botanischer Garten Batumi → Batumi → Shekvetili
+
+Die Liste muss mit den endgültigen Tagesprogrammen abgeglichen werden und darf keine relevanten Überlandfahrten auslassen.
+
+### Pro Fahrt darstellen
+
+Für jede Fahrt möglichst strukturiert angeben:
+
+- Start und Ziel
+- geplante Zwischenstopps
+- Distanz
+- reine Fahrzeit
+- realistische Gesamtzeit mit Stopps
+- Strassentyp und Strassenqualität
+- asphaltierte / unbefestigte Abschnitte
+- Kurven, Steigungen, enge Passagen und Höhenlage
+- saisonale Wetterrisiken Ende September / Anfang Oktober
+- mögliche Baustellen, Sperrungen oder Fahrbeschränkungen
+- normales Auto ausreichend oder SUV / 4x4 sinnvoll beziehungsweise erforderlich
+- Tankstellen- und Versorgungssituation, wo relevant
+- Parkieren am Ziel
+- Schwierigkeit beziehungsweise Stressfaktor für Selbstfahrer
+- konkrete Empfehlung je Strecke: **Selbstfahren gut geeignet / mit Erfahrung geeignet / Fahrer empfohlen / Fahrer oder 4x4 klar empfohlen**
+
+### Mietwagen vs. Fahrer vergleichen
+
+Für jede relevante Strecke sowie zusätzlich als Gesamtreisevergleich gegenüberstellen:
+
+- Preis Mietwagen
+- Treibstoff
+- Parkieren
+- Einweggebühr
+- Vollkasko / Zusatzversicherung
+- gegebenenfalls SUV-Aufpreis
+- Preis GoTrip / privater Fahrer / Taxi beziehungsweise lokaler Fahrer
+- mögliche Wartezeiten oder Aufpreise für Zwischenstopps
+- Flexibilität bei spontanen Stopps
+- Flexibilität bei Änderungen des Tagesprogramms
+- Gepäckkomfort
+- Parkplatzsuche
+- Stress durch Verkehr
+- Fahrstil anderer Verkehrsteilnehmer
+- Navigation
+- Alkohol / Weinverkostungen
+- Möglichkeit, unterwegs Landschaft zu geniessen statt selbst zu fahren
+- Verfügbarkeit eines Fahrers bei sehr frühen beziehungsweise späten Fahrten
+
+Am Ende eine nachvollziehbare **Gesamtkostenrechnung für beide Modelle** erstellen:
+
+1. komplette Reise mit geeignetem Mietwagen
+2. komplette Reise mit Fahrern / Transfers und lokalen 4x4-Fahrern
+3. falls sinnvoll zusätzlich eine **Hybridvariante**, zum Beispiel Fahrer in Tbilisi und den schwierigen Bergregionen, Mietwagen nur für einfachere Westgeorgien-Strecken.
+
+### Sicherheit und Selbstfahren
+
+Die Seite soll ausdrücklich untersuchen, wie sicher und sinnvoll **Selbstfahren in Georgien** für ausländische Reisende ist.
+
+Dabei recherchieren und einordnen:
+
+- Unfallrisiko und Fahrkultur
+- häufig beschriebene Probleme wie riskante Überholmanöver, Tiere auf der Strasse, schlechte Beleuchtung, Schlaglöcher oder fehlende Markierungen
+- Nachtfahrten
+- Berg- und Passstrassen
+- Wetter und mögliche frühe Schneefälle
+- Pannenhilfe und Mobilfunkabdeckung
+- Mietwagenbedingungen und ausgeschlossene Strassen
+- ob bestimmte Strecken von Vermietern ausdrücklich verboten werden
+- ob ein geeignetes Fahrzeug die Risiken deutlich reduziert und welcher Fahrzeugtyp sinnvoll wäre
+
+Nicht pauschal behaupten, Selbstfahren sei sicher oder unsicher. Die Risiken sollen **streckenbezogen und nachvollziehbar** bewertet werden.
+
+### Erfahrungen anderer Reisender
+
+Neben offiziellen und fachlichen Quellen gezielt nach **realen Reiseberichten und Erfahrungsberichten** suchen.
+
+Sowohl positive als auch negative Erfahrungen aufnehmen, insbesondere zu:
+
+- Selbstfahren in Georgien allgemein
+- Georgischer Heerstrasse / Kazbegi
+- Trusso und Juta
+- Vardzia-Route
+- Zekari / Abastumani / Sairme
+- Fahren in Tbilisi und Batumi
+- Erfahrungen mit GoTrip und privaten Fahrern
+- Mietwagenfirmen, Versicherungsfällen und Fahrzeugqualität, sofern seriös belegbar
+
+Zu den wichtigsten Erfahrungsberichten direkte Links angeben.
+
+Berichte aus Foren, Reddit, Reiseblogs oder ähnlichen Quellen klar als **subjektive Erfahrungsberichte** kennzeichnen und nicht mit offiziellen Strassen- oder Sicherheitsinformationen gleichsetzen.
+
+### Ergebnis der Seite
+
+Die Seite soll am Ende eine konkrete Entscheidungshilfe liefern:
+
+- welche Fahrten problemlos selbst gefahren werden können
+- welche Fahrten anspruchsvoller sind
+- wo ein Fahrer sinnvoller ist
+- wo SUV / 4x4 benötigt oder empfohlen wird
+- welche Variante insgesamt günstiger ist
+- welche Variante flexibler ist
+- welche Variante entspannter und sicherer erscheint
+- welche Lösung für die konkrete Georgienreise am besten geeignet ist
+
+Alle Preise, Strassenzustände, Fahrdienst-Verfügbarkeiten und Mietwagenbedingungen müssen einen Recherche-/Datenstand tragen und vor der Reise nochmals aktualisiert werden.
