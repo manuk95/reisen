@@ -10,10 +10,14 @@ status: empfohlen
 days: [tag-04]
 related: [heerstrasse]
 sources: [{label: "Georgia Travel: Georgian Military Road", url: "https://georgia.travel/georgian-military-road"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Gudauri und den Kreuzpass"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/gudauri-kreuzpass.jpg
+imageAlt: "Freundschaftsmonument bei Gudauri an der Georgischen Heerstrasse"
+imageStatus: lizenziert
+imageCredit: "shankar s. from Dubai, united arab emirates"
+imageSource: "https://commons.wikimedia.org/wiki/File:Russia-_Georgia_Friendship_Monument_(31002685640).jpg"
+imageLicense: "CC BY 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vom Ferienort in die Hochgebirgsroute

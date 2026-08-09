@@ -10,10 +10,14 @@ status: optional
 days: [tag-08]
 related: [prometheus, sataplia]
 sources: [{label: "Georgia Travel: Tskaltubo", url: "https://georgia.travel/cities-towns/tskaltubo"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Tskaltubo"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/tskaltubo.jpg
+imageAlt: "Historisches sowjetisches Sanatorium in Tskaltubo"
+imageStatus: lizenziert
+imageCredit: "Vsevold Tarasyevich"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sanatorium_Zheleznodorozhnik_in_Tsqaltubo,_Georgia._1957.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Kurstadt der Sowjetunion

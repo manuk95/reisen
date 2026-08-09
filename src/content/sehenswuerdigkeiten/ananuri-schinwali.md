@@ -10,10 +10,14 @@ status: empfohlen
 days: [tag-04]
 related: [heerstrasse]
 sources: [{label: "Georgia Travel: Ananuri Fortified Castle Ensemble", url: "https://georgia.travel/ananuri-fortified-castle-ensemble"}, {label: "Georgia Travel: Ananuri", url: "https://georgia.travel/villages/ananuri"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Ananuri und den Schinwali-Stausee"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/ananuri-schinwali.jpg
+imageAlt: "Blick von der Festung Ananuri über den Schinwali-Stausee"
+imageStatus: lizenziert
+imageCredit: "Dmitry Gerasimov"
+imageSource: "https://commons.wikimedia.org/wiki/File:Zhinvali_reservoir_from_Ananuri.jpg"
+imageLicense: "Public domain"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Warum dieser Halt auf der Heerstrasse wichtig ist

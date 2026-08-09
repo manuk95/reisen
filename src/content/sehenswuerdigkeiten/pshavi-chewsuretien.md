@@ -10,10 +10,14 @@ status: optional
 days: []
 related: [juta, trusso-tal]
 sources: [{label: "Georgia Travel: Pshav-Khevsureti National Park", url: "https://georgia.travel/pshav-khevsureti-national-park"}, {label: "Georgia Travel: Shatili", url: "https://georgia.travel/villages/shatili"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Pshavi und Chewsuretien"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/pshavi-chewsuretien.jpg
+imageAlt: "Historisches Bergdorf Schatili in Chewsuretien"
+imageStatus: lizenziert
+imageCredit: "Levan Gokadze (uploader Giorgi Balakhadze)"
+imageSource: "https://commons.wikimedia.org/wiki/File:Khevsureti,_Georgia_%E2%80%94_Mountainous_Village_Shatili.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Eine eigene Welt im Ostkaukasus

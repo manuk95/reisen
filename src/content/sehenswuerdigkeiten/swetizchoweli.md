@@ -11,10 +11,14 @@ coordinates: {lat: 41.8424, lon: 44.7206}
 days: [tag-03]
 related: [mtskheta, dschwari-kloster]
 sources: [{label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}, {label: "Georgia Travel: Svetitskhoveli", url: "https://georgia.travel/svetitskhoveli-a-treasure-of-world-art"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die Swetizchoweli-Kathedrale in Mtskheta"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/swetizchoweli.jpg
+imageAlt: "Swetizchoweli-Kathedrale im historischen Zentrum von Mtskheta"
+imageStatus: lizenziert
+imageCredit: "Ochokochi1"
+imageSource: "https://commons.wikimedia.org/wiki/File:The_Svetitskhoveli_Cathedral.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Einer der wichtigsten Sakralorte Georgiens

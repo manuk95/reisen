@@ -10,10 +10,14 @@ status: nicht-auf-route
 days: []
 related: [vardzia]
 sources: [{label: "Georgia Travel: Javakheti National Park", url: "https://georgia.travel/javakheti-national-park"}, {label: "Georgia Travel: Lake Tour in Javakheti", url: "https://georgia.travel/popular-trips/lake-tour-in-javakheti"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für das Dschawachetische Hochland"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/dschawacheti-hochland.jpg
+imageAlt: "Parawani-See in der weiten Hochlandlandschaft von Dschawachetien"
+imageStatus: lizenziert
+imageCredit: "Paata Vardanashvili"
+imageSource: "https://commons.wikimedia.org/wiki/File:ParavaniLake.jpg"
+imageLicense: "CC BY 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Eine völlig andere Landschaft Georgiens

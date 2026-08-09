@@ -10,10 +10,14 @@ status: empfohlen
 days: [tag-08]
 related: [gelati, bagrati-kathedrale]
 sources: [{label: "Georgia Travel: Motsameta Monastery", url: "https://georgia.travel/motsameta-monastery"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Motsameta"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/motsameta.jpg
+imageAlt: "Kloster Motsameta über der bewaldeten Tskaltsitela-Schlucht"
+imageStatus: lizenziert
+imageCredit: "Kober"
+imageSource: "https://commons.wikimedia.org/wiki/File:Motsameta_monastery,_Georgia_(2).jpg"
+imageLicense: "Public domain"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Klein, aber landschaftlich stark

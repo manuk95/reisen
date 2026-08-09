@@ -11,10 +11,14 @@ coordinates: {lat: 41.6904, lon: 44.8112}
 days: [tag-02]
 related: [narikala, schwefelbaeder, tbilisi]
 sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}, {label: "Georgia Travel: Metekhi Church", url: "https://georgia.travel/metekhi-church"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für die Metekhi-Kirche und die Altstadt von Tbilisi"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/altstadt-metekhi.jpg
+imageAlt: "Metekhi-Kirche über dem Mtkvari in der Altstadt von Tbilisi"
+imageStatus: lizenziert
+imageCredit: "Abu Zarr"
+imageSource: "https://commons.wikimedia.org/wiki/File:Metekhi_Church.jpg"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Hier lässt sich Tbilisi besonders gut lesen

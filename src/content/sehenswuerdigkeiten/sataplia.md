@@ -10,10 +10,14 @@ status: optional
 days: [tag-08]
 related: [prometheus, tskaltubo]
 sources: [{label: "Georgia Travel: Sataplia Cave & Nature Reserve", url: "https://georgia.travel/sataplia-cave-and-nature-reserve"}, {label: "Georgia Travel: Caving in Sataplia Cave", url: "https://georgia.travel/caving-in-sataplia-cave"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Sataplia"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/sataplia.jpg
+imageAlt: "Beleuchtete Tropfsteinformationen in der Sataplia-Höhle bei Kutaisi"
+imageStatus: lizenziert
+imageCredit: "FingerWiki"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sataplia_Cave,_Imereti,_Georgia.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Höhle plus Paläontologie

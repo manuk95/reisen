@@ -10,10 +10,14 @@ status: optional
 days: []
 related: [gori]
 sources: [{label: "Georgia Travel: Ateni Valley", url: "https://georgia.travel/ateni-valley"}, {label: "Georgia Travel: Ateni Sioni", url: "https://georgia.travel/ateni-sioni"}, {label: "National Wine Agency of Georgia", url: "https://wine.gov.ge/En/"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für das Ateni-Tal"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/ateni-tal.jpg
+imageAlt: "Ateni-Sioni-Kirche im landschaftlich und vom Weinbau geprägten Ateni-Tal"
+imageStatus: lizenziert
+imageCredit: "George Mel"
+imageSource: "https://commons.wikimedia.org/wiki/File:Atenis_Sioni_view.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Ein ruhiger Gegenpol zu den bekannten Weinregionen

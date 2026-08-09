@@ -11,10 +11,14 @@ coordinates: {lat: 41.8384, lon: 44.7339}
 days: [tag-03]
 related: [mtskheta, swetizchoweli]
 sources: [{label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}, {label: "Georgia Travel: Jvari Monastery", url: "https://georgia.travel/jvari-monastery"}]
-updated: 2026-08-07
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für das Dschwari-Kloster über Mtskheta"
-imageStatus: platzhalter
+updated: 2026-08-08
+image: images/georgien/sehenswuerdigkeiten/dschwari-kloster.jpg
+imageAlt: "Dschwari-Kloster auf dem Bergrücken über Mtskheta"
+imageStatus: lizenziert
+imageCredit: "Image by falco from Pixabay"
+imageSource: "https://commons.wikimedia.org/wiki/File:Jvari_Monastery,_Mtskheta,_Georgia.jpg"
+imageLicense: "CC0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
 ---
 
 ## Warum Dschwari für Mtskheta so wichtig ist
