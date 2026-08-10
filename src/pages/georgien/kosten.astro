@@ -1,10 +1,132 @@
 ---
 import GuidePage from '../../components/GuidePage.astro';
+const base = import.meta.env.BASE_URL;
 ---
-<GuidePage title="Kostenübersicht" lead="Planungswerte für eine zweiwöchige Reise – Preise, Verfügbarkeit und Wechselkurse vor jeder Buchung erneut prüfen.">
-  <h2>So bleibt die Planung vergleichbar</h2>
-  <p>Trennt fixe Kosten wie Flug, Unterkunft und Mietwagen von variablen Ausgaben für Essen, Eintritte und spontane Fahrten. Georgische Lari und Kartenzahlungen können sich unterschiedlich entwickeln; deshalb gehören Datum und Quelle zu jeder Preisnotiz.</p>
-  <h2>Entscheidungen mit grossem Einfluss</h2>
-  <ul><li>Unterkunft: Lage, Stornobedingungen und Parkplatz sind meist wichtiger als ein kleiner Preisunterschied.</li><li>Mobilität: Für Bergstrecken können Fahrer oder ein geeignetes Fahrzeug nötig sein.</li><li>Ausflüge: Eintritt, Seilbahn, Führungen und Fahrten getrennt notieren.</li></ul>
-  <p><a href="https://www.xe.com/currencyconverter/convert/?Amount=1&From=GEL&To=CHF" rel="noopener noreferrer" target="_blank">Aktuellen GEL/CHF-Kurs prüfen</a>.</p>
+
+<GuidePage title="Kostenübersicht" lead="Vollständige Planungsrechnung für zwei Personen · Reise 28. September bis 11. Oktober 2026 · Stand 10. August 2026.">
+  <div class="alert">
+    <strong>Planungsstand:</strong> Die Flüge sind mit <strong>CHF 900 für zwei Personen</strong> als gebuchte Kosten eingesetzt. Unterkünfte, Mobilität, Essen und Aktivitäten bleiben Planungswerte, bis eine konkrete Buchung beziehungsweise Offerte vorliegt. Alternative Szenarien werden nie gleichzeitig addiert.
+  </div>
+
+  <h2>Gesamtbudget auf einen Blick</h2>
+  <p>Die grössten Hebel sind die Hotels in Kazbegi und an der Schwarzmeerküste. Die Mobilitätsvarianten liegen nach der aktuellen Recherche erstaunlich nahe beieinander; Fahrer beziehungsweise eine fahrerlastige Hybridlösung bleibt deshalb vor allem eine Komfort- und Sicherheitsentscheidung.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Szenario</th><th>Unterkünfte</th><th>Gesamt für 2</th><th>pro Person</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Sparsam</strong></td><td>günstige gute Hotels, 4 Nächte Magnetic Resort</td><td><strong>ca. CHF 3'120–4'585</strong></td><td>ca. CHF 1'560–2'293</td></tr>
+        <tr><td><strong>Empfohlener Mix</strong></td><td>Rooms Kazbegi + 2 Nächte günstiger Küstenpool + 2 Nächte Paragraph</td><td><strong>ca. CHF 3'755–5'500</strong></td><td>ca. CHF 1'878–2'750</td></tr>
+        <tr><td><strong>Mehr Resort/Luxus</strong></td><td>Rooms Kazbegi + 4 Nächte Paragraph</td><td><strong>ca. CHF 4'045–5'980</strong></td><td>ca. CHF 2'023–2'990</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p><small>Für die drei Gesamtwerte wurde jeweils die Fahrer-Planung von CHF 500–750, Essen CHF 550–900, Eintritte/Aktivitäten CHF 200–400 und Reserve CHF 250–450 verwendet.</small></p>
+
+  <h2>1 · Fixkosten</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Position</th><th>Status</th><th>Kosten für 2</th></tr></thead>
+      <tbody>
+        <tr><td>Flüge Zürich → Tbilisi / Batumi → Zürich</td><td><strong>gebucht</strong></td><td><strong>CHF 900</strong></td></tr>
+        <tr><td>SBB Entlebuch ↔ Flughafen Zürich</td><td>noch nicht eingerechnet</td><td>folgt mit Phase 5, abhängig von Halbtax/GA/Ticket</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>2 · Unterkünfte · 12 Nächte</h2>
+  <p>Alle Hotelpreise sind aktuelle Planungsbereiche aus den bereits recherchierten Unterkunftsseiten der Website, Preisstand dort jeweils <strong>3. August 2026</strong>. Keines dieser Hotels wird auf der Kostenseite als gebucht behandelt.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Ort / Nächte</th><th>Variante</th><th>pro Nacht</th><th>Aufenthalt</th></tr></thead>
+      <tbody>
+        <tr><td>Tbilisi · 3</td><td><a href={`${base}georgien/hotels/hotel-pavo/`}>Hotel Pavo</a> / <a href={`${base}georgien/hotels/old-town-mtatsminda/`}>Old Town Mtatsminda</a></td><td>CHF 45–80</td><td><strong>CHF 135–240</strong></td></tr>
+        <tr><td>Kazbegi · 3</td><td><a href={`${base}georgien/hotels/1740-boutique/`}>1740 Boutique</a></td><td>CHF 55–85</td><td><strong>CHF 165–255</strong></td></tr>
+        <tr><td>Kazbegi · 3</td><td><a href={`${base}georgien/hotels/rooms-kazbegi/`}>Rooms Hotel Kazbegi</a></td><td>CHF 170–230</td><td><strong>CHF 510–690</strong></td></tr>
+        <tr><td>Kutaisi · 2</td><td><a href={`${base}georgien/hotels/el-hotel/`}>EL Hotel</a></td><td>CHF 40–65</td><td><strong>CHF 80–130</strong></td></tr>
+        <tr><td>Kutaisi · 2</td><td><a href={`${base}georgien/hotels/newport-kutaisi/`}>Newport Hotel</a></td><td>CHF 85–125</td><td><strong>CHF 170–250</strong></td></tr>
+        <tr><td>Küste · 4</td><td><a href={`${base}georgien/hotels/magnetic-resort/`}>Magnetic Resort</a></td><td>CHF 85–140</td><td><strong>CHF 340–560</strong></td></tr>
+        <tr><td>Küste · 4</td><td><a href={`${base}georgien/hotels/georgia-palace/`}>Georgia Palace</a></td><td>CHF 150–260</td><td><strong>CHF 600–1'040</strong></td></tr>
+        <tr><td>Küste · 2+2</td><td>2 Nächte Magnetic + 2 Nächte <a href={`${base}georgien/hotels/paragraph/`}>Paragraph</a></td><td>gemischt</td><td><strong>CHF 630–1'040</strong></td></tr>
+        <tr><td>Küste · 4</td><td><a href={`${base}georgien/hotels/paragraph/`}>Paragraph Resort & Spa</a></td><td>CHF 230–380+</td><td><strong>CHF 920–1'520+</strong></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>Unterkunftssummen:</strong> sparsam ca. CHF 720–1'185; empfohlener Mix mit Rooms Kazbegi und 2+2 Küste ca. CHF 1'355–2'100; Rooms + vier Nächte Paragraph ca. CHF 1'645–2'580.</p>
+
+  <h2>3 · Mobilität</h2>
+  <p>Die detaillierte Strecken- und Sicherheitsanalyse steht auf <a href={`${base}georgien/fahrten/`}>Fahrten & Strassen</a>. Die drei Varianten sind Alternativen und dürfen nicht addiert werden.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Variante</th><th>Planungsbudget für 2</th><th>Enthalten / beachten</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Fahrer / Transfers</strong></td><td><strong>CHF 500–750+</strong></td><td>GoTrip/private Fahrer, lokale Bergfahrer, Hoteltransfers; Tag 7 und Rundtage benötigen noch konkrete Gesamtangebote</td></tr>
+        <tr><td><strong>Mietwagen</strong></td><td><strong>CHF 500–850</strong></td><td>Miete, etwa CHF 120 Treibstoff, lokale Fahrer für verbotene Bergstrecken sowie Reserve für Versicherung/Einweg/Parkieren</td></tr>
+        <tr><td><strong>Hybrid</strong></td><td><strong>ca. CHF 500–800</strong></td><td>normale Strecken flexibel, Trusso/Juta und kritische Transfers mit lokalen Fahrern</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Für die Treibstoffrechnung dient als Referenz etwa <strong>1'250 km × 8.5 l/100 km = rund 106 l</strong>. Gulf Georgia listet Euro Regular aktuell mit <strong>3.59 GEL/l</strong>; das ergibt bei rund CHF 0.31 je GEL ungefähr <strong>CHF 118</strong>. Der tatsächliche Verbrauch hängt stark vom Fahrzeug und der endgültigen Route ab.</p>
+
+  <h2>4 · Essen und Getränke</h2>
+  <p><strong>Planungsbudget für zwei: CHF 550–900.</strong> In Tbilisi liegt ein günstiges Restaurantgericht aktuell ungefähr bei 28 GEL pro Person; ein Drei-Gänge-Essen für zwei in einem Mittelklasse-Restaurant wird mit etwa 100 GEL ohne Getränke angegeben. Frühstück ist bei einzelnen Hotelvarianten bereits enthalten oder kann separat kosten.</p>
+  <p>Der untere Bereich setzt viele lokale Restaurants, einfache Mittagessen und teilweise inkludiertes Frühstück voraus. Beim oberen Bereich sind Wein, mehrere bessere Abendessen und Restaurantbesuche im Resort realistisch berücksichtigt. Sehr hochwertige Weinmenüs oder häufiges Essen im Paragraph können darüber hinausgehen.</p>
+
+  <h2>5 · Eintritte, Bad und Aktivitäten</h2>
+  <p><strong>Planungsbudget für zwei: CHF 200–400.</strong> Das ist bewusst höher als die heute bekannten Kern-Eintritte, damit Weinverkostung, spontane Aktivität oder eine zusätzliche Wellnessleistung Platz haben.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Programmpunkt</th><th>aktueller Richtwert</th><th>ca. CHF für 2</th></tr></thead>
+      <tbody>
+        <tr><td>Privates Schwefelbad Chreli-Abano</td><td>130–200 GEL/Std. für passende Privaträume; Kisa 30 GEL pro Person</td><td>ca. CHF 59–81 inkl. 2× Kisa</td></tr>
+        <tr><td>Georgisches Nationalmuseum, Simon-Janashia-Museum</td><td>40 GEL pro ausländische erwachsene Person</td><td>ca. CHF 25</td></tr>
+        <tr><td>Prometheus-Höhle</td><td>40 GEL pro ausländische Person</td><td>ca. CHF 25</td></tr>
+        <tr><td>Prometheus Boot optional</td><td>30 GEL pro ausländische Person</td><td>ca. CHF 19 zusätzlich</td></tr>
+        <tr><td>Vardzia</td><td>Planungswert etwa 15 GEL pro Erwachsenem; vor Besuch erneut prüfen</td><td>ca. CHF 9</td></tr>
+        <tr><td>Botanischer Garten Batumi</td><td>25 GEL pro Person</td><td>ca. CHF 16</td></tr>
+        <tr><td>Kolkheti Bootstour, falls gewählt</td><td>Beispiel Motorboot Churia 120 GEL für 1–3 Personen / 2 Std.</td><td>ca. CHF 37</td></tr>
+        <tr><td>Rike–Narikala-Seilbahn</td><td>2.5 GEL pro Person und Weg</td><td>ca. CHF 2–3 hin/retour für 2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Kirchen, Gergeti, Dschwari, Swetizchoweli und viele Aussichtspunkte verursachen keinen grossen Eintrittsblock. Lokale 4x4-Fahrer für Trusso/Juta werden dagegen unter <strong>Mobilität</strong> verbucht und hier nicht nochmals gerechnet.</p>
+
+  <h2>6 · Reserve und nicht eingerechnete Kosten</h2>
+  <p><strong>Reserve: CHF 250–450 für zwei.</strong> Sie deckt kleinere Preisänderungen, zusätzliche Taxis, Trinkgelder, Apotheke, Snacks, Gepäck-/Transferabweichungen und spontane Ausgaben ab.</p>
+  <p>Nicht automatisch eingerechnet sind Shopping/Souvenirs, eine eigens für diese Reise neu abgeschlossene Versicherung, Roaming/eSIM, kostenpflichtige Paarmassagen im Resort sowie die SBB-An-/Abreise zum Flughafen. Diese Positionen werden nur ergänzt, wenn sie tatsächlich anfallen.</p>
+
+  <h2>7 · Empfohlenes Arbeitsszenario</h2>
+  <p>Für die weitere Planung ist derzeit dieses Szenario am sinnvollsten:</p>
+  <ul>
+    <li>Flüge: <strong>CHF 900</strong> fix</li>
+    <li>Tbilisi: günstiges, sehr gut bewertetes Hotel</li>
+    <li>Kazbegi: <strong>Rooms Hotel Kazbegi</strong> als bewusstes Upgrade</li>
+    <li>Kutaisi: günstiges gutes Hotel</li>
+    <li>Küste: <strong>2 Nächte günstiger Pool-/Strandhotel + 2 Nächte Paragraph</strong></li>
+    <li>Mobilität: Fahrer beziehungsweise fahrerlastige Hybridlösung</li>
+    <li>Essen/Trinken: CHF 550–900</li>
+    <li>Eintritte/Aktivitäten: CHF 200–400</li>
+    <li>Reserve: CHF 250–450</li>
+  </ul>
+  <p>Damit liegt die aktuell sinnvollste Gesamtrechnung bei <strong>ca. CHF 3'755–5'500 für zwei Personen</strong>, also <strong>ca. CHF 1'878–2'750 pro Person</strong>. Mit 1740 Boutique statt Rooms Kazbegi sinkt die Rechnung um ungefähr CHF 345–435; vier Nächte Paragraph statt 2+2 erhöhen sie um rund CHF 290–480.</p>
+
+  <h2>Wechselkurs und Quellenstand</h2>
+  <p>Für die Planung wird gerundet mit <strong>1 GEL ≈ CHF 0.31</strong> und <strong>1 USD ≈ CHF 0.81</strong> gerechnet. Der offizielle Kurs der National Bank of Georgia ist nur ein Referenzkurs; Kartenanbieter und Banken können abweichen.</p>
+  <ul>
+    <li><a href="https://nbg.gov.ge/en/monetary-policy/currency" rel="noopener noreferrer" target="_blank">National Bank of Georgia – offizielle Wechselkurse</a></li>
+    <li><a href="https://www.gulf.ge/en/home" rel="noopener noreferrer" target="_blank">Gulf Georgia – aktuelle Treibstoffpreise</a></li>
+    <li><a href="https://www.numbeo.com/cost-of-living/in/Tbilisi" rel="noopener noreferrer" target="_blank">Numbeo – aktuelle Restaurant-Richtwerte Tbilisi</a> (crowdsourced)</li>
+    <li><a href="https://chreli-abano.ge/?lan=en" rel="noopener noreferrer" target="_blank">Chreli-Abano – Badpreise</a></li>
+    <li><a href="https://www.apa.ge/en/eco-tourism/servisebi-da-tarifebi/Prometheuscave" rel="noopener noreferrer" target="_blank">Agency of Protected Areas – Prometheus-Höhle</a></li>
+    <li><a href="https://bbg.ge/en/momsakhurebebi/baghis-datvalierebis-safasuri" rel="noopener noreferrer" target="_blank">Batumi Botanical Garden – Eintritt</a></li>
+    <li><a href="https://www.nationalparks.ge/en/site/kolxetinp/tripsInner/70" rel="noopener noreferrer" target="_blank">National Parks Georgia – Kolkheti/Churia Preisbeispiel</a></li>
+    <li><a href="https://ttc.com.ge/ka/tariff/10" rel="noopener noreferrer" target="_blank">Tbilisi Transport Company – Tarife</a></li>
+  </ul>
+  <p><small>Hotelpreise: Stand der jeweiligen Unterkunftsseiten 3. August 2026. Mobilität: Recherche auf „Fahrten & Strassen“, Stand 10. August 2026. Wechselkurs-, Restaurant-, Eintritts- und Treibstoffdaten wurden am 10. August 2026 erneut geprüft. Vor Buchung beziehungsweise Nutzung nochmals kontrollieren.</small></p>
 </GuidePage>
