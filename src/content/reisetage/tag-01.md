@@ -12,74 +12,60 @@ sources:
     url: "https://www.airserbia.com/"
   - label: "Georgia Travel: Tbilisi"
     url: "https://georgia.travel/cities-towns/tbilisi"
-updated: 2026-08-08
+updated: 2026-08-10
 date: 2026-09-28
 day: 1
 from: "Entlebuch / Zürich"
 to: "Tbilisi"
 character: "Anreise · ruhig ankommen"
 lodging: "Tbilisi-Vorschlag"
-optional: []
 climate: "24/14 °C"
 bathing: "nicht vorgesehen"
-fixed:
-  - {time: "09:30", label: "Abflug Zürich mit Air Serbia via Belgrad"}
-  - {time: "13:20", label: "Weiterflug Belgrad – Tbilisi gemäss Reiseplanung"}
-  - {time: "18:20", label: "Ankunft Tbilisi; Einreise, Gepäck und Transfer"}
-recommended:
-  - {time: "ca. 05:30–06:00", label: "Entlebuch verlassen; definitive SBB-Verbindung am Vortag prüfen"}
-  - {time: "07:00–07:30", label: "Ankunft Flughafen Zürich und Check-in"}
-  - {time: "20:00", label: "Hotel-Check-in in Tbilisi"}
-  - {time: "20:30–21:30", label: "Leichtes georgisches Abendessen in Hotelnähe"}
 distance: "Flugtag · ÖV und Flughafentransfer"
 driveTime: "6 h 50 min Flugreise plus Transfers"
 sunrise: "07:20 Uhr · Zürich"
 sunset: "18:49 Uhr · Tbilisi"
 ---
 
-## Ziel des Tages
+## Google Maps
 
-Der erste Tag soll **keine zusätzliche Besichtigung** enthalten. Nach der langen Anreise ist es sinnvoller, sauber anzukommen, Geld/SIM nur bei Bedarf zu organisieren, kurz zu essen und früh zu schlafen. So startet ihr am nächsten Morgen ohne unnötigen Zeitdruck in [Tbilisi](/reisen/georgien/orte/tbilisi/).
+- [SBB](https://a.sbbmobile.ch/s/m5yK6Fnm) – ausgewählte Verbindung Entlebuch → Zürich Flughafen
+- [Tbilisi Flughafen → Tbilisi](https://www.google.com/maps/dir/?api=1&origin=Tbilisi+International+Airport%2C+Georgia&destination=Tbilisi%2C+Georgia&travelmode=driving)
 
-## Detaillierter Ablauf
+## Falls ihr kürzen müsst
 
-### ca. 05:30–06:00 · Entlebuch → Flughafen Zürich
+Bei Verspätung nach der Landung direkt zum Hotel fahren und das Abendessen kurz halten oder auslassen. Keine Sehenswürdigkeit mehr einbauen.
 
-Plant die Bahnverbindung so, dass ihr ungefähr **zwei bis zweieinhalb Stunden vor Abflug** am Flughafen seid. Die exakte SBB-Verbindung für den 28. September sollte kurz vor der Reise nochmals geprüft werden, weil Fahrplanänderungen möglich sind.
+## Schlechtwetter
 
-Vor dem Verlassen von Entlebuch kontrollieren: Reisepässe, Karten/Portemonnaie, Medikamente, Ladegeräte, Offline-Kopien wichtiger Buchungen und mindestens eine Wechselkleidung im Handgepäck.
+Für den Flugtag ändert Regen nichts am Programm. Beim Flughafentransfer genügend Zeitreserve einplanen.
 
-### 07:00–07:30 · Flughafen Zürich
+## Tagesablauf
 
-Check-in, Gepäckaufgabe und Sicherheitskontrolle zuerst erledigen. Frühstück erst danach einplanen. Bei Aufgabegepäck genügend Reserve lassen, damit der Start der Reise nicht bereits hektisch wird.
+### ca. 05:30–06:00 · [SBB](https://a.sbbmobile.ch/s/m5yK6Fnm) Entlebuch → Zürich Flughafen
 
-### 09:30 · Zürich → Belgrad
+Die ausgewählte Verbindung am Vortag nochmals in der SBB-App auf Fahrplanänderungen prüfen. Reisepässe, Medikamente, Karten/Portemonnaie, Ladegeräte und Offline-Kopien wichtiger Unterlagen vor dem Verlassen von Entlebuch kontrollieren.
 
-Der Hinflug erfolgt mit Air Serbia und einem Umstieg in Belgrad. Beim Transit direkt der Beschilderung **Transfers / Connecting Flights** folgen und erst danach Essen oder Kaffee organisieren.
+### ca. 07:00–07:30 · Flughafen Zürich, Check-in und Sicherheitskontrolle
 
-### 13:20 · Belgrad → Tbilisi
+Zuerst Gepäckaufgabe und Sicherheitskontrolle erledigen, danach frühstücken. Für den internationalen Flug genügend Reserve behalten.
 
-Der zweite Flug führt nach Tbilisi. Während des Fluges Uhr auf georgische Lokalzeit umstellen und für die Ankunft bereits Transferadresse beziehungsweise Hotel offline bereithalten.
+### 09:30 · Flug Zürich → Belgrad mit Air Serbia
 
-### 18:20 · Ankunft Tbilisi
+Beim Transit in Belgrad direkt der Beschilderung für Transfers/Connecting Flights folgen.
 
-Für Einreise, Gepäck und Orientierung **60–90 Minuten Reserve** einplanen. Bargeld nur in kleiner Menge beziehen; grössere Beträge können später in der Stadt gewechselt oder bezogen werden.
+### 13:20 · Weiterflug Belgrad → Tbilisi
 
-### ca. 20:00 · Check-in
+Während des Fluges auf georgische Lokalzeit umstellen und Hoteladresse sowie Transferinformationen offline bereithalten.
 
-Nach dem Transfer zuerst Zimmer beziehen und Gepäck abstellen. Keine fixe Sehenswürdigkeit mehr einplanen.
+### 18:20 · Ankunft in Tbilisi, Einreise und Gepäck
 
-### ca. 20:30–21:30 · erstes georgisches Abendessen
+Für Einreise, Gepäck und Orientierung etwa 60–90 Minuten Reserve einplanen.
 
-Ideal ist ein unkompliziertes Restaurant in Hotelnähe. Für den ersten Abend reichen zwei oder drei Gerichte zum Teilen, beispielsweise [Chinkali](/reisen/georgien/genuss/chinkali/), [Pchali](/reisen/georgien/genuss/pchali/) oder [Chatschapuri](/reisen/georgien/genuss/chatschapuri/). Alkohol eher zurückhaltend – der nächste Tag ist voll.
+### ca. 20:00 · Transfer und Hotel-Check-in in Tbilisi
 
-## Wenn die Anreise verspätet ist
+Nach der langen Anreise zuerst einchecken und den Abend bewusst ruhig halten.
 
-Bei später Ankunft direkt zum Hotel fahren und notfalls nur noch etwas Kleines essen. Der Plan für Tag 2 ist wichtiger als ein zusätzlicher Programmpunkt am Ankunftsabend.
+### ca. 20:30–21:30 · Leichtes georgisches Abendessen in Hotelnähe
 
-## Vor dem Schlafen
-
-- Wecker stellen und Wetter für Tbilisi prüfen.
-- Schwefelbad für Tag 2 bestätigen.
-- Offline-Karte von Tbilisi laden.
-- Nur das Nötigste für den nächsten Tag bereitstellen.
+Für den ersten Abend reichen wenige Gerichte zum Teilen, zum Beispiel [Chinkali](/reisen/georgien/genuss/chinkali/), [Pchali](/reisen/georgien/genuss/pchali/) oder [Chatschapuri](/reisen/georgien/genuss/chatschapuri/). Danach früh schlafen.
