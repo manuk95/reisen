@@ -10,47 +10,49 @@ status: fix
 sources:
   - label: "Turkish Airlines"
     url: "https://www.turkishairlines.com/"
-updated: 2026-08-08
+updated: 2026-08-10
 date: 2026-10-11
 day: 14
 from: "Istanbul"
 to: "Zürich / Entlebuch"
 character: "Heimkehr"
 lodging: "—"
-optional: []
 climate: "Ankunftstag"
 bathing: "nicht vorgesehen"
 distance: "Flugtag · Bahnheimreise"
 driveTime: "Flug und ÖV"
-fixed:
-  - {time: "07:55", label: "Weiterflug Istanbul – Zürich gemäss Reiseplanung"}
-  - {time: "09:55", label: "Ankunft Zürich"}
-recommended:
-  - {time: "10:30–11:15", label: "Einreise/Gepäck und Weg zum Flughafenbahnhof"}
-  - {time: "ab ca. 11:00", label: "Nächste passende SBB-Verbindung Richtung Entlebuch nehmen"}
 sunrise: "07:38 Uhr · Zürich"
 sunset: "18:47 Uhr · Zürich"
 ---
 
-## Nacht in Istanbul
+## Google Maps
 
-Nach der Ankunft aus Batumi bleibt eine lange Umsteigezeit. Im Transitbereich bleiben, Boarding-Gate für den Morgen kontrollieren und den Schwerpunkt auf **Ruhe und Schlaf** legen. Keine knappe nächtliche Istanbul-Exkursion einplanen.
+## Falls ihr kürzen müsst
 
-## 07:55 · Istanbul → Zürich
+Keine zusätzlichen Aktivitäten in Istanbul oder Zürich einbauen. Nach dem Nachtflug direkt und flexibel nach Hause reisen.
 
-Rechtzeitig am Gate sein; bei einem grossen Flughafen wie Istanbul nicht erst kurz vor Boarding loslaufen.
+## Schlechtwetter
 
-## 09:55 · Ankunft Zürich
+Für Flug und Bahn genügend Reserve lassen; bei Bahnabweichungen die nächste passende SBB-Verbindung nehmen.
 
-Nach Landung, Einreise und Gepäck ungefähr **45–75 Minuten** bis zum Flughafenbahnhof einplanen. Danach keine fixe Zugverbindung zu knapp buchen – lieber die nächste sinnvolle Verbindung nehmen.
+## Tagesablauf
 
-## Zürich Flughafen → Entlebuch
+### Nacht / früher Morgen · Transit und Ruhe in Istanbul
 
-Die definitive SBB-Verbindung am Reisetag beziehungsweise kurz davor prüfen. Nach Nachtflug und Gepäck ist eine flexible Heimreise angenehmer als ein erzwungener Sprint auf einen bestimmten Zug.
+Im Transitbereich bleiben, Gate rechtzeitig kontrollieren und die lange Umsteigezeit für Schlaf/Ruhe nutzen.
 
-## Nach der Ankunft zuhause
+### 07:55 · Flug Istanbul → Zürich
 
-- Mietwagen-/Flugbelege sichern, falls noch Kosten abgerechnet werden müssen.
-- Fotos mindestens einmal zusätzlich sichern.
-- Reisepässe, Medikamente und Ladegeräte wieder an ihren normalen Platz legen.
-- Den restlichen Sonntag ohne weitere Termine lassen.
+Am grossen Flughafen Istanbul rechtzeitig zum Gate gehen.
+
+### 09:55 · Ankunft in Zürich
+
+Für Einreise, Gepäck und den Weg zum Flughafenbahnhof ungefähr 45–75 Minuten Reserve einplanen.
+
+### ab ca. 11:00 · Flexible SBB-Heimreise Zürich Flughafen → Entlebuch
+
+Die definitive Verbindung kurz vor beziehungsweise am Reisetag prüfen. Die genaue Hauptverbindung und Alternativen werden in Phase 5 recherchiert; nach Nachtflug keinen knappen Zug erzwingen.
+
+### nach Ankunft · Zuhause ankommen und Reise abschliessen
+
+Fotos und wichtige Belege sichern und den restlichen Sonntag bewusst frei lassen.
