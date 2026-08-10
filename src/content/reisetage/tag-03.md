@@ -12,6 +12,8 @@ sources:
     url: "https://georgia.travel/historical-monuments-of-mtskheta"
   - label: "Georgia Travel: One-Day Tour in Mtskheta"
     url: "https://georgia.travel/popular-trips/one-day-tour-in-mtskheta"
+  - label: "Georgia Travel: Tbilisi Sea / Chronicles of Georgia"
+    url: "https://georgia.travel/tbilisi-sea"
   - label: "Georgia Travel: Mtatsminda"
     url: "https://georgia.travel/mtatsminda"
 updated: 2026-08-10
@@ -63,9 +65,9 @@ Samtavro nur ergänzen, wenn ihr noch Lust auf eine weitere religiöse Stätte h
 
 Mittagessen ohne Zeitdruck; danach zurück Richtung Tbilisi.
 
-### 15:30–17:00 · Optional Chronicles of Georgia
+### 15:30–17:00 · Optional [Chronicles of Georgia](/reisen/georgien/sehenswuerdigkeiten/chronicles-of-georgia/)
 
-Bei gutem Wetter und genügend Energie das monumentale Chronicles-of-Georgia-Denkmal am Tbilisi Reservoir ergänzen. Dieser Stopp ist klar optional und wird später mit einer eigenen Detailseite verlinkt.
+Bei gutem Wetter und genügend Energie das monumentale Denkmal am Tbilisi Reservoir ergänzen. Die 35 Meter hohen Säulen verbinden georgische Könige und historische Ereignisse mit biblischen Szenen; die Lage bietet zusätzlich Aussicht über den Tbilisi Sea.
 
 ### ab 17:30 · Optional Mtatsminda bei guter Sicht
 
