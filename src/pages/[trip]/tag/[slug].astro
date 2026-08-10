@@ -1,0 +1,84 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const [days, trips] = await Promise.all([getCollection('reisetage'), getCollection('reisen')]);
+  const tripsBySlug = new Map(trips.map((trip) => [trip.data.slug, trip]));
+
+  return days.map((day) => {
+    const trip = tripsBySlug.get(day.data.trip);
+    if (!trip) throw new Error(`Reisetag ${day.id} verweist auf die unbekannte Reise ${day.data.trip}.`);
+    return { params: { trip: trip.data.routeSlug, slug: day.data.slug }, props: { day, trip } };
+  });
+}
+
+const { day, trip } = Astro.props as { day: any; trip: any };
+const base = import.meta.env.BASE_URL;
+const routeRoot = `${base}${trip.data.routeSlug}/`;
+const [allDays, hotels, places, sights, food, restaurants] = await Promise.all([
+  getCollection('reisetage'),
+  getCollection('unterkuenfte'),
+  getCollection('orte'),
+  getCollection('sehenswuerdigkeiten'),
+  getCollection('genuss'),
+  getCollection('restaurants'),
+]);
+const days = allDays.filter((entry) => entry.data.trip === day.data.trip).sort((a, b) => a.data.day - b.data.day || a.data.date.getTime() - b.data.date.getTime());
+const dayIndex = days.findIndex((entry) => entry.id === day.id);
+const previousDay = days[dayIndex - 1];
+const nextDay = days[dayIndex + 1];
+const byDay = (entries: any[]) => entries.filter((entry: any) => entry.data.trip === day.data.trip && entry.data.days.includes(day.data.slug));
+const dayHotels = byDay(hotels);
+const dayRestaurants = byDay(restaurants);
+const linkedEntries = [...places, ...sights, ...hotels, ...food, ...restaurants].filter((entry) => entry.data.trip === day.data.trip);
+const escapeHtml = (value: string) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+const linkLabel = (value: string) => {
+  let result = escapeHtml(value);
+  for (const entry of linkedEntries.sort((a, b) => b.data.title.length - a.data.title.length)) {
+    const title = escapeHtml(entry.data.title);
+    if (!result.includes(title)) continue;
+    const section = entry.collection === 'unterkuenfte' ? 'hotels' : entry.collection;
+    result = result.replaceAll(title, `<a href="${routeRoot}${section}/${entry.data.slug}/">${title}</a>`);
+  }
+  return result;
+};
+const hasMarkdownDayPlan = /^##\s+Tagesablauf\s*$/mi.test(day.body ?? '');
+const legacyEvents = [...day.data.fixed.map((event: any) => ({ ...event, fixed: true })), ...day.data.recommended.map((event: any) => ({ ...event, fixed: false }))]
+  .sort((a, b) => a.time.localeCompare(b.time));
+const facts = [
+  ['Klima', day.data.climate],
+  ['Distanz', day.data.distance],
+  ['Fahrzeit', day.data.driveTime],
+  ['Baden', day.data.bathing],
+  ['Sonnenaufgang', day.data.sunrise],
+  ['Sonnenuntergang', day.data.sunset],
+].filter(([, value]) => Boolean(value));
+const { Content } = await render(day);
+---
+
+<Base title={day.data.title} description={day.data.summary}>
+  <div class="wrap day-page">
+    <p><span>{trip.data.title}</span> / <span>Tagesplan</span> / Tag {day.data.day}</p>
+    <p class="eyebrow">{day.data.date.toLocaleDateString('de-CH', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</p>
+    <h1>{day.data.from} → {day.data.to}</h1>
+    <p class="lead">{day.data.character}</p>
+
+    {facts.length > 0 && <dl class="day-facts">{facts.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>}
+
+    {!hasMarkdownDayPlan && legacyEvents.length > 0 && <section class="legacy-day-plan"><h2>Chronologischer Tagesablauf</h2><ol class="timeline card">{legacyEvents.map((event) => <li><time>{event.time}</time><span><span set:html={linkLabel(event.label)} /> {event.fixed && <small class="badge fix">Fix</small>}</span></li>)}</ol></section>}
+
+    {!hasMarkdownDayPlan && day.data.optional.length > 0 && <section><h2>Optionen und Alternativen</h2><ul>{day.data.optional.map((item: string) => <li set:html={linkLabel(item)} />)}</ul></section>}
+
+    <article class="prose day-markdown"><Content /></article>
+
+    <section><h2>Restaurant- und Essensvorschläge</h2>{dayRestaurants.length > 0 ? <div class="grid">{dayRestaurants.map((restaurant: any) => <article class="card day-reference-card"><h3><a href={`${routeRoot}restaurants/${restaurant.data.slug}/`}>{restaurant.data.title}</a></h3><p>{restaurant.data.summary}</p><a href={`${routeRoot}restaurants/${restaurant.data.slug}/`}>Details →</a></article>)}</div> : <p>Für diesen Tag nennt die Reiseplanung keinen zuverlässig belegten einzelnen Betrieb. Mahlzeiten stehen im Ablauf; vor Ort nach aktueller Öffnung auswählen.</p>}</section>
+
+    <section><h2>Unterkunft</h2>{dayHotels.length > 0 ? <div class="grid">{dayHotels.map((hotel: any) => <article class="card day-reference-card">{hotel.data.status === 'gebucht' && <span class="badge">gebucht</span>}<h3><a href={`${routeRoot}hotels/${hotel.data.slug}/`}>{hotel.data.title}</a></h3><p>{hotel.data.summary}</p><a href={`${routeRoot}hotels/${hotel.data.slug}/`}>Details →</a></article>)}</div> : <p>Keine Übernachtung beziehungsweise noch kein konkreter Vorschlag für diesen Tag.</p>}</section>
+
+    <nav class="day-navigation" aria-label="Reisetage wechseln">
+      {previousDay ? <a href={`${routeRoot}tag/${previousDay.data.slug}/`}>← <span>Tag {previousDay.data.day}</span></a> : <span />}
+      {nextDay ? <a href={`${routeRoot}tag/${nextDay.data.slug}/`}><span>Tag {nextDay.data.day}</span> →</a> : <span />}
+    </nav>
+  </div>
+</Base>

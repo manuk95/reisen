@@ -14,8 +14,30 @@ day: 1
 from: Start
 to: Ziel
 character: "Charakter"
-fixed: [{time: "09:00", label: "Fixer Termin"}]
-recommended: [{time: "11:00", label: "Empfehlung"}]
-optional: []
+distance: "ca. 120 km"
+driveTime: "ca. 2 h reine Fahrt"
+climate: "20/12 °C"
+bathing: "nicht vorgesehen"
 ---
-Praktische Details und Querverweise.
+
+## Google Maps
+
+[Route in Google Maps öffnen](https://www.google.com/maps/)
+
+## Falls ihr kürzen müsst
+
+- Optionalen Programmpunkt streichen.
+
+## Schlechtwetter
+
+- Passende Innen- oder Kurzvariante wählen.
+
+## Tagesablauf
+
+### 08:00 · Frühstück im Hotel
+
+### 09:00 · Fahrt zum ersten Programmpunkt
+
+Optionale Details, Links und Hinweise stehen direkt unter diesem Programmpunkt.
+
+### Flexibel · Spaziergang oder Ruhepause

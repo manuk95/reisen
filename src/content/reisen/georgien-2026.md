@@ -1,6 +1,7 @@
 ---
 title: Georgien 2026
 slug: georgien-2026
+routeSlug: georgien
 trip: georgien-2026
 country: Georgien
 region: Kaukasus

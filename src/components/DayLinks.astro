@@ -1,4 +1,4 @@
 ---
-import {getCollection} from 'astro:content';const {days=[]}=Astro.props;const base=import.meta.env.BASE_URL;const entries=(await getCollection('reisetage')).filter(d=>days.includes(d.data.slug)).sort((a,b)=>a.data.day-b.data.day);
+import {getCollection} from 'astro:content';const {days=[],trip:tripSlug}=Astro.props;const base=import.meta.env.BASE_URL;const [allDays,trips]=await Promise.all([getCollection('reisetage'),getCollection('reisen')]);const activeTrip=tripSlug||allDays.find(day=>days.includes(day.data.slug))?.data.trip;const trip=trips.find(entry=>entry.data.slug===activeTrip);const entries=allDays.filter(day=>day.data.trip===activeTrip&&days.includes(day.data.slug)).sort((a,b)=>a.data.day-b.data.day);
 ---
-{entries.length>0&&<nav class="day-links" aria-label="Zugehörige Reisetage"><h2>Im Tagesprogramm</h2><ul>{entries.map(d=><li><a href={`${base}georgien/tag/${d.data.slug}/`}>Tag {d.data.day} – {d.data.character}</a></li>)}</ul></nav>}
+{entries.length>0&&trip&&<nav class="day-links" aria-label="Zugehörige Reisetage"><h2>Im Tagesprogramm</h2><ul>{entries.map(d=><li><a href={`${base}${trip.data.routeSlug}/tag/${d.data.slug}/`}>Tag {d.data.day} – {d.data.character}</a></li>)}</ul></nav>}

@@ -8,8 +8,8 @@ const editorial = {
   pageId: z.number().int().positive().optional(),
   title: z.string(),
   slug: z.string(),
-  trip: z.string().default('georgien-2026'),
-  country: z.string().default('Georgien'),
+  trip: z.string(),
+  country: z.string(),
   region: z.string(),
   summary: z.string(),
   categories: z.array(z.string()).default([]),
@@ -30,8 +30,8 @@ const editorial = {
 };
 
 const contentLoader = (collection: string) => glob({ pattern: '**/*.{md,mdx}', base: `./src/content/${collection}` });
-const trips = defineCollection({ loader: contentLoader('reisen'), schema: z.object({ ...editorial, start: z.coerce.date(), end: z.coerce.date(), travellers: z.array(z.string()), route: z.array(z.string()), hero: z.string() }) });
-const days = defineCollection({ loader: contentLoader('reisetage'), schema: z.object({ ...editorial, date: z.coerce.date(), day: z.number().int().positive(), from: z.string(), to: z.string(), character: z.string(), distance: z.string().optional(), driveTime: z.string().optional(), lodging: z.string().optional(), fixed: z.array(z.object({ time: z.string(), label: z.string() })).default([]), recommended: z.array(z.object({ time: z.string(), label: z.string() })).default([]), optional: z.array(z.string()).default([]), climate: z.string(), bathing: z.string(), sunrise: z.string().optional(), sunset: z.string().optional() }) });
+const trips = defineCollection({ loader: contentLoader('reisen'), schema: z.object({ ...editorial, routeSlug: z.string().regex(/^[a-z0-9-]+$/), start: z.coerce.date(), end: z.coerce.date(), travellers: z.array(z.string()), route: z.array(z.string()), hero: z.string() }) });
+const days = defineCollection({ loader: contentLoader('reisetage'), schema: z.object({ ...editorial, date: z.coerce.date(), day: z.number().int().positive(), from: z.string(), to: z.string(), character: z.string(), distance: z.string().optional(), driveTime: z.string().optional(), lodging: z.string().optional(), fixed: z.array(z.object({ time: z.string(), label: z.string() })).default([]), recommended: z.array(z.object({ time: z.string(), label: z.string() })).default([]), optional: z.array(z.string()).default([]), climate: z.string().optional(), bathing: z.string().optional(), sunrise: z.string().optional(), sunset: z.string().optional() }) });
 const standard = (collection: string) => defineCollection({ loader: contentLoader(collection), schema: z.object(editorial) });
 
 export const collections = { reisen: trips, reisetage: days, orte: standard('orte'), sehenswuerdigkeiten: standard('sehenswuerdigkeiten'), unterkuenfte: standard('unterkuenfte'), restaurants: standard('restaurants'), genuss: standard('genuss'), wissen: standard('wissen'), praktisches: standard('praktisches') };

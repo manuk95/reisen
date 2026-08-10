@@ -6,6 +6,10 @@ Dieses Dokument ist die **einzige zentrale Quelle für offene Arbeiten** am Reis
 
 Das Repository ist für **mehrere Reisen** ausgelegt. Georgien 2026 ist die erste konkrete Reise, technische Lösungen sollen aber möglichst wiederverwendbar und nicht unnötig Georgien-spezifisch sein.
 
+## Strukturentscheid für zukünftige Reisen
+
+Reisespezifische Inhalte bleiben nach Inhaltstyp als Content Collections organisiert. Sobald eine zweite Reise angelegt wird, erhält sie innerhalb jeder betroffenen Collection einen eigenen Unterordner, zum Beispiel `src/content/reisetage/island-2028/` oder `src/content/orte/island-2028/`. Ein oberster Länderordner wie `src/content/georgien/` wird nicht eingeführt, weil er die klaren Collection-Schemas nach Inhaltstyp auflösen würde. Das Frontmatter-Feld `trip` bleibt die verbindliche Zuordnung; Dateiname und `slug` bleiben stabil und kleingeschriebenes Kebab-Case.
+
 ## Status
 
 - `OFFEN` – noch auszuführen
@@ -24,7 +28,8 @@ Das Repository ist für **mehrere Reisen** ausgelegt. Georgien 2026 ist die erst
 
 ## 1.1 Neuer generischer Tagesplan-Renderer
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT
+
 **Verantwortlich:** Codex  
 **Verbindliche Spezifikation:** [`ANFORDERUNGEN_TAGESPLAN.md`](ANFORDERUNGEN_TAGESPLAN.md)
 
