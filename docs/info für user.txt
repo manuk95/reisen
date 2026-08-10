@@ -1,0 +1,18 @@
+Tagesplan-Renderer/Accordion/Parser	Codex
+Fahrten recherchieren	ChatGPT-Web
+14 Tagesdateien migrieren	ChatGPT-Web
+Tagesprogramme fachlich prüfen	ChatGPT-Web
+SBB / Flugrecherche	ChatGPT-Web
+Kosten	ChatGPT-Web
+Chronicles of Georgia	ChatGPT-Web
+Fame	ChatGPT-Web
+Weinvergleich	ChatGPT-Web
+Wirtschaftsvergleich	ChatGPT-Web
+Restaurants	ChatGPT-Web
+Hotels	ChatGPT-Web
+Wissen-Kacheln	ChatGPT-Web
+Footer bereinigen	ChatGPT-Web
+Landingpage Feinschliff	ChatGPT-Web
+Excel/Content Audit	ChatGPT-Web
+Schema/Validator nur falls nötig	Codex
+finale technische QA	Codex
