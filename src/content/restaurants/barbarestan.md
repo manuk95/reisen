@@ -5,21 +5,47 @@ slug: barbarestan
 trip: georgien-2026
 country: Georgien
 region: "Tbilisi"
-summary: "Historische georgische Küche · gehoben · reservieren"
+summary: "Historisch inspirierte georgische Küche nach Barbare Jorjadzes Kochbuch · Gault&Millau 16.5/20 · gehoben und reservierungswürdig."
 categories: [restaurant]
 status: empfohlen
 days: [tag-02, tag-03]
 related: []
-sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
-updated: 2026-08-03
-image: images/georgien/restaurants/barbarestan.jpg
-imageAlt: "Polski: Pałac królowej Daredżan. Tbilisi, Gruzja. English: Queen Darejan's palace. Tbilisi, Georgia. Русский: Дворец царицы Дареджан. Тбилиси, Грузия."
+sources:
+  - {label: "Gault&Millau Georgia – Barbarestan", url: "https://ge.gaultmillau.com/en/restaurants/barbarestan"}
+  - {label: "Barbarestan – offizielle Website", url: "http://barbarestan.ge/"}
+updated: 2026-08-10
+image: images/platzhalter.png
+imageAlt: "Platzhalterbild für Restaurant Barbarestan in Tbilisi"
+imageStatus: platzhalter
 ---
 
 ## Profil
 
-Historische georgische Küche · gehoben · reservieren. Aktuelle Öffnung, Karte und Reservation direkt beim Betrieb bestätigen. Plattformwerte werden nicht vermischt.
+Barbarestan gehört zu den bekanntesten gehobenen Restaurants in Tbilisi. Das Konzept basiert auf Rezepten von **Barbare Eristavi-Jorjadze**, einer georgischen Schriftstellerin und Autorin eines bedeutenden Kochbuchs des 19. Jahrhunderts. Die Küche interpretiert diese historischen Vorlagen zeitgemäss.
 
-## Spezialitäten
+- **Gault&Millau:** 16.5/20, „Remarkable Restaurant“
+- **Küche:** traditionell, modern und Fusion mit historischem Bezug
+- **Preisniveau:** gehoben; deutlich teurer als ein normales Chinkali- oder Chatschapuri-Lokal
+- **Adresse:** 132 Davit Aghmashenebeli Avenue, Tbilisi
+- **Öffnung:** Gault&Millau führt aktuell täglich 14:00–23:00
+- **Atmosphäre:** historisch, ruhig, romantisch; gut für einen besonderen Abend
 
-Georgische beziehungsweise regionale Küche; Allergien bei Bestellung ausdrücklich nennen.
+## Was hier besonders ist
+
+Barbarestan ist nicht die beste Adresse, wenn ihr einfach möglichst ursprüngliche Alltagsküche sucht. Interessant ist vielmehr die **kulinarische Geschichtsstunde**: alte Rezepte, georgische Zutaten und moderne Präsentation treffen auf ein Interieur, das bewusst an das 19. Jahrhundert erinnert.
+
+Damit ergänzt das Restaurant die Reise inhaltlich besonders gut: tagsüber Kirchen, Altstadt und Geschichte, am Abend eine kulinarische Interpretation derselben Kultur.
+
+## Reservation
+
+Für das Abendessen **vorab reservieren**. Aktuelle Plattformdaten kennzeichnen Dinner-Reservationen als empfohlen beziehungsweise teilweise erforderlich. Bei der Reservation Allergien, besondere Wünsche und gegebenenfalls einen ruhigeren Tisch angeben.
+
+## Für eure Reise
+
+Am besten an **Tag 2 oder Tag 3** als bewusst gehobener Tbilisi-Abend. Da Barbarestan nicht direkt in der touristischen Altstadt liegt, Fahrt per Bolt/Taxi einplanen. Wenn ihr nur einen einzigen gehobenen Restaurantabend in Tbilisi wählen möchtet, ist dies eine der stärksten Optionen.
+
+[Tag 2 öffnen](/reisen/georgien/tag/tag-02/) · [Tag 3 öffnen](/reisen/georgien/tag/tag-03/) · [Georgische Küche](/reisen/georgien/wissen/kueche-wein/)
+
+## Bildstatus
+
+Das frühere Bild zeigte den Palast von Königin Darejan und nicht Barbarestan. Es wurde daher aus der Seitendarstellung entfernt und durch einen neutralen Platzhalter ersetzt.
