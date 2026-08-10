@@ -14,69 +14,61 @@ sources:
     url: "https://georgia.travel/prometheus-cave"
   - label: "Georgia Travel: Kutaisi"
     url: "https://georgia.travel/cities-towns/kutaisi"
-updated: 2026-08-08
+updated: 2026-08-10
 date: 2026-10-05
 day: 8
 from: "Kutaisi"
 to: "Kutaisi"
 character: "Klöster · Höhle · Imeretien"
 lodging: "Kutaisi-Vorschlag"
-optional: ["Tskaltubo nur bei genügend Zeit", "Sataplia als Alternative zur Prometheus-Höhle"]
 climate: "20/12 °C"
 bathing: "nicht vorgesehen"
-fixed: []
-recommended:
-  - {time: "08:30", label: "Bagrati-Kathedrale"}
-  - {time: "09:45", label: "Gelati-Kloster"}
-  - {time: "11:15", label: "Motsameta-Kloster"}
-  - {time: "12:45", label: "Mittagessen in Kutaisi"}
-  - {time: "14:30", label: "Prometheus-Höhle"}
-  - {time: "17:00", label: "Optional Tskaltubo / Rückkehr Kutaisi"}
-  - {time: "19:30", label: "Imeretisches Abendessen und Wein"}
 distance: "ca. 60–90 km je nach Nachmittagsoption"
 driveTime: "ca. 2–3 h verteilt über den Tag"
 sunrise: "07:10 Uhr · Kutaisi"
 sunset: "18:45 Uhr · Kutaisi"
 ---
 
-## Tageslogik
+## Google Maps
 
-Nach Tag 7 beginnt der Tag bewusst **nicht zu früh**. Die historischen Ziele liegen kompakt nördlich/östlich von [Kutaisi](/reisen/georgien/orte/kutaisi/), danach folgt am Nachmittag eine Natursehenswürdigkeit. So bleibt der Abend frei für Stadt und Essen.
+[Route Kutaisi → Bagrati → Gelati → Motsameta → Prometheus → Kutaisi öffnen](https://www.google.com/maps/dir/?api=1&origin=Kutaisi%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Bagrati+Cathedral%2C+Kutaisi%7CGelati+Monastery%2C+Georgia%7CMotsameta+Monastery%2C+Georgia%7CPrometheus+Cave%2C+Georgia&travelmode=driving)
 
-## Detaillierter Ablauf
+## Falls ihr kürzen müsst
 
-### 08:30–09:15 · Bagrati
+1. Motsameta streichen, wenn ihr nach Tag 7 müde seid.
+2. Tskaltubo nur als Bonus betrachten.
+3. Gelati und die gewählte Natursehenswürdigkeit behalten.
 
-Zur [Bagrati-Kathedrale](/reisen/georgien/sehenswuerdigkeiten/bagrati-kathedrale/) oberhalb von Kutaisi. Rund **30–45 Minuten** für Kathedrale und Stadtblick.
+## Schlechtwetter
 
-### 09:45–10:45 · Gelati
+Klöster und Prometheus-Höhle funktionieren auch bei wechselhaftem Wetter gut. Bei starkem Regen Tskaltubo weglassen und zwischen den Stopps mehr Reserve lassen.
 
-Weiter zum [Gelati-Kloster](/reisen/georgien/sehenswuerdigkeiten/gelati/). Dies ist der wichtigste kulturhistorische Stopp des Tages. Für Kirchen, Fresken und Gelände ungefähr **60 Minuten** einplanen.
+## Tagesablauf
 
-### 11:15–12:00 · Motsameta
+### 08:30–09:15 · Bagrati-Kathedrale und Blick über Kutaisi
 
-[Motsameta](/reisen/georgien/sehenswuerdigkeiten/motsameta/) liegt als landschaftlicher Kontrast über der bewaldeten Schlucht. **30–45 Minuten** reichen. Wenn ihr nach dem langen Vortag erschöpft seid, wäre dies der erste Streichkandidat.
+Zur [Bagrati-Kathedrale](/reisen/georgien/sehenswuerdigkeiten/bagrati-kathedrale/) oberhalb der Stadt. Rund 30–45 Minuten reichen.
+
+### 09:45–10:45 · Gelati-Kloster
+
+Für [Gelati](/reisen/georgien/sehenswuerdigkeiten/gelati/) ungefähr eine Stunde für Kirchen, Fresken und Gelände einplanen. Dies ist der wichtigste kulturhistorische Stopp des Tages.
+
+### 11:15–12:00 · Motsameta-Kloster
+
+[Motsameta](/reisen/georgien/sehenswuerdigkeiten/motsameta/) liegt landschaftlich über der bewaldeten Schlucht. Etwa 30–45 Minuten vorsehen; bei Müdigkeit ist dies der erste Streichkandidat.
 
 ### 12:45–14:00 · Mittagessen in Kutaisi
 
-Zurück in die Stadt. Imeretische Küche ausprobieren, beispielsweise regionales Chatschapuri oder Gemüsegerichte.
+Zurück in die Stadt und ohne Zeitdruck imeretisch essen.
 
 ### 14:30–16:30 · Prometheus-Höhle
 
-Zur [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/). Der touristische Weg ist knapp 1.5 km lang; in der Höhle herrschen ungefähr 14 °C. Leichte Jacke und rutschfeste Schuhe mitnehmen. Bootsteil nur als Bonus betrachten – er kann von Bedingungen abhängen.
+Zur [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/). Der touristische Weg ist knapp 1.5 km lang; leichte Jacke und rutschfeste Schuhe mitnehmen. Den Bootsteil nur als wetter-/betriebsabhängigen Bonus betrachten.
 
-### 17:00–18:00 · optional Tskaltubo
+### 17:00–18:00 · Optional Tskaltubo oder direkte Rückkehr nach Kutaisi
 
-Wenn noch Energie vorhanden ist, kurz durch [Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo/) fahren und die Kurstadt von aussen ansehen. Keine verlassenen Sanatorien ohne Erlaubnis betreten.
+Wenn noch Energie vorhanden ist, kurz durch [Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo/) fahren. Alternativ direkt zurück in die Stadt.
 
-### ab 19:30 · Kutaisi-Abend
+### ab 19:30 · Imeretisches Abendessen und Wein
 
-Innenstadt, Rioni und Abendessen. Imeretischen Wein probieren – beispielsweise Tsitska/Tsolikouri oder Krakhuna.
-
-## Alternative bei Höhlenmüdigkeit
-
-Statt Prometheus kann [Sataplia](/reisen/georgien/sehenswuerdigkeiten/sataplia/) gewählt werden. Sataplia ist kompakter und kombiniert Höhle, Wald und Dinosaurierspuren.
-
-## Google-Maps-Route
-
-[Route Kutaisi → Bagrati → Gelati → Motsameta → Prometheus → Kutaisi öffnen](https://www.google.com/maps/dir/?api=1&origin=Kutaisi%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Bagrati+Cathedral%2C+Kutaisi%7CGelati+Monastery%2C+Georgia%7CMotsameta+Monastery%2C+Georgia%7CPrometheus+Cave%2C+Georgia&travelmode=driving)
+Für diesen Tag sind Fahrer und Selbstfahrt beide praktikabel; wegen der günstigen lokalen Fahrerpreise und möglichem Wein ist ein Fahrer die entspanntere Variante.
