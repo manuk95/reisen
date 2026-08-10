@@ -4,23 +4,59 @@ pageId: 174
 slug: rooms-kazbegi
 trip: georgien-2026
 country: Georgien
-region: "Kazbegi"
-summary: "Upgrade mit ikonischer Terrasse und Pool."
+region: "Kazbegi / Stepantsminda"
+summary: "Ikonisches Berghotel mit Kazbek-Blick, Innenpool, Spa, Sauna und starkem Frühstück – teuer, aber als Erlebnis klar die attraktivste Kazbegi-Option."
 categories: [hotel]
 status: vorschlag
 days: [tag-04, tag-05, tag-06]
 related: []
-sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=rooms%20kazbegi%20Georgia"}]
-updated: 2026-08-03
+sources:
+  - {label: "Booking.com – Rooms Hotel Kazbegi", url: "https://www.booking.com/hotel/ge/rooms-kazbegi.html"}
+updated: 2026-08-10
 image: images/platzhalter.png
 imageAlt: "Platzhalterbild für Rooms Hotel Kazbegi"
 imageStatus: platzhalter
 ---
 
-## Vorschlag · noch nicht gebucht
+## Kurzfazit
 
-**Preis- und Bewertungsstand 3. August 2026:** CHF 170–230 · Bewertung 8.7. Bewertungen bleiben je Plattform getrennt und müssen vor Buchung neu geprüft werden.
+**Rooms Hotel Kazbegi** ist nicht die preislich vernünftigste, aber die erlebnisstärkste Unterkunft in Stepantsminda. Die Kombination aus Terrasse, Bergkulisse, Innenpool und Spa passt besonders gut, wenn das Wetter an einem der drei Kazbegi-Tage schlechter ausfällt.
 
-Upgrade mit ikonischer Terrasse und Pool.
+## Vergleichbare Fakten
 
-**Ausstattung:** eigenes Badezimmer; Pool nur wo oben ausdrücklich genannt. Endpreis, Stornierung, Frühstück, Parkplatz und saisonale Poolöffnung kontrollieren.
+- **Booking.com:** 8.7/10 bei rund 3’541 Bewertungen; Lage 9.5
+- **Planungs-Preisrahmen:** ca. **CHF 170–230 pro Nacht** für 2, Stand 3. August 2026; für 1.–4. Oktober live neu prüfen
+- **Zimmer:** Standard-, Mountain-View- und höhere Kategorien
+- **Bad:** eigenes Badezimmer
+- **Frühstück:** von Gästen sehr stark bewertet; kontinentales Frühstück
+- **Pool:** Innenpool
+- **Spa:** Spa-/Wellnesscenter, Sauna, Massage, Fitness
+- **Parkplatz:** kostenloser Privatparkplatz
+- **Restaurant / Bar:** Restaurant, Lobbybar und Terrasse mit Bergblick
+
+## Vorteile
+
+- wohl stärkstes Hotelerlebnis der Kazbegi-Region
+- Innenpool und Spa sind Anfang Oktober ein echter Mehrwert
+- sehr starke Lage und Aussicht
+- Frühstück und Restaurant direkt vor Ort
+- idealer Rückzugsort nach Wanderungen
+- kostenloses Parkieren
+
+## Nachteile
+
+- deutlich teurer als 1740 Boutique
+- Booking-Gesamtwertung 8.7 ist gut, aber nicht aussergewöhnlich; Preis-Leistung wird mit 8.0 schwächer bewertet als Lage und Komfort
+- Mountain-View-Zimmer können nochmals deutlich teurer sein
+
+## Eignung für eure Reise
+
+Für eure Route ist Rooms besonders sinnvoll, weil ihr **drei Nächte** in Kazbegi seid. Dadurch wird das Hotel nicht nur Schlafplatz, sondern Teil des Reiseerlebnisses. Bei Nebel, Regen oder frühem Schnee könnt ihr einen Teil des Tages im Spa verbringen, ohne dass der Tag „verloren“ wirkt.
+
+**Empfehlung:** Wenn das Budget es zulässt, Rooms Kazbegi für diese drei Nächte bevorzugen. Wenn der Aufpreis hoch ausfällt, ist [1740 Boutique Hotel](/reisen/georgien/hotels/1740-boutique/) die wirtschaftlich deutlich bessere Alternative.
+
+## Buchung
+
+[Booking.com öffnen](https://www.booking.com/hotel/ge/rooms-kazbegi.html)
+
+Für **1.–4. Oktober 2026** Standardzimmer gegen Mountain-View-Zimmer vergleichen. Frühstück, Stornierungsbedingungen und Gesamtpreis für drei Nächte separat betrachten – nicht nur den ersten angezeigten Nachtpreis.
