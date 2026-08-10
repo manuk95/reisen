@@ -64,6 +64,11 @@ const { Content } = await render(day);
     <h1>{day.data.from} → {day.data.to}</h1>
     <p class="lead">{day.data.character}</p>
 
+    <nav class="day-navigation" aria-label="Reisetage wechseln">
+      {previousDay ? <a href={`${routeRoot}tag/${previousDay.data.slug}/`}>← <span>Tag {previousDay.data.day}</span></a> : <span />}
+      {nextDay ? <a href={`${routeRoot}tag/${nextDay.data.slug}/`}><span>Tag {nextDay.data.day}</span> →</a> : <span />}
+    </nav>
+
     {facts.length > 0 && <dl class="day-facts">{facts.map(([label, value]) => <div><dt>{label}</dt><dd>{value}</dd></div>)}</dl>}
 
     {!hasMarkdownDayPlan && legacyEvents.length > 0 && <section class="legacy-day-plan"><h2>Chronologischer Tagesablauf</h2><ol class="timeline card">{legacyEvents.map((event) => <li><time>{event.time}</time><span><span set:html={linkLabel(event.label)} /> {event.fixed && <small class="badge fix">Fix</small>}</span></li>)}</ol></section>}
@@ -76,9 +81,5 @@ const { Content } = await render(day);
 
     <section><h2>Unterkunft</h2>{dayHotels.length > 0 ? <div class="grid">{dayHotels.map((hotel: any) => <article class="card day-reference-card">{hotel.data.status === 'gebucht' && <span class="badge">gebucht</span>}<h3><a href={`${routeRoot}hotels/${hotel.data.slug}/`}>{hotel.data.title}</a></h3><p>{hotel.data.summary}</p><a href={`${routeRoot}hotels/${hotel.data.slug}/`}>Details →</a></article>)}</div> : <p>Keine Übernachtung beziehungsweise noch kein konkreter Vorschlag für diesen Tag.</p>}</section>
 
-    <nav class="day-navigation" aria-label="Reisetage wechseln">
-      {previousDay ? <a href={`${routeRoot}tag/${previousDay.data.slug}/`}>← <span>Tag {previousDay.data.day}</span></a> : <span />}
-      {nextDay ? <a href={`${routeRoot}tag/${nextDay.data.slug}/`}><span>Tag {nextDay.data.day}</span> →</a> : <span />}
-    </nav>
   </div>
 </Base>

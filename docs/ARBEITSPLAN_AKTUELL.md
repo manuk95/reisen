@@ -364,7 +364,7 @@ Alle vorhandenen Unterkunftsseiten ausführlicher und vergleichbar machen:
 
 ## 8.1 Wissen-Übersicht
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web; Codex nur bei unerwartet komplexer Komponentenabhängigkeit
 
 Auf **„Wissen über Georgien“**:
@@ -375,7 +375,7 @@ Auf **„Wissen über Georgien“**:
 
 ## 8.2 Footer
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
 Diesen gesamten globalen Satz ersatzlos entfernen:

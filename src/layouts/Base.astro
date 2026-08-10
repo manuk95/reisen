@@ -23,8 +23,10 @@ const url = new URL(Astro.url.pathname, Astro.site);
     <div id="offline" role="status" hidden>Offline – Reisewissen bleibt verfügbar, die Karte benötigt Internet.</div>
     <header>
       <a class="brand" href={base}>Manuel & Martina <small>unterwegs</small></a>
-      <button id="menuToggle" class="menu-toggle" aria-controls="mainMenu" aria-expanded="false"><span>☰</span> Menü</button>
-      <button id="theme" aria-label="Farbschema wechseln">◐</button>
+      <div class="header-actions">
+        <button id="theme" aria-label="Farbschema wechseln">◐</button>
+        <button id="menuToggle" class="menu-toggle" aria-label="Hauptmenü öffnen" aria-controls="mainMenu" aria-expanded="false">☰</button>
+      </div>
     </header>
     <div id="scrim" hidden></div>
     <nav id="mainMenu" class="drawer" aria-label="Hauptmenü" hidden>
@@ -45,7 +47,6 @@ const url = new URL(Astro.url.pathname, Astro.site);
         <p><span data-update-status role="status" aria-live="polite">Prüfe auf Aktualisierung …</span></p>
         <button class="button" type="button" data-update-button hidden>Aktualisieren</button>
       </section>
-      <p>Persönlicher Reiseführer · ohne Tracking. Stand redaktioneller Angaben: 6. August 2026; zeitabhängige Angaben vor Ort erneut prüfen.</p>
     </footer>
     <script is:inline type="module" src={`${base}pwa-update.js`}></script>
     <script is:inline define:vars={{base}}>
