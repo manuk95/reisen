@@ -2,7 +2,10 @@ export type NavigationItem = { label: string; path: string };
 
 export const mainNavigation: Array<{ label: string; items?: NavigationItem[]; path?: string }> = [
   { label: 'Startseite', path: 'georgien/' },
-  { label: 'Reiseplan', items: [{ label: 'Gesamtroute', path: 'georgien/reiseplan/' }] },
+  { label: 'Reiseplan', items: [
+    { label: 'Gesamtroute', path: 'georgien/reiseplan/' },
+    { label: 'Fahrten', path: 'georgien/fahrten/' },
+  ] },
   { label: 'Entdecken', items: [
     { label: 'Karte & Route', path: 'georgien/karte/' },
     { label: 'Orte & Regionen', path: 'georgien/orte/' },
@@ -26,6 +29,7 @@ export const footerNavigation: Array<{ label: string; items: NavigationItem[] }>
     { label: 'Aktivitäten', path: 'georgien/aktivitaeten/' },
   ] },
   { label: 'Unterwegs', items: [
+    { label: 'Fahrten', path: 'georgien/fahrten/' },
     { label: 'Restaurants', path: 'georgien/restaurants/' },
     { label: 'Hotels & Unterkünfte', path: 'georgien/hotels/' },
     { label: 'Packliste', path: 'georgien/wissen/packliste/' },
