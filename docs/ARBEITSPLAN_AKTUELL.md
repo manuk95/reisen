@@ -104,7 +104,7 @@ Verknüpfungen sind umgesetzt über:
 2. Footer → Unterwegs → Fahrten
 3. Reiseplan/Gesamtroute → „Mietwagen oder Fahrer? / Fahrten & Strassen“
 
-Aktuelle Tendenz der Recherche: Fahrer beziehungsweise eine fahrerlastige Hybridlösung passt besser zur konkreten Route als ein durchgehender Mietwagen. Diese Einschätzung wird in Phase 3 bei der fachlichen Überarbeitung der Tagesprogramme berücksichtigt.
+Aktuelle Tendenz der Recherche: Fahrer beziehungsweise eine fahrerlastige Hybridlösung passt besser zur konkreten Route als ein durchgehender Mietwagen. Diese Einschätzung wurde in Phase 3 bei der fachlichen Überarbeitung der Tagesprogramme berücksichtigt.
 
 ## 2.2 Zeitabhängige Bergstrassen
 
@@ -120,7 +120,7 @@ Grundsätzlich geklärt, aber vor Fahrt erneut kontrollieren:
 
 Aktuelle Freigabe, Wetter, Mietwagenbedingungen und Fahrzeugtauglichkeit prüfen.
 
-Für die Georgische Heerstrasse und Zekari wurde zusätzlich ein täglicher automatischer Änderungscheck vom **21. September bis 4. Oktober 2026** eingerichtet; eine Meldung erfolgt nur bei für die Reise relevanten Änderungen.
+Für die Georgische Heerstrasse und Zekari wurde zusätzlich ein täglicher automatischer Änderungscheck vom **20. September bis 4. Oktober 2026** eingerichtet; eine Meldung erfolgt nur bei für die Reise relevanten Änderungen.
 
 ---
 
@@ -128,52 +128,57 @@ Für die Georgische Heerstrasse und Zekari wurde zusätzlich ein täglicher auto
 
 ## 3.1 Tages-Markdowns auf neue Struktur umstellen
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web  
-**Abhängigkeit:** Phase 1 abgeschlossen; Erkenntnisse aus Phase 2 berücksichtigen
+**Abhängigkeit:** Phase 1 abgeschlossen; Erkenntnisse aus Phase 2 berücksichtigt
 
-Alle 14 Tagesdateien nach der neuen Markdown-Konvention überarbeiten:
+Am 10. August 2026 wurden alle 14 Tagesdateien auf die neue Markdown-Konvention migriert und redaktionell gestrafft:
 
-- nur ein Tagesablauf
+- nur ein Tagesablauf als redaktionelle Quelle
 - geschlossene Kurzfassung bereits vollständig und konkret
-- Details nur dort ergänzen, wo sie Mehrwert bringen
+- Details nur dort, wo sie Mehrwert bringen
 - `## Google Maps`
 - `## Falls ihr kürzen müsst`
 - `## Schlechtwetter`
 - `## Tagesablauf`
 - chronologische und realistische Reihenfolge
-- Fahrtzeiten, Distanzen und Aufenthaltszeiten prüfen
-- Essen/Pausen sinnvoll einplanen
-- interne Links zu vorhandenen Detailseiten
-- keine unnötigen Meta-Wiederholungen
-- Küstentage bewusst ruhiger und romantischer lassen
+- Fahrtzeiten, Distanzen und Aufenthaltszeiten kontrolliert
+- Essen/Pausen sinnvoll eingeplant
+- interne Links zu vorhandenen Detailseiten beibehalten beziehungsweise ergänzt
+- alte `fixed`-/`recommended`-/`optional`-Doppelpflege aus den Tagesdateien entfernt
+- Mobilitätsempfehlungen aus Phase 2 integriert
+- Küstentage bewusst ruhiger und romantischer gehalten
+
+Die Reiseplan-Übersicht wurde ebenfalls von der alten `fixed`-Zählung entkoppelt, damit die Single-Source-of-Truth-Struktur konsistent bleibt.
 
 ## 3.2 Tag 1 – SBB
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-- „Entlebuch verlassen“ als ersten Programmpunkt darstellen.
-- Vom Nutzer ausgewählte Verbindung direkt unter **SBB** verlinken:
+- „Entlebuch verlassen“ ist der erste Programmpunkt.
+- Die vom Nutzer ausgewählte Verbindung ist direkt unter **SBB** verlinkt:
   `https://a.sbbmobile.ch/s/m5yK6Fnm`
-- Verbindung vor der Reise nochmals auf Fahrplanänderungen prüfen.
+- Die Verbindung bleibt vor der Reise nochmals auf Fahrplanänderungen zu prüfen.
 
 ## 3.3 Google Maps auf allen Tagesseiten
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Alle 14 Tage kontrollieren. Wo eine Route sinnvoll ist, muss ein funktionierender direkter Google-Maps-Link vorhanden sein. Bereits gefundener konkreter Fehler: **Tag 2 besitzt noch keinen Google-Maps-Link.**
+Alle 14 Tage wurden kontrolliert. Wo eine Fahr-/Laufroute sinnvoll ist, ist ein direkter Google-Maps-Link vorhanden. Ruhetage beziehungsweise reine Transit-/Heimreisetage können den standardisierten Abschnitt ohne künstliche Route leer lassen. Der fehlende Link auf Tag 2 wurde ergänzt.
 
 ## 3.4 Tag 7
 
 **Status:** VOR REISE PRÜFEN  
 **Verantwortlich:** ChatGPT-Web
 
-Die grundlegende Logik ist bereits geklärt und soll erhalten bleiben:
+Die grundlegende Logik ist erhalten:
 
 - Variante A: robuste Route über normale Hauptstrassen
 - Variante B: kürzer über Abastumani / Zekari / Sairme, nur bei geeigneter Freigabe/Fahrzeug
+
+Der Tagesplan bevorzugt aktuell einen individuell organisierten Fahrer. Bei Selbstfahrt bleibt Variante A die robuste Standardlösung; Variante B ist nur mit aktueller offizieller Freigabe, geeignetem Fahrzeug und passenden Mietbedingungen sinnvoll.
 
 Vor der Reise nur noch zeitabhängige Fakten verifizieren; das frühere Problem „600 km versus 341 km“ ist keine offene Architekturfrage mehr.
 
@@ -501,11 +506,11 @@ Zusätzlich:
 
 Die sichtbare Updatefunktion wurde inzwischen umgesetzt. Sie ist **kein offenes Entwicklungs-Arbeitspaket mehr**. In der finalen QA bleibt lediglich der Regressionstest Altversion → Neuversion, Offline und mehrere Tabs.
 
-## Tagesprogramme – erster Ausbau
+## Tagesprogramme – Migration und fachliche Endkontrolle
 
-**Status:** ERLEDIGT / wird in Phase 3 in neues Format überführt
+**Status:** ERLEDIGT
 
-Alle 14 Tagesprogramme wurden bereits deutlich detaillierter ausgearbeitet. Die offene Aufgabe ist nicht mehr „Tagesprogramme erstmals detaillieren“, sondern die fachliche Endkontrolle und Migration in das neue einfache Markdown-/Accordion-Modell.
+Alle 14 Tagesprogramme wurden zunächst detailliert ausgearbeitet und am 10. August 2026 anschliessend vollständig in das neue einfache Markdown-/Accordion-Modell überführt. Der Tagesablauf wird nun je Tag nur noch einmal redaktionell gepflegt; Mobilitätsentscheidungen aus Phase 2, Kürzungs-/Schlechtwetterlogik und sinnvolle Kartenlinks sind eingearbeitet.
 
 ## Tag 7 – zwei Grundvarianten
 
@@ -518,5 +523,3 @@ Standardroute und Zekari-/Sairme-Variante sind konzeptionell getrennt. Kurz vor 
 # Grundregel für neue Pendenzen
 
 Neue offene Arbeiten werden **nur in dieser Datei** ergänzt. Keine zusätzlichen konkurrierenden Pendenz- oder Umsetzungskonzeptdateien im Repository anlegen.
-
-Wenn ein grosser technischer Punkt eine eigene Spezifikation braucht, darf eine separate Anforderungsdatei wie `ANFORDERUNGEN_TAGESPLAN.md` entstehen; der aktuelle Status und die Zuständigkeit bleiben trotzdem hier verzeichnet.
