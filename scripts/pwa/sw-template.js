@@ -1,4 +1,4 @@
-const BUILD='9c6e76a198d9',CACHE=`reisen-${BUILD}`,CACHE_PREFIX='reisen-',BASE='/reisen/';
+const BUILD='__BUILD_ID__',CACHE=`reisen-${BUILD}`,CACHE_PREFIX='reisen-',BASE='/reisen/';
 const CORE=[BASE,BASE+'georgien/',BASE+'georgien/reiseplan/',BASE+'georgien/heute/',BASE+'georgien/wissen/praktisches/',BASE+'georgien/wissen/packliste/',BASE+'georgien/genuss/',BASE+'offline/',BASE+'images/start_image.png',BASE+'images/platzhalter.png',BASE+'manifest.webmanifest'];
 
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(CORE))));

@@ -40,13 +40,18 @@ const url = new URL(Astro.url.pathname, Astro.site);
     <nav class="bottom" aria-label="Mobile Quicklinks">{mobileNavigation.map((item) => <a href={`${base}${item.path}`}>{item.label}</a>)}</nav>
     <footer>
       <div class="footer-grid">{footerNavigation.map((group) => <section><h2>{group.label}</h2>{group.items.map((item) => <a href={`${base}${item.path}`}>{item.label}</a>)}</section>)}</div>
+      <section id="pwa-update" class="pwa-update" data-base={base} aria-labelledby="pwa-update-title">
+        <h2 id="pwa-update-title">Website-Version</h2>
+        <p><span data-update-status role="status" aria-live="polite">Prüfe auf Aktualisierung …</span></p>
+        <button class="button" type="button" data-update-button hidden>Aktualisieren</button>
+      </section>
       <p>Persönlicher Reiseführer · ohne Tracking. Stand redaktioneller Angaben: 6. August 2026; zeitabhängige Angaben vor Ort erneut prüfen.</p>
     </footer>
+    <script is:inline type="module" src={`${base}pwa-update.js`}></script>
     <script is:inline define:vars={{base}}>
       const root=document.documentElement,saved=localStorage.getItem('theme');if(saved)root.dataset.theme=saved;
       document.querySelector('#theme')?.addEventListener('click',()=>{const n=root.dataset.theme==='dark'?'light':'dark';root.dataset.theme=n;localStorage.setItem('theme',n)});
       const offline=document.querySelector('#offline');function network(){offline.hidden=navigator.onLine}addEventListener('online',network);addEventListener('offline',network);network();
-      if('serviceWorker'in navigator)navigator.serviceWorker.register(base+'sw.js',{scope:base});
       const t=document.querySelector('#menuToggle'),m=document.querySelector('#mainMenu'),c=document.querySelector('#menuClose'),s=document.querySelector('#scrim');
       function openMenu(){m.hidden=false;s.hidden=false;t.setAttribute('aria-expanded','true');c.focus()}
       function closeMenu(){m.hidden=true;s.hidden=true;t.setAttribute('aria-expanded','false');t.focus()}
