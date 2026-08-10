@@ -6,6 +6,7 @@ on:
       - chatgpt/schritt-5-inhalte
     paths:
       - scripts/fetch-selected-business-images.mjs
+      - scripts/run-business-image-import-with-retry.mjs
       - .github/workflows/fetch-selected-business-images.yml
 
 permissions:
@@ -27,7 +28,7 @@ jobs:
           node-version: 20
 
       - name: Download curated images and update metadata
-        run: node scripts/fetch-selected-business-images.mjs
+        run: node scripts/run-business-image-import-with-retry.mjs
 
       - name: Commit images and content metadata
         run: |
