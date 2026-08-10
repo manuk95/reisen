@@ -4,6 +4,7 @@ export const mainNavigation: Array<{ label: string; items?: NavigationItem[]; pa
   { label: 'Startseite', path: 'georgien/' },
   { label: 'Reiseplan', items: [
     { label: 'Gesamtroute', path: 'georgien/reiseplan/' },
+    { label: 'Flüge & Bahn', path: 'georgien/fluege/' },
     { label: 'Fahrten', path: 'georgien/fahrten/' },
   ] },
   { label: 'Entdecken', items: [
@@ -20,6 +21,7 @@ export const mainNavigation: Array<{ label: string; items?: NavigationItem[]; pa
 export const footerNavigation: Array<{ label: string; items: NavigationItem[] }> = [
   { label: 'Reiseplanung', items: [
     { label: 'Heute', path: 'georgien/heute/' },
+    { label: 'Flüge & Bahn', path: 'georgien/fluege/' },
     { label: 'Rechtzeitig buchen', path: 'georgien/rechtzeitig-buchen/' },
     { label: 'Schlechtwetter', path: 'georgien/schlechtwetter/' },
   ] },
