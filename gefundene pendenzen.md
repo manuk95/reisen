@@ -238,3 +238,22 @@ Alle Preise, Strassenzustände, Fahrdienst-Verfügbarkeiten und Mietwagenbedingu
 - Die Labels beziehungsweise Statusanzeige **„empfohlen“** auf diesen Kacheln ebenfalls entfernen.
 - Titel und kurze Beschreibung sollen als Hauptinformation der Kachel bestehen bleiben.
 - Die Detailseiten selbst werden dadurch nicht verändert; es geht ausschliesslich um die Gestaltung der Wissens-Übersichtsseite.
+
+## 11. Globalen Aktualitätshinweis im Footer entfernen
+
+- Im Footer steht aktuell sinngemäss der globale Hinweis:
+
+  > „Persönlicher Reiseführer · ohne Tracking. Stand redaktioneller Angaben: 6. August 2026; zeitabhängige Angaben vor Ort erneut prüfen.“
+
+- Dieser **gesamte Satz soll vollständig entfernt werden**.
+- Grund: Die Inhalte der Website haben unterschiedliche Recherche- und Aktualisierungsstände. Ein einziges globales Datum vermittelt deshalb fälschlicherweise, die gesamte Website sei zu diesem Zeitpunkt einheitlich geprüft worden.
+- Auch der allgemeine Zusatz **„zeitabhängige Angaben vor Ort erneut prüfen“** soll nicht pauschal im Footer wiederholt werden.
+- Aktualitätsinformationen sollen stattdessen **inhaltsspezifisch** dort stehen, wo sie tatsächlich relevant sind, zum Beispiel:
+  - `updated` beziehungsweise Recherchestand auf einer Detailseite,
+  - bei aktuellen Preisen,
+  - Öffnungszeiten,
+  - Fahrplänen,
+  - Strassenzuständen,
+  - Wetter-/Saisoninformationen,
+  - Buchungs- oder Verfügbarkeitsangaben.
+- Die Aussage **„ohne Tracking“** muss im Rahmen dieser Pendenz nicht an anderer Stelle ersetzt oder neu dargestellt werden. Ziel ist ausdrücklich, den genannten Footer-Satz ersatzlos zu entfernen.
