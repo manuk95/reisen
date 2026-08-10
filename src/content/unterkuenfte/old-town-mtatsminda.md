@@ -4,23 +4,58 @@ pageId: 172
 slug: old-town-mtatsminda
 trip: georgien-2026
 country: Georgien
-region: "Tbilisi"
-summary: "Ruhige Altstadtlage, Frühstück und privates Bad."
+region: "Tbilisi / Mtatsminda"
+summary: "Ruhige, familiäre Unterkunft nahe Rustaveli mit privatem Bad, sehr gutem Frühstück und starker Bewertung – gute Tbilisi-Alternative zu Hotel Pavo."
 categories: [hotel]
 status: vorschlag
 days: [tag-01, tag-02, tag-03]
 related: []
-sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=old%20town%20mtatsminda%20Georgia"}]
-updated: 2026-08-03
+sources:
+  - {label: "Booking.com – Old Town Mtatsminda", url: "https://www.booking.com/hotel/ge/old-town-mtatsminda.html"}
+updated: 2026-08-10
 image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Old Town Mtatsminda"
+imageAlt: "Platzhalterbild für Old Town Mtatsminda in Tbilisi"
 imageStatus: platzhalter
 ---
 
-## Vorschlag · noch nicht gebucht
+## Kurzfazit
 
-**Preis- und Bewertungsstand 3. August 2026:** CHF 50–80 · Bewertung 9.2. Bewertungen bleiben je Plattform getrennt und müssen vor Buchung neu geprüft werden.
+**Old Town Mtatsminda** ist eine ruhige, sehr gut bewertete 3-Sterne-Unterkunft im Mtatsminda-Viertel. Im Vergleich zu Hotel Pavo wirkt sie stärker wie ein kleines, familiäres Hotel und punktet besonders mit Frühstück und Preis-Leistung.
 
-Ruhige Altstadtlage, Frühstück und privates Bad.
+## Vergleichbare Fakten
 
-**Ausstattung:** eigenes Badezimmer; Pool nur wo oben ausdrücklich genannt. Endpreis, Stornierung, Frühstück, Parkplatz und saisonale Poolöffnung kontrollieren.
+- **Booking.com:** 9.2/10 bei rund 1’355 Bewertungen; Personal 9.6, Preis-Leistung 9.4
+- **Planungs-Preisrahmen:** ca. **CHF 50–80 pro Nacht** für 2, Stand 3. August 2026; für 28. September–1. Oktober live neu prüfen
+- **Bad:** eigenes Badezimmer
+- **Frühstück:** kontinental beziehungsweise Buffet; in aktuellen Gästebewertungen häufig positiv erwähnt
+- **Pool / Spa:** kein Pool-/Spa-Schwerpunkt
+- **Parkplatz:** nicht als sicherer Hauptvorteil ausgewiesen; bei Selbstfahrt vor Buchung abklären
+- **Lage:** Mtatsminda, rund 600 m vom Opernhaus und etwa 1.2 km vom Freiheitsplatz
+
+## Vorteile
+
+- hohe, über viele Bewertungen abgesicherte Booking-Wertung
+- ruhige Atmosphäre trotz zentraler Lage
+- gutes Preis-Leistungs-Verhältnis
+- Frühstück im Haus
+- privates Bad
+- familiengeführter Charakter und sehr gut bewertetes Personal
+
+## Nachteile
+
+- je nach Zimmer und Anfahrt können die kleinen Strassen am Hang etwas unpraktischer sein
+- kein Pool/Spa
+- Parkplatz nicht als gesicherter Vorteil einplanen
+- nicht direkt mitten in Abanotubani/Altstadt
+
+## Eignung für eure Reise
+
+**Sehr gute Tbilisi-Option für Tag 1–3**, wenn euch ein ruhiges Frühstückshotel wichtiger ist als maximale Nähe zum Nachtleben. Für die meisten Programmpunkte könnt ihr laufen oder kurze Bolt-Fahrten nutzen.
+
+Im direkten Vergleich ist [Hotel Pavo](/reisen/georgien/hotels/hotel-pavo/) etwas stärker bei Lagebewertung und Einfachheit; Old Town Mtatsminda ist attraktiver, wenn Frühstück und familiärer Charakter höher gewichtet werden.
+
+## Buchung
+
+[Booking.com öffnen](https://www.booking.com/hotel/ge/old-town-mtatsminda.html)
+
+Für **28. September–1. Oktober 2026** vor allem Zimmergrösse, Balkon, Frühstück, Stornierungsbedingungen und die konkrete Erreichbarkeit mit Gepäck vergleichen.
