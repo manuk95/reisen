@@ -215,7 +215,7 @@ Drei verständliche Gesamtszenarien sind dargestellt:
 
 Hotelpreise basieren auf dem Preisstand der bestehenden Unterkunftsseiten vom 3. August 2026. Mobilität, Wechselkurse, Restaurant-Richtwerte, Treibstoff, Schwefelbad, Prometheus-Höhle, Botanischer Garten und weitere Eintrittsbeispiele wurden am 10. August 2026 gegen aktuelle Quellen geprüft.
 
-Nicht doppelt gerechnet werden lokale 4x4-Fahrer, wenn sie bereits im Mobilitätsbudget enthalten sind. Die SBB-An-/Abreise wird erst nach Phase 5 ergänzt, weil die konkreten Rückverbindungen und individuellen Schweizer Ticketkosten noch nicht feststehen.
+Nicht doppelt gerechnet werden lokale 4x4-Fahrer, wenn sie bereits im Mobilitätsbudget enthalten sind. Die konkreten SBB-Verbindungen der Rückreise sind inzwischen in Phase 5 festgelegt; individuelle Schweizer Ticketkosten bleiben ausserhalb der Gesamtsumme, solange nicht geklärt ist, welche Abonnemente/Tarife tatsächlich genutzt werden.
 
 Vor tatsächlicher Buchung bleiben Hotelpreise, Fahrer-Offerten, Mietwagenkonditionen und Wechselkurs zeitabhängig zu prüfen; dafür ist kein neues technisches Datenmodell und kein Codex-Arbeitspaket erforderlich.
 
@@ -225,45 +225,40 @@ Vor tatsächlicher Buchung bleiben Hotelpreise, Fahrer-Offerten, Mietwagenkondit
 
 ## 5.1 Eigene Flugseite
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Aktuelle Daten der vier Flugsegmente verifizieren und eine vollständige Flugseite erstellen:
+Am 10. August 2026 wurde die Seite **`/georgien/fluege/`** erstellt und unter Reiseplan sowie im Footer verlinkt. Sie enthält:
 
-- ZRH → BEG
-- BEG → TBS
-- BUS → IST
-- IST → ZRH
+- ZRH → BEG: JU331, 28.09.2026, 09:30 → 11:15, ca. 1 h 45 min
+- BEG → TBS: JU890, 28.09.2026, Reiseplanung/Buchung 13:20 → 18:20, ca. 3 h
+- BUS → IST: TK393, 10.10.2026, 22:40 → 23:50, ca. 2 h 10 min
+- IST → ZRH: TK1907, 11.10.2026, 07:55 → 09:55, ca. 3 h
+- IATA-Codes, lokale Zeiten und Zeitzonen
+- Umsteigezeiten von ca. 2 h 05 min in Belgrad und ca. 8 h 05 min in Istanbul
+- Gesamtzeiten von ca. 6 h 50 min hin und 13 h 15 min zurück
+- Timeline für Hin- und Rückreise
+- Airline-/Flugplanlinks und Prüfdatum
+- keine privaten Buchungscodes oder anderen privaten Buchungsdaten
 
-Darstellen:
+Bei JU890 zeigen aktuelle öffentliche Flugplanquellen eine kleine Abweichung: 13:20 beziehungsweise 13:25 als Abflug, bei gleicher Ankunft 18:20. Die vorhandene Reiseplanung/Buchung nennt 13:20; deshalb bleibt die Airline-Buchung kurz vor Reise massgebend.
 
-- Datum / Wochentag
-- Airline
-- Flugnummer
-- IATA-Codes
-- lokale Zeiten
-- Segmentdauer
-- Umsteigezeit
-- Gesamtdauer
-- Zeitzonen
-- Timeline
-- Prüfdatum
-- Airline-/Statuslinks
-
-Keine privaten Buchungsdaten veröffentlichen.
+Tag 1, Tag 13 und Tag 14 wurden mit der neuen Seite und den verifizierten Flugdetails verknüpft beziehungsweise ergänzt.
 
 ## 5.2 Bahn Zürich Flughafen → Entlebuch
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Für den 11. Oktober 2026 datumsspezifisch recherchieren:
+Für Sonntag, 11. Oktober 2026 wurde auf Basis des aktuellen 2026-Fahrplans eine komfortable Rückreise nach der geplanten Landung um 09:55 festgelegt:
 
-- realistische Hauptverbindung nach Landung 09:55
-- mindestens zwei spätere Alternativen
-- Gepäck-/Einreise-/Bahnhofsreserve berücksichtigen
+- **Hauptverbindung:** Zürich Flughafen 11:15 → Luzern 12:25 → Luzern 12:57 → Entlebuch 13:22
+- **Alternative 1:** Zürich Flughafen 12:15 → Luzern 13:25 → Luzern 13:57 → Entlebuch 14:22
+- **Alternative 2:** Zürich Flughafen 13:15 → Luzern 14:25 → Luzern 14:57 → Entlebuch 15:22
 
-Für die Hinfahrt wird die unter Phase 3.2 hinterlegte SBB-Verbindung verwendet und kurz vor Reise erneut geprüft.
+Die Hauptverbindung lässt ungefähr 80 Minuten zwischen geplanter Landung und Zugabfahrt und danach rund 32 Minuten Umsteigezeit in Luzern. Der IR75 verkehrt im aktuellen Grundtakt ab Zürich Flughafen zur Minute :15 direkt nach Luzern; ab Luzern besteht der stündliche Anschluss Richtung Bern über Entlebuch zur Minute :57.
+
+Die Verbindung ist auf `/georgien/fluege/` und Tag 14 dokumentiert. Gleise, kurzfristige Bauarbeiten, Verspätungen und Fahrplanänderungen am 11. Oktober nochmals in SBB Mobile kontrollieren. Die vom Nutzer gewählte Hinfahrt-Verbindung aus Phase 3 bleibt ebenfalls vor der Reise erneut zu prüfen.
 
 ---
 
