@@ -4,23 +4,64 @@ pageId: 169
 slug: magnetic-resort
 trip: georgien-2026
 country: Georgien
-region: "Gurien"
-summary: "Boutique, Garten, saisonaler Aussenpool; fünf Minuten zum Strand."
+region: "Ureki / Gurien"
+summary: "Sehr hoch bewertetes Boutique-Resort mit Garten, saisonalem Aussenpool und Strandnähe – stark beim Preis-Leistungs-Verhältnis, aber wetterabhängiger als Hotels mit Innenpool."
 categories: [hotel]
 status: vorschlag
 days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
-sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=magnetic%20resort%20Georgia"}]
-updated: 2026-08-03
+sources:
+  - {label: "Booking.com – Magnetic Resort Ureki", url: "https://www.booking.com/hotel/ge/magnetic-resort-ureki.html"}
+updated: 2026-08-10
 image: images/platzhalter.png
 imageAlt: "Platzhalterbild für Magnetic Resort Ureki"
 imageStatus: platzhalter
 ---
 
-## Vorschlag · noch nicht gebucht
+## Kurzfazit
 
-**Preis- und Bewertungsstand 3. August 2026:** CHF 85–140 · Booking 9.8. Bewertungen bleiben je Plattform getrennt und müssen vor Buchung neu geprüft werden.
+**Magnetic Resort Ureki** ist derzeit die auffälligste Preis-Leistungs-Option an der Küste: sehr hohe Bewertung, ruhige Anlage, Garten und Pool bei deutlich tieferem Preis als Paragraph. Der entscheidende Nachteil für Anfang Oktober ist, dass der Pool **saisonal und im Freien** ist.
 
-Boutique, Garten, saisonaler Aussenpool; fünf Minuten zum Strand.
+## Vergleichbare Fakten
 
-**Ausstattung:** eigenes Badezimmer; Pool nur wo oben ausdrücklich genannt. Endpreis, Stornierung, Frühstück, Parkplatz und saisonale Poolöffnung kontrollieren.
+- **Booking.com:** 9.8/10 bei rund 392 Bewertungen; Lage 9.6
+- **Planungs-Preisrahmen:** ca. **CHF 85–140 pro Nacht** für 2, Stand 3. August 2026; für 6.–10. Oktober live neu prüfen
+- **Bad:** eigenes Badezimmer
+- **Frühstück:** verfügbar; lokale Spezialitäten und Buffet-/Frühstücksangebot
+- **Pool:** saisonaler Aussenpool
+- **Spa:** kein vergleichbarer grosser Indoor-Spa wie Paragraph
+- **Parkplatz:** kostenloser Privatparkplatz
+- **Strand:** Ureki Beach etwa fünf Gehminuten entfernt
+- **Restaurant / Bar:** vorhanden
+
+## Vorteile
+
+- aussergewöhnlich hohe Booking-Bewertung
+- sehr starkes Preis-Leistungs-Verhältnis
+- ruhiger Boutique-Charakter
+- Pool, Garten und Restaurant im Haus
+- Strand in kurzer Gehdistanz
+- für vier Nächte deutlich günstiger als Paragraph
+
+## Nachteile
+
+- **kein verlässlicher Innenpool** – Anfang Oktober zentraler Nachteil
+- Aussenpool kann saisonal bereits eingeschränkt oder geschlossen sein
+- Ureki statt Shekvetili; Lage der Tagesausflüge verändert sich leicht
+- weniger luxuriöse Spa-/Resortinfrastruktur
+
+## Eignung für eure Reise
+
+**Sehr starke günstige Küstenoption**, wenn die Wetterprognose gut ist und der Pool Anfang Oktober bestätigt geöffnet bleibt. Für vier romantische Tage mit möglichst sicherer Bade-/Wellnessalternative ist [Paragraph Resort & Spa](/reisen/georgien/hotels/paragraph/) robuster.
+
+Als 2+2-Kombination wäre Magnetic Resort für die ersten zwei Küstennächte und Paragraph für die letzten zwei Nächte besonders interessant.
+
+## Romantischer Faktor
+
+**hoch für den Preis:** kleine Anlage, Garten, ruhige Lage und Strandnähe. Bei kaltem oder regnerischem Wetter sinkt der Vorteil wegen fehlendem Innenpool jedoch deutlich.
+
+## Buchung
+
+[Booking.com öffnen](https://www.booking.com/hotel/ge/magnetic-resort-ureki.html)
+
+Vor Buchung für **6.–10. Oktober 2026** ausdrücklich bestätigen, ob der Aussenpool noch geöffnet ist. Das ist für eure Reise wichtiger als eine kleine Differenz beim Zimmerpreis.
