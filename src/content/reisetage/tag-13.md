@@ -4,7 +4,7 @@ slug: tag-13
 trip: georgien-2026
 country: Georgien
 region: Reiseroute
-summary: "Letzter ruhiger Küstentag, Mietwagenrückgabe und Nachtflug"
+summary: "Letzter ruhiger Küstentag und Nachtflug ab Batumi"
 categories: [reiseplan]
 status: fix
 sources:
@@ -12,74 +12,57 @@ sources:
     url: "https://www.turkishairlines.com/"
   - label: "Georgia Travel: Shekvetili"
     url: "https://georgia.travel/resorts/shekvetili"
-updated: 2026-08-08
+updated: 2026-08-10
 date: 2026-10-10
 day: 13
 from: "Shekvetili"
 to: "Flughafen Batumi"
 character: "Letzter Küstentag · Nachtflug"
-distance: "ca. 46–50 km"
-driveTime: "ca. 1 h plus Reserve für Verkehr und Mietwagenrückgabe"
 lodging: "—"
-optional: ["Late Check-out oder Spa-Zugang nach Check-out vorab anfragen"]
 climate: "21/14 °C"
 bathing: "bis Nachmittag vorgesehen"
-fixed:
-  - {time: "18:30–18:45", label: "Späteste sinnvolle Abfahrt Shekvetili"}
-  - {time: "ca. 20:00", label: "Mietwagenrückgabe und Flughafen-Check-in"}
-  - {time: "22:40", label: "Abflug Batumi mit Turkish Airlines via Istanbul"}
-recommended:
-  - {time: "09:00", label: "Langes Frühstück"}
-  - {time: "10:30–13:00", label: "Letztes Baden / Strand"}
-  - {time: "13:00", label: "Mittagessen"}
-  - {time: "14:00–16:00", label: "Spa, Dusche, Packen"}
-  - {time: "16:30", label: "Frühes leichtes Abendessen / Snack"}
+distance: "ca. 46–50 km"
+driveTime: "ca. 1 h plus Verkehrs- und Flughafenreserve"
 sunrise: "07:19 Uhr · Shekvetili"
 sunset: "18:41 Uhr · Flughafen Batumi"
 ---
 
-## Tageslogik
-
-Der Abflug ist erst um **22:40 Uhr**. Deshalb soll der letzte Tag nicht wie ein klassischer Abreisetag bereits morgens enden. Gleichzeitig muss genug Reserve für Verkehr, Tanken und Mietwagenrückgabe bleiben.
-
-## Detaillierter Ablauf
-
-### 09:00 · letztes langes Frühstück
-
-In Ruhe frühstücken und erst danach entscheiden, ob Strand oder Spa besser passt.
-
-### 10:30–13:00 · Strand / letztes Bad
-
-Bei ruhigem Meer nochmals baden. Danach keine nassen Sachen mehr lose ins Gepäck packen – ausreichend Zeit zum Trocknen lassen.
-
-### 13:00–14:00 · Mittagessen
-
-Leicht essen. Für den Flugabend kein sehr grosses Supra-Menü mehr planen.
-
-### 14:00–16:00 · Spa, Dusche und Packen
-
-Wenn möglich **Late Check-out** oder wenigstens Zugang zu Dusche/Spa nach dem Auschecken vorab mit dem Hotel klären. Alles für den Flug neu organisieren: Flüssigkeiten, Akkus, Medikamente und Dokumente ins richtige Gepäck.
-
-### 16:30–17:30 · früher Snack / letzte Hotelzeit
-
-Noch einmal ruhig sitzen, bevor die Rückreise beginnt.
-
-### 18:30–18:45 · Abfahrt zum Flughafen
-
-Vorher volltanken, falls der Mietvertrag dies verlangt. Nicht erst in Batumi nach einer Tankstelle suchen, wenn die Zeit knapp wird.
-
-### ca. 19:45–20:15 · Mietwagenrückgabe
-
-Fahrzeug gemeinsam kontrollieren, Tankstand fotografieren und Rückgabe dokumentieren. Danach direkt zum Terminal.
-
-### 22:40 · Batumi → Istanbul
-
-Nachtflug. Die lange Umsteigezeit in Istanbul für Schlaf/Ruhe nutzen und nicht mit einem nächtlichen Stadtausflug verplanen.
-
-## Google-Maps-Route
+## Google Maps
 
 [Route Shekvetili → Flughafen Batumi öffnen](https://www.google.com/maps/dir/?api=1&origin=Shekvetili%2C+Georgia&destination=Batumi+International+Airport%2C+Georgia&travelmode=driving)
 
-## Sicherheitsreserve
+## Falls ihr kürzen müsst
 
-Wenn es stark regnet oder Batumi-Verkehr erwartet wird, **30–45 Minuten früher** abfahren. Der letzte Strandnachmittag ist weniger wichtig als eine entspannte Rückgabe und pünktlicher Check-in.
+Strand/Spa am Nachmittag verkürzen und lieber früher Richtung Flughafen fahren. Der Flug hat Priorität.
+
+## Schlechtwetter
+
+Strand auslassen und Spa/Innenpool nutzen. Bei Starkregen oder erwartetem Batumi-Verkehr 30–45 Minuten zusätzliche Transferreserve einplanen.
+
+## Tagesablauf
+
+### 09:00 · Letztes langes Frühstück
+
+### 10:30–13:00 · Strand und letztes Bad bei ruhigem Meer
+
+Genügend Zeit lassen, damit nasse Sachen vor dem Packen trocknen können.
+
+### 13:00–14:00 · Leichtes Mittagessen
+
+### 14:00–16:00 · Spa, Dusche und Packen
+
+Wenn möglich Late Check-out oder Zugang zu Dusche/Spa nach dem Check-out vorab mit dem Hotel klären.
+
+### 16:30–17:30 · Früher Snack und letzte Hotelzeit
+
+### spätestens 18:30–18:45 · Transfer zum Flughafen Batumi
+
+Für die aktuell bevorzugte Fahrer-/Transferlösung direkt vom Hotel zum Flughafen fahren. Falls ihr doch einen Mietwagen nutzt, zusätzlich Zeit für Tanken, Fahrzeugkontrolle und Rückgabe einrechnen.
+
+### ca. 20:00 · Flughafen-Check-in
+
+Mit genügend Reserve vor dem Nachtflug am Terminal sein.
+
+### 22:40 · Flug Batumi → Istanbul
+
+Die lange Umsteigezeit in Istanbul für Ruhe/Schlaf nutzen und keinen knappen nächtlichen Stadtausflug planen.
