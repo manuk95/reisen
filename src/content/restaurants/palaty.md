@@ -5,22 +5,48 @@ slug: palaty
 trip: georgien-2026
 country: Georgien
 region: "Kutaisi"
-summary: "Imeretische Klassiker · Gault&Millau 13.5/20 · mittel"
+summary: "Gemütliches Restaurant in der Altstadt von Kutaisi mit imeretischen und georgischen Klassikern, Wein und Live-Musik · Gault&Millau 13.5/20."
 categories: [restaurant]
 status: empfohlen
 days: [tag-08]
 related: []
-sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
-updated: 2026-08-03
+sources:
+  - {label: "Palaty – offizielle Website", url: "https://palaty.ge/"}
+  - {label: "Gault&Millau Georgia – Restaurantauswahl", url: "https://ge.gaultmillau.com/en/search/restaurant"}
+  - {label: "Georgia Travel Places – Palaty", url: "https://places.georgia.travel/en/establishments/palaty"}
+updated: 2026-08-10
 image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Palaty"
+imageAlt: "Platzhalterbild für Restaurant Palaty in Kutaisi"
 imageStatus: platzhalter
 ---
 
 ## Profil
 
-Imeretische Klassiker · Gault&Millau 13.5/20 · mittel. Aktuelle Öffnung, Karte und Reservation direkt beim Betrieb bestätigen. Plattformwerte werden nicht vermischt.
+**Palaty** liegt im alten Kutaisi nahe der Weissen Brücke und verbindet georgische beziehungsweise imeretische Küche mit einem gemütlichen, leicht verspielten Interieur. Das Restaurant existiert seit 2013 und eignet sich sowohl für ein normales Abendessen als auch für einen etwas längeren Abend mit Wein.
+
+- **Gault&Millau:** 13.5/20
+- **Küche:** georgisch, imeretisch und europäisch beeinflusst
+- **Preisniveau:** mittel
+- **Adresse:** 2 Alexander Pushkin Street, Kutaisi
+- **Öffnung:** offizielle Website aktuell 10:00–23:45; Küche bis 23:00
+- **Atmosphäre:** gemütlich, romantisch, teilweise Live-Musik
 
 ## Spezialitäten
 
-Georgische beziehungsweise regionale Küche; Allergien bei Bestellung ausdrücklich nennen.
+Für euch interessant sind vor allem **imeretische Klassiker**, regionale Käse-/Teiggerichte, Fleischgerichte und georgische Weine. Die offizielle Website betont georgische Klassiker, Signature-Gerichte und eine breite Weinauswahl.
+
+Wenn ihr tagsüber Klöster und Prometheus-Höhle besucht, ist Palaty abends eine unkomplizierte Möglichkeit, den Imeretien-Tag kulinarisch abzuschliessen.
+
+## Reservation
+
+Eine Reservation ist für den Abend sinnvoll, insbesondere wenn ihr einen ruhigen Tisch, Balkon oder Live-Musik bevorzugt. Die offizielle Website bietet eine direkte Reservierungsfunktion.
+
+## Für eure Reise
+
+**Sehr passend zu Tag 8.** Nach dem vollen Besichtigungstag besser nicht nochmals weit fahren, sondern in Kutaisi essen. Palaty ist dafür wegen Lage und Atmosphäre stärker als ein zusätzlicher Ausflug ausserhalb der Stadt.
+
+[Tag 8 öffnen](/reisen/georgien/tag/tag-08/) · [Kutaisi](/reisen/georgien/orte/kutaisi/) · [Weinland](/reisen/georgien/weinland/)
+
+## Bildstatus
+
+Im Repository liegt derzeit kein eindeutig verifiziertes, frei nutzbares Betriebsfoto. Deshalb bleibt die Seite bewusst beim Platzhalter statt ein unpassendes Bild zu verwenden.
