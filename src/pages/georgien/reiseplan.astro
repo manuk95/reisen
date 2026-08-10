@@ -8,7 +8,7 @@ const base = import.meta.env.BASE_URL;
   <div class="wrap">
     <p class="eyebrow">14 Reisetage</p>
     <h1>Reiseplan</h1>
-    <p>Fixe Flugtermine sind rot markiert. Empfehlungen bleiben flexibel; Wetter und Strassen entscheiden im Kaukasus.</p>
+    <p>Alle Tage sind chronologisch geplant; optionale Punkte, Schlechtwettervarianten und Kürzungen stehen direkt im jeweiligen Tagesplan.</p>
 
     <div class="alert">
       <strong>Mietwagen oder Fahrer?</strong> Die langen Transfers und Bergstrassen sind separat bewertet. <a href={`${base}georgien/fahrten/`}>Fahrten & Strassen →</a>
@@ -20,7 +20,6 @@ const base = import.meta.env.BASE_URL;
         <h2><a href={`${base}georgien/tag/${d.data.slug}/`}>{d.data.date.toLocaleDateString('de-CH', { weekday: 'long', day: 'numeric', month: 'long' })}</a></h2>
         <p><strong>{d.data.from} → {d.data.to}</strong></p>
         <p>{d.data.character}</p>
-        {d.data.fixed.length > 0 && <span class="badge fix">{d.data.fixed.length} fixe Termine</span>}
       </article>)}
     </div>
   </div>
