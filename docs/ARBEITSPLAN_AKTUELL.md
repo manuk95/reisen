@@ -60,10 +60,10 @@ Abnahme gemäss `ANFORDERUNGEN_TAGESPLAN.md`.
 
 ## 2.1 Mietwagen oder Fahrer fundiert vergleichen
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Neue Seite **Fahrten** recherchieren und erstellen. Ziel ist die Entscheidung zwischen:
+Die Recherche und die Seite **`/georgien/fahrten/`** wurden am 10. August 2026 erstellt. Die Seite vergleicht:
 
 - Mietwagen / Selbstfahrer
 - GoTrip / privater Fahrer
@@ -73,41 +73,38 @@ Neue Seite **Fahrten** recherchieren und erstellen. Ziel ist die Entscheidung zw
 - lokale Fahrer / 4x4-Fahrer für Bergregionen
 - sinnvolle Hybridvariante
 
-Alle längeren Transfers und relevanten Ausflüge der aktuellen Tagespläne erfassen, insbesondere:
+Erfasst sind die längeren Transfers und relevanten Ausflüge der aktuellen Tagespläne, insbesondere:
 
 - Tbilisi → Mtskheta / Dschwari → Tbilisi
 - Tbilisi → Stepantsminda via Ananuri / Gudauri / Kreuzpass
 - Stepantsminda → Trusso
 - Stepantsminda → Juta / Sno
-- Dariali / Gveleti, falls im finalen Tagesplan relevant
+- Dariali / Gveleti
 - Stepantsminda → Vardzia → Kutaisi
 - Kutaisi-Rundfahrten
 - Kutaisi → Shekvetili
-- Shekvetili → Kolkheti / Gurien, falls vorgesehen
+- Shekvetili → Kolkheti / Gurien
 - Shekvetili → Botanischer Garten Batumi → Batumi → Shekvetili
 - Shekvetili → Flughafen Batumi
 
-Pro Fahrt recherchieren:
+Die Seite enthält:
 
-- Distanz, reine Fahrzeit, realistische Gesamtzeit
-- Strassenart und -zustand
-- Asphalt / unbefestigt
-- Steigungen, Kurven, Höhenlage
-- saisonale Risiken Ende September / Anfang Oktober
-- Baustellen, Sperrungen und Fahrzeugbeschränkungen
-- normales Auto / SUV / 4x4
-- Mietwagenbedingungen und ausgeschlossene Strassen
-- Parkieren, Tanken und Versorgung
-- Stress- und Sicherheitsfaktor für Selbstfahrer
-- klare Empfehlung pro Strecke
+- Strassen- und Sicherheitsbewertung pro Strecke
+- Fahrzeug- und Mietwagenrestriktionen
+- Preisbeispiele und Arbeitsbudgets
+- Flexibilitätsvergleich
+- offizielle Quellen
+- positive und kritische Erfahrungsberichte
+- konkrete Empfehlung für die aktuelle Reise
+- Punkte, für die vor Buchung noch individuelle Offerten benötigt werden
 
-Kostenvergleich:
+Verknüpfungen sind umgesetzt über:
 
-1. gesamte Reise mit geeignetem Mietwagen
-2. gesamte Reise mit Fahrern/Transfers
-3. Hybridvariante, falls sinnvoll
+1. Hauptmenü → Reiseplan → Fahrten
+2. Footer → Unterwegs → Fahrten
+3. Reiseplan/Gesamtroute → „Mietwagen oder Fahrer? / Fahrten & Strassen“
 
-Zusätzlich reale positive und negative Reiseerfahrungen recherchieren und mit direkten Links einordnen. Offizielle Quellen und subjektive Erfahrungsberichte klar trennen.
+Aktuelle Tendenz der Recherche: Fahrer beziehungsweise eine fahrerlastige Hybridlösung passt besser zur konkreten Route als ein durchgehender Mietwagen. Diese Einschätzung wird in Phase 3 bei der fachlichen Überarbeitung der Tagesprogramme berücksichtigt.
 
 ## 2.2 Zeitabhängige Bergstrassen
 
@@ -122,6 +119,8 @@ Grundsätzlich geklärt, aber vor Fahrt erneut kontrollieren:
 - Kreuzpass / Georgische Heerstrasse
 
 Aktuelle Freigabe, Wetter, Mietwagenbedingungen und Fahrzeugtauglichkeit prüfen.
+
+Für die Georgische Heerstrasse und Zekari wurde zusätzlich ein täglicher automatischer Änderungscheck vom **21. September bis 4. Oktober 2026** eingerichtet; eine Meldung erfolgt nur bei für die Reise relevanten Änderungen.
 
 ---
 
