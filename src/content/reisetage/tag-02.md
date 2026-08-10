@@ -14,78 +14,67 @@ sources:
     url: "https://georgia.travel/tbilisi-sulfur-baths"
   - label: "Georgia Travel: Metekhi Church"
     url: "https://georgia.travel/metekhi-church"
-updated: 2026-08-08
+updated: 2026-08-10
 date: 2026-09-29
 day: 2
 from: "Tbilisi"
 to: "Tbilisi"
 character: "Altstadt · Kultur · Genuss · Bad"
 lodging: "Tbilisi-Vorschlag"
-optional: ["Nationalmuseum und Dry Bridge nicht beide erzwingen – nach Interesse wählen"]
 climate: "23/13 °C"
 bathing: "Schwefelbad vorgesehen"
-fixed: []
-recommended:
-  - {time: "08:45", label: "Sameba-Kathedrale"}
-  - {time: "10:00", label: "Metekhi, Rike und Altstadt"}
-  - {time: "11:15", label: "Abanotubani und Leghvtakhevi-Schlucht"}
-  - {time: "12:15", label: "Narikala und Kartlis Deda"}
-  - {time: "13:45", label: "Mittagessen in der Altstadt"}
-  - {time: "15:30", label: "Nationalmuseum oder Dry Bridge"}
-  - {time: "18:00", label: "Privates Schwefelbad – reservieren"}
-  - {time: "20:00", label: "Abendessen und Naturwein"}
 distance: "ca. 8–12 km Stadtwege"
 driveTime: "überwiegend zu Fuss · Taxi/Metro nach Bedarf"
 sunrise: "06:55 Uhr · Tbilisi"
 sunset: "18:47 Uhr · Tbilisi"
 ---
 
-## Tageslogik
+## Google Maps
 
-Der erste volle Tag verbindet die wichtigsten historischen Schichten von [Tbilisi](/reisen/georgien/orte/tbilisi/): moderne nationale Symbolik bei Sameba, mittelalterliche Altstadt, Festung, Bäderkultur und ein Museum beziehungsweise Markt als Kontrast. Der Abend endet bewusst ruhig im Schwefelbad.
+[Altstadtroute Sameba → Metekhi → Rike → Abanotubani/Narikala öffnen](https://www.google.com/maps/dir/?api=1&origin=Holy+Trinity+Cathedral+of+Tbilisi%2C+Georgia&destination=Abanotubani%2C+Tbilisi%2C+Georgia&waypoints=Metekhi+Church%2C+Tbilisi%2C+Georgia%7CRike+Park%2C+Tbilisi%2C+Georgia%7CNarikala+Fortress%2C+Tbilisi%2C+Georgia&travelmode=walking)
 
-## Detaillierter Ablauf
+## Falls ihr kürzen müsst
 
-### 08:45–09:30 · Sameba-Kathedrale
+1. Dry Bridge/Fabrika streichen.
+2. Danach das Nationalmuseum auf einen anderen Tbilisi-Tag verschieben.
+3. Sameba nur streichen, wenn euch moderne Kirchenarchitektur weniger wichtig ist.
 
-Beginnt bei der [Sameba-Kathedrale](/reisen/georgien/sehenswuerdigkeiten/sameba-kathedrale/), solange der Platz noch relativ ruhig ist. Rund **30–45 Minuten** reichen, wenn keine Liturgie den Zugang beeinflusst. Kleidung für einen aktiven Gottesdienstort wählen.
+## Schlechtwetter
 
-### 10:00–10:45 · Metekhi und Blick auf die Altstadt
+Museum, Kirchen und Schwefelbad priorisieren. Narikala/Aussichten nur bei vernünftiger Sicht und sicheren Wegen einbauen.
 
-Weiter zur [Metekhi-Kirche](/reisen/georgien/sehenswuerdigkeiten/altstadt-metekhi/). Vom Fels über dem Mtkvari bekommt ihr einen guten ersten Überblick über Abanotubani, Narikala und die Altstadt. Danach über Rike beziehungsweise die Altstadtgassen Richtung Bäderviertel gehen.
+## Tagesablauf
 
-### 11:15–12:00 · Abanotubani und Leghvtakhevi
+### 08:45–09:30 · Sameba-Kathedrale besichtigen
 
-Die Backsteinkuppeln der [Schwefelbäder](/reisen/georgien/sehenswuerdigkeiten/schwefelbaeder/) zunächst von aussen ansehen. Danach durch die kleine Leghvtakhevi-Schlucht bis zum Wasserfall laufen. Dieser Abschnitt ist kurz und eignet sich gut als Übergang zur Festung.
+Bei der [Sameba-Kathedrale](/reisen/georgien/sehenswuerdigkeiten/sameba-kathedrale/) beginnen. Rund 30–45 Minuten reichen; Kleidung für einen aktiven Gottesdienstort wählen.
+
+### 10:00–10:45 · Metekhi, Rike und erster Altstadtblick
+
+Zur [Metekhi-Kirche](/reisen/georgien/sehenswuerdigkeiten/altstadt-metekhi/) und danach über Rike Richtung Altstadt. Vom Metekhi-Felsen seht ihr Abanotubani, Narikala und den Mtkvari besonders gut.
+
+### 11:15–12:00 · Abanotubani und Leghvtakhevi-Schlucht
+
+Die historischen [Schwefelbäder](/reisen/georgien/sehenswuerdigkeiten/schwefelbaeder/) von aussen ansehen und durch die kurze Leghvtakhevi-Schlucht bis zum Wasserfall gehen.
 
 ### 12:15–13:15 · Narikala und Kartlis Deda
 
-Zur [Narikala-Festung](/reisen/georgien/sehenswuerdigkeiten/narikala/) hinauf – je nach Betrieb per Seilbahn oder zu Fuss. Oben etwa **45–60 Minuten** für Mauern, Aussicht und Kartlis Deda vorsehen. Nicht jede Ruine betreten; Absperrungen beachten.
+Zur [Narikala-Festung](/reisen/georgien/sehenswuerdigkeiten/narikala/) hinauf, je nach aktuellem Betrieb per Seilbahn oder zu Fuss. Etwa 45–60 Minuten für Aussicht und Umgebung einplanen; Absperrungen beachten.
 
-### 13:45–15:00 · Mittagessen
+### 13:45–15:00 · Mittagessen in der Altstadt
 
-Jetzt ist der richtige Zeitpunkt für ein längeres georgisches Mittagessen. Empfehlenswert sind [Chinkali](/reisen/georgien/genuss/chinkali/), [Pchali](/reisen/georgien/genuss/pchali/), Lobio oder ein Chatschapuri. Nicht zu schwer essen, weil am frühen Abend das Bad folgt.
+Georgische Klassiker wie [Chinkali](/reisen/georgien/genuss/chinkali/), [Pchali](/reisen/georgien/genuss/pchali/), Lobio oder Chatschapuri passen gut. Nicht zu schwer essen, weil am frühen Abend das Bad folgt.
 
-### 15:30–17:00 · Museum **oder** Dry Bridge
+### 15:30–17:00 · Nationalmuseum oder Dry Bridge/Fabrika
 
-**Variante Kultur:** [Rustaweli und Nationalmuseum](/reisen/georgien/sehenswuerdigkeiten/rustaweli-nationalmuseum/) für Archäologie, Goldschatz und sowjetische Geschichte.
+**Kultur:** [Rustaweli und Nationalmuseum](/reisen/georgien/sehenswuerdigkeiten/rustaweli-nationalmuseum/).  
+**Stadtleben:** [Dry Bridge und Fabrika](/reisen/georgien/sehenswuerdigkeiten/dry-bridge-fabrika/).  
+Nur eine Variante wählen, wenn ihr den Tag entspannt halten wollt.
 
-**Variante Stadtleben:** [Dry Bridge und Fabrika](/reisen/georgien/sehenswuerdigkeiten/dry-bridge-fabrika/) für Antiquitäten, Kunst und den jüngeren kreativen Kontrast. Beide Optionen am selben Nachmittag sind möglich, aber nicht nötig.
+### 18:00–19:15 · Privates Schwefelbad in Abanotubani
 
-### 18:00–19:15 · Schwefelbad
+Für den Abend einen privaten Raum vorreservieren. Die Bäder sind ganzjährig geöffnet, einzelne Öffnungszeiten unterscheiden sich; optional einen Kisa-Scrub dazubuchen.
 
-Ein privater Raum in Abanotubani passt ideal in den Tagesabschluss. Für die Herbstreise sollte die gewünschte Zeit **vorreserviert** werden; die Bäder sind insbesondere am Abend beliebt. Optional Kisa-Scrub dazubuchen.
+### ab 20:00 · Abendessen und optional Naturweinbar
 
-### ab 20:00 · Abendessen und Wein
-
-Gemütliches Abendessen, danach höchstens noch eine Naturweinbar. Für den ersten vollen Tag keinen Club- oder Spätabend einplanen.
-
-## Wenn ihr kürzen müsst
-
-1. Dry Bridge/Fabrika streichen.
-2. Museum auf einen späteren Tbilisi-Aufenthalt verschieben.
-3. Sameba nicht streichen, wenn euch Architektur und moderne georgische Identität interessieren; sonst wäre sie die nächste Kürzung.
-
-## Praktisch
-
-Bequeme Schuhe sind wichtiger als ein Taxi: die Altstadt hat Pflaster, Treppen und deutliche Höhenunterschiede. Für Kirchen ein leichtes Tuch beziehungsweise angemessene Kleidung mitnehmen.
+Gemütlich essen und den ersten vollen Tag ohne spätes Zusatzprogramm abschliessen.
