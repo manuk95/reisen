@@ -4,7 +4,7 @@ slug: tag-02
 trip: georgien-2026
 country: Georgien
 region: Reiseroute
-summary: "Altstadt, Sameba, Narikala, Museum und Schwefelbad"
+summary: "Altstadt, Sameba, Narikala-Höhe, Museum und Schwefelbad"
 categories: [reiseplan]
 status: fix
 sources:
@@ -14,6 +14,8 @@ sources:
     url: "https://georgia.travel/tbilisi-sulfur-baths"
   - label: "Georgia Travel: Metekhi Church"
     url: "https://georgia.travel/metekhi-church"
+  - label: "Wander-Lush: Narikala restoration status 2026"
+    url: "https://wander-lush.org/narikala-fortress-tbilisi-georgia/"
 updated: 2026-08-10
 date: 2026-09-29
 day: 2
@@ -31,7 +33,7 @@ sunset: "18:47 Uhr · Tbilisi"
 
 ## Google Maps
 
-[Altstadtroute Sameba → Metekhi → Rike → Abanotubani/Narikala öffnen](https://www.google.com/maps/dir/?api=1&origin=Holy+Trinity+Cathedral+of+Tbilisi%2C+Georgia&destination=Abanotubani%2C+Tbilisi%2C+Georgia&waypoints=Metekhi+Church%2C+Tbilisi%2C+Georgia%7CRike+Park%2C+Tbilisi%2C+Georgia%7CNarikala+Fortress%2C+Tbilisi%2C+Georgia&travelmode=walking)
+[Altstadtroute Sameba → Metekhi → Rike → Kartlis Deda → Abanotubani öffnen](https://www.google.com/maps/dir/?api=1&origin=Holy+Trinity+Cathedral+of+Tbilisi%2C+Georgia&destination=Abanotubani%2C+Tbilisi%2C+Georgia&waypoints=Metekhi+Church%2C+Tbilisi%2C+Georgia%7CRike+Park%2C+Tbilisi%2C+Georgia%7CMother+of+Georgia%2C+Tbilisi%2C+Georgia&travelmode=walking)
 
 ## Falls ihr kürzen müsst
 
@@ -41,7 +43,7 @@ sunset: "18:47 Uhr · Tbilisi"
 
 ## Schlechtwetter
 
-Museum, Kirchen und Schwefelbad priorisieren. Narikala/Aussichten nur bei vernünftiger Sicht und sicheren Wegen einbauen.
+Museum, Kirchen und Schwefelbad priorisieren. Die Narikala-Höhe/Kartlis Deda nur bei brauchbarer Sicht und sicheren Wegen einbauen.
 
 ## Tagesablauf
 
@@ -57,9 +59,9 @@ Zur [Metekhi-Kirche](/reisen/georgien/sehenswuerdigkeiten/altstadt-metekhi/) und
 
 Die historischen [Schwefelbäder](/reisen/georgien/sehenswuerdigkeiten/schwefelbaeder/) von aussen ansehen und durch die kurze Leghvtakhevi-Schlucht bis zum Wasserfall gehen.
 
-### 12:15–13:15 · Narikala und Kartlis Deda
+### 12:15–13:15 · Narikala-Höhe und Kartlis Deda
 
-Zur [Narikala-Festung](/reisen/georgien/sehenswuerdigkeiten/narikala/) hinauf, je nach aktuellem Betrieb per Seilbahn oder zu Fuss. Etwa 45–60 Minuten für Aussicht und Umgebung einplanen; Absperrungen beachten.
+Mit der Rike-Seilbahn oder zu Fuss auf die Höhe bei [Narikala](/reisen/georgien/sehenswuerdigkeiten/narikala/) und Kartlis Deda. **Das Festungsinnere beziehungsweise die Mauern waren im Frühjahr/Sommer 2026 wegen Restaurierungsarbeiten geschlossen**; deshalb den Stopp als Aussicht/Kartlis-Deda-Besuch planen und den Zugang kurz vor der Reise nochmals prüfen.
 
 ### 13:45–15:00 · Mittagessen in der Altstadt
 
