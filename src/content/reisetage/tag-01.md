@@ -31,6 +31,7 @@ sunset: "18:49 Uhr · Tbilisi"
 
 - [SBB](https://a.sbbmobile.ch/s/m5yK6Fnm) – ausgewählte Verbindung Entlebuch → Zürich Flughafen
 - [Tbilisi Flughafen → Tbilisi](https://www.google.com/maps/dir/?api=1&origin=Tbilisi+International+Airport%2C+Georgia&destination=Tbilisi%2C+Georgia&travelmode=driving)
+- [Flüge & Bahn](/reisen/georgien/fluege/) – Flugnummern, Umstieg und Zeitzonen
 
 ## Falls ihr kürzen müsst
 
@@ -50,13 +51,13 @@ Die ausgewählte Verbindung am Vortag nochmals in der SBB-App auf Fahrplanänder
 
 Zuerst Gepäckaufgabe und Sicherheitskontrolle erledigen, danach frühstücken. Für den internationalen Flug genügend Reserve behalten.
 
-### 09:30 · Flug Zürich → Belgrad mit Air Serbia
+### 09:30–11:15 · JU331 Zürich → Belgrad mit Air Serbia
 
-Beim Transit in Belgrad direkt der Beschilderung für Transfers/Connecting Flights folgen.
+Beim Transit in Belgrad direkt der Beschilderung für Transfers/Connecting Flights folgen. Die geplante Umsteigezeit beträgt rund 2 Stunden.
 
-### 13:20 · Weiterflug Belgrad → Tbilisi
+### 13:20–18:20 · JU890 Belgrad → Tbilisi
 
-Während des Fluges auf georgische Lokalzeit umstellen und Hoteladresse sowie Transferinformationen offline bereithalten.
+Die Reiseplanung/Buchung nennt 13:20 als Abflug. Öffentliche Flugplandaten zeigen aktuell teilweise eine Abweichung von fünf Minuten; deshalb vor Abflug die Air-Serbia-Buchung prüfen. Während des Fluges auf georgische Lokalzeit umstellen und Hoteladresse sowie Transferinformationen offline bereithalten.
 
 ### 18:20 · Ankunft in Tbilisi, Einreise und Gepäck
 
