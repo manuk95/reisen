@@ -202,3 +202,39 @@ Die Seite soll am Ende eine konkrete Entscheidungshilfe liefern:
 - welche Lösung für die konkrete Georgienreise am besten geeignet ist
 
 Alle Preise, Strassenzustände, Fahrdienst-Verfügbarkeiten und Mietwagenbedingungen müssen einen Recherche-/Datenstand tragen und vor der Reise nochmals aktualisiert werden.
+
+## 8. Tag 1 – SBB-Verbindung und Reihenfolge
+
+- Auf **Tag 1** steht der Punkt **„Entlebuch verlassen; definitive SBB-Verbindung am Vortag prüfen“** aktuell zu weit unten.
+- Dieser Punkt muss in der Tagesübersicht **an die oberste Stelle** verschoben werden, da er chronologisch der erste Programmpunkt des Reisetags ist.
+- Für die Fahrt **Entlebuch → Zürich Flughafen** soll die vom Nutzer ausgewählte SBB-Verbindung verwendet werden:
+  - Linktext: **SBB**
+  - URL: `https://a.sbbmobile.ch/s/m5yK6Fnm`
+- Den Link sinnvoll direkt beim Bahn-/Anreiseabschnitt von Tag 1 platzieren.
+- Der Hinweis, die Verbindung vor der Reise nochmals zu kontrollieren, darf bestehen bleiben, da Fahrplanänderungen möglich sind.
+
+## 9. Alle Tagesseiten auf Korrektheit und Vollständigkeit kontrollieren
+
+- Alle **14 Tagesseiten** nochmals systematisch auf inhaltliche Korrektheit und Vollständigkeit prüfen.
+- Nicht nur Texte, sondern auch die unterstützenden Funktionen und Links kontrollieren.
+- Pro Tag insbesondere prüfen:
+  - chronologische Reihenfolge
+  - Start- und Endzeiten
+  - Fahrtzeiten und Distanzen
+  - Aufenthaltszeiten
+  - vollständige Haupt- und Alternativpunkte
+  - interne Links zu vorhandenen Detailseiten
+  - Google-Maps-Routen bei allen sinnvollen Fahrtagen
+  - Reservierungs-/Öffnungshinweise nur dort, wo sie wirklich einen Nutzen haben
+  - Plan-B-/Kürzungsinformationen
+  - keine veralteten oder widersprüchlichen Angaben
+- Konkreter bereits gefundener Fehler: **Bei Tag 2 fehlt aktuell der Google-Maps-Link.**
+- Die Kontrolle soll nicht nur diesen Einzelpunkt beheben, sondern alle Tagesseiten nach demselben Standard prüfen.
+
+## 10. Übersicht „Wissen über Georgien“ vereinfachen
+
+- Auf der Übersichtsseite **„Wissen über Georgien“** sollen die Kacheln kompakter und ruhiger dargestellt werden.
+- Die **Bilder auf den Wissens-Kacheln vollständig entfernen**.
+- Die Labels beziehungsweise Statusanzeige **„empfohlen“** auf diesen Kacheln ebenfalls entfernen.
+- Titel und kurze Beschreibung sollen als Hauptinformation der Kachel bestehen bleiben.
+- Die Detailseiten selbst werden dadurch nicht verändert; es geht ausschliesslich um die Gestaltung der Wissens-Übersichtsseite.
