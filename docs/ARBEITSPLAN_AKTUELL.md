@@ -188,34 +188,36 @@ Vor der Reise nur noch zeitabhängige Fakten verifizieren; das frühere Problem 
 
 ## 4.1 Vollständige Reisekosten aktualisieren
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web  
-**Abhängigkeit:** Mobilitätsvergleich aus Phase 2
+**Abhängigkeit:** Mobilitätsvergleich aus Phase 2 berücksichtigt
 
-Die aktuelle Kostenseite zu einer vollständigen Entscheidungs- und Kostenübersicht ausbauen.
-
-Mindestens berücksichtigen:
+Die Seite **`/georgien/kosten/`** wurde am 10. August 2026 vollständig neu aufgebaut und enthält nun:
 
 - gebuchte Flüge: CHF 900 für 2
-- Tbilisi-Unterkünfte
-- Kazbegi-Unterkünfte
-- Kutaisi-Unterkünfte
-- verschiedene Küstenszenarien
-- Mietwagen / Fahrer / Hybrid als Alternativen
-- Treibstoff
-- Parkieren
+- Tbilisi-, Kazbegi- und Kutaisi-Unterkünfte
+- mehrere Küstenszenarien
+- Mietwagen / Fahrer / Hybrid als getrennte Alternativen
+- Treibstoff und Park-/Mietwagenreserve
 - Essen und Getränke
-- Eintritte, Bäder und Touren
+- konkrete aktuelle Eintritts-/Bad-/Aktivitätsbeispiele
 - Reserve
-- Gesamt für 2
-- pro Person
-- Status wie gebucht / geplant / geschätzt / optional
-- alternative Szenarien nie doppelt zählen
-- verwendete Wechselkurse mit Datum
+- Gesamt für 2 und pro Person
+- klare Trennung zwischen gebucht, geplant, geschätzt und optional
+- aktuelle Wechselkursbasis und Datenstände
+- direkte Quellenlinks
 
-Bestehende historische Kostenbasis aus den Archivdokumenten darf als Ausgangspunkt dienen, muss aber gegen aktuelle Reiseentscheidungen und Preise geprüft werden.
+Drei verständliche Gesamtszenarien sind dargestellt:
 
-Nur falls für die Darstellung ein neues komplexes Datenmodell notwendig wird, folgt ein separates Codex-Arbeitspaket.
+- sparsam: ca. CHF 3'120–4'585 für 2
+- empfohlener Mix mit Rooms Kazbegi und 2+2 Küstenhotels: ca. CHF 3'755–5'500 für 2
+- mehr Resort/Luxus mit Rooms Kazbegi und vier Nächten Paragraph: ca. CHF 4'045–5'980 für 2
+
+Hotelpreise basieren auf dem Preisstand der bestehenden Unterkunftsseiten vom 3. August 2026. Mobilität, Wechselkurse, Restaurant-Richtwerte, Treibstoff, Schwefelbad, Prometheus-Höhle, Botanischer Garten und weitere Eintrittsbeispiele wurden am 10. August 2026 gegen aktuelle Quellen geprüft.
+
+Nicht doppelt gerechnet werden lokale 4x4-Fahrer, wenn sie bereits im Mobilitätsbudget enthalten sind. Die SBB-An-/Abreise wird erst nach Phase 5 ergänzt, weil die konkreten Rückverbindungen und individuellen Schweizer Ticketkosten noch nicht feststehen.
+
+Vor tatsächlicher Buchung bleiben Hotelpreise, Fahrer-Offerten, Mietwagenkonditionen und Wechselkurs zeitabhängig zu prüfen; dafür ist kein neues technisches Datenmodell und kein Codex-Arbeitspaket erforderlich.
 
 ---
 
