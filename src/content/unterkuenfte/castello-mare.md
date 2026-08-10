@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=castello%20mare%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Castello Mare Hotel & Wellness Resort"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/castello-mare.jpg"
+imageAlt: "Schwarzmeerküste bei Tsikhisdziri als Kontextbild zur Lage des Castello Mare Hotel & Wellness Resort"
+imageStatus: lizenziert
+imageCredit: "Alexey Komarov"
+imageSource: "https://commons.wikimedia.org/wiki/File:Black_Sea_in_Tsikhisdziri,_Georgia.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

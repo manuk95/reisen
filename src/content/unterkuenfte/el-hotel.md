@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-07, tag-08]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=el%20hotel%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für EL Hotel"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/el-hotel.jpg"
+imageAlt: "Blick über den Rioni in Kutaisi als Kontextbild zur Lage des EL Hotel"
+imageStatus: lizenziert
+imageCredit: "Matthias Bethke"
+imageSource: "https://commons.wikimedia.org/wiki/File:2010-03_Kutaisi_(Georgien)_-_Blick_über_den_Rioni.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

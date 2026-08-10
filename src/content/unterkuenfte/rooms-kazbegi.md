@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-04, tag-05, tag-06]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=rooms%20kazbegi%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Rooms Hotel Kazbegi"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/rooms-kazbegi.jpg"
+imageAlt: "Panoramablick vom Rooms Hotel Kazbegi auf Stepantsminda und den Kaukasus"
+imageStatus: lizenziert
+imageCredit: "AdnanDekedek"
+imageSource: "https://commons.wikimedia.org/wiki/File:Rooms_Hotel_Kazbegi.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

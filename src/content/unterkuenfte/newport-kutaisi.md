@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-07, tag-08]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=newport%20kutaisi%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Newport Hotel Kutaisi"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/newport-kutaisi.jpg"
+imageAlt: "Panorama von Kutaisi als Kontextbild zur zentralen Lage des Newport Hotel Kutaisi"
+imageStatus: lizenziert
+imageCredit: "Marcin Konsek"
+imageSource: "https://commons.wikimedia.org/wiki/File:Kutaisi_Panorama.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

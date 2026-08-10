@@ -11,9 +11,14 @@ status: empfohlen
 days: [tag-09]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
-updated: 2026-08-03
-image: images/georgien/restaurants/baias-wine.jpg
-imageAlt: "ქართული: ღვინის მაღაზია"
+updated: 2026-08-10
+image: "images/georgien/restaurants/baias-wine.jpg"
+imageAlt: "Tsolikouri-Reben als Kontextbild für Baia’s Wine und den imeretischen Weinbau"
+imageStatus: lizenziert
+imageCredit: "M."
+imageSource: "https://commons.wikimedia.org/wiki/File:Tsolikouri.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Profil

@@ -11,10 +11,14 @@ status: empfohlen
 days: [tag-02, tag-04]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Pasanauri"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/restaurants/pasanauri.jpg"
+imageAlt: "Ortseinfahrt von Pasanauri an der Georgischen Heerstrasse als Kontextbild zum Restaurantnamen"
+imageStatus: lizenziert
+imageCredit: "Raf24~commonswiki"
+imageSource: "https://commons.wikimedia.org/wiki/File:Entry_Pasanauri,_GE.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Profil

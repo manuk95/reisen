@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=magnetic%20resort%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Magnetic Resort Ureki"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/magnetic-resort.jpg"
+imageAlt: "Sonnenuntergang an der Schwarzmeerküste von Ureki als Kontextbild zum Magnetic Resort"
+imageStatus: lizenziert
+imageCredit: "Kakha Kolkhi"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sunset_on_the_Black_Sea_coast_of_Ureki,_Georgia_(Europe).jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

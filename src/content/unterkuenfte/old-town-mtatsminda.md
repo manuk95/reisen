@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-01, tag-02, tag-03]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=old%20town%20mtatsminda%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Old Town Mtatsminda"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/old-town-mtatsminda.jpg"
+imageAlt: "Blick von Mtatsminda über Tbilisi als Kontextbild zum Old Town Mtatsminda"
+imageStatus: lizenziert
+imageCredit: "Kober"
+imageSource: "https://commons.wikimedia.org/wiki/File:View_of_Tbilisi_from_Mt_Mtatsminda_(1).jpg"
+imageLicense: "Public domain"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

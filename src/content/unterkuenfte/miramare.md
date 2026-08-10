@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=miramare%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Miramare Magnetic Beach Hotel"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/miramare.jpg"
+imageAlt: "Schwarzmeerküste von Ureki als Kontextbild zur Lage des Miramare Magnetic Beach Hotel"
+imageStatus: lizenziert
+imageCredit: "M."
+imageSource: "https://commons.wikimedia.org/wiki/File:Ureki.jpg"
+imageLicense: "CC BY 3.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

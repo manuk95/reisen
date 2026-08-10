@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-01, tag-02, tag-03]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=hotel%20pavo%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Hotel Pavo"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/hotel-pavo.jpg"
+imageAlt: "Panoramablick über Tbilisi als Kontextbild zur Lage des Hotel Pavo"
+imageStatus: lizenziert
+imageCredit: "Kober"
+imageSource: "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Tbilisi_from_Mtatsminda_Park.JPG"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht

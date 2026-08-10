@@ -11,9 +11,14 @@ status: empfohlen
 days: [tag-12]
 related: []
 sources: [{label: "Restaurantauswahl der Reiseplanung", url: "https://ge.gaultmillau.com/en/search/restaurant"}]
-updated: 2026-08-03
-image: images/georgien/restaurants/360-sky-bar.jpg
-imageAlt: "English: BATUMI, Georgia (Oct. 22, 2019) — The Arleigh Burke-class guided-missile destroyer USS Porter (DDG 78) flies the U.S. and Georgian flags as it pulls into Batumi, Georgia, Oct. 22, 2019. Porter, forward-deployed to Rota, Spain, is on its seventh patrol in the U.S. 6th Fleet area of operations in support of U.S. national security interests in Europe and Africa. (U.S. Navy photo by Mass Communication Specialist 3rd Class T. Logan Keown/Released)"
+updated: 2026-08-10
+image: "images/georgien/restaurants/360-sky-bar.jpg"
+imageAlt: "Sheraton Batumi, in dessen 20. Stock sich die 360 Sky Bar befindet"
+imageStatus: lizenziert
+imageCredit: "Nino Keller"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sheraton_Hotel_Batumi.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Profil

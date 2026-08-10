@@ -11,10 +11,14 @@ status: vorschlag
 days: [tag-09, tag-10, tag-11, tag-12, tag-13]
 related: []
 sources: [{label: "Konkrete Hotel- und Bewertungsseiten vor Buchung einzeln prüfen", url: "https://www.google.com/maps/search/?api=1&query=georgia%20palace%20Georgia"}]
-updated: 2026-08-03
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Georgia Palace Hotel & Spa"
-imageStatus: platzhalter
+updated: 2026-08-10
+image: "images/georgien/unterkuenfte/georgia-palace.jpg"
+imageAlt: "Strand von Kobuleti als Kontextbild zur Küstenlage des Georgia Palace Hotel & Spa"
+imageStatus: lizenziert
+imageCredit: "MIKHEIL"
+imageSource: "https://commons.wikimedia.org/wiki/File:Kobuleti_Beach.JPG"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf ca. 1600 px Breite skaliert; keine inhaltliche Bearbeitung."
 ---
 
 ## Vorschlag · noch nicht gebucht
