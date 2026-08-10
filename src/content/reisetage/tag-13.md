@@ -29,7 +29,8 @@ sunset: "18:41 Uhr · Flughafen Batumi"
 
 ## Google Maps
 
-[Route Shekvetili → Flughafen Batumi öffnen](https://www.google.com/maps/dir/?api=1&origin=Shekvetili%2C+Georgia&destination=Batumi+International+Airport%2C+Georgia&travelmode=driving)
+- [Route Shekvetili → Flughafen Batumi öffnen](https://www.google.com/maps/dir/?api=1&origin=Shekvetili%2C+Georgia&destination=Batumi+International+Airport%2C+Georgia&travelmode=driving)
+- [Flüge & Bahn](/reisen/georgien/fluege/) – Rückflug, Nachttransit und SBB-Heimreise
 
 ## Falls ihr kürzen müsst
 
@@ -63,6 +64,6 @@ Für die aktuell bevorzugte Fahrer-/Transferlösung direkt vom Hotel zum Flughaf
 
 Mit genügend Reserve vor dem Nachtflug am Terminal sein.
 
-### 22:40 · Flug Batumi → Istanbul
+### 22:40–23:50 · TK393 Batumi → Istanbul
 
-Die lange Umsteigezeit in Istanbul für Ruhe/Schlaf nutzen und keinen knappen nächtlichen Stadtausflug planen.
+Der aktuelle veröffentlichte Flugplan bestätigt 22:40 → 23:50 Ortszeit; durch die Zeitverschiebung beträgt die tatsächliche Flugzeit rund 2 h 10 min. Danach bleiben etwa 8 h 05 min bis zum Weiterflug nach Zürich. Den Nachttransit für Ruhe/Schlaf nutzen und keinen knappen Stadtausflug planen.
