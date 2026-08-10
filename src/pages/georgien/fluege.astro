@@ -1,0 +1,112 @@
+---
+import GuidePage from '../../components/GuidePage.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<GuidePage
+  title="Flüge & Bahn"
+  eyebrow="An- und Rückreise · geprüft am 10. August 2026"
+  lead="Alle vier gebuchten Flugsegmente mit lokalen Zeiten, Umstiegen und Zeitzonen sowie eine realistische SBB-Heimreise vom Flughafen Zürich ins Entlebuch."
+>
+  <div class="alert">
+    <strong>Gebucht:</strong> Zürich → Tbilisi mit Air Serbia am 28. September und Batumi → Zürich mit Turkish Airlines am 10./11. Oktober 2026. Flugpläne können sich bis zur Reise ändern; massgebend bleiben die aktuelle Buchung und der Airline-Flugstatus.
+  </div>
+
+  <h2>Hinflug · Montag, 28. September 2026</h2>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Flug</th><th>Strecke</th><th>Lokale Zeit</th><th>Dauer</th><th>Zeitzonen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>JU331</strong><br />Air Serbia</td><td>Zürich ZRH → Belgrad BEG</td><td>09:30 → 11:15</td><td>1 h 45 min</td><td>UTC+2 → UTC+2</td></tr>
+        <tr><td colspan="5"><strong>Umstieg Belgrad:</strong> ca. 2 h 05 min bei Abflug JU890 um 13:20. Beide Segmente werden aktuell über Terminal 2 geführt; Gate/Terminal am Reisetag nochmals prüfen.</td></tr>
+        <tr><td><strong>JU890</strong><br />Air Serbia</td><td>Belgrad BEG → Tbilisi TBS</td><td>13:20 → 18:20</td><td>3 h 00 min</td><td>UTC+2 → UTC+4</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>Gesamtreise ab Abflug Zürich:</strong> 6 h 50 min. Reine Flugzeit rund 4 h 45 min. In Tbilisi ist es am Reisetag zwei Stunden später als in Zürich/Belgrad.</p>
+
+  <div class="alert">
+    <strong>JU890 – kleine Fahrplanabweichung:</strong> Die Buchungs-/Reiseplanung nennt 13:20 → 18:20. Aktuelle öffentliche Flugplanquellen zeigen für denselben Montagsflug teils 13:20, teils 13:25 als Abflug. Deshalb vor der Reise und beim Check-in die Buchung beziehungsweise Air Serbia als endgültige Quelle verwenden.
+  </div>
+
+  <h3>Timeline Hinreise</h3>
+  <ol>
+    <li><strong>09:30 Zürich:</strong> JU331 startet nach Belgrad.</li>
+    <li><strong>11:15 Belgrad:</strong> Ankunft; im Transitbereich bleiben.</li>
+    <li><strong>13:20 Belgrad:</strong> geplanter Weiterflug JU890.</li>
+    <li><strong>18:20 Tbilisi:</strong> Ankunft in georgischer Lokalzeit.</li>
+  </ol>
+
+  <p><a href="https://www.airserbia.com/de-ch/fluge-von-zurich-nach-belgrad" target="_blank" rel="noopener noreferrer">Air Serbia · Zürich–Belgrad</a> · <a href="https://www.airserbia.com/" target="_blank" rel="noopener noreferrer">Air Serbia / Flugstatus</a></p>
+
+  <h2>Rückflug · Samstag/Sonntag, 10.–11. Oktober 2026</h2>
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr><th>Flug</th><th>Strecke</th><th>Lokale Zeit</th><th>Dauer</th><th>Zeitzonen</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>TK393</strong><br />Turkish Airlines</td><td>Batumi BUS → Istanbul IST</td><td>Sa 22:40 → 23:50</td><td>2 h 10 min</td><td>UTC+4 → UTC+3</td></tr>
+        <tr><td colspan="5"><strong>Umstieg Istanbul:</strong> ca. 8 h 05 min. Der lange Nachttransit eignet sich besser für Ruhe als für einen knappen Stadtausflug.</td></tr>
+        <tr><td><strong>TK1907</strong><br />Turkish Airlines</td><td>Istanbul IST → Zürich ZRH</td><td>So 07:55 → 09:55</td><td>3 h 00 min</td><td>UTC+3 → UTC+2</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p><strong>Gesamtreise ab Abflug Batumi:</strong> 13 h 15 min. Reine Flugzeit rund 5 h 10 min. Die aktuellen veröffentlichten Flugpläne führen TK393 am 10. Oktober mit 22:40 → 23:50 und TK1907 am 11. Oktober mit 07:55 → 09:55.</p>
+
+  <h3>Timeline Rückreise</h3>
+  <ol>
+    <li><strong>Sa 22:40 Batumi:</strong> TK393 nach Istanbul.</li>
+    <li><strong>23:50 Istanbul:</strong> Ankunft und Nachttransit.</li>
+    <li><strong>So 07:55 Istanbul:</strong> TK1907 nach Zürich.</li>
+    <li><strong>09:55 Zürich:</strong> geplante Landung.</li>
+    <li><strong>ab 11:15:</strong> entspannte Bahnheimreise Richtung Entlebuch.</li>
+  </ol>
+
+  <p><a href="https://www.turkishairlines.com/de/flights-from-batumi-to-istanbul" target="_blank" rel="noopener noreferrer">Turkish Airlines · Batumi–Istanbul</a> · <a href="https://www.turkishairlines.com/de/flights-from-istanbul-to-zurich" target="_blank" rel="noopener noreferrer">Turkish Airlines · Istanbul–Zürich</a></p>
+
+  <h2>SBB · Zürich Flughafen → Entlebuch am Sonntag, 11. Oktober</h2>
+  <p>Nach der geplanten Landung um 09:55 sind für Einreise, Gepäck und den Weg zum Bahnhof etwa 60–75 Minuten Reserve sinnvoll. Die <strong>11:15-Verbindung</strong> ist deshalb die geplante Hauptverbindung; sie verlangt keinen Sprint nach dem Nachtflug.</p>
+
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Variante</th><th>Zürich Flughafen</th><th>Luzern</th><th>Entlebuch</th><th>Kommentar</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Hauptverbindung</strong></td><td>11:15 ab</td><td>12:25 an<br />12:57 ab</td><td><strong>13:22 an</strong></td><td>IR75 direkt bis Luzern; rund 32 min Umsteigezeit.</td></tr>
+        <tr><td>Alternative 1</td><td>12:15 ab</td><td>13:25 an<br />13:57 ab</td><td><strong>14:22 an</strong></td><td>Gleicher komfortabler Stundenrhythmus.</td></tr>
+        <tr><td>Alternative 2</td><td>13:15 ab</td><td>14:25 an<br />14:57 ab</td><td><strong>15:22 an</strong></td><td>Falls Flug/Gepäck deutlich länger dauern.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p>Der aktuelle 2026-Grundtakt führt den IR75 ab Zürich Flughafen jeweils zur Minute <strong>:15</strong> direkt nach Luzern. Ab Luzern besteht stündlich zur Minute <strong>:57</strong> eine schnelle Verbindung Richtung Bern über Entlebuch; Entlebuch wird zur Minute <strong>:22</strong> erreicht. Die konkreten Gleise und allfällige Bau-/Betriebsänderungen am 11. Oktober nochmals in SBB Mobile prüfen.</p>
+
+  <p><a href="https://www.sbb.ch/de" target="_blank" rel="noopener noreferrer">SBB Online-Fahrplan</a> · <a href="https://network.sbb.ch/de/bahnhof/ZFH/ziel/LZ" target="_blank" rel="noopener noreferrer">SBB Grundtakt Zürich Flughafen → Luzern</a></p>
+
+  <h2>Was kurz vor der Reise nochmals geprüft wird</h2>
+  <ul>
+    <li>Airline-App/Buchung für alle vier Abflug- und Ankunftszeiten.</li>
+    <li>Besonders JU890 wegen der aktuell sichtbaren 5-Minuten-Abweichung.</li>
+    <li>Terminal, Gate und Check-in-Schlusszeiten.</li>
+    <li>Flugstatus am Abflugtag.</li>
+    <li>SBB-Verbindung am 11. Oktober inklusive Gleisen und allfälligen Bauarbeiten.</li>
+  </ul>
+
+  <h2>Quellen und Prüfstand</h2>
+  <p><strong>Prüfstand:</strong> 10. August 2026. Flugzeiten wurden mit der vorhandenen Reiseplanung/Buchungsinformation sowie aktuellen Airline- und veröffentlichten Flugplandaten abgeglichen. Die SBB-Planung basiert auf dem aktuellen 2026-Grundtakt und Schweizer ÖV-Fahrplandaten.</p>
+  <ul>
+    <li><a href="https://www.airserbia.com/de-ch/fluge-von-zurich-nach-belgrad" target="_blank" rel="noopener noreferrer">Air Serbia – Zürich → Belgrad</a></li>
+    <li><a href="https://www.flight.info/JU331" target="_blank" rel="noopener noreferrer">JU331 veröffentlichter Flugplan</a></li>
+    <li><a href="https://info.flightmapper.net/flight/Air_Serbia_JU_890" target="_blank" rel="noopener noreferrer">JU890 veröffentlichter Flugplan</a></li>
+    <li><a href="https://www.turkishairlines.com/de/flights-from-batumi-to-istanbul" target="_blank" rel="noopener noreferrer">Turkish Airlines – Batumi → Istanbul</a></li>
+    <li><a href="https://www.flight.info/TK393" target="_blank" rel="noopener noreferrer">TK393 veröffentlichter Flugplan</a></li>
+    <li><a href="https://www.flight.info/TK1907" target="_blank" rel="noopener noreferrer">TK1907 veröffentlichter Flugplan</a></li>
+    <li><a href="https://www.sbb.ch/de" target="_blank" rel="noopener noreferrer">SBB Online-Fahrplan</a></li>
+  </ul>
+
+  <p><a href={`${base}georgien/tag/tag-01/`}>Tag 1 · Hinreise</a> · <a href={`${base}georgien/tag/tag-13/`}>Tag 13 · Abflug Batumi</a> · <a href={`${base}georgien/tag/tag-14/`}>Tag 14 · Heimreise</a></p>
+</GuidePage>
