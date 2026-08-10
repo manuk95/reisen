@@ -214,43 +214,51 @@ Jeder Bereich ist als echte Liste formatiert. Persönliche medizinische Details 
 
 ## 7.1 Restaurantseiten
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Alle bestehenden Restaurantseiten kontrollieren und inhaltlich angleichen:
+Am 10. August 2026 wurden alle **7 vorhandenen Restaurantseiten** überprüft und auf einen vergleichbaren Informationsstand gebracht:
 
-- Betrieb existiert / aktueller Status
-- Küche / Konzept
-- Spezialitäten
-- Preisniveau
-- Reservation
-- Lage
-- Reisebezug / passende Tage
-- interne Links
-- offizielle Quellen
-- Bilder und Alttexte kontrollieren
-- falsche oder unpassende Metadaten bereinigen
+- 360 Sky Bar
+- Baia’s Wine
+- Barbarestan
+- Keto & Kote
+- Laguna
+- Palaty
+- Pasanauri
+
+Pro Seite sind jetzt – soweit für den jeweiligen Betrieb sinnvoll und belastbar – Konzept/Küche, Spezialitäten, Preisniveau, Lage, Öffnung, Reservationshinweis, Reisebezug, passende Tage, interne Links und aktuelle Quellen enthalten. Baia’s Wine ist korrekt als Weingut/Verkostungsbetrieb statt als normales Restaurant eingeordnet.
+
+Mehrere zuvor verwendete Bilder zeigten **nicht den jeweiligen Betrieb**: unter anderem ein Kriegsschiff bei 360 Sky Bar, den Darejan-Palast bei Barbarestan und ein Filmkostüm bei Keto & Kote. Solche irreführenden Bilder wurden in der Seitendarstellung durch neutrale Platzhalter ersetzt. Ein unpassendes Bild wird nicht nur deshalb weiterverwendet, weil die Datei bereits im Repository liegt.
+
+Bewertungen von Restaurantführern werden nur dort genannt, wo eine konkrete Quelle vorliegt; Plattformwerte werden nicht vermischt. Öffnungszeiten und Reservation bleiben vor dem tatsächlichen Besuch zeitabhängig zu prüfen.
 
 ## 7.2 Unterkunftsseiten
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Alle vorhandenen Unterkunftsseiten ausführlicher und vergleichbar machen:
+Am 10. August 2026 wurden alle **11 vorhandenen Unterkunftsseiten** ausführlich und untereinander vergleichbar überarbeitet:
 
-- Lage
-- Zimmer
-- eigenes Bad
-- Pool / Spa
-- Frühstück
-- Parkplatz
-- Strandnähe
-- Bewertungen getrennt nach Plattform
-- Vor-/Nachteile
-- Eignung für die konkrete Reise
-- romantischer Faktor an der Küste
-- Buchungs-/Hotel-Link
-- Preis- und Bewertungsstand
+- Hotel Pavo und Old Town Mtatsminda in Tbilisi
+- 1740 Boutique Hotel und Rooms Hotel Kazbegi
+- EL Hotel und Newport Hotel in Kutaisi
+- Paragraph Resort & Spa, Magnetic Resort Ureki, Miramare Magnetic Beach Hotel, Georgia Palace Hotel & Spa und Castello Mare an der Schwarzmeerküste
+
+Als gemeinsame Vergleichsplattform wird für Bewertungen **Booking.com** verwendet; die jeweilige Plattform wird auf der Seite ausdrücklich genannt. Enthalten sind – soweit verfügbar – Lage, Zimmer/eigenes Bad, Frühstück, Pool/Spa, Parkplatz, Strandnähe, aktuelle Bewertungswerte, Vor-/Nachteile, Reiseeignung und direkte Buchungslinks.
+
+Die bestehenden Preisbereiche bleiben **Planungs-Preisrahmen vom 3. August 2026** und werden ausdrücklich nicht als Live-Angebot ausgegeben. Für die tatsächlichen Reisedaten müssen Endpreis, Zimmerkategorie, Frühstück, Stornierung und saisonale Leistungen neu geprüft werden.
+
+Wichtige redaktionelle Ergebnisse:
+
+- **Tbilisi:** Hotel Pavo ist die sehr zentrale einfache Variante; Old Town Mtatsminda punktet stärker mit Frühstück und familiärem Charakter.
+- **Kazbegi:** 1740 Boutique bietet das bessere Preis-Leistungs-Verhältnis; Rooms Kazbegi bleibt wegen Innenpool/Spa und Bergkulisse das stärkere Erlebnis.
+- **Kutaisi:** EL Hotel ist die Preis-Leistungs-Empfehlung; Newport ist das komfortablere zentrale Upgrade.
+- **Küste:** Paragraph ist die vollständigste und wetterfesteste Luxusoption. Magnetic Resort ist bei bestätigter Poolöffnung eine besonders starke günstigere Alternative. Georgia Palace und Castello Mare bieten Innenpool/Spa als wetterrobuste Alternativen; Miramare ist besonders attraktiv für eine kleinere romantische Strandunterkunft bei gutem Wetter.
+- Die Region von **Miramare Magnetic Beach Hotel** wurde von Gurien auf **Kobuleti / Adscharien** korrigiert.
+- Für den gewünschten romantischen Reiseabschluss bleibt die **2+2-Lösung** – zwei günstigere Küstennächte plus zwei Nächte Paragraph – eine besonders ausgewogene Variante.
+
+Hotelpreise, Bewertungen, Poolöffnungen und Verfügbarkeit bleiben vor Buchung zeitabhängig zu verifizieren.
 
 ---
 
@@ -374,7 +382,7 @@ Zusätzlich:
 - PWA-Updatefunktion umgesetzt; nur Regressionstest in Phase 11.
 - Alle 14 Tagesprogramme detailliert und in das neue Markdown-/Accordion-Modell überführt.
 - Tag 7 besitzt robuste Standardroute und konditionale Zekari-/Sairme-Variante; nur zeitabhängige Verifikation bleibt.
-- Mobilitäts-, Kosten-, Flug-/Bahn- und Phase-6-Inhaltsseiten sind erstellt beziehungsweise aktualisiert.
+- Mobilitäts-, Kosten-, Flug-/Bahn-, Phase-6-Inhalts-, Restaurant- und Unterkunftsseiten sind erstellt beziehungsweise aktualisiert.
 
 ---
 
