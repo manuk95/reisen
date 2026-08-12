@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: 24
       - run: npm install
-      - name: Bildquellen für Runner anpassen
+      - name: Freie Bildquellen und Drosselung anwenden
         run: python3 scripts/patch-image-sources.py
       - name: Bilder laden und Inhalte aktualisieren
         run: node scripts/curate-entity-images.mjs
