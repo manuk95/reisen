@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Hotel Pavo", url: "https://www.booking.com/hotel/ge/pavo-t-39-bilisi2.en-gb.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Hotel Pavo in Tbilisi"
-imageStatus: platzhalter
+image: "images/georgien/hotels/hotel-pavo.jpg"
+imageAlt: "Kontextbild: Panorama von Tbilisi vom Mtatsminda; zeigt nicht das Hotel Pavo selbst."
+imageStatus: "lizenziert"
+imageCredit: "Kober / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:View_of_Tbilisi_from_Mt_Mtatsminda_(1).jpg"
+imageLicense: "Public Domain (PD-self)"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt Tbilisi vom Mtatsminda und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Hotel Pavo."
 ---
 
 ## Kurzfazit

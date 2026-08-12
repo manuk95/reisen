@@ -14,9 +14,13 @@ sources:
   - {label: "Pasanauri – offizielle Website", url: "https://www.restaurantpasanauri.ge/en.html"}
   - {label: "Yell Georgia – Pasanauri Baratashvili", url: "https://www.yell.ge/company.php?id=146513&lan=eng"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Restaurant Pasanauri"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/pasanauri.jpg"
+imageAlt: "Kontextbild: georgische Chinkali, eine zentrale Spezialität des Restaurants Pasanauri; kein Foto des Restaurants."
+imageStatus: "lizenziert"
+imageCredit: "TheMightyQuill / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Khinkali.jpg"
+imageLicense: "CC BY-SA 2.5"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt Chinkali als zentrale Spezialität des Restaurants; es ist bewusst als Kontextbild gekennzeichnet und zeigt nicht das Restaurant."
 ---
 
 ## Profil

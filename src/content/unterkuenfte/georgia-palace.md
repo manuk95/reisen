@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Kobuleti Georgia Palace Hotel & Spa", url: "https://www.booking.com/hotel/ge/georgia-palace.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Georgia Palace Hotel & Spa in Kobuleti"
-imageStatus: platzhalter
+image: "images/georgien/hotels/georgia-palace.jpg"
+imageAlt: "Kontextbild: Strand von Kobuleti am Schwarzen Meer; zeigt nicht das Georgia Palace Hotel & Spa selbst."
+imageStatus: "lizenziert"
+imageCredit: "MIKHEIL / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Kobuleti_Beach.JPG"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt den Strand von Kobuleti und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Georgia Palace Hotel & Spa."
 ---
 
 ## Kurzfazit

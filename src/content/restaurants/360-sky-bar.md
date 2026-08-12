@@ -14,9 +14,13 @@ sources:
   - {label: "Sheraton Batumi / Marriott – 360 Sky Bar", url: "https://www.marriott.com/en-us/hotels/bussi-sheraton-batumi-hotel/dining/"}
   - {label: "Gault&Millau Georgia – 360 Sky Bar", url: "https://ge.gaultmillau.com/en/restaurants/360-sky-bar"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für 360 Sky Bar in Batumi"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/360-sky-bar.jpg"
+imageAlt: "Kontextbild: nächtliches Panorama von Batumi; zeigt nicht die 360 Sky Bar selbst."
+imageStatus: "lizenziert"
+imageCredit: "Giorgi Nakashidze / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Panoramic_view_of_Batumi_at_night.jpg"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt Batumi bei Nacht und dient als klar gekennzeichnetes Stadt- und Aussichtskontextbild; es zeigt nicht die 360 Sky Bar."
 ---
 
 ## Profil
@@ -45,6 +49,6 @@ Für einen Abendplatz mit guter Aussicht **vorab reservieren und explizit nach e
 
 [Tag 12 öffnen](/reisen/georgien/tag/tag-12/) · [Adscharisches Chatschapuri als bewusst einfachere Batumi-Alternative](/reisen/georgien/genuss/adscharisches-chatschapuri/)
 
-## Bildstatus
+## Bildhinweis
 
-Das zuvor hinterlegte Bild zeigte nicht den Betrieb. Es wird deshalb bewusst nur ein Platzhalter angezeigt, bis ein eindeutig nutzbares und korrekt lizenziertes Restaurantfoto vorliegt.
+Das neue Seitenbild ist bewusst als **Kontextbild** gekennzeichnet. Das Bild zeigt Batumi bei Nacht und dient als klar gekennzeichnetes Stadt- und Aussichtskontextbild; es zeigt nicht die 360 Sky Bar.

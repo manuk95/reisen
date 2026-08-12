@@ -14,9 +14,13 @@ sources:
   - {label: "Gault&Millau Georgia – Barbarestan", url: "https://ge.gaultmillau.com/en/restaurants/barbarestan"}
   - {label: "Barbarestan – offizielle Website", url: "http://barbarestan.ge/"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Restaurant Barbarestan in Tbilisi"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/barbarestan.jpg"
+imageAlt: "Kontextbild: Barbare Eristavi-Jorjadze, deren historisches Kochbuch die Grundlage des Restaurantkonzepts bildet; kein Foto des Restaurants."
+imageStatus: "lizenziert"
+imageCredit: "Barbarestan / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:ბარბარე_ჯორჯაძე.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt Barbare Eristavi-Jorjadze, die Namensgeberin und inhaltliche Grundlage des Restaurantkonzepts; es zeigt nicht das Restaurant."
 ---
 
 ## Profil
@@ -46,6 +50,6 @@ Am besten an **Tag 2 oder Tag 3** als bewusst gehobener Tbilisi-Abend. Da Barbar
 
 [Tag 2 öffnen](/reisen/georgien/tag/tag-02/) · [Tag 3 öffnen](/reisen/georgien/tag/tag-03/) · [Georgische Küche](/reisen/georgien/wissen/kueche-wein/)
 
-## Bildstatus
+## Bildhinweis
 
-Das frühere Bild zeigte den Palast von Königin Darejan und nicht Barbarestan. Es wurde daher aus der Seitendarstellung entfernt und durch einen neutralen Platzhalter ersetzt.
+Das neue Seitenbild ist bewusst als **Kontextbild** gekennzeichnet. Das Bild zeigt Barbare Eristavi-Jorjadze, die Namensgeberin und inhaltliche Grundlage des Restaurantkonzepts; es zeigt nicht das Restaurant.

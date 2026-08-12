@@ -14,9 +14,13 @@ sources:
   - {label: "BIA Georgia – Baia’s Wine", url: "https://www.bia.ge/en/Company/119052"}
   - {label: "Georgian Wine House – Baia’s Wine", url: "https://www.georgianwinehouse.com/baias-wine"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Baia’s Wine in Meore Obcha"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/baias-wine.jpg"
+imageAlt: "Kontextbild: traditioneller georgischer Qvevri für die Weinbereitung; zeigt nicht Baia’s Wine selbst."
+imageStatus: "lizenziert"
+imageCredit: "Ekkatterrinna / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Qvevri.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt einen traditionellen georgischen Qvevri und dient als klar gekennzeichnetes Wein-Kontextbild; es zeigt nicht Baia’s Wine."
 ---
 
 ## Profil
@@ -56,6 +60,6 @@ Am besten passt Baia’s Wine **an Tag 9 auf dem Weg von Kutaisi zur Küste**, a
 
 [Tag 9 öffnen](/reisen/georgien/tag/tag-09/) · [Fahrten & Strassen](/reisen/georgien/fahrten/)
 
-## Bildstatus
+## Bildhinweis
 
-Das bisherige Bild war nicht eindeutig diesem Betrieb zuzuordnen. Bis ein sauber lizenziertes Betriebsfoto vorliegt, wird deshalb ein neutraler Platzhalter verwendet.
+Das neue Seitenbild ist bewusst als **Kontextbild** gekennzeichnet. Das Bild zeigt einen traditionellen georgischen Qvevri und dient als klar gekennzeichnetes Wein-Kontextbild; es zeigt nicht Baia’s Wine.

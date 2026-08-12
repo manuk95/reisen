@@ -14,9 +14,13 @@ sources:
   - {label: "Booking.com – Paragraph Resort & Spa Shekvetili", url: "https://www.booking.com/hotel/ge/paragraph-resort-spa-shekvetili-autograph-collection.html"}
   - {label: "Marriott – Paragraph Resort & Spa Shekvetili", url: "https://www.marriott.com/en-us/hotels/busak-paragraph-resort-and-spa-shekvetili-autograph-collection/overview/"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Paragraph Resort & Spa in Shekvetili"
-imageStatus: platzhalter
+image: "images/georgien/hotels/paragraph.jpg"
+imageAlt: "Kontextbild: Küstenresort Shekvetili am Schwarzen Meer; zeigt nicht das Paragraph Resort selbst."
+imageStatus: "lizenziert"
+imageCredit: "Iscream icecream / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Shekvetili_Resort.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt das Küstenresort Shekvetili und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Paragraph Resort selbst."
 ---
 
 ## Kurzfazit
