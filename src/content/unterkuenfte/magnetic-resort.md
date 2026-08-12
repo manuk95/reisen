@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Magnetic Resort Ureki", url: "https://www.booking.com/hotel/ge/magnetic-resort-ureki.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Magnetic Resort Ureki"
-imageStatus: platzhalter
+image: "images/georgien/hotels/magnetic-resort.jpg"
+imageAlt: "Kontextbild: Sonnenuntergang am schwarzen Sandstrand von Ureki; zeigt nicht das Magnetic Resort selbst."
+imageStatus: "lizenziert"
+imageCredit: "Kakha Kolkhi / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Sunset_on_the_Black_Sea_coast_of_Ureki,_Georgia_(Europe).jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt den schwarzen Sandstrand von Ureki bei Sonnenuntergang und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Magnetic Resort."
 ---
 
 ## Kurzfazit

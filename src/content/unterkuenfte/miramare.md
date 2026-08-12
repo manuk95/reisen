@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Miramare Magnetic Beach Hotel", url: "https://www.booking.com/hotel/ge/magnetic-beach-resort.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Miramare Magnetic Beach Hotel in Kobuleti"
-imageStatus: platzhalter
+image: "images/georgien/hotels/miramare.jpg"
+imageAlt: "Kontextbild: Sonnenuntergang am Schwarzen Meer bei Kobuleti; zeigt nicht das Miramare Magnetic Beach Hotel selbst."
+imageStatus: "lizenziert"
+imageCredit: "Armenak Margarian / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Kobuleti_georgia.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt die Schwarzmeerküste bei Kobuleti und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Miramare Magnetic Beach Hotel."
 ---
 
 ## Kurzfazit

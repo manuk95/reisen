@@ -1,4 +1,20 @@
 ---
-const {items,section,showImage=true,showStatus=true}=Astro.props;const base=import.meta.env.BASE_URL;
+const {items,section,showImage=true,showStatus=true}=Astro.props;
+const base=import.meta.env.BASE_URL;
 ---
-<div class="grid">{items.map((x:any)=>{const image=x.data.image?.includes('georgische-flagge')?'images/platzhalter.png':x.data.image||'images/platzhalter.png';const alt=image==='images/platzhalter.png'?`Platzhalterbild für ${x.data.title}`:x.data.imageAlt;return <article class="card">{showImage&&<img class="card-image" src={`${base}${image}`} alt={alt} loading="lazy" decoding="async"/>}{showStatus&&<span class:list={['badge',x.data.status==='fix'&&'fix']}>{x.data.status.replaceAll('-',' ')}</span>}<h2><a href={`${base}georgien/${section}/${x.data.slug}/`}>{x.data.title}</a></h2><p>{x.data.summary}</p><p class="meta">{x.data.region}</p></article>})}</div>
+<div class="grid">
+  {items.map((x:any)=>{
+    const image=x.data.image?.includes('georgische-flagge')?'images/platzhalter.png':x.data.image||'images/platzhalter.png';
+    const alt=image==='images/platzhalter.png'?`Platzhalterbild für ${x.data.title}`:x.data.imageAlt||x.data.title;
+    const isContext=x.data.imageEdit?.startsWith('Kontextbild:');
+    return <article class="card">
+      {showImage&&<img class="card-image" src={`${base}${image}`} alt={alt} loading="lazy" decoding="async"/>}
+      {showImage&&isContext&&<p class="meta"><strong>Kontextbild</strong> · zeigt nicht den Betrieb selbst</p>}
+      {showImage&&x.data.imageCredit&&<p class="meta">Bild: <a href={x.data.imageSource} rel="external noopener noreferrer" target="_blank">{x.data.imageCredit}</a>{x.data.imageLicense&&<> · {x.data.imageLicense}</>}</p>}
+      {showStatus&&<span class:list={['badge',x.data.status==='fix'&&'fix']}>{x.data.status.replaceAll('-',' ')}</span>}
+      <h2><a href={`${base}georgien/${section}/${x.data.slug}/`}>{x.data.title}</a></h2>
+      <p>{x.data.summary}</p>
+      <p class="meta">{x.data.region}</p>
+    </article>
+  })}
+</div>

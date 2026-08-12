@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Castello Mare Hotel", url: "https://www.booking.com/hotel/ge/castello-mare-hotel-wellness-resort.en-gb.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Castello Mare Hotel & Wellness Resort"
-imageStatus: platzhalter
+image: "images/georgien/hotels/castello-mare.jpg"
+imageAlt: "Kontextbild: versteckter Strand von Tsikhisdziri an der Schwarzmeerküste; zeigt nicht das Castello Mare Hotel selbst."
+imageStatus: "lizenziert"
+imageCredit: "AlexandreAssatiani / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Hidden_Beach_of_Tsikhisdziri.jpg"
+imageLicense: "CC BY 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt die Küste von Tsikhisdziri in unmittelbarer Region des Hotels und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Castello Mare Hotel."
 ---
 
 ## Kurzfazit

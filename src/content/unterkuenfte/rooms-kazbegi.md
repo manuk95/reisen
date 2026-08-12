@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Rooms Hotel Kazbegi", url: "https://www.booking.com/hotel/ge/rooms-kazbegi.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Rooms Hotel Kazbegi"
-imageStatus: platzhalter
+image: "images/georgien/hotels/rooms-kazbegi.jpg"
+imageAlt: "Blick vom Rooms Hotel Kazbegi auf Stepantsminda und die Kaukasus-Bergwelt."
+imageStatus: "lizenziert"
+imageCredit: "AdnanDekedek / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Rooms_Hotel_Kazbegi.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf maximal 1600 px Breite bezogen; Das Foto wurde direkt vom Rooms Hotel Kazbegi aufgenommen und zeigt den charakteristischen Ausblick des Hauses."
 ---
 
 ## Kurzfazit

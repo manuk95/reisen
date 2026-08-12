@@ -14,9 +14,13 @@ sources:
   - {label: "Gault&Millau Georgia – Keto & Kote", url: "https://ge.gaultmillau.com/en/restaurants/keto-kote"}
   - {label: "WHERETOEAT Georgia 2026 – Keto & Kote", url: "https://georgia.wheretoeat.ru/winners_2026/keto-kote//"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Restaurant Keto & Kote in Tbilisi"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/keto-kote.jpg"
+imageAlt: "Kontextbild: Aufführung von Victor Dolidzes «Keto und Kote», auf die der Restaurantname verweist; kein Foto des Restaurants."
+imageStatus: "lizenziert"
+imageCredit: "Paata Vardanashvili / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Victor_Dolidze_-_Keto_and_Kote_4.jpg"
+imageLicense: "CC BY 2.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt eine Aufführung von Victor Dolidzes «Keto und Kote» und erklärt den Namen; es ist bewusst als Kontextbild gekennzeichnet und zeigt nicht das Restaurant."
 ---
 
 ## Profil
@@ -44,6 +48,6 @@ Am besten an **Tag 2** nach dem Tbilisi-Programm. Im Vergleich zu Barbarestan is
 
 [Tag 2 öffnen](/reisen/georgien/tag/tag-02/) · [Chinkali](/reisen/georgien/genuss/chinkali/)
 
-## Bildstatus
+## Bildhinweis
 
-Das bisherige Bild zeigte ein Kostüm aus dem Film «Keto and Kote», nicht das Restaurant. Zur Vermeidung einer irreführenden Darstellung wird bis zu einem sauber lizenzierten Betriebsfoto ein Platzhalter verwendet.
+Das neue Seitenbild ist bewusst als **Kontextbild** gekennzeichnet. Das Bild zeigt eine Aufführung von Victor Dolidzes «Keto und Kote» und erklärt den Namen; es ist bewusst als Kontextbild gekennzeichnet und zeigt nicht das Restaurant.

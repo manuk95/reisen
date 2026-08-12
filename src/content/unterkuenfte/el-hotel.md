@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – EL Hotel Kutaisi", url: "https://www.booking.com/hotel/ge/el-kutaisi.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für EL Hotel in Kutaisi"
-imageStatus: platzhalter
+image: "images/georgien/hotels/el-hotel.jpg"
+imageAlt: "Kontextbild: Weisse Brücke und Rioni in Kutaisi; zeigt nicht das EL Hotel selbst."
+imageStatus: "lizenziert"
+imageCredit: "Roberto Strauss / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:White_Bridge,_Kutaisi.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt die Weisse Brücke im Zentrum von Kutaisi und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das EL Hotel."
 ---
 
 ## Kurzfazit

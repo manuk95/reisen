@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Old Town Mtatsminda", url: "https://www.booking.com/hotel/ge/old-town-mtatsminda.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Old Town Mtatsminda in Tbilisi"
-imageStatus: platzhalter
+image: "images/georgien/hotels/old-town-mtatsminda.jpg"
+imageAlt: "Kontextbild: Blick über Tbilisi vom Mtatsminda Park; zeigt nicht das Old Town Mtatsminda Hotel selbst."
+imageStatus: "lizenziert"
+imageCredit: "Philipe12312 / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:A_View_Of_Tbilisi.jpg"
+imageLicense: "CC BY 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt einen Blick vom Mtatsminda Park über Tbilisi und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Hotel selbst."
 ---
 
 ## Kurzfazit

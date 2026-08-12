@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – Newport Hotel Kutaisi", url: "https://www.booking.com/hotel/ge/newport-kutaisi.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Newport Hotel Kutaisi"
-imageStatus: platzhalter
+image: "images/georgien/hotels/newport-kutaisi.jpg"
+imageAlt: "Kontextbild: Weisse Brücke am Rioni im Zentrum von Kutaisi; zeigt nicht das Newport Hotel selbst."
+imageStatus: "lizenziert"
+imageCredit: "Kober / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:White_Bridge,_Kutaisi_(1).jpg"
+imageLicense: "Public Domain (PD-self)"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt die Weisse Brücke und den Rioni in Kutaisi und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Newport Hotel."
 ---
 
 ## Kurzfazit

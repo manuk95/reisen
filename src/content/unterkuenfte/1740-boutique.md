@@ -13,9 +13,13 @@ related: []
 sources:
   - {label: "Booking.com – 1740 Boutique Hotel Kazbegi", url: "https://www.booking.com/hotel/ge/1740-kazbegi.html"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für 1740 Boutique Hotel Kazbegi"
-imageStatus: platzhalter
+image: "images/georgien/hotels/1740-boutique.jpg"
+imageAlt: "Kontextbild: Bergkulisse von Stepantsminda mit dem Kazbek; zeigt nicht das 1740 Boutique Hotel selbst."
+imageStatus: "lizenziert"
+imageCredit: "Kober / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Stepan-Tsmnda_Kazbegi_2013_01.jpg"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt die für Stepantsminda typische Kazbek-Kulisse und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das 1740 Boutique Hotel."
 ---
 
 ## Kurzfazit

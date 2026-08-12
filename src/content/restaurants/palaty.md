@@ -15,9 +15,13 @@ sources:
   - {label: "Gault&Millau Georgia – Restaurantauswahl", url: "https://ge.gaultmillau.com/en/search/restaurant"}
   - {label: "Georgia Travel Places – Palaty", url: "https://places.georgia.travel/en/establishments/palaty"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Restaurant Palaty in Kutaisi"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/palaty.jpg"
+imageAlt: "Aufnahme im Bar-Restaurant Palaty in Kutaisi."
+imageStatus: "lizenziert"
+imageCredit: "Vít Hnilica / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:At_Bar-Restaurant_Palaty_in_Kutaisi,_Georgia.jpg"
+imageLicense: "Public Domain Mark (via Flickr/Wikimedia Commons)"
+imageEdit: "Auf maximal 1600 px Breite bezogen; Das Foto wurde im Bar-Restaurant Palaty in Kutaisi aufgenommen."
 ---
 
 ## Profil
@@ -47,6 +51,6 @@ Eine Reservation ist für den Abend sinnvoll, insbesondere wenn ihr einen ruhige
 
 [Tag 8 öffnen](/reisen/georgien/tag/tag-08/) · [Kutaisi](/reisen/georgien/orte/kutaisi/) · [Weinland](/reisen/georgien/weinland/)
 
-## Bildstatus
+## Bildhinweis
 
-Im Repository liegt derzeit kein eindeutig verifiziertes, frei nutzbares Betriebsfoto. Deshalb bleibt die Seite bewusst beim Platzhalter statt ein unpassendes Bild zu verwenden.
+Das neue Seitenbild hat direkten Bezug zum Betrieb. Das Foto wurde im Bar-Restaurant Palaty in Kutaisi aufgenommen.

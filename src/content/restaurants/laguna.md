@@ -14,9 +14,13 @@ sources:
   - {label: "Laguna Batumi – offizielle Facebook-Seite", url: "https://www.facebook.com/LagunaBatumi"}
   - {label: "Apple Maps / Tripadvisor – Laguna Batumi", url: "https://maps.apple.com/place?place-id=ID2142C459F62A2E1"}
 updated: 2026-08-10
-image: images/platzhalter.png
-imageAlt: "Platzhalterbild für Laguna in Batumi"
-imageStatus: platzhalter
+image: "images/georgien/restaurants/laguna.jpg"
+imageAlt: "Kontextbild: adscharisches Chatschapuri, die Spezialität von Laguna in Batumi; kein Foto des Restaurants."
+imageStatus: "lizenziert"
+imageCredit: "Eka Samkharadze / Wikimedia Commons"
+imageSource: "https://commons.wikimedia.org/wiki/File:Adjarian_khachapuri.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt adscharisches Chatschapuri als typische Spezialität von Laguna; es ist bewusst als Kontextbild gekennzeichnet und zeigt nicht das Restaurant."
 ---
 
 ## Profil
