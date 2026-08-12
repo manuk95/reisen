@@ -14,7 +14,7 @@ sources:
     url: "https://georgia.travel/juta-chiukhi"
   - label: "Georgia Travel: 4-Day SUV Tour in Stepantsminda"
     url: "https://georgia.travel/4-day-suv-tour-in-stepantsminda"
-updated: 2026-08-10
+updated: 2026-08-12
 date: 2026-10-03
 day: 6
 from: "Stepantsminda"
@@ -31,7 +31,7 @@ sunset: "18:40 Uhr · Stepantsminda"
 
 ## Google Maps
 
-- [Stepantsminda → Trusso-Tal](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Truso+Valley%2C+Georgia&travelmode=driving)
+- [Stepantsminda → Trusso-Tal Startpunkt](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Truso+Valley+Start+Point%2C+Kvemo+Okrokana%2C+Georgia&travelmode=driving)
 - [Stepantsminda → Sno → Juta](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Juta%2C+Georgia&waypoints=Sno%2C+Georgia&travelmode=driving)
 
 ## Falls ihr kürzen müsst
