@@ -46,5 +46,11 @@ patch_item("castello-mare", {
     "note: 'Das Foto ist direkt beim Castello Mare Hotel & Wellness Resort verortet und zeigt die Anlage aus der Luft.'": "note: 'Das Bild zeigt die Küste von Tsikhisdziri in unmittelbarer Region des Hotels und dient als klar gekennzeichnetes Umgebungsbild; es zeigt nicht das Castello Mare Hotel.'",
 })
 
+old_loop = "for (const item of items) {\n  const target = `public/images/georgien/${item.folder}/${item.slug}.jpg`;"
+new_loop = "for (const item of items) {\n  // Wikimedia Commons fair nutzen und Rate-Limits vermeiden.\n  await new Promise(resolve => setTimeout(resolve, 2200));\n  const target = `public/images/georgien/${item.folder}/${item.slug}.jpg`;"
+if old_loop not in text:
+    raise RuntimeError("Download-Schleife für Drosselung nicht gefunden")
+text = text.replace(old_loop, new_loop, 1)
+
 path.write_text(text, encoding="utf-8")
-print("Unsplash-Downloads durch Wikimedia-Commons-Quellen ersetzt.")
+print("Bildquellen auf Wikimedia Commons umgestellt und Downloads gedrosselt.")
