@@ -16,7 +16,7 @@ sources:
     url: "https://www.georoad.ge/?act=news&func=menu&lang=eng&pid=1388404621&uid=1781011722"
   - label: "Roads Department: Bauarbeiten Abastumani vom 12. Juni 2026"
     url: "https://www.georoad.ge/?act=news&func=menu&lang=eng&pid=&uid=1781251027"
-updated: 2026-08-10
+updated: 2026-08-12
 date: 2026-10-04
 day: 7
 from: "Stepantsminda"
@@ -33,8 +33,10 @@ sunset: "18:47 Uhr · Kutaisi"
 
 ## Google Maps
 
-- [Variante A – robuste Hauptroute über Borjomi/Akhaltsikhe](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CBorjomi%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7CVardzia%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7CBorjomi%2C+Georgia&travelmode=driving)
-- [Variante B – über Abastumani/Zekari/Sairme](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CTsalka%2C+Georgia%7CVardzia%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7CAbastumani%2C+Georgia%7CSairme%2C+Georgia&travelmode=driving)
+- [Variante A – robuste Hauptroute über Borjomi/Akhaltsikhe](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CBorjomi%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7C41.3814%2C43.2842%7CAkhaltsikhe%2C+Georgia%7CBorjomi%2C+Georgia&travelmode=driving)
+- [Variante B – über Abastumani/Zekari/Sairme](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CTsalka%2C+Georgia%7C41.3814%2C43.2842%7CAkhaltsikhe%2C+Georgia%7CAbastumani%2C+Georgia%7CSairme%2C+Georgia&travelmode=driving)
+
+**Navigationshinweis Vardzia:** Der Höhlenkomplex ist hier bewusst über die eindeutigen Koordinaten **41.3814, 43.2842** hinterlegt. Nicht einfach ein anderes Ziel mit dem Namen „Vardzia“ auswählen.
 
 ## Falls ihr kürzen müsst
 
