@@ -21,6 +21,8 @@ jobs:
         with:
           node-version: 24
       - run: npm install
+      - name: Bildquellen für Runner anpassen
+        run: python3 scripts/patch-image-sources.py
       - name: Bilder laden und Inhalte aktualisieren
         run: node scripts/curate-entity-images.mjs
       - run: npm run check
@@ -30,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git rm .github/workflows/curate-entity-images.yml scripts/curate-entity-images.mjs
+          git rm .github/workflows/curate-entity-images.yml scripts/curate-entity-images.mjs scripts/patch-image-sources.py
           git add public/images/georgien/hotels public/images/georgien/restaurants src/content/unterkuenfte src/content/restaurants src/components/CollectionList.astro 'src/pages/georgien/hotels/[slug].astro' 'src/pages/georgien/restaurants/[slug].astro'
           git commit -m "Ergänze Bilder für Hotels und Restaurants"
           git push
