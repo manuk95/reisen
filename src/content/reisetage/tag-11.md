@@ -14,7 +14,7 @@ sources:
     url: "https://georgia.travel/cities-towns/ozurgeti"
   - label: "Georgia Travel: Guria One-Day Tour"
     url: "https://georgia.travel/popular-trips/one-day-tour-in-guria"
-updated: 2026-08-10
+updated: 2026-08-12
 date: 2026-10-08
 day: 11
 from: "Shekvetili"
@@ -31,7 +31,7 @@ sunset: "18:44 Uhr · Shekvetili"
 
 ## Google Maps
 
-- [Variante Kolkheti/Poti](https://www.google.com/maps/dir/?api=1&origin=Shekvetili%2C+Georgia&destination=Shekvetili%2C+Georgia&waypoints=Poti%2C+Georgia&travelmode=driving)
+- [Variante Kolkheti / Visitor Centre](https://www.google.com/maps/dir/?api=1&origin=Shekvetili%2C+Georgia&destination=Shekvetili%2C+Georgia&waypoints=Kolkheti+National+Park+Visitor+Centre%2C+222+Guria+Street%2C+Poti%2C+Georgia&travelmode=driving)
 - [Variante Gurien/Ozurgeti](https://www.google.com/maps/dir/?api=1&origin=Shekvetili%2C+Georgia&destination=Shekvetili%2C+Georgia&waypoints=Ozurgeti%2C+Georgia&travelmode=driving)
 
 ## Falls ihr kürzen müsst
@@ -56,7 +56,7 @@ Ein Fahrer ist besonders für die Gurien-/Weinvariante sinnvoll. Für Kolkheti s
 
 ### 10:30–13:00 · Kolkheti-Naturerlebnis oder Ozurgeti/Gurien
 
-**Kolkheti:** Richtung Poti/Paliastomi und nur eine bestätigte Bootstour fest einplanen.  
+**Kolkheti:** zum Visitor Centre in Poti/Maltakva und von dort Richtung Paliastomi; eine Bootstour nur mit bestätigter Durchführung fest einplanen.  
 **Gurien:** Ozurgeti und einen kleinen regionalen Schwerpunkt wählen statt viele Einzelstopps zu sammeln.
 
 ### 13:30–14:30 · Lokales Mittagessen
