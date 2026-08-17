@@ -6,11 +6,11 @@ country: Georgien
 region: Shida Kartli
 summary: "In Sandstein gehauene antike Stadt bei Gori – eine der ältesten urbanen Kulturlandschaften des Kaukasus."
 categories: [archaeologie, kultur]
-status: optional
-days: []
-related: [gori, stalin-museum, ateni-tal]
+status: empfohlen
+days: [tag-07]
+related: [gori, stalin-museum, ateni-tal, tskaltubo]
 sources: [{label: "Georgia Travel: Uplistsikhe Cave Town", url: "https://georgia.travel/uplistsikhe-cave-town"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/uplisziche.jpg
 imageAlt: "Felsarchitektur und Ruinen der Höhlenstadt Uplisziche"
 imageStatus: lizenziert
@@ -40,4 +40,6 @@ Vor der Christianisierung Kartlis war Uplisziche ein bedeutender Kultort. Nach d
 
 ## Für eure Reise
 
-Uplisziche wäre der **beste historische Zusatzstopp bei Gori**, falls eure endgültige Route genügend Zeit lässt. Rechnet mindestens 1,5 Stunden. Bei Nässe kann der blanke Sandstein sehr rutschig sein; feste Schuhe sind Pflicht.
+Uplisziche ist jetzt der **historische Hauptstopp von Variante D an Tag 7**. Die Route führt von Stepantsminda über Uplisziche weiter nach Tskaltubo und vermeidet damit den grossen südlichen Umweg über Vardzia.
+
+Rechnet ungefähr **1,5 Stunden** für den Besuch. Bei Nässe kann der blanke Sandstein sehr rutschig sein; feste Schuhe sind wichtig. Wenn Wetter oder Müdigkeit gegen einen längeren Stopp sprechen, kann Uplisziche verkürzt oder als einziger Programmpunkt des Transfertags neben der Fahrt behandelt werden.
