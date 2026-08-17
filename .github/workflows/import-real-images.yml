@@ -1,0 +1,152 @@
+name: Import real licensed images
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-real-images.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  import-images:
+    if: github.event.head_commit.message == 'Temporärer Bildimport'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Download source images
+        run: |
+          mkdir -p /tmp/reisebilder public/images/georgien/sehenswuerdigkeiten
+          curl -L --fail --retry 3 -o /tmp/reisebilder/chronicles.jpg 'https://commons.wikimedia.org/wiki/Special:Redirect/file/2023-12-26%20Tbilisi%20Sea%20seen%20from%20The%20Chronicle%20of%20Georgia%201.jpg'
+          curl -L --fail --retry 3 -o /tmp/reisebilder/pansheti.jpg 'https://travelhacker.blog/wp-content/uploads/2024/09/IMG_20240901_134052-1-scaled.jpg'
+          curl -L --fail --retry 3 -o /tmp/reisebilder/sakartvelo.gif 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Tskaltubo%20Sanatorium-Sakartvelo%20Stefan-Applis.gif'
+          curl -L --fail --retry 3 -o /tmp/reisebilder/bakuriani.jpg 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Bakuriani%2C%20Georgia1.JPG'
+
+      - name: Create web images and update metadata
+        run: |
+          python <<'PY'
+          from pathlib import Path
+          from PIL import Image, ImageOps
+          import json
+
+          OUT = Path('public/images/georgien/sehenswuerdigkeiten')
+          OUT.mkdir(parents=True, exist_ok=True)
+
+          def make_image(src, dst, center_y=0.5):
+              im = Image.open(src)
+              if getattr(im, 'is_animated', False):
+                  im.seek(0)
+              im = ImageOps.exif_transpose(im).convert('RGB')
+              w, h = im.size
+              ratio = 16 / 9
+              if w / h > ratio:
+                  nw = round(h * ratio)
+                  left = max(0, min(w - nw, round((w - nw) / 2)))
+                  box = (left, 0, left + nw, h)
+              else:
+                  nh = round(w / ratio)
+                  cy = center_y * h
+                  top = max(0, min(h - nh, round(cy - nh / 2)))
+                  box = (0, top, w, top + nh)
+              im = im.crop(box).resize((1600, 900), Image.Resampling.LANCZOS)
+              im.save(dst, 'JPEG', quality=82, optimize=True, progressive=True)
+
+          make_image('/tmp/reisebilder/chronicles.jpg', OUT / 'chronicles-of-georgia.jpg', 0.50)
+          make_image('/tmp/reisebilder/pansheti.jpg', OUT / 'pansheti-mineralpool.jpg', 0.53)
+          make_image('/tmp/reisebilder/sakartvelo.gif', OUT / 'sanatorium-sakartvelo.jpg', 0.51)
+          make_image('/tmp/reisebilder/bakuriani.jpg', OUT / 'bakuriani.jpg', 0.54)
+
+          updates = {
+              'src/content/sehenswuerdigkeiten/chronicles-of-georgia.md': {
+                  'updated': '2026-08-17',
+                  'image': 'images/georgien/sehenswuerdigkeiten/chronicles-of-georgia.jpg',
+                  'imageAlt': 'Aussicht vom Standort der Chronicles of Georgia über den Tbilisi Sea und die umliegende Stadtlandschaft',
+                  'imageStatus': 'lizenziert',
+                  'imageCredit': 'Alexkom000 (Alexey Komarov), via Wikimedia Commons',
+                  'imageSource': 'https://commons.wikimedia.org/wiki/File:2023-12-26_Tbilisi_Sea_seen_from_The_Chronicle_of_Georgia_1.jpg',
+                  'imageLicense': 'CC BY 4.0',
+                  'imageEdit': 'Auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung.'
+              },
+              'src/content/sehenswuerdigkeiten/pansheti-mineralpool.md': {
+                  'updated': '2026-08-17',
+                  'image': 'images/georgien/sehenswuerdigkeiten/pansheti-mineralpool.jpg',
+                  'imageAlt': 'Der rechteckige Pansheti-Mineralpool mit Badenden vor der Bergkulisse der Kazbegi-Region',
+                  'imageStatus': 'lizenziert',
+                  'imageCredit': 'Travelhacker.blog / Artikel von Janka',
+                  'imageSource': 'https://travelhacker.blog/prakticke-tipy-na-vylet-do-gruzinskych-hor-kazbegi/',
+                  'imageLicense': 'Nicht-kommerzielle Wiederverwendung mit Rückverweis gemäss Nutzungsbedingungen von Travelhacker.blog',
+                  'imageEdit': 'Auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung.'
+              },
+              'src/content/sehenswuerdigkeiten/sanatorium-sakartvelo.md': {
+                  'updated': '2026-08-17',
+                  'image': 'images/georgien/sehenswuerdigkeiten/sanatorium-sakartvelo.jpg',
+                  'imageAlt': 'Das Sanatorium Sakartvelo in Tskaltubo mit seinem markanten gestaffelten Betonbau hinter Bäumen',
+                  'imageStatus': 'lizenziert',
+                  'imageCredit': 'Roland Chibiani; Foto: Stefan Applis, via Wikimedia Commons',
+                  'imageSource': 'https://commons.wikimedia.org/wiki/File:Tskaltubo_Sanatorium-Sakartvelo_Stefan-Applis.gif',
+                  'imageLicense': 'CC BY-SA 4.0',
+                  'imageEdit': 'Erstes Standbild übernommen, auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung.'
+              },
+              'src/content/sehenswuerdigkeiten/bakuriani.md': {
+                  'updated': '2026-08-17',
+                  'image': 'images/georgien/sehenswuerdigkeiten/bakuriani.jpg',
+                  'imageAlt': 'Blick vom Mount Kokhta über Bakuriani mit bewaldeten Berghängen, verstreuten Gebäuden und Sessellift',
+                  'imageStatus': 'lizenziert',
+                  'imageCredit': 'Kober, via Wikimedia Commons',
+                  'imageSource': 'https://commons.wikimedia.org/wiki/File:Bakuriani,_Georgia1.JPG',
+                  'imageLicense': 'Public Domain (PD-self)',
+                  'imageEdit': 'Auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung.'
+              }
+          }
+
+          def yaml_value(key, value):
+              if key == 'updated':
+                  return f'{key}: {value}'
+              return f'{key}: {json.dumps(value, ensure_ascii=False)}'
+
+          image_keys = {'updated', 'image', 'imageAlt', 'imageStatus', 'imageCredit', 'imageSource', 'imageLicense', 'imageEdit'}
+          for filename, values in updates.items():
+              path = Path(filename)
+              text = path.read_text(encoding='utf-8')
+              if not text.startswith('---\n'):
+                  raise RuntimeError(f'Kein Frontmatter: {filename}')
+              end = text.find('\n---\n', 4)
+              if end < 0:
+                  raise RuntimeError(f'Frontmatter-Ende fehlt: {filename}')
+              fm = text[4:end].splitlines()
+              body = text[end + 5:]
+              seen = set()
+              newfm = []
+              for line in fm:
+                  key = line.split(':', 1)[0] if ':' in line and not line.startswith(' ') else None
+                  if key in image_keys and key in values:
+                      if key not in seen:
+                          newfm.append(yaml_value(key, values[key]))
+                          seen.add(key)
+                  else:
+                      newfm.append(line)
+              for key in ['updated', 'image', 'imageAlt', 'imageStatus', 'imageCredit', 'imageSource', 'imageLicense', 'imageEdit']:
+                  if key in values and key not in seen:
+                      newfm.append(yaml_value(key, values[key]))
+              path.write_text('---\n' + '\n'.join(newfm) + '\n---\n' + body, encoding='utf-8')
+          PY
+
+      - name: Commit imported images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/images/georgien/sehenswuerdigkeiten/*.jpg src/content/sehenswuerdigkeiten/*.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Echte Bilder für vier Georgien-Seiten ergänzen'
+          git push
