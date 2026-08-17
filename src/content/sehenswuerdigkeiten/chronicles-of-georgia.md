@@ -6,9 +6,9 @@ country: Georgien
 region: "Tbilisi"
 summary: "Monumentale 35-Meter-Säulen über dem Tbilisi Sea: georgische Könige, historische Ereignisse und biblische Szenen in Zurab Tseretelis monumentaler Geschichtserzählung."
 categories: [geschichte, kultur, aussicht, architektur]
-status: optional
+status: empfohlen
 coordinates: {lat: 41.77059, lon: 44.81039}
-days: [tag-03]
+days: [tag-04]
 related: [mtatsminda, dschwari-kloster, swetizchoweli]
 sources:
   - {label: "Georgia Travel: Tbilisi Sea", url: "https://georgia.travel/tbilisi-sea"}
@@ -61,12 +61,12 @@ Von der Anlage öffnet sich der Blick über Reservoir, nördliche Stadtteile und
 
 ## Besuch und Anfahrt
 
-Für eure Reise passt die Anlage als **optionaler Stopp am Nachmittag von Tag 3** nach Mtskheta. Mit einem Fahrer lässt sie sich wesentlich unkomplizierter einbauen als mit einer zusätzlichen ÖV-Verbindung. Vom Parkplatz beziehungsweise der Zufahrt führen zahlreiche Stufen hinauf zum eigentlichen Monument.
+Für eure Reise passt die Anlage jetzt als **erster Stopp von Tag 4 auf dem Weg nach Kazbegi**. Vom Tbilisi-Zentrum geht es zuerst zum Monument und danach direkt weiter zum Dschwari-Kloster. Damit entsteht keine separate Hin- und Rückfahrt an einem Tbilisi-Tag.
 
-Für den Besuch reichen typischerweise **45–75 Minuten**, wenn ihr Reliefs und Aussicht in Ruhe anschauen möchtet. Bei Hitze, starkem Wind oder Regen ist die exponierte Lage zu berücksichtigen.
+Für den Besuch reichen typischerweise **40 bis 60 Minuten**, wenn ihr Reliefs und Aussicht in Ruhe anschauen möchtet. Bei Hitze, starkem Wind oder Regen ist die exponierte Lage zu berücksichtigen. Vom Parkplatz beziehungsweise der Zufahrt führen zahlreiche Stufen hinauf zum eigentlichen Monument.
 
-[Route in Google Maps öffnen](https://www.google.com/maps/dir/?api=1&origin=Mtskheta%2C+Georgia&destination=Chronicle+of+Georgia%2C+Tbilisi%2C+Georgia&travelmode=driving)
+[Route Chronicles of Georgia → Dschwari in Google Maps öffnen](https://www.google.com/maps/dir/?api=1&origin=Chronicle+of+Georgia%2C+Tbilisi%2C+Georgia&destination=Jvari+Monastery%2C+Georgia&travelmode=driving)
 
 ## Für eure Reise
 
-**Priorität: optional.** Dschwari und Swetizchoweli sind an Tag 3 wichtiger. Wenn Wetter, Energie und Zeit passen, sind die Chronicles aber ein guter Kontrast: vormittags mittelalterliche Sakralarchitektur in Mtskheta, nachmittags eine moderne monumentale Interpretation georgischer Geschichte.
+**Priorität: empfohlen.** Am 1. Oktober bildet die Anlage den modernen Gegenpol zu den anschliessenden frühchristlichen und mittelalterlichen Orten in Mtskheta: zuerst monumentale nationale Erinnerungskultur, danach Dschwari und Swetizchoweli, anschliessend die Georgische Heerstrasse Richtung Kazbegi.
