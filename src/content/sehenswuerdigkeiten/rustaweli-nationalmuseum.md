@@ -7,10 +7,10 @@ region: Tbilisi
 summary: "Tbilisis repräsentative Hauptachse und das Nationalmuseum als Schlüssel zu Archäologie, Goldschätzen und sowjetischer Geschichte."
 categories: [museum, stadt, geschichte]
 status: empfohlen
-days: [tag-02]
+days: [tag-02, tag-03]
 related: [dry-bridge-fabrika, mtatsminda]
 sources: [{label: "Georgian National Museum", url: "https://museum.ge/"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/rustaweli-nationalmuseum.jpg
 imageAlt: "Simon-Dschanaschia-Museum des Georgischen Nationalmuseums in Tbilisi"
 imageStatus: lizenziert
@@ -30,10 +30,10 @@ Auch jüngere Protestbewegungen und politische Kundgebungen konzentrieren sich h
 
 Der Museumsverbund besitzt zentrale archäologische und historische Sammlungen des Landes. Besonders relevant sind die frühen Goldschmiedearbeiten aus dem Gebiet des heutigen Georgien sowie Ausstellungen zur sowjetischen Besatzung und zum 20. Jahrhundert.
 
-Ein Museumsbesuch hilft, Dinge einzuordnen, die ihr später in Mtskheta, Vardzia oder Uplisziche seht. Gleichzeitig ist er die beste Schlechtwetteroption in Tbilisi.
+Ein Museumsbesuch hilft, Dinge einzuordnen, die ihr später in Mtskheta und Uplisziche seht. Gleichzeitig ist er die beste Schlechtwetteroption in Tbilisi.
 
-## Für Tag 2
+## Für Tag 2 und Tag 3
 
-Plant das Museum nur fest ein, wenn ihr wirklich **1,5 bis 2 Stunden** dafür reservieren wollt. Bei Sonnenschein ist der erste Tbilisi-Tag draussen wertvoller; das Museum eignet sich hervorragend als wetterabhängiger Baustein.
+Der bevorzugte Platz für das Museum ist jetzt **Tag 3**, der zweite vollständige Tbilisi-Tag. Plant dafür ungefähr **1,5 bis 2 Stunden** ein und kombiniert den Besuch danach mit Dry Bridge, Fabrika und – bei guter Sicht – Mtatsminda.
 
-Öffnungstage, aktuelle Ausstellungen und gegebenenfalls geschlossene Säle unmittelbar vor Besuch auf der Museumsseite prüfen.
+Falls das Wetter schon an Tag 2 schlecht ist oder ihr dort mehr Zeit für Innenräume möchtet, kann das Museum weiterhin flexibel vorgezogen werden. Öffnungstage, aktuelle Ausstellungen und gegebenenfalls geschlossene Säle unmittelbar vor Besuch auf der Museumsseite prüfen.
