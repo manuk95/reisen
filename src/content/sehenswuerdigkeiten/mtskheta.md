@@ -8,10 +8,10 @@ summary: "Ehemalige Hauptstadt Kartlis und spirituelles Zentrum Georgiens am Zus
 categories: [kultur, unesco]
 status: empfohlen
 coordinates: {lat: 41.8451, lon: 44.7188}
-days: [tag-03]
+days: [tag-04]
 related: [swetizchoweli, dschwari-kloster]
 sources: [{label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}, {label: "UNESCO: World Heritage management in Mtskheta", url: "https://whc.unesco.org/en/canopy/mtskheta/"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/mtskheta.jpg
 imageAlt: "Panorama von Mtskheta mit der Swetizchoweli-Kathedrale"
 imageStatus: lizenziert
@@ -41,7 +41,7 @@ Die drei Anlagen zeigen unterschiedliche Entwicklungsphasen georgischer Sakralar
 
 ## Die Stadt aus zwei Perspektiven lesen
 
-Euer Tag funktioniert besonders gut, wenn ihr Mtskheta zuerst **von oben** und danach **von innen** erlebt:
+Euer Besuch funktioniert besonders gut, wenn ihr Mtskheta zuerst **von oben** und danach **von innen** erlebt:
 
 1. Vom Dschwari-Kloster seht ihr den Flusszusammenfluss, die Verkehrsachsen und die Siedlungslage.
 2. Unten in Mtskheta bewegt ihr euch durch die kompakte Altstadt zur Swetizchoweli-Kathedrale.
@@ -54,13 +54,15 @@ Das heutige Mtskheta ist klein genug, um das historische Zentrum gut zu Fuss zu 
 
 Achtet darauf, den Ort nicht nur als Souvenir-Stopp zu behandeln. Mtskheta ist weiterhin ein lebendiges religiöses Zentrum. Pilger, Gottesdienste und kirchlicher Alltag gehören zum normalen Bild.
 
-## Praktisch für euren Tag 3
+## Praktisch für euren Tag 4
 
-Für Jvari plus Mtskheta solltet ihr insgesamt ungefähr **3 bis 4 Stunden** ohne lange Mahlzeit einplanen. Eine sinnvolle Reihenfolge ist:
+Mtskheta wird **nicht mehr als separater Ausflug ab Tbilisi** geplant, sondern am 1. Oktober direkt in die Fahrt nach Kazbegi integriert. Die sinnvolle Reihenfolge ist:
 
-**Tbilisi → Dschwari-Kloster → Mtskheta / Swetizchoweli → Mittagessen → Rückfahrt nach Tbilisi.**
+**Tbilisi → Chronicles of Georgia → Dschwari-Kloster → Mtskheta / Swetizchoweli → Ananuri → Gudauri → Stepantsminda.**
 
-Damit liegt der Aussichtspunkt am Anfang und die kompakte Altstadt danach. Für Kirchen Schultern und Knie bedecken; ein dünnes Tuch im Tagesrucksack ist praktisch.
+Für Dschwari plus Mtskheta reichen an diesem Fahrtag ungefähr **1,5 bis 2 Stunden**, dazu ein frühes Mittagessen. Samtavro bleibt optional. So erlebt ihr die historische Bedeutung des Ortes, ohne dafür am Vortag eine zusätzliche Hin- und Rückfahrt aus Tbilisi zu benötigen.
+
+Für Kirchen Schultern und Knie bedecken; ein dünnes Tuch im Tagesrucksack ist praktisch.
 
 Koordinaten Zentrum: **41.8451, 44.7188**.
 
