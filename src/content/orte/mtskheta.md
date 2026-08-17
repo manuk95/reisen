@@ -8,10 +8,10 @@ summary: "Alte Hauptstadt Kartlis und geistliches Zentrum Georgiens am Zusammenf
 categories: [kultur]
 status: empfohlen
 coordinates: {lat: 41.8421, lon: 44.7215}
-days: [tag-03]
+days: [tag-04]
 related: []
 sources: [{label: "Georgia Travel: Mtskheta", url: "https://georgia.travel/cities-towns/mtskheta"}, {label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}]
-updated: 2026-08-07
+updated: 2026-08-17
 image: images/georgien/orte/mtskheta.jpg
 imageAlt: "English: Jvari Monastery, a 6th-century Georgian Orthodox monastery. Early Medieval Georgian Orthodox church. Mtskheta, Georgia. Русский: Джвари, грузинский монастырь и храм первой половины VII века. Мцхета, Грузия."
 ---
@@ -28,10 +28,12 @@ Besucht zuerst das [Dschwari-Kloster](/reisen/georgien/sehenswuerdigkeiten/dschw
 
 Diese Reihenfolge ist inhaltlich stärker als nur zwei Kirchen nacheinander abzuhaken.
 
-## Für euren Tag 3
+## Für euren Tag 4
 
-Mtskheta lässt sich gut als halbtägiger Ausflug ab Tbilisi planen. Rechnet für Dschwari, Fahrt, Altstadt und Swetizchoweli insgesamt eher **3 bis 4 Stunden** als einen schnellen Zweistundenstopp. So bleibt Zeit für einen Kaffee oder ein Mittagessen und ihr müsst nicht durch die Sakralräume hetzen.
+Mtskheta wird am **1. Oktober direkt auf dem Weg von Tbilisi nach Kazbegi** besucht. Vorher liegen die Chronicles of Georgia und Dschwari, danach führt die Route ohne Rückfahrt nach Tbilisi weiter über Ananuri und Gudauri nach Stepantsminda.
 
-Die Altstadt ist touristisch und kann mittags voll werden. Früh am Tag ist die Atmosphäre ruhiger. In Kirchen angemessene Kleidung tragen und Gottesdienste respektieren.
+Rechnet für Dschwari, Altstadt und Swetizchoweli zusammen ungefähr **1,5 bis 2 Stunden** plus ein frühes Mittagessen. So bleibt der Ort inhaltlich wichtig, ohne einen separaten halben Reisetag zu beanspruchen.
+
+Die Altstadt ist touristisch und kann mittags voll werden. In Kirchen angemessene Kleidung tragen und Gottesdienste respektieren.
 
 Koordinaten: **41.8421, 44.7215**.
