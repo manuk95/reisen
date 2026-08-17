@@ -15,6 +15,12 @@ sources:
   - {label: "Georgia Travel: Samtskhe-Javakheti", url: "https://georgia.travel/regions/samtskhe-javakheti"}
   - {label: "Mapcarta / OpenStreetMap: Bakuriani", url: "https://mapcarta.com/13576844"}
 updated: 2026-08-17
+image: images/georgien/sehenswuerdigkeiten/bakuriani.svg
+imageAlt: "Stilisierte Darstellung von Bakuriani mit bewaldeten Berghängen, Ferienhäusern und Sessellift"
+imageStatus: lizenziert
+imageCredit: "Eigene stilisierte SVG-Illustration"
+imageLicense: "Eigenes Werk"
+imageEdit: "Keine Fremdbildbestandteile; Landschaft und Ortscharakter anhand recherchierter Ansichten frei illustriert."
 ---
 
 ## Was ist Bakuriani?
@@ -25,7 +31,7 @@ Die Landschaft unterscheidet sich deutlich von Stepantsminda: statt der dramatis
 
 ## Was gibt es ausserhalb des Winters?
 
-Die eigentliche Skisaison liegt laut Georgia Travel vor allem zwischen **Dezember und März**. Ausserhalb davon werden unter anderem Wandern, Velofahren, Reiten, Jeep-Touren und der alpine botanische Garten genannt.
+Die eigentliche Skisaison liegt laut Georgia Travel vor allem zwischen **Dezember und März**. Ausserhalb davon werden unter anderem Wandern, Velofahren, Reiten, Geländewagentouren und der alpine botanische Garten genannt.
 
 Für eure Reise Anfang Oktober ist Bakuriani deshalb kein «Action-Stopp», sondern eher interessant für:
 
