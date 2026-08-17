@@ -8,10 +8,10 @@ summary: "Zentrale Kathedrale des georgischen Christentums: Krönungs-, Begräbn
 categories: [kultur, religion, unesco]
 status: empfohlen
 coordinates: {lat: 41.8424, lon: 44.7206}
-days: [tag-03]
+days: [tag-04]
 related: [mtskheta, dschwari-kloster]
 sources: [{label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}, {label: "Georgia Travel: Svetitskhoveli", url: "https://georgia.travel/svetitskhoveli-a-treasure-of-world-art"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/swetizchoweli.jpg
 imageAlt: "Swetizchoweli-Kathedrale im historischen Zentrum von Mtskheta"
 imageStatus: lizenziert
@@ -48,7 +48,7 @@ UNESCO hebt Mtskheta als ehemalige Hauptstadt Kartlis und als Ort hervor, an dem
 
 ## Besuch bewusst planen
 
-Für euren Tag 3 sollte Swetizchoweli der Hauptpunkt innerhalb von Mtskheta sein. Plant ungefähr **45 bis 75 Minuten** ein, je nachdem, ob ihr nur die Kathedrale oder auch den ummauerten Komplex und die Altstadtgassen in Ruhe ansehen möchtet.
+Für euren **Tag 4 am 1. Oktober** ist Swetizchoweli der Hauptpunkt innerhalb von Mtskheta. Nach Dschwari plant ihr ungefähr **45 bis 60 Minuten** für Kathedrale, Hof und einen kurzen Gang durch die umliegenden Gassen ein. Danach folgt das frühe Mittagessen und die Weiterfahrt Richtung Ananuri und Kazbegi.
 
 Am besten zuerst einmal um den Bau herumgehen und danach hinein. So lassen sich Proportionen, Fassaden und Innenraum besser einordnen.
 
