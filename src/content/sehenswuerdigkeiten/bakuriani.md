@@ -15,12 +15,13 @@ sources:
   - {label: "Georgia Travel: Samtskhe-Javakheti", url: "https://georgia.travel/regions/samtskhe-javakheti"}
   - {label: "Mapcarta / OpenStreetMap: Bakuriani", url: "https://mapcarta.com/13576844"}
 updated: 2026-08-17
-image: images/georgien/sehenswuerdigkeiten/bakuriani.svg
-imageAlt: "Stilisierte Darstellung von Bakuriani mit bewaldeten Berghängen, Ferienhäusern und Sessellift"
-imageStatus: lizenziert
-imageCredit: "Eigene stilisierte SVG-Illustration"
-imageLicense: "Eigenes Werk"
-imageEdit: "Keine Fremdbildbestandteile; Landschaft und Ortscharakter anhand recherchierter Ansichten frei illustriert."
+image: "images/georgien/sehenswuerdigkeiten/bakuriani.jpg"
+imageAlt: "Blick vom Mount Kokhta über Bakuriani mit bewaldeten Berghängen, verstreuten Gebäuden und Sessellift"
+imageStatus: "lizenziert"
+imageCredit: "Kober, via Wikimedia Commons"
+imageLicense: "Public Domain (PD-self)"
+imageEdit: "Auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung."
+imageSource: "https://commons.wikimedia.org/wiki/File:Bakuriani,_Georgia1.JPG"
 ---
 
 ## Was ist Bakuriani?

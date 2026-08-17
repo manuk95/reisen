@@ -14,12 +14,13 @@ sources:
   - {label: "Wander-Lush: Pansheti Natural Swimming Pool", url: "https://wander-lush.org/natural-hot-springs-in-georgia-country/"}
   - {label: "Mountain Resorts and Business Group: Kazbegi district / Panshet", url: "https://mbg.ge/en/region/11"}
 updated: 2026-08-17
-image: images/georgien/sehenswuerdigkeiten/pansheti-mineralpool.svg
-imageAlt: "Stilisierte Darstellung des rechteckigen Pansheti-Mineralpools in einem Bergtal der Kazbegi-Region"
-imageStatus: lizenziert
-imageCredit: "Eigene stilisierte SVG-Illustration"
-imageLicense: "Eigenes Werk"
-imageEdit: "Keine Fremdbildbestandteile; anhand der recherchierten Landschafts- und Ortsmerkmale frei illustriert."
+image: "images/georgien/sehenswuerdigkeiten/pansheti-mineralpool.jpg"
+imageAlt: "Der rechteckige Pansheti-Mineralpool mit Badenden vor der Bergkulisse der Kazbegi-Region"
+imageStatus: "lizenziert"
+imageCredit: "Travelhacker.blog / Artikel von Janka"
+imageLicense: "Nicht-kommerzielle Wiederverwendung mit Rückverweis gemäss Nutzungsbedingungen von Travelhacker.blog"
+imageEdit: "Auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung."
+imageSource: "https://travelhacker.blog/prakticke-tipy-na-vylet-do-gruzinskych-hor-kazbegi/"
 ---
 
 ## Was ist das?

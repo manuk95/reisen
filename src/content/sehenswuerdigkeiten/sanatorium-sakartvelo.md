@@ -15,12 +15,13 @@ sources:
   - {label: "Wikimedia Commons: Sanatorium Sakartvelo", url: "https://commons.wikimedia.org/wiki/File:Tskaltubo_Sanatorium-Sakartvelo_Stefan-Applis.gif"}
   - {label: "Mapcarta / OpenStreetMap: Sanatorium Sakartvelo", url: "https://mapcarta.com/W300801352"}
 updated: 2026-08-17
-image: images/georgien/sehenswuerdigkeiten/sanatorium-sakartvelo.svg
-imageAlt: "Stilisierte Darstellung des langgestreckten Sanatoriums Sakartvelo mit sowjetisch-moderner Architektur und umliegenden Bäumen"
-imageStatus: lizenziert
-imageCredit: "Eigene stilisierte SVG-Illustration"
-imageLicense: "Eigenes Werk"
-imageEdit: "Keine Fremdbildbestandteile; charakteristische Bauform nach der recherchierten Architektur frei illustriert."
+image: "images/georgien/sehenswuerdigkeiten/sanatorium-sakartvelo.jpg"
+imageAlt: "Das Sanatorium Sakartvelo in Tskaltubo mit seinem markanten gestaffelten Betonbau hinter Bäumen"
+imageStatus: "lizenziert"
+imageCredit: "Roland Chibiani; Foto: Stefan Applis, via Wikimedia Commons"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Erstes Standbild übernommen, auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung."
+imageSource: "https://commons.wikimedia.org/wiki/File:Tskaltubo_Sanatorium-Sakartvelo_Stefan-Applis.gif"
 ---
 
 ## Was ist das?

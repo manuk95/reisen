@@ -15,12 +15,14 @@ sources:
   - {label: "Zurab Tsereteli Museum of Modern Art: Monument complex", url: "https://www.tbilisimoma.ge/index.php?lang=&m=42&news=108"}
   - {label: "Georgia Travel: Zurab Tsereteli Museum of Modern Art", url: "https://georgia.travel/zurab-tsereteli-museum-of-modern-art"}
   - {label: "OpenStreetMap-Daten via Mapcarta: Lage", url: "https://mapcarta.com/W707446533"}
-updated: 2026-08-10
-image: images/georgien/sehenswuerdigkeiten/chronicles-of-georgia.svg
-imageAlt: "Stilisierte Darstellung der monumentalen Säulen der Chronicles of Georgia über dem Tbilisi-Reservoir"
-imageStatus: lizenziert
-imageCredit: "Eigene stilisierte SVG-Illustration; keine Fremdrechte"
-imageLicense: "Eigenes Werk"
+updated: 2026-08-17
+image: "images/georgien/sehenswuerdigkeiten/chronicles-of-georgia.jpg"
+imageAlt: "Aussicht vom Standort der Chronicles of Georgia über den Tbilisi Sea und die umliegende Stadtlandschaft"
+imageStatus: "lizenziert"
+imageCredit: "Alexkom000 (Alexey Komarov), via Wikimedia Commons"
+imageLicense: "CC BY 4.0"
+imageSource: "https://commons.wikimedia.org/wiki/File:2023-12-26_Tbilisi_Sea_seen_from_The_Chronicle_of_Georgia_1.jpg"
+imageEdit: "Auf 16:9 zugeschnitten, auf 1600 × 900 px skaliert und als JPEG komprimiert; keine inhaltliche Veränderung."
 ---
 
 ## Was ist das?
