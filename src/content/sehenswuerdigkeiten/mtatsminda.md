@@ -7,10 +7,10 @@ region: Tbilisi
 summary: "Hausberg Tbilisis mit Funicular, Pantheon und weitem Blick über das Mtkvari-Tal."
 categories: [stadt, aussicht, kultur]
 status: empfohlen
-days: [tag-02]
+days: [tag-03]
 related: [altstadt-metekhi, narikala]
 sources: [{label: "Mtatsminda Park", url: "https://park.ge/"}, {label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/mtatsminda.jpg
 imageAlt: "Panoramablick vom Mtatsminda über Tbilisi"
 imageStatus: lizenziert
@@ -30,8 +30,10 @@ Die historische Standseilbahn verbindet die Stadt mit dem oberen Bereich. Auf ha
 
 Für euch ist der **Ausblick** wichtiger als die Fahrgeschäfte. Mtatsminda eignet sich besonders am späten Nachmittag oder Abend, wenn ihr die Stadt bereits zu Fuss kennengelernt habt und die zuvor besuchten Viertel von oben wiedererkennt.
 
-## Für euren Tbilisi-Tag
+## Für euren Tag 3
 
-Mtatsminda ist flexibel: Bei klarer Sicht ein starker Abschluss, bei Nebel problemlos streichbar. Kombiniert ihn nicht zwingend mit Narikala unmittelbar hintereinander – beide sind Aussichtspunkte, aber aus unterschiedlichen Perspektiven.
+Mtatsminda bildet den flexiblen Abschluss des zweiten vollständigen Tbilisi-Tags. Nach Nationalmuseum, Dry Bridge und Fabrika lohnt sich der Wechsel auf den Hausberg vor allem bei klarer Sicht und gutem Abendlicht.
+
+Bei Nebel oder Müdigkeit ist Mtatsminda problemlos streichbar. Kombiniert ihn nicht zwingend unmittelbar mit Narikala – beide sind Aussichtspunkte, aber aus unterschiedlichen Perspektiven.
 
 Betriebszeiten der Funicular sowie Wetter und Sicht am selben Tag prüfen. Bei Rückfahrt am Abend auf letzte Verbindungen achten.
