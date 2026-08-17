@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Bakuriani im Kleinen Kaukasus</title><desc id="desc">Stilisierte Berglandschaft mit bewaldeten Hängen, Ferienhäusern und Sessellift über Bakuriani.</desc>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9d3e4"/><stop offset="1" stop-color="#eef1e8"/></linearGradient></defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<path d="M0 470 260 315 480 440 720 250 940 430 1190 275 1600 455V900H0Z" fill="#657b68"/>
+<path d="M0 555 300 450 560 560 840 420 1110 560 1360 455 1600 530V900H0Z" fill="#395b48"/>
+<path d="M0 680 Q350 590 720 660 T1600 650V900H0Z" fill="#8c9a70"/>
+<g fill="#e8e2d7" stroke="#6b5d52" stroke-width="7"><path d="M300 650h170v120H300z"/><path d="M280 650l105-75 105 75z" fill="#9d5e48"/><path d="M600 610h190v135H600z"/><path d="M575 610l120-82 120 82z" fill="#87624c"/><path d="M1040 655h175v115h-175z"/><path d="M1020 655l108-70 108 70z" fill="#a16a4b"/></g>
+<g stroke="#333f3c" stroke-width="8" fill="none"><path d="M150 330 1430 470"/><path d="M390 356v170M760 397v165M1130 437v150"/></g><g fill="#b44d3f"><rect x="525" y="363" width="52" height="32" rx="6"/><rect x="920" y="410" width="52" height="32" rx="6"/></g>
+<text x="78" y="110" font-family="system-ui,sans-serif" font-size="60" font-weight="700" fill="#263b35">Bakuriani</text><text x="80" y="165" font-family="system-ui,sans-serif" font-size="28" fill="#496158">Samtskhe-Javakheti · Georgien</text>
+</svg>
