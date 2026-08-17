@@ -10,7 +10,7 @@ status: optional
 days: [tag-03]
 related: [tbilisi]
 sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}, {label: "Fabrika Tbilisi", url: "https://fabrikatbilisi.com/"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/dry-bridge-fabrika.jpg
 imageAlt: "Antiquitäten und Alltagsgegenstände auf dem Dry-Bridge-Markt in Tbilisi"
 imageStatus: lizenziert
@@ -28,6 +28,6 @@ Der **Dry Bridge Market** ist Flohmarkt, Kunstmarkt und Erinnerungsspeicher zugl
 
 ## Für euren Tag 3
 
-Beide Orte eignen sich gut **nach der Rückkehr aus Mtskheta**, wenn ihr noch Energie habt. Der Dry Bridge Market ist tagsüber sinnvoller; Fabrika funktioniert auch am späteren Nachmittag oder Abend.
+Beide Orte passen jetzt in den **zweiten vollständigen Tbilisi-Tag**. Der Dry Bridge Market ist tagsüber sinnvoller und lässt sich gut nach dem Nationalmuseum einbauen; Fabrika funktioniert am späteren Nachmittag und bildet einen lockeren Übergang zum Mtatsminda-Abschluss.
 
 Beim Flohmarkt freundlich verhandeln, aber bei Antiquitäten, Waffen-/Militaria-Objekten oder kulturell wertvollen Gegenständen keine Ausfuhrfähigkeit voraussetzen. Fabrika ist eher Ort zum Sitzen und Beobachten als eine Sehenswürdigkeit, die „abgearbeitet“ werden muss.
