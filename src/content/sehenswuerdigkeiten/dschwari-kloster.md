@@ -8,10 +8,10 @@ summary: "Frühmittelalterliches Kreuzkuppelkloster über Mtskheta – architekt
 categories: [kultur, religion, unesco]
 status: empfohlen
 coordinates: {lat: 41.8384, lon: 44.7339}
-days: [tag-03]
+days: [tag-04]
 related: [mtskheta, swetizchoweli]
 sources: [{label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}, {label: "Georgia Travel: Jvari Monastery", url: "https://georgia.travel/jvari-monastery"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/dschwari-kloster.jpg
 imageAlt: "Dschwari-Kloster auf dem Bergrücken über Mtskheta"
 imageStatus: lizenziert
@@ -42,11 +42,11 @@ Zusammen mit der [Swetizchoweli-Kathedrale](/reisen/georgien/sehenswuerdigkeiten
 - **Steinreliefs und Inschriften:** Nicht nur ins Tal schauen – an der Kirche selbst lohnt sich ein langsamer Rundgang.
 - **Licht und Wetter:** Bei klarer Sicht ist der Ausblick hervorragend; Nebel oder tiefe Wolken können ihn fast vollständig verdecken.
 
-## Praktisch für euren Tag 3
+## Praktisch für euren Tag 4
 
-Jvari eignet sich am besten **vor Mtskheta**, weil ihr zuerst den Überblick von oben bekommt und anschliessend unten in der Stadt die wichtigsten Sakralbauten besucht. Plant für Aussicht, Kirche und einen kurzen Rundgang ungefähr **45 bis 60 Minuten** ein; bei sehr gutem Wetter auch etwas mehr.
+Dschwari eignet sich am 1. Oktober ideal **zwischen den Chronicles of Georgia und Mtskheta**. Ihr bekommt zuerst den Überblick von oben und besucht danach unten in der Stadt Swetizchoweli. Weil anschliessend noch Ananuri, Gudauri und die Fahrt nach Stepantsminda folgen, reichen an diesem Tag ungefähr **30 bis 45 Minuten**.
 
-Der Platz ist exponiert und oft windiger als Mtskheta. Anfang Oktober sind eine leichte Jacke und feste Schuhe sinnvoll. Rund um die Aussichtskante gibt es ungesicherte bzw. unebene Bereiche; bei Nässe besonders vorsichtig sein.
+Der Platz ist exponiert und oft windiger als Mtskheta. Anfang Oktober sind eine leichte Jacke und feste Schuhe sinnvoll. Rund um die Aussichtskante gibt es ungesicherte beziehungsweise unebene Bereiche; bei Nässe besonders vorsichtig sein.
 
 Das Kloster ist ein aktiver religiöser Ort. Schultern und Knie bedecken, Gottesdienste respektieren und im Innenraum zurückhaltend fotografieren. Aktuelle Zugänglichkeit und allfällige Einschränkungen am Besuchstag prüfen.
 
