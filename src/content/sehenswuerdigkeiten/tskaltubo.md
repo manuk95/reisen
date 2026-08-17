@@ -6,11 +6,11 @@ country: Georgien
 region: Imeretien
 summary: "Ehemaliger sowjetischer Kurort mit grosszügigem Park, monumentalen Sanatorien und spannender Geschichte zwischen Verfall und Wiederbelebung."
 categories: [stadt, architektur, geschichte]
-status: optional
-days: [tag-08]
-related: [prometheus, sataplia]
+status: empfohlen
+days: [tag-07, tag-08]
+related: [prometheus, sataplia, uplisziche]
 sources: [{label: "Georgia Travel: Tskaltubo", url: "https://georgia.travel/cities-towns/tskaltubo"}]
-updated: 2026-08-08
+updated: 2026-08-17
 image: images/georgien/sehenswuerdigkeiten/tskaltubo.jpg
 imageAlt: "Historisches sowjetisches Sanatorium in Tskaltubo"
 imageStatus: lizenziert
@@ -30,8 +30,10 @@ Nach dem Zerfall der Sowjetunion verloren viele Gebäude ihre Funktion. In den 1
 
 Die Mischung aus klassizistischer Monumentalarchitektur, subtropischem Grün und Verfall ist ungewöhnlich. Trotzdem sind verlassene Gebäude **kein frei zugänglicher Abenteuerspielplatz**: Eigentum, Baustellen und Einsturzgefahr respektieren.
 
-## Für euren Tag 8
+## Für eure Tage 7 und 8
 
-Tskaltubo liegt logisch bei der [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/). Wenn ihr Höhle und Kurstadt kombiniert, reichen im Zentrum oft **45 bis 60 Minuten** für Park und einen Eindruck der Architektur.
+Bei der aktuell bevorzugten **Variante D** endet Tag 7 nach Uplisziche in Tskaltubo. Dadurch liegt die [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/) am folgenden Morgen praktisch vor der Tür und Kutaisi muss am langen Transfertag nicht zusätzlich angefahren werden.
 
-Nicht versuchen, zusätzlich noch mehrere abgelegene Sanatorien abzufahren. Euer Tag mit Gelati/Motsameta bleibt sonst zu voll.
+Am Ankunftsabend reicht ein kurzer Spaziergang im Kurpark. Am nächsten Tag kann Tskaltubo mit der Prometheus-Höhle kombiniert werden; falls ihr danach noch Lust auf Kutaisi habt, führt die Route ohne grossen Umweg weiter dorthin.
+
+Nicht versuchen, zusätzlich mehrere abgelegene Sanatorien abzufahren oder unklare Innenbereiche zu betreten. Für einen ersten Eindruck genügen Park, zentrale Architektur und ein gezielter Fotostopp.
