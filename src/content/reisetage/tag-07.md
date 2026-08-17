@@ -1,17 +1,19 @@
 ---
-title: "Tag 7: Stepantsminda – Kutaisi via Vardzia"
+title: "Tag 7: Stepantsminda – Westgeorgien"
 slug: tag-07
 trip: georgien-2026
 country: Georgien
 region: Reiseroute
-summary: "Langer Fahrtag mit Vardzia – robuste Hauptroute, bedingte Zekari-SUV-Route oder ruhigere Bakuriani-Alternative ohne Vardzia"
+summary: "Vier Routenvarianten; aktuell bevorzugt: Uplisziche und Tskaltubo ohne Vardzia und Bakuriani"
 categories: [reiseplan]
 status: fix
 sources:
+  - label: "Georgia Travel: Uplistsikhe Cave Town"
+    url: "https://georgia.travel/uplistsikhe-cave-town"
+  - label: "Georgia Travel: Tskaltubo"
+    url: "https://georgia.travel/cities-towns/tskaltubo"
   - label: "Georgia Travel: Vardzia"
     url: "https://georgia.travel/vardzia"
-  - label: "Georgia Travel: 3-Day SUV Tour Kutaisi–Zekari–Vardzia"
-    url: "https://georgia.travel/3-day-suv-tour-kutaisi-vardzia"
   - label: "Georgia Travel: Bakuriani"
     url: "https://georgia.travel/resorts/bakuriani"
   - label: "Roads Department: Einschränkung km 78–88 vom 9. Juni 2026"
@@ -22,67 +24,62 @@ updated: 2026-08-17
 date: 2026-10-04
 day: 7
 from: "Stepantsminda"
-to: "Kutaisi via Vardzia"
-character: "Sehr langer Fahrtag · drei Routenvarianten"
-distance: "Variante A ca. 600 km · Variante B deutlich kürzer · Variante C ohne Vardzia via Bakuriani; exakte Distanz und Befahrbarkeit kurz vor Abfahrt prüfen"
-driveTime: "A etwa 13–15 h als Gesamttag · B kürzer, aber stark strassen- und wetterabhängig · C ruhiger, aber weiterhin langer Fahrtag"
-lodging: "Kutaisi-Vorschlag"
-climate: "Vardzia 17/6 °C · Bakuriani deutlich kühler · Kutaisi 20/12 °C"
+to: "Tskaltubo / Kutaisi"
+character: "Langer Fahrtag · Variante D aktuell bevorzugt"
+distance: "Variante D ca. 330 km · A ca. 600 km · B strassenabhängig · C ohne Vardzia via Bakuriani"
+driveTime: "D ca. 5 h 15 min reine Fahrt · etwa 7–8 h mit Uplisziche und Pause"
+lodging: "Tskaltubo bei Variante D · Kutaisi bei A–C"
+climate: "Tskaltubo/Kutaisi etwa 20/12 °C"
 bathing: "nicht vorgesehen"
 sunrise: "07:01 Uhr · Stepantsminda"
-sunset: "18:47 Uhr · Kutaisi"
+sunset: "18:47 Uhr · Westgeorgien"
 ---
 
 ## Google Maps
 
-- [Variante A – robuste Hauptroute über Borjomi/Akhaltsikhe](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CBorjomi%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7C41.3814%2C43.2842%7CAkhaltsikhe%2C+Georgia%7CBorjomi%2C+Georgia&travelmode=driving)
-- [Variante B – über Abastumani/Zekari/Sairme](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CTsalka%2C+Georgia%7C41.3814%2C43.2842%7CAkhaltsikhe%2C+Georgia%7CAbastumani%2C+Georgia%7CSairme%2C+Georgia&travelmode=driving)
-- [Variante C – Vardzia streichen, über Borjomi und Bakuriani nach Kutaisi](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Borjomi%2C+Georgia%7CBakuriani%2C+Georgia&travelmode=driving)
+- [Variante A – über Vardzia und robuste Hauptroute](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CBorjomi%2C+Georgia%7CAkhaltsikhe%2C+Georgia%7C41.3814%2C43.2842%7CAkhaltsikhe%2C+Georgia%7CBorjomi%2C+Georgia&travelmode=driving)
+- [Variante B – Vardzia über Abastumani/Zekari/Sairme](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Tbilisi%2C+Georgia%7CTsalka%2C+Georgia%7C41.3814%2C43.2842%7CAkhaltsikhe%2C+Georgia%7CAbastumani%2C+Georgia%7CSairme%2C+Georgia&travelmode=driving)
+- [Variante C – ohne Vardzia via Borjomi und Bakuriani](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Borjomi%2C+Georgia%7CBakuriani%2C+Georgia&travelmode=driving)
+- [**Variante D – aktuell bevorzugt: Stepantsminda → Uplisziche → Tskaltubo**](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Tskaltubo%2C+Georgia&waypoints=Uplistsikhe%2C+Georgia&travelmode=driving)
 
-**Navigationshinweis Vardzia:** Der Höhlenkomplex ist hier bewusst über die eindeutigen Koordinaten **41.3814, 43.2842** hinterlegt. Nicht einfach ein anderes Ziel mit dem Namen „Vardzia“ auswählen.
+**Aktueller Plan:** Vardzia wird bewusst gestrichen. Variante D spart gegenüber der Vardzia-Schleife grob 200 km und mehrere Stunden Fahrzeit, enthält mit Uplisziche aber weiterhin eine bedeutende historische Felsenstadt. Bakuriani ist bei Variante D ebenfalls nicht vorgesehen.
+
+Die Varianten A und B bleiben nur als Vergleich dokumentiert, falls ihr Vardzia später doch wieder aufnehmen möchtet. Variante C bleibt eine ruhigere Ausweichidee ohne Vardzia, ist aber wegen Bakuriani weniger direkt als Variante D.
 
 ## Falls ihr kürzen müsst
 
-1. Chertwisi nur als kurzen Fotostopp behandeln oder streichen.
-2. Keine weiteren Sehenswürdigkeiten zusätzlich zu Vardzia ergänzen.
-3. Wenn der Tag durch Wetter, Strassenlage oder Müdigkeit unvernünftig wird: **Vardzia streichen oder Zwischenübernachtung einbauen.**
-4. Wenn ihr Vardzia bewusst streicht, kann [Bakuriani](/reisen/georgien/sehenswuerdigkeiten/bakuriani/) als ruhigerer **60–90-Minuten-Stopp** auf einer Alternativroute über Borjomi dienen. Bakuriani nicht zusätzlich zu Vardzia einbauen.
+1. Bei Variante D zuerst die Aufenthaltsdauer in Uplisziche reduzieren, aber nicht unter rund 60 Minuten.
+2. Falls Wetter, Strassenlage oder Müdigkeit problematisch sind: Uplisziche auslassen und **direkt nach Tskaltubo** fahren.
+3. Keine zusätzlichen Stopps in Gori, Borjomi oder Kutaisi in diesen Transfer hineinpressen.
 
 ## Schlechtwetter
 
-Zekari nicht nutzen, wenn Freigabe, Wetter oder Fahrzeugtauglichkeit unklar sind. Bei Schnee, Starkregen oder erheblicher Müdigkeit die Route vereinfachen; Sicherheit hat Vorrang vor Vardzia. Bakuriani liegt ebenfalls hoch und ist bei schlechtem Bergwetter nicht automatisch die bessere Option.
+Vor Abfahrt den aktuellen Status der Georgischen Heerstrasse prüfen. Bei Regen ist der blanke Sandstein in Uplisziche rutschig; feste Schuhe tragen und den Besuch bei starkem Regen verkürzen. Zekari bleibt für Variante B nur bei bestätigter Freigabe, geeignetem Fahrzeug und passenden Mietbedingungen eine Option.
 
 ## Tagesablauf
 
-### 05:15–05:30 · Sehr frühe Abfahrt aus Stepantsminda
+### 08:00 · Abfahrt aus Stepantsminda – Variante D
 
-Für diesen Tag ist ein individuell organisierter privater Fahrer aktuell die bevorzugte Lösung. Falls ihr doch selbst fahrt, am Vorabend tanken und am Morgen Roads Department, Wetter sowie Mietwagenbedingungen kontrollieren.
+Für den aktuell bevorzugten Plan nicht mehr nach Süden Richtung Vardzia fahren, sondern über die natürliche Westverbindung Richtung Shida Kartli und Imeretien. Bei Selbstfahrt am Vorabend tanken; bei Fahrertransfer genügend Pausenreserve vereinbaren.
 
-### Vormittag · Fahrt Richtung Vardzia
+### ca. 11:00–12:30 · Uplisziche besichtigen
 
-**Robuste Variante A:** über Tbilisi/Mtskheta-Korridor, Khashuri/Borjomi und Akhaltsikhe. Lang, aber auf normalen Hauptstrassen planbarer.  
-**Variante B:** kann nur sinnvoll sein, wenn die Verbindung Abastumani–Zekari–Sairme für den konkreten Fahrzeugtyp offiziell freigegeben und vertraglich erlaubt ist. Ein Google-Maps-Routing ist keine Freigabe.
+Die [Felsenstadt Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/) liegt bei Gori fast auf der sinnvollen Route nach Westgeorgien. Rund 1,5 Stunden für in den Fels geschnittene Strassen, Hallen, Kultbereiche, Weinpressen und Aussicht auf den Mtkvari einplanen.
 
-**Wenn ihr Vardzia streicht:** Variante C über Borjomi nach [Bakuriani](/reisen/georgien/sehenswuerdigkeiten/bakuriani/) wählen. Dort reichen 60–90 Minuten für einen Spaziergang, Mittagessen oder Kaffee. Anschliessend direkt nach Kutaisi weiterfahren. Diese Alternative reduziert die inhaltliche Dichte des Tages deutlich, bleibt wegen der langen Nord-Süd-West-Verbindung aber weiterhin ein Fahrtag.
+Uplisziche ist kein identischer Ersatz für Vardzia: Die Anlage ist wesentlich älter und stärker archäologisch geprägt. Gerade deshalb ergänzt sie Mtskheta und die mittelalterlichen Klöster der Reise gut.
 
-### ca. 10:45–11:15 · Optional kurzer Fotostopp Chertwisi
+### 12:30–13:15 · Mittagessen und Pause
 
-[Chertwisi](/reisen/georgien/sehenswuerdigkeiten/chertwisi/) nur 10–15 Minuten einbauen, wenn ihr gut im Zeitplan seid. Entfällt bei Variante C.
+In der Region Gori/Uplisziche essen oder einen unkomplizierten Stopp an der Weiterroute einlegen. Keine zusätzliche Stadtbesichtigung erzwingen.
 
-### ca. 11:30–13:30 · Vardzia konzentriert besichtigen
+### 13:15–15:30/16:00 · Weiterfahrt nach Tskaltubo
 
-Für [Vardzia](/reisen/georgien/sehenswuerdigkeiten/vardzia/) mindestens 1.5–2 Stunden vorsehen. Der lange Umweg lohnt sich nur, wenn ihr den Höhlenkomplex tatsächlich besichtigt und nicht nur für ein Foto stoppt. Entfällt bei Variante C.
+Von Uplisziche sind es grob 164 km beziehungsweise etwas mehr als zwei Stunden reine Fahrt nach Tskaltubo. Damit bleibt die zweite Fahrhälfte deutlich überschaubarer als bei einer Schleife über Vardzia.
 
-### 13:30–14:00 · Kurzes Mittagessen bei Vardzia
+### ab ca. 16:00 · Ankunft in Tskaltubo
 
-Entfällt bei Variante C; dort Mittagessen oder Kaffee in Borjomi beziehungsweise Bakuriani einplanen.
+In [Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo/) einchecken und den Rest des Tages ruhig halten. Je nach Hotel und Energie höchstens noch einen Spaziergang im Kurpark oder einen kurzen Blick auf die historische Sanatoriumsarchitektur einplanen.
 
-### ab ca. 14:00 · Weiterfahrt nach Kutaisi
+### abends · Ruhiges Abendessen
 
-**Variante A:** zurück über Akhaltsikhe/Borjomi und die westliche Hauptachse nach [Kutaisi](/reisen/georgien/orte/kutaisi/). Mit später Ankunft und Dunkelheit rechnen.  
-**Variante B:** über Akhaltsikhe → Abastumani → Zekari → Sairme nur bei aktueller Freigabe und geeignetem Fahrzeug. Abastumani und Sairme sind an diesem Tag reine Durchfahrtsorte.  
-**Variante C:** von Bakuriani zurück in den Borjomi-Korridor und ohne weitere Besichtigungen nach Kutaisi.
-
-### abends · Ankunft und Check-in in Kutaisi
-
-Keine weitere Besichtigung mehr einplanen. Essen, duschen und den nächsten Tag bewusst später starten.
+Kein zusätzliches Pflichtprogramm. Die [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/) liegt für den folgenden Tag sehr günstig und muss nicht mehr an diesen langen Transfer angehängt werden.
