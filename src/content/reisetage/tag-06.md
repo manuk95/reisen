@@ -20,7 +20,7 @@ day: 6
 from: "Stepantsminda"
 to: "Stepantsminda"
 character: "Wetterabhängiges Bergabenteuer"
-lodging: "Kazbegi-Vorschlag"
+lodging: "Baza Kazbegi · gebucht"
 climate: "9/0 °C"
 bathing: "nicht vorgesehen"
 distance: "je nach Variante ca. 40–70 km Fahrt plus Wanderung"

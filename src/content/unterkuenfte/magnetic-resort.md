@@ -58,7 +58,7 @@ imageEdit: "Kontextbild: auf maximal 1600 px Breite bezogen; Das Bild zeigt den 
 
 **Sehr starke günstige Küstenoption**, wenn die Wetterprognose gut ist und der Pool Anfang Oktober bestätigt geöffnet bleibt. Für vier romantische Tage mit möglichst sicherer Bade-/Wellnessalternative ist [Paragraph Resort & Spa](/reisen/georgien/hotels/paragraph/) robuster.
 
-Als 2+2-Kombination wäre Magnetic Resort für die ersten zwei Küstennächte und Paragraph für die letzten zwei Nächte besonders interessant.
+Da Paragraph inzwischen für alle vier Küstennächte gebucht ist, bleibt Magnetic Resort nur eine dokumentierte Alternative und gehört nicht zum aktuellen Reiseplan.
 
 ## Romantischer Faktor
 

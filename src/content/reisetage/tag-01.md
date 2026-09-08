@@ -18,7 +18,7 @@ day: 1
 from: "Entlebuch / Zürich"
 to: "Tbilisi"
 character: "Anreise · ruhig ankommen"
-lodging: "Tbilisi-Vorschlag"
+lodging: "Silver 39 Corner Hotel · gebucht"
 climate: "24/14 °C"
 bathing: "nicht vorgesehen"
 distance: "Flugtag · ÖV und Flughafentransfer"

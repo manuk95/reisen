@@ -26,7 +26,7 @@ to: "Stepantsminda"
 character: "Monument · UNESCO · Panoramafahrt auf der Georgischen Heerstrasse"
 distance: "ca. 180–190 km mit Chronicles, Dschwari und Mtskheta"
 driveTime: "ca. 4–4.5 h reine Fahrt · etwa 8–9 h als Reisetag"
-lodging: "Kazbegi-Vorschlag"
+lodging: "Baza Kazbegi · gebucht"
 climate: "12/2 °C in Stepantsminda"
 bathing: "nicht vorgesehen"
 sunrise: "06:57 Uhr · Tbilisi"
@@ -51,7 +51,7 @@ Vor Abfahrt den aktuellen Status der Georgischen Heerstrasse prüfen. Bei Nebel,
 
 ### 08:00 · Abfahrt in Tbilisi
 
-Früh starten. Für diesen Tag ist ein privater Fahrer weiterhin attraktiv, weil beide die Landschaft und die vielen Zwischenstopps ohne Fahrstress erleben können. Bei Selbstfahrt am Vorabend tanken und am Morgen Strassenstatus, Reifen und Mietbedingungen prüfen.
+Früh starten. Nach dem Checkout im Silver 39 Corner Hotel folgt die **Mietwagenübernahme Tbilisi – genaue Station/Zeit nach Buchung ergänzen**. Bei der anschliessenden Selbstfahrt am Vorabend tanken und am Morgen Strassenstatus, Reifen und Mietbedingungen prüfen.
 
 ### 08:20–09:05 · Chronicles of Georgia
 

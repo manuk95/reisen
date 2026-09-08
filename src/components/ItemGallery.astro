@@ -1,0 +1,19 @@
+---
+type GalleryImage = { src:string; alt:string; caption?:string; credit?:string; source?:string; license?:string; edit?:string; ownPhoto?:boolean };
+const { images = [], legacy, title } = Astro.props as { images?:GalleryImage[]; legacy?:GalleryImage; title:string };
+const slides: GalleryImage[] = images.length ? images : legacy?.src ? [legacy] : [{src:'images/platzhalter.png',alt:`Neutrales Platzhalterbild für ${title}`}];
+const base=import.meta.env.BASE_URL;
+---
+<figure class="item-gallery" data-gallery aria-label={`Bildergalerie: ${title}`}>
+  <div class="gallery-stage">
+    {slides.map((item,index)=><div class="gallery-slide" data-slide hidden={index>0}>
+      <img src={`${base}${item.src}`} alt={item.alt} loading={index===0?'eager':'lazy'} decoding="async" fetchpriority={index===0?'high':'auto'} />
+      {(item.caption||item.credit)&&<figcaption>{item.caption}{item.caption&&item.credit&&' · '}{item.credit&&(item.source?<a href={item.source} target="_blank" rel="external noopener noreferrer">{item.credit}</a>:item.credit)}{item.license&&<> · {item.license}</>}</figcaption>}
+    </div>)}
+    {slides.length>1&&<><button class="gallery-button previous" type="button" data-previous aria-label="Vorheriges Bild">‹</button><button class="gallery-button next" type="button" data-next aria-label="Nächstes Bild">›</button></>}
+  </div>
+  {slides.length>1&&<p class="gallery-position" aria-live="polite"><span data-current>1</span> / {slides.length}</p>}
+</figure>
+{slides.length>1&&<script>
+  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(gallery=>{const slides=[...gallery.querySelectorAll<HTMLElement>('[data-slide]')];let current=0,startX:number|undefined;const show=(next:number)=>{slides[current].hidden=true;current=(next+slides.length)%slides.length;slides[current].hidden=false;const counter=gallery.querySelector('[data-current]');if(counter)counter.textContent=String(current+1)};gallery.querySelector('[data-previous]')?.addEventListener('click',()=>show(current-1));gallery.querySelector('[data-next]')?.addEventListener('click',()=>show(current+1));gallery.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(current-1);if(e.key==='ArrowRight')show(current+1)});gallery.addEventListener('touchstart',e=>startX=e.changedTouches[0]?.clientX,{passive:true});gallery.addEventListener('touchend',e=>{if(startX===undefined)return;const delta=e.changedTouches[0].clientX-startX;if(Math.abs(delta)>50)show(current+(delta<0?1:-1));startX=undefined},{passive:true})});
+</script>}

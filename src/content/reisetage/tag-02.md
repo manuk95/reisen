@@ -22,7 +22,7 @@ day: 2
 from: "Tbilisi"
 to: "Tbilisi"
 character: "Altstadt · Kultur · Genuss · Bad"
-lodging: "Tbilisi-Vorschlag"
+lodging: "Silver 39 Corner Hotel · gebucht"
 climate: "23/13 °C"
 bathing: "Schwefelbad vorgesehen"
 distance: "ca. 8–12 km Stadtwege"

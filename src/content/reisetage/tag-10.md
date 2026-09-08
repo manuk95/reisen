@@ -16,7 +16,7 @@ day: 10
 from: "Shekvetili"
 to: "Shekvetili"
 character: "Romantischer Ruhetag"
-lodging: "Küstenhotel-Vorschlag"
+lodging: "Paragraph Resort & Spa · gebucht"
 climate: "21/14 °C · Meer ca. 21 °C"
 bathing: "vorgesehen, falls das Meer ruhig ist"
 distance: "nur Strand- und Hotelwege"

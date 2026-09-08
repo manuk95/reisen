@@ -18,7 +18,7 @@ day: 9
 from: "Kutaisi"
 to: "Shekvetili"
 character: "Sanfter Übergang ans Meer"
-lodging: "Küstenhotel-Vorschlag"
+lodging: "Paragraph Resort & Spa · gebucht"
 climate: "21/14 °C · Meer ca. 21 °C"
 bathing: "wetterabhängig"
 distance: "ca. 110 km direkte Route"
@@ -45,9 +45,9 @@ Direkt nach Shekvetili fahren und den Nachmittag im Spa/Innenpool verbringen. Ei
 
 Kein neues Museum oder grosses Besichtigungsprogramm mehr beginnen.
 
-### 10:00 · Mit Fahrer Richtung Shekvetili starten
+### 10:00 · Mit dem Mietwagen Richtung Shekvetili starten
 
-Für den Transfer ist ein Fahrer aktuell bevorzugt: Die Strecke ist technisch einfach, aber ihr könnt Gepäck und möglichen Weinbesuch entspannter kombinieren. Selbstfahren bleibt problemlos möglich.
+Die Strecke wird mit dem durchgehend gemieteten Wagen gefahren. Eine Weinprobe nur einplanen, wenn die fahrende Person keinen Alkohol trinkt.
 
 ### optional 10:30–12:00 · Vorreservierter Weinbesuch in Imeretien
 
