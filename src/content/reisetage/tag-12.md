@@ -18,7 +18,7 @@ day: 12
 from: "Shekvetili"
 to: "Batumi / Shekvetili"
 character: "Subtropischer Garten · Stadt · Boulevard"
-lodging: "Küstenhotel-Vorschlag"
+lodging: "Paragraph Resort & Spa · gebucht"
 climate: "21/14 °C · Meer ca. 21 °C"
 bathing: "wetterabhängig"
 distance: "ca. 100–120 km"
@@ -41,9 +41,9 @@ Botanischen Garten kürzer halten oder bei starkem Regen auslassen. Mehr Zeit f�
 
 ## Tagesablauf
 
-### 08:30 · Mit Fahrer von Shekvetili Richtung Green Cape starten
+### 08:30 · Mit dem Mietwagen von Shekvetili Richtung Green Cape starten
 
-Für diesen Rundtag ist ein Fahrer aktuell bevorzugt: kein Parkplatzstress in Batumi und keine abendliche Rückfahrt nach einem langen Tag. Selbstfahren ist auf der Strecke grundsätzlich gut möglich.
+Die Rundfahrt erfolgt mit dem Mietwagen. In Batumi Parkplatzsuche und genügend Reserve für die Rückfahrt einplanen.
 
 ### 09:30–12:15 · Botanischer Garten Batumi
 
@@ -67,4 +67,4 @@ Langer Spaziergang am Boulevard Richtung Hafen und Ali-&-Nino-Skulptur. Je nach 
 
 ### ca. 20:00–21:00 · Rückfahrt nach Shekvetili
 
-Bei Selbstfahrt nach Einbruch der Dunkelheit defensiv fahren; mit Fahrer kann der Tag entspannt ausklingen.
+Nach Einbruch der Dunkelheit defensiv fahren und den Tag ohne Zeitdruck ausklingen lassen.

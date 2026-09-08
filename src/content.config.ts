@@ -4,6 +4,16 @@ import { z } from 'astro:schema';
 
 const source = z.object({ label: z.string(), url: z.string().url() });
 const coords = z.object({ lat: z.number(), lon: z.number() });
+const image = z.object({
+  src: z.string(),
+  alt: z.string(),
+  caption: z.string().optional(),
+  credit: z.string().optional(),
+  source: z.string().url().optional(),
+  license: z.string().optional(),
+  edit: z.string().optional(),
+  ownPhoto: z.boolean().default(false),
+});
 const editorial = {
   pageId: z.number().int().positive().optional(),
   title: z.string(),
@@ -27,6 +37,8 @@ const editorial = {
   imageSource: z.string().url().optional(),
   imageLicense: z.string().optional(),
   imageEdit: z.string().optional(),
+  /** Primary image first. Legacy `image*` fields remain readable during migration. */
+  images: z.array(image).default([]),
 };
 
 const contentLoader = (collection: string) => glob({ pattern: '**/*.{md,mdx}', base: `./src/content/${collection}` });

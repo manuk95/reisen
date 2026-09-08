@@ -20,7 +20,7 @@ day: 5
 from: "Stepantsminda"
 to: "Stepantsminda"
 character: "Bergwandern · Gergeti · Kazbekblick"
-lodging: "Kazbegi-Vorschlag"
+lodging: "Baza Kazbegi · gebucht"
 climate: "10/1 °C"
 bathing: "Pansheti optional · sehr kaltes Mineralwasser"
 distance: "Gergeti zu Fuss je nach Startpunkt · kurze Talwege"
@@ -68,4 +68,4 @@ Nicht beide Optionen erzwingen. Nach der Gergeti-Wanderung ist ein ruhiger Nachm
 
 ### ab 18:00 · Hotel, Aussicht und ruhiger Abend
 
-Zeit für Dusche, Aussicht und einen entspannten Abend. Wenn ihr im Rooms Hotel übernachtet, ist die Terrasse selbst ein guter Programmpunkt.
+Zeit für Dusche, Aussicht und einen entspannten Abend. Baza Kazbegi bleibt auch an diesem Abend eure gebuchte Basis.

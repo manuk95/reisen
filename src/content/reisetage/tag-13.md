@@ -58,7 +58,7 @@ Wenn möglich Late Check-out oder Zugang zu Dusche/Spa nach dem Check-out vorab 
 
 ### spätestens 18:30–18:45 · Transfer zum Flughafen Batumi
 
-Für die aktuell bevorzugte Fahrer-/Transferlösung direkt vom Hotel zum Flughafen fahren. Falls ihr doch einen Mietwagen nutzt, zusätzlich Zeit für Tanken, Fahrzeugkontrolle und Rückgabe einrechnen.
+Mit dem Mietwagen zum **Batumi International Airport** fahren. Vor dem Rückflug um 22:40 Uhr tanken, Fahrzeug kontrollieren und zurückgeben; genaue Rückgabezeit nach Buchung ergänzen.
 
 ### ca. 20:00 · Flughafen-Check-in
 

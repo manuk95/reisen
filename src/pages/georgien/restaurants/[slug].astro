@@ -1,5 +1,5 @@
 ---
-import Base from '../../../layouts/Base.astro';
+import Base from '../../../layouts/Base.astro';import ItemGallery from '../../../components/ItemGallery.astro';
 import {getCollection,render} from 'astro:content';
 export async function getStaticPaths(){return (await getCollection('restaurants')).map(entry=>({params:{slug:entry.data.slug},props:{entry}}))}
 const {entry}=Astro.props;
@@ -15,7 +15,7 @@ const isContext=entry.data.imageEdit?.startsWith('Kontextbild:');
     <span class="badge">{entry.data.status.replaceAll('-',' ')}</span>
     <h1>{entry.data.title}</h1>
     <p class="meta">{entry.data.region} · Stand {entry.data.updated.toLocaleDateString('de-CH')}</p>
-    <img class="item-image" src={`${base}${image}`} alt={alt} loading="lazy" decoding="async"/>
+    <ItemGallery title={entry.data.title} images={entry.data.images} legacy={{src:entry.data.image,alt:entry.data.imageAlt||`Neutrales Platzhalterbild für ${entry.data.title}`,credit:entry.data.imageCredit,source:entry.data.imageSource,license:entry.data.imageLicense,edit:entry.data.imageEdit}} />
     {isContext&&<p class="meta"><strong>Kontextbild:</strong> Das Bild zeigt nicht den Betrieb selbst.</p>}
     {entry.data.imageCredit&&<p class="meta">Bild: <a href={entry.data.imageSource} rel="external noopener noreferrer" target="_blank">{entry.data.imageCredit}</a>{entry.data.imageLicense&&<> · {entry.data.imageLicense}</>}</p>}
     <p class="lead">{entry.data.summary}</p>

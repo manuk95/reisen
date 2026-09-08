@@ -21,36 +21,23 @@ Die Startseite ist deshalb reiseübergreifend. Reisespezifische Inhalte werden �
 
 ## Georgien 2026
 
-Reisezeit:
+Reisezeit: 28. September bis 11. Oktober 2026. Hinflug nach Tbilisi am 28. September, Rückflug ab Batumi am 10. Oktober um 22:40 Uhr, Ankunft Zürich am 11. Oktober.
 
-- Montag, 28. September 2026: Abflug Zürich 09:30, Ankunft Tbilisi 18:20
-- Samstag, 10. Oktober 2026: Abflug Batumi 22:40
-- Sonntag, 11. Oktober 2026: Ankunft Zürich 09:55
-
-Grundroute:
-
-Tbilisi → Mtskheta → Stepantsminda/Kazbegi → Vardzia → Kutaisi → Shekvetili / Schwarzmeerküste → Flughafen Batumi.
-
-Die vier Küstennächte sollen bewusst ruhiger, entspannter und romantischer sein als der erste Reiseteil. Eine gute Pool-/Spa-Alternative ist dort wichtig, weil das Wetter und die Badebedingungen Anfang Oktober schwanken können.
+Grundroute: Tbilisi → Mtskheta → Stepantsminda/Kazbegi → Uplisziche → Gori **oder** Kutaisi → Imeretien → Shekvetili → Flughafen Batumi.
 
 ### Mobilität
 
-Die Grundentscheidung **Mietwagen versus Fahrer/Transfers** ist noch offen und wird auf einer eigenen Seite `Fahrten` recherchiert und verglichen.
-
-Für Stepantsminda → Vardzia → Kutaisi bestehen zwei grundsätzlich unterschiedliche Routenlogiken:
-
-- robuste Route über normale Hauptstrassen
-- kürzere Route über Abastumani / Zekari / Sairme nur bei geeigneter Freigabe, Wetterlage, Fahrzeugtauglichkeit und passenden Mietwagenbedingungen
-
-Die finale Wahl ist zeitabhängig und wird kurz vor der Reise erneut geprüft.
+Ein durchgehender **Mietwagen vom 01.10. bis 10.10.2026 ist gewählt, aber noch nicht gebucht**. Übernahme in Tbilisi vor der Fahrt nach Kazbegi; Station und Zeit werden nach Buchung ergänzt. Rückgabe ist am 10. Oktober geografisch fix am Batumi International Airport vor dem Abflug um 22:40 Uhr; genaue Zeit folgt mit der Buchung. Für vertraglich ausgeschlossene oder anspruchsvolle Bergpisten kann weiterhin ein lokaler 4×4-Fahrer sinnvoll sein.
 
 ### Unterkünfte
 
-Unterkünfte gelten als Vorschläge, solange eine konkrete Buchung nicht ausdrücklich als bestätigt dokumentiert ist. Küstenhotels werden insbesondere nach Ruhe, Romantik, Pool/Spa, Strandnähe und Preis-Leistung bewertet.
+- Silver 39 Corner Hotel, Tbilisi: **gebucht**, 28.09.–01.10., CHF 239 gesamt.
+- Baza Kazbegi, Stepantsminda: **gebucht**, 01.10.–04.10., CHF 229 gesamt.
+- 04.10.–05.10.: spontane Entscheidung Gori oder Kutaisi.
+- 05.10.–06.10.: Unterkunft spontan in Kutaisi oder Umgebung.
+- Paragraph Resort & Spa Shekvetili, Autograph Collection: **gebucht**, 06.10.–10.10., CHF 681 gesamt.
 
-### Reisedokumente
-
-Ein Reisepass mit Ablauf im November 2026 soll vor der Reise erneuert werden. Keine Passnummer oder andere private Dokumentdaten im öffentlichen Repository speichern.
+Die vier Küstennächte bleiben bewusst ruhig, romantisch und wetterrobust. Die frühere 2+2-Küstenhotelstrategie ist nicht mehr der aktuelle Plan. Private Buchungsnummern oder Belege werden nicht veröffentlicht.
 
 ## Dokumentation
 

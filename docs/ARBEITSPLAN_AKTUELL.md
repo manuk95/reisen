@@ -1,6 +1,6 @@
 # Aktueller Arbeitsplan
 
-Stand: 10. August 2026
+Stand: 8. September 2026
 
 Dieses Dokument ist die **einzige zentrale Quelle für offene Arbeiten** am Reiseführer-Projekt. Historische Pläne und Recherchestände unter `docs/archive/` dürfen nicht als aktuelle Aufgabenliste verwendet werden.
 
@@ -43,7 +43,7 @@ Umgesetzt sind Single-Source-Tagesablauf aus Markdown, optionale Details pro Pro
 **Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Die Seite **`/georgien/fahrten/`** vergleicht Mietwagen, GoTrip/private Fahrer, Transfers, Taxi/Bolt, lokale 4x4-Fahrer und Hybridlösungen für alle relevanten Strecken. Aktuelle Tendenz: Eine fahrerlastige Hybridlösung passt besser zur konkreten Route als ein durchgehender Mietwagen.
+Die Seite **`/georgien/fahrten/`** vergleicht Mietwagen, GoTrip/private Fahrer, Transfers, Taxi/Bolt, lokale 4x4-Fahrer und Hybridlösungen für alle relevanten Strecken. Entscheid: Durchgehender Mietwagen 01.–10.10.; noch nicht gebucht. Lokale 4×4-Fahrer bleiben nur für ungeeignete beziehungsweise vertraglich ausgeschlossene Bergpisten eine Option.
 
 Verknüpfungen:
 
@@ -105,7 +105,7 @@ Alle 14 Tage kontrolliert; direkte Kartenlinks sind dort vorhanden, wo eine Rout
 
 - Variante A: robuste Route über normale Hauptstrassen
 - Variante B: Abastumani / Zekari / Sairme nur bei aktueller Freigabe, geeignetem Fahrzeug und passenden Mietbedingungen
-- aktuell wird ein individuell organisierter Fahrer bevorzugt
+- ersetzt durch die Entscheidung Gori/Kutaisi; Uplisziche liegt in beiden Varianten auf der Route
 
 ---
 
@@ -256,7 +256,7 @@ Wichtige redaktionelle Ergebnisse:
 - **Kutaisi:** EL Hotel ist die Preis-Leistungs-Empfehlung; Newport ist das komfortablere zentrale Upgrade.
 - **Küste:** Paragraph ist die vollständigste und wetterfesteste Luxusoption. Magnetic Resort ist bei bestätigter Poolöffnung eine besonders starke günstigere Alternative. Georgia Palace und Castello Mare bieten Innenpool/Spa als wetterrobuste Alternativen; Miramare ist besonders attraktiv für eine kleinere romantische Strandunterkunft bei gutem Wetter.
 - Die Region von **Miramare Magnetic Beach Hotel** wurde von Gurien auf **Kobuleti / Adscharien** korrigiert.
-- Für den gewünschten romantischen Reiseabschluss bleibt die **2+2-Lösung** – zwei günstigere Küstennächte plus zwei Nächte Paragraph – eine besonders ausgewogene Variante.
+- **Aktueller Buchungsstand:** Silver 39 Corner (28.09.–01.10.), Baza Kazbegi (01.–04.10.) und Paragraph (06.–10.10.) sind gebucht. Die Nächte 04.–06.10. bleiben flexibel; die frühere 2+2-Küstenstrategie ist ersetzt.
 
 Hotelpreise, Bewertungen, Poolöffnungen und Verfügbarkeit bleiben vor Buchung zeitabhängig zu verifizieren.
 
@@ -278,8 +278,8 @@ Der alte globale Satz mit einem einheitlichen redaktionellen Datenstand wurde en
 
 ## 8.3 Georgien-Landingpage
 
-**Status:** OFFEN  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT
+**Verantwortlich:** Codex
 
 `/georgien/` als klare Landingpage kontrollieren und bei Bedarf redaktionell nachschärfen. Flug-, Fahrten-, Kosten- und neue Wissensinhalte sinnvoll erreichbar machen. Keine separate Landingpage bauen.
 

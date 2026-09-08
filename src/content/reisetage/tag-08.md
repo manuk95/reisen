@@ -1,10 +1,10 @@
 ---
-title: "Tag 8: Tskaltubo – Kutaisi"
+title: "Tag 8: Gori oder Kutaisi – flexibles Imeretien"
 slug: tag-08
 trip: georgien-2026
 country: Georgien
 region: Reiseroute
-summary: "Prometheus-Höhle als Hauptziel; danach Tskaltubo und optional ein kompakter Kutaisi-Nachmittag"
+summary: "Ein flexibler Folgetag für beide Ausgangslagen; die Nacht vor dem festen Paragraph-Check-in wird spontan gewählt."
 categories: [reiseplan]
 status: fix
 sources:
@@ -19,10 +19,10 @@ sources:
 updated: 2026-08-17
 date: 2026-10-05
 day: 8
-from: "Tskaltubo"
-to: "Kutaisi"
-character: "Höhle · Kurort · optional Kutaisi"
-lodging: "Kutaisi-Vorschlag"
+from: "Gori oder Kutaisi"
+to: "Kutaisi / Imeretien"
+character: "Zwei Einstiege · flexible Übernachtung"
+lodging: "spontan in Kutaisi oder Umgebung"
 climate: "20/12 °C"
 bathing: "nicht vorgesehen"
 distance: "ca. 50–75 km je nach Kutaisi-Option"
@@ -30,49 +30,42 @@ driveTime: "ca. 1.5–2 h verteilt über den Tag"
 sunrise: "07:10 Uhr · Imeretien"
 sunset: "18:45 Uhr · Kutaisi"
 ---
-
 ## Google Maps
 
-- [Route Tskaltubo → Prometheus-Höhle → Tskaltubo → Bagrati → Kutaisi öffnen](https://www.google.com/maps/dir/?api=1&origin=Tskaltubo%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Prometheus+Cave%2C+Georgia%7CTskaltubo%2C+Georgia%7CBagrati+Cathedral%2C+Kutaisi%2C+Georgia&travelmode=driving)
-- [Optional: Kutaisi → Gelati → Motsameta → Kutaisi](https://www.google.com/maps/dir/?api=1&origin=Kutaisi%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Gelati+Monastery%2C+Georgia%7CMotsameta+Monastery%2C+Georgia&travelmode=driving)
+- [Start Gori – Gori → Kutaisi](https://www.google.com/maps/dir/?api=1&origin=Gori%2C+Georgia&destination=Kutaisi%2C+Georgia&travelmode=driving)
+- [Start Kutaisi – Kutaisi → Prometheus-Höhle → Kutaisi](https://www.google.com/maps/dir/?api=1&origin=Kutaisi%2C+Georgia&destination=Kutaisi%2C+Georgia&waypoints=Prometheus+Cave%2C+Georgia&travelmode=driving)
+
+## Zwei mögliche Ausgangslagen
+
+<div class="decision-grid">
+<section class="decision-card"><h3>A · Start in Gori</h3><p><strong>Route:</strong> Gori → Kutaisi/Imeretien.</p><p><strong>Vorteil:</strong> Ein ausgelassener Gori-Punkt kann morgens nachgeholt werden.</p><p><strong>Konsequenz:</strong> In Imeretien nur einen Hauptpunkt wählen; nicht hetzen.</p></section>
+<section class="decision-card"><h3>B · Start in Kutaisi</h3><p><strong>Route:</strong> kompakter Ausflug ab Kutaisi.</p><p><strong>Vorteil:</strong> Mehr Zeit für Prometheus-Höhle, Stadt oder Klöster.</p><p><strong>Konsequenz:</strong> Trotzdem nicht alles kombinieren; Küstenrhythmus beginnt bewusst ruhig.</p></section>
+</div>
 
 ## Falls ihr kürzen müsst
 
-1. **Prometheus-Höhle behalten** – sie ist der Hauptgrund für diesen Tag in Imeretien.
-2. Motsameta zuerst streichen.
-3. Danach Gelati streichen, wenn ihr lieber einen ruhigen Nachmittag in Tskaltubo oder Kutaisi möchtet.
-4. Kutaisi muss nicht als voller Besichtigungstag behandelt werden.
+Bei Start in Gori direkt nach Kutaisi fahren. Pro Tag höchstens einen grossen Zusatz aus Prometheus, Gelati/Motsameta oder Stadtprogramm wählen.
 
 ## Schlechtwetter
 
-Die Prometheus-Höhle funktioniert auch bei wechselhaftem Wetter gut. Bei starkem Regen ehemalige Sanatorien nur von sicheren, öffentlich zugänglichen Bereichen ansehen. Klöster funktionieren grundsätzlich auch bei schlechterem Wetter; bei unangenehmer Fahrt lieber direkt nach Kutaisi und den Nachmittag dort ruhig halten.
+Prometheus-Höhle ist die beste wettergeschützte Option; Betrieb und Bootsteil am selben Tag prüfen.
 
 ## Tagesablauf
 
-### 09:00–11:00 · Prometheus-Höhle
+### Vormittag A · Von Gori nach Kutaisi fahren
 
-Von Tskaltubo ist die [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/) nur eine kurze Fahrt entfernt. Der touristische Weg ist knapp 1,5 km lang; leichte Jacke und rutschfeste Schuhe mitnehmen. Den Bootsteil nur als wetter- und betriebsabhängigen Bonus betrachten.
+Nur bei frühem Start vorher einen kurzen Gori-Punkt ergänzen.
 
-### 11:15–12:15 · Tskaltubo und Kurpark
+### Vormittag B · Kutaisi entspannt beginnen
 
-Zurück nach [Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo/). Rund 45–60 Minuten reichen für Kurpark und einen Eindruck der sowjetischen Sanatoriumsarchitektur. Keine unklaren oder beschädigten Innenbereiche betreten.
+Markt, Altstadt und Bagrati sind eine flexible Kombination ohne lange Fahrt.
 
-### 12:15–13:15 · Mittagessen
+### Mittags · Gemeinsamer Entscheidungspunkt in Imeretien
 
-Entweder noch in Tskaltubo essen oder bereits Richtung Kutaisi fahren. Der Tag bleibt bewusst weniger dicht, weil Tag 7 bereits ein längerer Transfer war.
+Je nach Ausgangslage und Wetter genau einen Schwerpunkt wählen: [Prometheus-Höhle](/reisen/georgien/sehenswuerdigkeiten/prometheus/), [Gelati](/reisen/georgien/sehenswuerdigkeiten/gelati/) mit optional Motsameta oder Kutaisi.
 
-### 13:45–14:30 · Bagrati-Kathedrale und Blick über Kutaisi
+### Später Nachmittag · Unterkunft für 05.10.–06.10. spontan wählen
 
-Wenn ihr Kutaisi anschauen möchtet, mit der [Bagrati-Kathedrale](/reisen/georgien/sehenswuerdigkeiten/bagrati-kathedrale/) beginnen. Rund 30–45 Minuten reichen für Kirche und Aussicht.
+Kutaisi oder die nähere Umgebung sind beide möglich. Entscheidend ist eine entspannte Weiterfahrt am 6. Oktober zum fest gebuchten Paragraph Resort in Shekvetili.
 
-### 15:00–16:00 · Optional Gelati
-
-[Gelati](/reisen/georgien/sehenswuerdigkeiten/gelati/) ist der kulturhistorisch stärkste Zusatzpunkt rund um Kutaisi. Etwa eine Stunde einplanen. Wenn euch nach Prometheus und Tskaltubo genug Geschichte begegnet ist, diesen Punkt ohne schlechtes Gewissen streichen.
-
-### 16:20–17:00 · Optional Motsameta
-
-[Motsameta](/reisen/georgien/sehenswuerdigkeiten/motsameta/) nur ergänzen, wenn ihr noch Energie habt und zeitlich gut liegt. Es ist der erste Streichkandidat des Nachmittags.
-
-### ab 17:30 · Check-in und Abend in Kutaisi
-
-Im Hotel einchecken und imeretisch essen. Kutaisi ist damit vor allem **praktischer Übergang zwischen Prometheus/Tskaltubo und der Schwarzmeerküste**; ihr müsst die Stadt nicht als eigenes grosses Reisehighlight behandeln.
+### Abend · Imeretisch essen und ruhig ausklingen

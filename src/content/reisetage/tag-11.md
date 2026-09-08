@@ -20,7 +20,7 @@ day: 11
 from: "Shekvetili"
 to: "Shekvetili"
 character: "Natur oder Genuss in Gurien"
-lodging: "Küstenhotel-Vorschlag"
+lodging: "Paragraph Resort & Spa · gebucht"
 climate: "20/13 °C · Meer ca. 21 °C"
 bathing: "wetterabhängig"
 distance: "je nach Variante ca. 50–100 km"
