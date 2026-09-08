@@ -2,68 +2,66 @@
 
 Stand: 8. September 2026
 
-Dieses Dokument ist die **einzige zentrale Quelle für offene Arbeiten** am Reiseführer-Projekt. Historische Pläne und Recherchestände unter `docs/archive/` dürfen nicht als aktuelle Aufgabenliste verwendet werden.
+Dieses Dokument ist die **einzige zentrale Quelle für offene Arbeiten** am Reiseführer-Projekt. Historische Pläne und Recherchestände unter `docs/archive/` sind keine aktuellen Arbeitsanweisungen.
 
-Das Repository ist für **mehrere Reisen** ausgelegt. Georgien 2026 ist die erste konkrete Reise; technische Lösungen sollen möglichst wiederverwendbar und nicht unnötig Georgien-spezifisch sein.
-
-## Strukturentscheid für zukünftige Reisen
-
-Reisespezifische Inhalte bleiben nach Inhaltstyp als Content Collections organisiert. Sobald eine zweite Reise angelegt wird, erhält sie innerhalb jeder betroffenen Collection einen eigenen Unterordner, zum Beispiel `src/content/reisetage/island-2028/`. Das Frontmatter-Feld `trip` bleibt die verbindliche Zuordnung.
+Das Repository ist für **mehrere Reisen** ausgelegt. Georgien 2026 ist die erste konkrete Reise; technische Lösungen sollen wiederverwendbar und nicht unnötig Georgien-spezifisch sein.
 
 ## Status
 
 - `OFFEN` – noch auszuführen
-- `IN ARBEIT` – begonnen, aber noch nicht abgeschlossen
-- `VOR REISE PRÜFEN` – grundsätzlich geklärt, zeitabhängige Fakten kurz vor Nutzung nochmals verifizieren
+- `IN ARBEIT` – begonnen, aber noch nicht vollständig abgenommen
+- `VOR REISE PRÜFEN` – grundsätzlich geklärt, zeitabhängige Fakten kurz vor Nutzung erneut prüfen
 - `ERLEDIGT` – abgeschlossen; nur Regression/QA bleibt möglich
 
 ## Zuständigkeit
 
-- **ChatGPT-Web**: Recherche, Quellenvergleich, Text, Markdown, Tabellen, Inhaltskontrolle und einfache redaktionelle Repository-Änderungen.
-- **Codex**: technisch anspruchsvolle Renderer, Parser, Astro-/TypeScript-Komponenten, Schema-/Validatoränderungen, komplexe UI-Logik, automatisierte Tests und finale technische QA.
+- **ChatGPT-Web**: Recherche, Quellenvergleich, Text, Markdown, Inhaltskontrolle und einfache redaktionelle Repository-Änderungen.
+- **Codex**: technisch anspruchsvolle Renderer, Astro-/TypeScript-Komponenten, Schema-/Validatoränderungen, komplexe UI-Logik, automatisierte Tests und technische QA.
 
 ---
 
 # Phase 1 – Tagesplan-Technik
 
-## 1.1 Neuer generischer Tagesplan-Renderer
+## 1.1 Generischer Tagesplan-Renderer
 
 **Status:** ERLEDIGT  
 **Verantwortlich:** Codex  
-**Verbindliche Spezifikation:** [`ANFORDERUNGEN_TAGESPLAN.md`](ANFORDERUNGEN_TAGESPLAN.md)
+**Spezifikation:** [`ANFORDERUNGEN_TAGESPLAN.md`](ANFORDERUNGEN_TAGESPLAN.md)
 
-Umgesetzt sind Single-Source-Tagesablauf aus Markdown, optionale Details pro Programmpunkt, flexible Zeitangaben, Google-Maps-/Kürzungs-/Schlechtwetterabschnitte, kompakte Tagesfakten, kompaktere Karten, Sticky Tag-Navigation und Tests. Die Lösung ist für spätere Reisen wiederverwendbar.
+Umgesetzt sind Single-Source-Tagesablauf aus Markdown, optionale Details, Google-Maps-/Kürzungs-/Schlechtwetterabschnitte, kompakte Tagesfakten, Sticky Tag-Navigation und Tests.
 
 ---
 
 # Phase 2 – Mobilität / Seite „Fahrten“
 
-## 2.1 Mietwagen oder Fahrer
+## 2.1 Mietwagenstrategie
 
 **Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Die Seite **`/georgien/fahrten/`** vergleicht Mietwagen, GoTrip/private Fahrer, Transfers, Taxi/Bolt, lokale 4x4-Fahrer und Hybridlösungen für alle relevanten Strecken. Entscheid: Durchgehender Mietwagen 01.–10.10.; noch nicht gebucht. Lokale 4×4-Fahrer bleiben nur für ungeeignete beziehungsweise vertraglich ausgeschlossene Bergpisten eine Option.
+Aktueller Entscheid:
 
-Verknüpfungen:
+- durchgehender **Mietwagen 01.–10.10.2026**
+- noch nicht gebucht
+- Übernahme in Tbilisi vor der Fahrt nach Stepantsminda; genaue Station/Zeit folgt nach Buchung
+- Rückgabe am 10.10. am **Batumi International Airport** vor dem Flug um 22:40 Uhr
+- lokale 4×4-Fahrer nur für vertraglich ausgeschlossene oder tatsächlich ungeeignete Bergpisten
 
-1. Hauptmenü → Reiseplan → Fahrten
-2. Footer → Unterwegs → Fahrten
-3. Reiseplan/Gesamtroute → Fahrten & Strassen
+Die Seite `/georgien/fahrten/` ist auf diese Entscheidung bereinigt. Alte Fahrer-/Hybrid-Hauptstrategien und die frühere Vardzia-/Zekari-Route sind nicht mehr Teil des aktuellen Plans.
 
-## 2.2 Zeitabhängige Bergstrassen
+## 2.2 Zeitabhängige Strassen
 
 **Status:** VOR REISE PRÜFEN  
 **Verantwortlich:** ChatGPT-Web
 
 Vor Nutzung erneut prüfen:
 
-- Zekari / Abastumani / Sairme
-- Trusso
-- Juta
 - Kreuzpass / Georgische Heerstrasse
+- Trusso, falls gewählt
+- Juta, falls gewählt
+- Bedingungen des tatsächlich gebuchten Mietwagenanbieters
 
-Für Georgische Heerstrasse und Zekari läuft zusätzlich vom **20. September bis 4. Oktober 2026** ein täglicher automatischer Änderungscheck; Meldung nur bei relevanten Änderungen.
+**Nicht mehr routenrelevant:** Abastumani / Zekari / Sairme. Diese Verbindung gehört nicht zum aktuellen Reiseprogramm.
 
 ---
 
@@ -71,60 +69,65 @@ Für Georgische Heerstrasse und Zekari läuft zusätzlich vom **20. September bi
 
 ## 3.1 Migration und fachliche Endkontrolle
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT
 
-Alle 14 Tagesdateien sind auf die neue Markdown-Konvention migriert:
-
-- nur ein redaktioneller Tagesablauf
-- konkrete Kurzfassung in den `###`-Programmpunkten
-- Details nur bei Mehrwert
-- `## Google Maps`
-- `## Falls ihr kürzen müsst`
-- `## Schlechtwetter`
-- `## Tagesablauf`
-- alte `fixed`-/`recommended`-/`optional`-Doppelpflege entfernt
-- Mobilität aus Phase 2 berücksichtigt
-- Küstentage bewusst ruhig und romantisch gehalten
+Alle Tagesdateien verwenden den aktuellen Markdown-/Tagesplanaufbau mit Google Maps, Kürzungs- und Schlechtwetterhinweisen.
 
 ## 3.2 Tag 1 – SBB
 
 **Status:** ERLEDIGT
 
-Die vom Nutzer gewählte Hinfahrt ist unter **SBB** verlinkt: `https://a.sbbmobile.ch/s/m5yK6Fnm`. Kurz vor der Reise erneut prüfen.
+Gewählte Hinfahrt ist verlinkt. Kurz vor der Reise nochmals in SBB Mobile prüfen.
 
 ## 3.3 Google Maps
 
 **Status:** ERLEDIGT
 
-Alle 14 Tage kontrolliert; direkte Kartenlinks sind dort vorhanden, wo eine Route sinnvoll ist.
+Direkte Kartenlinks sind dort vorhanden, wo eine Route sinnvoll ist.
 
-## 3.4 Tag 7
+## 3.4 Tag 7 / Tag 8
 
-**Status:** VOR REISE PRÜFEN
+**Status:** ERLEDIGT
 
-- Variante A: robuste Route über normale Hauptstrassen
-- Variante B: Abastumani / Zekari / Sairme nur bei aktueller Freigabe, geeignetem Fahrzeug und passenden Mietbedingungen
-- ersetzt durch die Entscheidung Gori/Kutaisi; Uplisziche liegt in beiden Varianten auf der Route
+Aktueller Entscheid:
+
+- Tag 7: Stepantsminda → **Uplisziche** → spontane Entscheidung **Gori oder Kutaisi**
+- Uplisziche bleibt in beiden Varianten im Programm
+- Nacht 04.10. → 05.10. spontan in Gori oder Kutaisi
+- Tag 8 funktioniert von beiden möglichen Ausgangsorten
+- Nacht 05.10. → 06.10. spontan in Kutaisi oder Umgebung
+- **Vardzia ist nicht Teil des Programms**
+- kein aktueller Umweg über Akhaltsikhe, Abastumani, Zekari oder Sairme
+
+Vardzia bleibt als eigenständige Sehenswürdigkeitsseite im Reiseführer erhalten und ist mit `nicht-auf-route` gekennzeichnet.
 
 ---
 
 # Phase 4 – Kostenübersicht
 
-## 4.1 Vollständige Reisekosten
+## 4.1 Aktueller Kostenstand
 
 **Status:** ERLEDIGT  
 **Verantwortlich:** ChatGPT-Web
 
-Die Seite **`/georgien/kosten/`** enthält Flüge, Unterkünfte, Küstenszenarien, Fahrer/Mietwagen/Hybrid, Treibstoff, Essen, Aktivitäten, Reserve, Gesamt für 2 und pro Person sowie Datenstände/Quellen.
+Die Seite `/georgien/kosten/` basiert nur noch auf dem aktuellen Reiseplan.
 
-Aktuelle Planungsszenarien:
+Bekannte Fixkosten für zwei:
 
-- sparsam: ca. CHF 3'120–4'585 für 2
-- empfohlener Mix: ca. CHF 3'755–5'500 für 2
-- mehr Resort/Luxus: ca. CHF 4'045–5'980 für 2
+- Flüge: CHF 900
+- Silver 39 Corner: CHF 239
+- Baza Kazbegi: CHF 229
+- Paragraph: CHF 681
+- bekannte Fixkosten total: CHF 2'049
 
-Hotelpreise, Fahrer-Offerten, Mietwagenkonditionen und Wechselkurse bleiben vor Buchung zeitabhängig zu prüfen.
+Offen bleiben:
+
+- zwei spontane Hotelnächte 04.–06.10.
+- Mietwagen 01.–10.10.
+- SBB je nach Ticket/Abos
+- tatsächlich gewählte Aktivitäten und Zusatzleistungen
+
+Alte Rooms-Kazbegi-, Fahrer-/Hybrid- und 2+2-Küsten-Szenarien werden nicht mehr als aktueller Plan dargestellt. Vardzia wird nicht budgetiert.
 
 ---
 
@@ -132,81 +135,55 @@ Hotelpreise, Fahrer-Offerten, Mietwagenkonditionen und Wechselkurse bleiben vor 
 
 ## 5.1 Flugseite
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT
 
-Die Seite **`/georgien/fluege/`** enthält alle vier Flugsegmente, lokale Zeiten, Zeitzonen, Flug-/Umsteigezeiten, Timeline, Airline-/Flugplanlinks und Prüfdatum. Tag 1, Tag 13 und Tag 14 sind entsprechend verknüpft.
-
-Hinweis: Bei JU890 zeigen öffentliche Flugplandaten 13:20 beziehungsweise 13:25; die konkrete Airline-Buchung bleibt massgebend.
+Die Flugseite enthält die gebuchten Segmente, lokale Zeiten, Zeitzonen und Umstiege. Die konkrete Airline-Buchung bleibt bei kleinen Abweichungen massgebend.
 
 ## 5.2 Bahn Zürich Flughafen → Entlebuch
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT
 
-Für Sonntag, 11. Oktober 2026:
-
-- Hauptverbindung: Zürich Flughafen 11:15 → Entlebuch 13:22
-- Alternative 1: 12:15 → 14:22
-- Alternative 2: 13:15 → 15:22
-
-Gleise, Bauarbeiten und kurzfristige Fahrplanänderungen am Reisetag in SBB Mobile prüfen.
+Geplante Verbindungen sind dokumentiert; Gleise, Bauarbeiten und kurzfristige Änderungen am Reisetag in SBB Mobile prüfen.
 
 ---
 
-# Phase 6 – fehlende und erweiterte Inhaltsseiten
+# Phase 6 – Inhalte
 
-## 6.1 Chronicles of Georgia
+## 6.1 Hintergrundwissen
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT
 
-Eigene Sehenswürdigkeitsseite **`/georgien/sehenswuerdigkeiten/chronicles-of-georgia/`** erstellt und von Tag 3 verlinkt. Enthalten sind Zurab Tsereteli, Entstehung, 16 monumentale Säulen, georgische Könige/Ereignisse, biblische Motive, Einordnung als nationale Erinnerungskultur, Aussicht über den Tbilisi Sea, Anfahrt/Besuch sowie belastbare Quellen. Als Bild dient eine eigens erstellte, frei nutzbare SVG-Illustration im Repository.
+Unter anderem vorhanden/erweitert:
 
-## 6.2 Fame / internationale Bekanntheit Georgiens
+- Geschichte Georgiens ohne Kapitelnummerierung
+- Sprache
+- Religion/Kultur
+- Politik, Konflikte, Menschenrechte
+- Wirtschaft und Schweiz-Vergleich
+- Fame / internationale Bekanntheit
+- Weinland
+- Packliste
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+## 6.2 Sehenswürdigkeiten und Unterhaltung
 
-Neue Wissensseite **`/georgien/wissen/fame/`** erstellt. Sie ordnet unter anderem UNESCO-Kulturtraditionen, Shota Rustaveli, Nona Gaprindashvili, Khvicha Kvaratskhelia, Katie Melua, Demna, internationale Filmdrehs, Phagenforschung und Josef Stalin ein. Personen und Themen werden nicht nur aufgelistet, sondern hinsichtlich ihrer internationalen Bedeutung erklärt.
+**Status:** ERLEDIGT MIT OFFENER BILDPFLEGE
 
-## 6.3 Weinland
+Zusätzlich zu klassischen Sehenswürdigkeiten wurden unterhaltsame/ungewöhnliche Optionen aufgenommen, unter anderem:
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+- Museum of Illusions Tbilisi
+- Tbilisi Digital Space
+- Narikala Zipline
+- Mtatsminda Park als Aussicht **und** Freizeitpark
+- Freedom Square – Tifliser Bankraub von 1907
+- Shekvetili Dendrological Park
 
-**`/georgien/weinland/`** vollständig erweitert:
+Vardzia bleibt als Hintergrund-/Sehenswürdigkeitsseite erhalten, ist aber ausdrücklich nicht auf der aktuellen Route.
 
-- Tabellen mobil in `table-scroll` eingebettet
-- Vergleich Georgien / Schweiz / Frankreich mit gemeinsamem Datenjahr 2024
-- Weinproduktion und Produktion pro Kopf
-- Konsum und Konsum pro Kopf
-- Export und Export pro Kopf
-- Rebfläche und internationale Einordnung
-- Weinregionen entlang der konkreten Reiseroute
-- Datenstand, Berechnungshinweise und direkte Quellen
+## 6.3 Kulinarik
 
-Kein zusätzliches Codex-Arbeitspaket war erforderlich.
+**Status:** ERLEDIGT MIT OFFENER BILDPFLEGE
 
-## 6.4 Schweiz / Georgien – Wirtschaft
-
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
-
-Die bestehende Seite **`/georgien/wissen/vergleich-schweiz/`** wurde um einen direkten Wirtschaftsvergleich ergänzt. Für die Kernzahlen werden einheitliche World-Bank-Daten 2024 verwendet; zusätzlich wird die aktuellere georgische Entwicklung mit Geostat 2025/Q1 2026 eingeordnet. Enthalten sind BIP, BIP pro Kopf, Wachstum, Arbeitslosigkeit, Inflation, Rücküberweisungen, wichtige Wirtschaftssektoren und interpretierende Einordnung.
-
-## 6.5 Packliste
-
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
-
-Die Seite **`/georgien/wissen/packliste/`** wurde neu strukturiert. Sie enthält genau drei standardmässig geschlossene, ausklappbare Bereiche:
-
-1. **Manuel**
-2. **Martina**
-3. **Gemeinsam**
-
-Jeder Bereich ist als echte Liste formatiert. Persönliche medizinische Details werden im öffentlichen Repository bewusst nicht veröffentlicht; Medikamente sind nur generisch als persönliche Reiseausrüstung erwähnt.
+Der Genussbereich wurde deutlich erweitert, unter anderem um Ajapsandali, Ajika, Badrijani Nigvzit, Borano, Churchkhela, Gebzhalia, Ghomi, Jonjoli, Lobiani, Mchadi/Chvishtari, Megrelian Kharcho, Satsivi, Shkmeruli, Sulguni und Tkemali.
 
 ---
 
@@ -214,74 +191,51 @@ Jeder Bereich ist als echte Liste formatiert. Persönliche medizinische Details 
 
 ## 7.1 Restaurantseiten
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT MIT OFFENER BILDPFLEGE
 
-Am 10. August 2026 wurden alle **7 vorhandenen Restaurantseiten** überprüft und auf einen vergleichbaren Informationsstand gebracht:
-
-- 360 Sky Bar
-- Baia’s Wine
-- Barbarestan
-- Keto & Kote
-- Laguna
-- Palaty
-- Pasanauri
-
-Pro Seite sind jetzt – soweit für den jeweiligen Betrieb sinnvoll und belastbar – Konzept/Küche, Spezialitäten, Preisniveau, Lage, Öffnung, Reservationshinweis, Reisebezug, passende Tage, interne Links und aktuelle Quellen enthalten. Baia’s Wine ist korrekt als Weingut/Verkostungsbetrieb statt als normales Restaurant eingeordnet.
-
-Mehrere zuvor verwendete Bilder zeigten **nicht den jeweiligen Betrieb**: unter anderem ein Kriegsschiff bei 360 Sky Bar, den Darejan-Palast bei Barbarestan und ein Filmkostüm bei Keto & Kote. Solche irreführenden Bilder wurden in der Seitendarstellung durch neutrale Platzhalter ersetzt. Ein unpassendes Bild wird nicht nur deshalb weiterverwendet, weil die Datei bereits im Repository liegt.
-
-Bewertungen von Restaurantführern werden nur dort genannt, wo eine konkrete Quelle vorliegt; Plattformwerte werden nicht vermischt. Öffnungszeiten und Reservation bleiben vor dem tatsächlichen Besuch zeitabhängig zu prüfen.
+Vorhandene Restaurantseiten wurden inhaltlich vereinheitlicht. Irreführende Bilder sollen nicht verwendet werden; bis ein korrektes lizenzierbares Bild verfügbar ist, ist ein neutraler Platzhalter zulässig.
 
 ## 7.2 Unterkunftsseiten
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** ChatGPT-Web
+**Status:** ERLEDIGT MIT OFFENER BILDPFLEGE
 
-Am 10. August 2026 wurden alle **11 vorhandenen Unterkunftsseiten** ausführlich und untereinander vergleichbar überarbeitet:
+Aktuell sind unter anderem 13 Unterkunftsseiten vorhanden. Für die Reise verbindlich gebucht:
 
-- Hotel Pavo und Old Town Mtatsminda in Tbilisi
-- 1740 Boutique Hotel und Rooms Hotel Kazbegi
-- EL Hotel und Newport Hotel in Kutaisi
-- Paragraph Resort & Spa, Magnetic Resort Ureki, Miramare Magnetic Beach Hotel, Georgia Palace Hotel & Spa und Castello Mare an der Schwarzmeerküste
+- Silver 39 Corner Hotel · 28.09.–01.10. · CHF 239
+- Baza Kazbegi · 01.10.–04.10. · CHF 229
+- Paragraph Resort & Spa Shekvetili · 06.10.–10.10. · CHF 681
 
-Als gemeinsame Vergleichsplattform wird für Bewertungen **Booking.com** verwendet; die jeweilige Plattform wird auf der Seite ausdrücklich genannt. Enthalten sind – soweit verfügbar – Lage, Zimmer/eigenes Bad, Frühstück, Pool/Spa, Parkplatz, Strandnähe, aktuelle Bewertungswerte, Vor-/Nachteile, Reiseeignung und direkte Buchungslinks.
-
-Die bestehenden Preisbereiche bleiben **Planungs-Preisrahmen vom 3. August 2026** und werden ausdrücklich nicht als Live-Angebot ausgegeben. Für die tatsächlichen Reisedaten müssen Endpreis, Zimmerkategorie, Frühstück, Stornierung und saisonale Leistungen neu geprüft werden.
-
-Wichtige redaktionelle Ergebnisse:
-
-- **Tbilisi:** Hotel Pavo ist die sehr zentrale einfache Variante; Old Town Mtatsminda punktet stärker mit Frühstück und familiärem Charakter.
-- **Kazbegi:** 1740 Boutique bietet das bessere Preis-Leistungs-Verhältnis; Rooms Kazbegi bleibt wegen Innenpool/Spa und Bergkulisse das stärkere Erlebnis.
-- **Kutaisi:** EL Hotel ist die Preis-Leistungs-Empfehlung; Newport ist das komfortablere zentrale Upgrade.
-- **Küste:** Paragraph ist die vollständigste und wetterfesteste Luxusoption. Magnetic Resort ist bei bestätigter Poolöffnung eine besonders starke günstigere Alternative. Georgia Palace und Castello Mare bieten Innenpool/Spa als wetterrobuste Alternativen; Miramare ist besonders attraktiv für eine kleinere romantische Strandunterkunft bei gutem Wetter.
-- Die Region von **Miramare Magnetic Beach Hotel** wurde von Gurien auf **Kobuleti / Adscharien** korrigiert.
-- **Aktueller Buchungsstand:** Silver 39 Corner (28.09.–01.10.), Baza Kazbegi (01.–04.10.) und Paragraph (06.–10.10.) sind gebucht. Die Nächte 04.–06.10. bleiben flexibel; die frühere 2+2-Küstenstrategie ist ersetzt.
-
-Hotelpreise, Bewertungen, Poolöffnungen und Verfügbarkeit bleiben vor Buchung zeitabhängig zu verifizieren.
+Die Nächte 04.–06.10. bleiben flexibel. Frühere Alternativhotels dürfen als Alternativen bestehen bleiben, aber nicht als aktueller Reiseplan erscheinen.
 
 ---
 
-# Phase 8 – einfache UI- und Inhaltsbereinigung
+# Phase 8 – Galerie / Bilder
 
-## 8.1 Wissen-Übersicht
+## 8.1 Mehrbild-Galerie
 
-**Status:** ERLEDIGT
-
-Bilder und `empfohlen`-Labels auf den Wissenskacheln entfernt; Titel und Kurzbeschreibung bleiben.
-
-## 8.2 Footer
-
-**Status:** ERLEDIGT
-
-Der alte globale Satz mit einem einheitlichen redaktionellen Datenstand wurde entfernt. Zeitabhängige Hinweise gehören zur jeweiligen Seite.
-
-## 8.3 Georgien-Landingpage
-
-**Status:** ERLEDIGT
+**Status:** ERLEDIGT  
 **Verantwortlich:** Codex
 
-`/georgien/` als klare Landingpage kontrollieren und bei Bedarf redaktionell nachschärfen. Flug-, Fahrten-, Kosten- und neue Wissensinhalte sinnvoll erreichbar machen. Keine separate Landingpage bauen.
+- `images[]`-Schema vorhanden
+- erstes Bild ist Primär-/Vorschaubild
+- Legacy-`image*` wird während der Migration weiter unterstützt
+- manueller Slider mit Vor/Zurück, Tastatur und Swipe
+- kein Autoplay
+- eigene Reisefotos können über `images[]` mit `ownPhoto: true` ergänzt werden
+- Wissensseiten zeigen die Galerie auch dann, wenn nur `images[]` und kein Legacy-`image` vorhanden ist
+
+## 8.2 Korrekte Bilder ergänzen
+
+**Status:** OFFEN  
+**Verantwortlich:** ChatGPT-Web / manuell
+
+Die technische Bildlogik ist vorhanden. Mehrere neue Seiten verwenden bewusst neutrale Platzhalter und Paragraph teilweise ein klar gekennzeichnetes Kontextbild. Das ist vorläufig akzeptiert.
+
+Noch zu tun:
+
+- Platzhalter nach Möglichkeit durch fachlich korrekte, lizenzrechtlich saubere Bilder ersetzen
+- keine Bilder nur deshalb einsetzen, weil sie verfügbar sind
+- eigene Reisefotos später einfach über die Galerie ergänzen
 
 ---
 
@@ -292,7 +246,7 @@ Der alte globale Satz mit einem einheitlichen redaktionellen Datenstand wurde en
 **Status:** OFFEN  
 **Verantwortlich:** ChatGPT-Web
 
-Historisches Excel-Seitenregister gegen den **heutigen gewünschten Umfang** prüfen. Das alte Register nicht blind als unveränderliches Soll behandeln.
+Historisches Excel-Seitenregister gegen den heutigen gewünschten Umfang prüfen.
 
 Kontrollmatrix:
 
@@ -306,14 +260,12 @@ Pro Eintrag entscheiden:
 - historisch vorgesehen, aber heute nicht mehr gewünscht
 - doppelt / zusammenzuführen
 
-Ergebnis ist eine bereinigte Soll-Liste. Erst danach technische Lücken an Codex geben.
-
 ## 9.2 Technische IA-Lücken
 
 **Status:** OFFEN NUR BEI BEDARF  
 **Verantwortlich:** Codex
 
-Nur wenn der Audit echte technische Lücken zeigt, zum Beispiel Collection-/Schema-Erweiterung, Validator, generische Route, Navigationserzeugung, automatische Verlinkung oder Suchindexproblem.
+Nur wenn der Audit echte technische Lücken zeigt.
 
 ---
 
@@ -322,7 +274,7 @@ Nur wenn der Audit echte technische Lücken zeigt, zum Beispiel Collection-/Sche
 ## 10.1 Öffentliches Repository prüfen
 
 **Status:** OFFEN  
-**Verantwortlich:** ChatGPT-Web für Inhaltsprüfung; Codex nur für technische Bereinigung nach separatem Auftrag
+**Verantwortlich:** ChatGPT-Web
 
 Kontrollieren:
 
@@ -333,7 +285,7 @@ Kontrollieren:
 - keine Versicherungsnummern
 - keine vertraulichen Belege
 
-Im Repository liegen historische DOCX/PDF-Quelldokumente. Inhalt auf Risiko prüfen. **Nicht ohne separaten Auftrag Git-History umschreiben oder Quelldokumente löschen.**
+Historische DOCX/PDF-Quelldokumente separat auf Risiko prüfen. Nicht ohne separaten Auftrag Git-History umschreiben oder Quelldokumente löschen.
 
 ---
 
@@ -341,20 +293,12 @@ Im Repository liegen historische DOCX/PDF-Quelldokumente. Inhalt auf Risiko prü
 
 ## 11.1 Gesamtprüfung
 
-**Status:** OFFEN  
-**Verantwortlich:** Codex  
-**Abhängigkeit:** Inhalte und technische Hauptarbeiten abgeschlossen
+**Status:** IN ARBEIT  
+**Verantwortlich:** Codex / GitHub Actions
 
-Mindestens:
+Nach PR #16 liefen `npm install`, `npm run check`, `npm run test`, `npm run build` und das GitHub-Pages-Deployment erfolgreich. Nach den redaktionellen Korrekturen vom 8. September muss der aktuelle `main` erneut grün durchlaufen.
 
-```bash
-npm ci
-npm run check
-npm run test
-npm run build
-```
-
-Zusätzlich:
+Noch offen beziehungsweise wiederholt zu prüfen:
 
 - interne Links
 - Bilder / Alttexte
@@ -362,27 +306,27 @@ Zusätzlich:
 - Pagefind
 - `/reisen/`-Basispfad
 - 390 / 768 / 1440 px
-- Hauptnavigation
-- Footer
-- Tagesplan-Accordions
-- Sticky vorheriger/nächster Tag
+- Hauptnavigation / Footer
+- Tagesnavigation
 - Google-Maps-Links
-- Karte mit verweigerter Standortfreigabe
 - Dark Mode
 - Tastatur / Fokus / Touch
-- Offline
-- PWA-Update als Regressionstest
+- Offline / PWA-Update
 - mehrere Tabs
-- installierte PWA, soweit praktikabel
+- visuelle Browserprüfung, soweit die Testumgebung dies zulässt
 
 ---
 
 # Erledigte Hauptpunkte
 
-- PWA-Updatefunktion umgesetzt; nur Regressionstest in Phase 11.
-- Alle 14 Tagesprogramme detailliert und in das neue Markdown-/Accordion-Modell überführt.
-- Tag 7 besitzt robuste Standardroute und konditionale Zekari-/Sairme-Variante; nur zeitabhängige Verifikation bleibt.
-- Mobilitäts-, Kosten-, Flug-/Bahn-, Phase-6-Inhalts-, Restaurant- und Unterkunftsseiten sind erstellt beziehungsweise aktualisiert.
+- PWA-Updatefunktion umgesetzt.
+- Tagesprogramme in das Markdown-/Accordion-Modell überführt.
+- Mietwagen 01.–10.10. als Mobilitätsstrategie festgelegt.
+- Tag 7/8 auf Uplisziche + spontane Gori/Kutaisi-Entscheidung umgestellt.
+- Vardzia aus dem Programm entfernt, Sehenswürdigkeitsseite bleibt erhalten.
+- drei gebuchte Hotels im aktuellen Plan verankert.
+- Bildgalerie und Mehrbild-Schema umgesetzt.
+- Sehenswürdigkeiten und Kulinarik erweitert.
 
 ---
 
