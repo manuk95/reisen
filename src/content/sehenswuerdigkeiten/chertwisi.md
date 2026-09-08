@@ -4,13 +4,13 @@ slug: chertwisi
 trip: georgien-2026
 country: Georgien
 region: Samtskhe-Dschawachetien
-summary: "Mittelalterliche Wehrburg über dem Zusammenfluss von Mtkvari und Paravani – der logischste kurze Geschichtsstopp vor Vardzia."
+summary: "Mittelalterliche Wehrburg über dem Zusammenfluss von Mtkvari und Paravani – kulturhistorisch interessant, aber nicht Teil der aktuellen Route."
 categories: [kultur, geschichte]
-status: optional
-days: [tag-07]
+status: nicht-auf-route
+days: []
 related: [vardzia]
 sources: [{label: "Georgia Travel: Samtskhe-Javakheti", url: "https://georgia.travel/regions/samtskhe-javakheti"}, {label: "UNESCO: Vardzia-Khertvisi Tentative List", url: "https://whc.unesco.org/en/tentativelists/5236/"}]
-updated: 2026-08-08
+updated: 2026-09-08
 image: images/georgien/sehenswuerdigkeiten/chertwisi.jpg
 imageAlt: "Festung Chertwisi auf einem Felsrücken in Samtskhe-Dschawachetien"
 imageStatus: lizenziert
@@ -24,10 +24,8 @@ imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltlich
 
 Chertwisi – international meist **Khertvisi** – steht auf einem Felsvorsprung über dem Zusammenfluss von Mtkvari und Paravani. Wer diesen Punkt kontrollierte, beherrschte wichtige Wege durch Südgeorgien. Der heutige Komplex enthält Bauteile verschiedener Epochen; die Festung wurde über Jahrhunderte erweitert, zerstört und wieder genutzt.
 
-Zusammen mit Vardzia steht Khertvisi seit 2007 auf Georgiens UNESCO-Tentativliste. Der Zusammenhang ist für euren Besuch wichtiger als einzelne Baudaten: Beide Anlagen zeigen, wie stark das Tal im Mittelalter befestigt und organisiert war.
+Zusammen mit Vardzia steht Khertvisi seit 2007 auf Georgiens UNESCO-Tentativliste. Beide Anlagen zeigen, wie stark das Tal im Mittelalter befestigt und organisiert war.
 
-## Für euren Tag 7
+## Reisebezug
 
-Khertvisi liegt direkt auf der Zufahrt nach [Vardzia](/reisen/georgien/sehenswuerdigkeiten/vardzia/) und ist deshalb der **sinnvollste zusätzliche Stopp** des langen Fahrtags. Wenn die Zeit knapp wird, reicht bereits ein Aussichtshalt von etwa 15–20 Minuten. Für einen Rundgang eher 30–45 Minuten einplanen.
-
-Vardzia bleibt klar höher priorisiert. Zugänglichkeit und Parkplatzsituation am Reisetag prüfen; feste Schuhe für die unebene Anlage.
+Chertwisi ist **nicht Teil des Reiseprogramms 2026**, weil die aktuelle Route an Tag 7 über Uplisziche nach Gori oder Kutaisi führt und keinen südlichen Umweg nach Vardzia macht. Die Seite bleibt als Hintergrund für eine spätere Südgeorgien-Reise erhalten.
