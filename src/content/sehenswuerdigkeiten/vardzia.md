@@ -4,14 +4,14 @@ slug: vardzia
 trip: georgien-2026
 country: Georgien
 region: "Samtskhe-Dschawachetien"
-summary: "Monumentale Höhlenstadt des 12. Jahrhunderts mit Kirche, Fresken, Tunneln und Qvevri-Weinkellern – sehenswert, aber wegen des grossen Umwegs aktuell nicht eingeplant."
+summary: "Monumentale Höhlenstadt des 12. Jahrhunderts mit Kirche, Fresken, Tunneln und Qvevri-Weinkellern – sehenswert, aber wegen des grossen Umwegs nicht Teil der aktuellen Reise."
 categories: [kultur, geschichte]
-status: optional
+status: nicht-auf-route
 coordinates: {lat: 41.381, lon: 43.284}
 days: []
 related: [chertwisi, rabati, uplisziche]
 sources: [{label: "Georgia Travel: Vardzia", url: "https://georgia.travel/vardzia"}]
-updated: 2026-08-17
+updated: 2026-09-08
 image: images/georgien/sehenswuerdigkeiten/vardzia.jpg
 imageAlt: "Höhlenstadt Vardzia im Fels über dem Mtkvari-Tal"
 ---
@@ -30,12 +30,12 @@ Die Kirche bewahrt bedeutende Fresken, darunter Darstellungen von Giorgi III. un
 
 Georgia Travel nennt für die Blütezeit zahlreiche Weinkeller und hunderte Qvevri. Wein war damit nicht folkloristische Dekoration, sondern Teil der Versorgung und Wirtschaft der Anlage.
 
-## Warum Vardzia aktuell nicht im Reiseplan liegt
+## Warum Vardzia nicht im Reiseplan liegt
 
-Vardzia bleibt eine der eindrücklichsten historischen Anlagen Georgiens, liegt für eure konkrete Nord-West-Route aber deutlich abseits. Von Kazbegi Richtung Imeretien erzeugt der Abstecher einen grossen südlichen Umweg und würde den ohnehin langen Transfer wesentlich verlängern.
+Vardzia bleibt eine der eindrücklichsten historischen Anlagen Georgiens, liegt für eure konkrete Nord-West-Route aber deutlich abseits. Von Kazbegi Richtung Imeretien würde der Abstecher einen grossen südlichen Umweg erzeugen und den Transfer unnötig verlängern.
 
-Deshalb ist Vardzia aus dem aktuellen Tagesprogramm gestrichen. Als deutlich effizienterer historischer Stopp ist an Tag 7 [Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/) vorgesehen. Die beiden Orte sind nicht identisch: Vardzia ist mittelalterlicher, vertikaler und stärker mit Königin Tamar verbunden; Uplisziche ist wesentlich älter und archäologischer geprägt.
+Deshalb ist Vardzia **nicht Teil des aktuellen Tagesprogramms**. An Tag 7 ist stattdessen [Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/) der historische Stopp auf der direkten Route nach Gori beziehungsweise Kutaisi.
 
-Falls ihr Vardzia später doch wieder aufnehmen möchtet, sollte dafür eher eine zusätzliche Übernachtung in Südgeorgien eingeplant werden, statt die Anlage in einen extrem langen Transfertag zu pressen.
+Die Seite bleibt im Reiseführer erhalten, weil Vardzia kulturhistorisch wichtig ist und für eine spätere Georgienreise mit zusätzlicher Übernachtung in Südgeorgien interessant sein kann.
 
-Koordinaten: **41.381, 43.284**. Letzten Einlass, Strassenlage und Wetter vor einem allfälligen Besuch prüfen.
+Koordinaten: **41.381, 43.284**.
