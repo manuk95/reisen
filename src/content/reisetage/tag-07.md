@@ -10,30 +10,21 @@ status: fix
 sources:
   - label: "Georgia Travel: Uplistsikhe Cave Town"
     url: "https://georgia.travel/uplistsikhe-cave-town"
-  - label: "Georgia Travel: Tskaltubo"
-    url: "https://georgia.travel/cities-towns/tskaltubo"
-  - label: "Georgia Travel: Vardzia"
-    url: "https://georgia.travel/vardzia"
-  - label: "Georgia Travel: Bakuriani"
-    url: "https://georgia.travel/resorts/bakuriani"
-  - label: "Roads Department: Einschränkung km 78–88 vom 9. Juni 2026"
-    url: "https://www.georoad.ge/?act=news&func=menu&lang=eng&pid=1388404621&uid=1781011722"
-  - label: "Roads Department: Bauarbeiten Abastumani vom 12. Juni 2026"
-    url: "https://www.georoad.ge/?act=news&func=menu&lang=eng&pid=&uid=1781251027"
-updated: 2026-08-17
+updated: 2026-09-08
 date: 2026-10-04
 day: 7
 from: "Stepantsminda"
 to: "Gori oder Kutaisi"
 character: "Uplisziche · zwei klare Übernachtungsvarianten"
-distance: "bis Gori ca. 185 km · bis Kutaisi insgesamt ca. 335 km"
-driveTime: "bis Gori ca. 3 h 30 · bis Kutaisi insgesamt ca. 5 h 30 reine Fahrt"
+distance: "bis Gori mit Uplisziche ca. 170–190 km · bis Kutaisi insgesamt ca. 310–335 km"
+driveTime: "bis Gori ca. 3–3.5 h reine Fahrt · bis Kutaisi insgesamt ca. 5–5.5 h reine Fahrt"
 lodging: "spontan in Gori oder Kutaisi"
-climate: "Tskaltubo/Kutaisi etwa 20/12 °C"
+climate: "Gori/Kutaisi: milder Herbst; aktuelle Prognose kurz vorher prüfen"
 bathing: "nicht vorgesehen"
 sunrise: "07:01 Uhr · Stepantsminda"
 sunset: "18:47 Uhr · Westgeorgien"
 ---
+
 ## Google Maps
 
 - [Variante A – Stepantsminda → Uplisziche → Gori](https://www.google.com/maps/dir/?api=1&origin=Stepantsminda%2C+Georgia&destination=Gori%2C+Georgia&waypoints=Uplistsikhe%2C+Georgia&travelmode=driving)
@@ -46,13 +37,17 @@ sunset: "18:47 Uhr · Westgeorgien"
 <section class="decision-card"><h3>Variante B · Weiter nach Kutaisi</h3><p><strong>Route:</strong> Stepantsminda → Uplisziche → Kutaisi</p><p><strong>Vorteil:</strong> längere Fahrt heute, dafür voller Tag 8 in Imeretien.</p><p><strong>Konsequenz:</strong> Am Tag 8 könnt ihr direkt mit Kutaisi und Umgebung beginnen.</p></section>
 </div>
 
+## Vardzia ist nicht Teil des Programms
+
+[Vardzia](/reisen/georgien/sehenswuerdigkeiten/vardzia/) bleibt als Sehenswürdigkeit im Reiseführer dokumentiert, wird auf dieser Reise aber nicht besucht. Der südliche Umweg über Vardzia, Akhaltsikhe, Abastumani, Zekari oder Sairme gehört nicht zur aktuellen Route.
+
 ## Falls ihr kürzen müsst
 
 Uplisziche bleibt in beiden Varianten der gesetzte Kulturstopp. Bei Müdigkeit Variante A wählen und in Gori übernachten.
 
 ## Schlechtwetter
 
-Der Sandstein in Uplisziche kann rutschig sein. Besuch verkürzen, aber keine riskante Nebenroute wählen.
+Der Sandstein in Uplisziche kann rutschig sein. Besuch verkürzen, aber keine riskante Nebenroute wählen. Vor Abfahrt zusätzlich den aktuellen Status der Georgischen Heerstrasse prüfen.
 
 ## Tagesablauf
 
@@ -72,6 +67,6 @@ Erst jetzt anhand von Energie, Wetter und Ankunftszeit verbindlich zwischen Gori
 
 Am Nachmittag je nach Interesse [Gori Fortress](/reisen/georgien/sehenswuerdigkeiten/gori/), [Stalin-Museum](/reisen/georgien/sehenswuerdigkeiten/stalin-museum/) oder einen Spaziergang mit Abendessen wählen. Nichts davon ist Pflicht.
 
-### Variante B · ca. 14:00–16:30 · Weiterfahrt nach Kutaisi
+### Variante B · Weiterfahrt nach Kutaisi
 
 Direkt zur spontan gewählten Unterkunft fahren und den Abend ruhig halten.
