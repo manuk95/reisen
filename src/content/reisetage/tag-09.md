@@ -12,16 +12,16 @@ sources:
     url: "https://georgia.travel/resorts/shekvetili"
   - label: "Georgia Travel: Georgian Wine"
     url: "https://georgia.travel/georgia-the-cradle-of-wine"
-updated: 2026-08-10
+updated: 2026-09-08
 date: 2026-10-06
 day: 9
-from: "Kutaisi"
+from: "Kutaisi / Imeretien"
 to: "Shekvetili"
 character: "Sanfter Übergang ans Meer"
 lodging: "Paragraph Resort & Spa · gebucht"
 climate: "21/14 °C · Meer ca. 21 °C"
 bathing: "wetterabhängig"
-distance: "ca. 110 km direkte Route"
+distance: "ca. 110 km direkte Route ab Kutaisi"
 driveTime: "ca. 2 h direkt · länger mit Wein-/Essensstopp"
 sunrise: "07:11 Uhr · Kutaisi"
 sunset: "18:47 Uhr · Shekvetili"
@@ -41,23 +41,23 @@ Direkt nach Shekvetili fahren und den Nachmittag im Spa/Innenpool verbringen. Ei
 
 ## Tagesablauf
 
-### 09:00–10:00 · Gemütliches Frühstück und Check-out in Kutaisi
+### 09:00–10:00 · Gemütliches Frühstück und Check-out
 
 Kein neues Museum oder grosses Besichtigungsprogramm mehr beginnen.
 
 ### 10:00 · Mit dem Mietwagen Richtung Shekvetili starten
 
-Die Strecke wird mit dem durchgehend gemieteten Wagen gefahren. Eine Weinprobe nur einplanen, wenn die fahrende Person keinen Alkohol trinkt.
+Die Strecke wird mit dem durchgehend gemieteten Wagen gefahren.
 
 ### optional 10:30–12:00 · Vorreservierter Weinbesuch in Imeretien
 
-Nur einbauen, wenn Baia’s Wine oder eine andere Familienkellerei den Termin bestätigt hat. Bei Weinverkostung ist ein Fahrer klar von Vorteil.
+Nur einbauen, wenn Baia’s Wine oder eine andere Familienkellerei den Termin bestätigt hat. **Bei Selbstfahrt bleibt die fahrende Person alkoholfrei.** Wenn ihr beide eine eigentliche Weinverkostung machen möchtet, für diesen Ausflug separat einen Fahrer organisieren und den Mietwagen stehen lassen.
 
 ### 12:30–13:30 · Mittagessen unterwegs
 
 ### ca. 14:30–15:00 · Ankunft und Check-in in Shekvetili
 
-In [Shekvetili](/reisen/georgien/orte/shekvetili/) einchecken und ab hier keine Pflichttermine mehr planen.
+Im fest gebuchten [Paragraph Resort & Spa](/reisen/georgien/hotels/paragraph/) einchecken und ab hier keine Pflichttermine mehr planen.
 
 ### 15:30–18:00 · Strand, Spa oder Pool
 
