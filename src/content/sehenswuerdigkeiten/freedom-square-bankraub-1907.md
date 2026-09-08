@@ -11,7 +11,8 @@ coordinates: {lat: 41.6934, lon: 44.8015}
 days: [tag-02, tag-03]
 related: [tbilisi]
 sources:
-  - {label: "Offizielle oder fachliche Information", url: "https://www.britannica.com/biography/Joseph-Stalin"}
+  - {label: "1907 Tiflis bank robbery – Überblick und Literaturhinweise", url: "https://en.wikipedia.org/wiki/1907_Tiflis_bank_robbery"}
+  - {label: "Encyclopaedia Britannica: Joseph Stalin", url: "https://www.britannica.com/biography/Joseph-Stalin"}
 updated: 2026-09-08
 image: images/platzhalter.png
 imageAlt: "Neutraler Platzhalter für Freedom Square – Tifliser Bankraub von 1907; kein rechtlich gesichertes korrektes Foto vorhanden"
@@ -22,14 +23,14 @@ imageStatus: platzhalter
 
 **Georgisch:** თავისუფლების მოედანი
 
-Historischer Schauplatz des Überfalls auf einen Geldtransport der Staatsbank am damaligen Erivansky Square. Rechnet mit **15–30 Minuten**. Preise, Öffnungszeiten, Sicherheits- und Wetterbedingungen sind zeitabhängig und müssen kurz vor dem Besuch auf der verlinkten Betreiber- oder Fachseite geprüft werden.
+Der heutige Freedom Square ist ein öffentlicher Stadtplatz. Für den historischen Kontextpunkt reichen **15–30 Minuten**; er lässt sich ohne eigenen Umweg in einen Spaziergang durch das Zentrum integrieren.
+
+## Historische Einordnung
+
+Am damaligen **Erivansky Square**, dem heutigen Freedom/Liberty Square, wurde 1907 ein Geldtransport der Staatsbank angegriffen. Die bewaffnete Gruppe wurde von **Kamo** geführt. Stalin wird in historischen Darstellungen mit Vorbereitung und Organisation des Überfalls in Verbindung gebracht; seine persönliche Anwesenheit beim eigentlichen Angriff ist jedoch nicht eindeutig belegt und wird deshalb hier nicht behauptet.
+
+Der benachbarte Pushkin Garden gehört zur heutigen Platzsituation. Dort stand später zeitweise ein Kamo-Denkmal, das wieder entfernt wurde. Eine heute bestehende spezielle Gedenkstätte für den Überfall ist nicht belegt; der Ort ist daher vor allem ein historischer Kontextpunkt innerhalb des heutigen Stadtzentrums.
 
 ## Eignung für die Reise
 
-Die Seite ist den Tagen **tag-02 und tag-03** zugeordnet. Sie ist eine Wahlmöglichkeit, kein zusätzliches Pflichtprogramm.
-## Historische Einordnung
-
-Am damaligen **Erivansky Square**, dem heutigen Freedom/Liberty Square, griff eine von **Kamo** geführte bewaffnete Gruppe 1907 einen Geldtransport der Staatsbank an. Historische Darstellungen bringen Stalin mit Planung und Organisation in Verbindung; seine persönliche Teilnahme am Angriff ist jedoch nicht eindeutig belegt und wird deshalb nicht behauptet.
-
-Der benachbarte Pushkin Garden gehört zur heutigen Platzsituation. Dort stand später zeitweise ein Kamo-Denkmal, das entfernt wurde. Heute gibt es keine nachgewiesene spezielle Raub-Gedenkstätte; der Ort ist als historischer Kontextpunkt eines normalen Stadtplatzes zu lesen.
-
+Der Punkt passt besonders gut, wenn ihr ohnehin am Freedom Square beziehungsweise in der Altstadt unterwegs seid. Er ist eine ungewöhnliche historische Ergänzung und kein Pflichtprogramm.
