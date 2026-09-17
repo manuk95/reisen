@@ -1,6 +1,6 @@
 # Aktueller Arbeitsplan
 
-Stand: 8. September 2026
+Stand: 17. September 2026
 
 Dieses Dokument ist die **einzige zentrale Quelle für offene Arbeiten** am Reiseführer-Projekt. Historische Pläne und Recherchestände unter `docs/archive/` sind keine aktuellen Arbeitsanweisungen.
 
@@ -34,20 +34,24 @@ Umgesetzt sind Single-Source-Tagesablauf aus Markdown, optionale Details, Google
 
 # Phase 2 – Mobilität / Seite „Fahrten“
 
-## 2.1 Mietwagenstrategie
+## 2.1 Mietwagenstrategie und Fahrzeugauswahl
 
-**Status:** ERLEDIGT  
+**Status:** ERLEDIGT (Fahrzeugauswahl und Website-Eintrag); VERTRAGSABSCHLUSS PRÜFEN  
 **Verantwortlich:** ChatGPT-Web
 
-Aktueller Entscheid:
+Aktueller Entscheid laut Cars4Rent-Kundenportal vom 17.09.2026:
 
-- durchgehender **Mietwagen 01.–10.10.2026**
-- noch nicht gebucht
-- Übernahme in Tbilisi vor der Fahrt nach Stepantsminda; genaue Station/Zeit folgt nach Buchung
-- Rückgabe am 10.10. am **Batumi International Airport** vor dem Flug um 22:40 Uhr
-- lokale 4×4-Fahrer nur für vertraglich ausgeschlossene oder tatsächlich ungeeignete Bergpisten
+- **Ford Bronco Sport 4WD, Automatik, 2021–2022**, Easy Off-Road; Anbieter **Cars4Rent**.
+- **01.10.2026, 08:00 Uhr**, Übernahme **26 Shalva Dadiani Street, Tbilisi (Innenstadt, nicht Flughafen)**.
+- **10.10.2026, 18:00 Uhr**, Rückgabe **Batumi International Airport**. Abflug um 22:40 Uhr.
+- Gesamtpreis im Kundenportal **€714**, inklusive €531 Grundmiete, €59 Zusatzzeit, €31 + €57 Lieferung/Abholung und €36 Servicegebühr. Barzahlung in GEL gewählt, Kartenzahlung 3,5 % zusätzlich; Treibstoff extra.
+- Laut Angebot keine Kaution, unbegrenzte Kilometer, zusätzliche registrierte Fahrer ohne Gebühr und €0 Selbstbehalt bei gedeckten Schäden. Easy-Off-Road-Reifenschäden €100/Reifen; weitere Ausschlüsse im Vertrag.
+- Elektronische Unterschrift, vollständiger Buchungs-/Zahlungsstatus **nicht nachgewiesen**; nicht voreilig als gebucht/bezahlt kennzeichnen.
+- Seite `/georgien/fahrten/`, Kostenübersicht, Reiseeintrag, praktische Mobilität sowie Tagesseiten 4 und 13 redaktionell aktualisiert.
 
-Die Seite `/georgien/fahrten/` ist auf diese Entscheidung bereinigt. Alte Fahrer-/Hybrid-Hauptstrategien und die frühere Vardzia-/Zekari-Route sind nicht mehr Teil des aktuellen Plans.
+**Offene Vertragsklärung vor Unterschrift beziehungsweise Übergabe:** Mietende 10.10. um 18:00 im Hauptvertrag ergänzen; 4WD/Automatik/Easy-Off-Road auch beim Ersatzfahrzeug schriftlich bestätigen; korrekte Stornierungsfrist und Rechte bei verdeckten technischen Mängeln klären; Versicherungs- und Notfallnummern sowie vereinbarte Übergabeorte prüfen. Keine Buchungs-/Ausweisnummern oder Originalverträge in öffentliches Repo hochladen.
+
+Lokale 4×4-Fahrer nur für vertraglich ausgeschlossene oder tatsächlich ungeeignete Bergpisten.
 
 ## 2.2 Zeitabhängige Strassen
 
@@ -57,9 +61,9 @@ Die Seite `/georgien/fahrten/` ist auf diese Entscheidung bereinigt. Alte Fahrer
 Vor Nutzung erneut prüfen:
 
 - Kreuzpass / Georgische Heerstrasse
-- Trusso, falls gewählt
-- Juta, falls gewählt
-- Bedingungen des tatsächlich gebuchten Mietwagenanbieters
+- Trusso, falls gewählt; ausdrückliche Freigabe der konkreten Route
+- Juta, falls gewählt; ausdrückliche Freigabe der konkreten Route
+- Bedingungen des tatsächlich übergebenen Cars4Rent-Fahrzeugs (Easy Off-Road, Sperrgebiete, Reifen und Unterboden)
 
 **Nicht mehr routenrelevant:** Abastumani / Zekari / Sairme. Diese Verbindung gehört nicht zum aktuellen Reiseprogramm.
 
@@ -71,7 +75,7 @@ Vor Nutzung erneut prüfen:
 
 **Status:** ERLEDIGT
 
-Alle Tagesdateien verwenden den aktuellen Markdown-/Tagesplanaufbau mit Google Maps, Kürzungs- und Schlechtwetterhinweisen.
+Alle Tagesdateien verwenden den aktuellen Markdown-/Tagesplanaufbau mit Google Maps, Kürzungs- und Schlechtwetterhinweisen. Tag 4 enthält die Mietwagenübernahme um 08:00 Uhr und nachfolgend angepasste Richtzeiten; Tag 13 die Rückgabe am Flughafen Batumi um 18:00 Uhr und eine frühere Abfahrt ab Shekvetili.
 
 ## 3.2 Tag 1 – SBB
 
@@ -107,23 +111,26 @@ Vardzia bleibt als eigenständige Sehenswürdigkeitsseite im Reiseführer erhalt
 
 ## 4.1 Aktueller Kostenstand
 
-**Status:** ERLEDIGT  
+**Status:** ERLEDIGT (redaktioneller Stand 17.09.2026)  
 **Verantwortlich:** ChatGPT-Web
 
-Die Seite `/georgien/kosten/` basiert nur noch auf dem aktuellen Reiseplan.
+Die Seite `/georgien/kosten/` basiert auf dem aktuellen Reiseplan.
 
-Bekannte Fixkosten für zwei:
+Gebuchte Fixkosten für zwei:
 
 - Flüge: CHF 900
 - Silver 39 Corner: CHF 239
 - Baza Kazbegi: CHF 229
 - Paragraph: CHF 681
-- bekannte Fixkosten total: CHF 2'049
+- **gebuchte Fixkosten gesamt: CHF 2'049**
+
+Mietwagen separat, ausgewähltes Angebot (nicht als bereits bezahlt behaupten): **€714** für Cars4Rent Ford Bronco Sport 4WD vom 01.10., 08:00 bis 10.10., 18:00. Keine Doppelzählung des früheren CHF-500–850-Mietwagen-Arbeitsbudgets. Wechselkurs bei Zahlung in GEL und Zusatzkosten wie Treibstoff/Parkieren erst nach tatsächlicher Ausgabe verbuchen.
 
 Offen bleiben:
 
 - zwei spontane Hotelnächte 04.–06.10.
-- Mietwagen 01.–10.10.
+- abschliessender Vertrags- und Zahlungsstatus Mietwagen
+- Mietwagen-Treibstoff, Parkieren und eventuell lokale Fahrer
 - SBB je nach Ticket/Abos
 - tatsächlich gewählte Aktivitäten und Zusatzleistungen
 
@@ -296,7 +303,7 @@ Historische DOCX/PDF-Quelldokumente separat auf Risiko prüfen. Nicht ohne separ
 **Status:** IN ARBEIT  
 **Verantwortlich:** Codex / GitHub Actions
 
-Nach PR #16 liefen `npm install`, `npm run check`, `npm run test`, `npm run build` und das GitHub-Pages-Deployment erfolgreich. Nach den redaktionellen Korrekturen vom 8. September muss der aktuelle `main` erneut grün durchlaufen.
+Nach PR #16 liefen `npm install`, `npm run check`, `npm run test`, `npm run build` und das GitHub-Pages-Deployment erfolgreich. Nach den redaktionellen Korrekturen vom 17. September muss der aktuelle `main` erneut grün durchlaufen.
 
 Noch offen beziehungsweise wiederholt zu prüfen:
 
@@ -321,7 +328,7 @@ Noch offen beziehungsweise wiederholt zu prüfen:
 
 - PWA-Updatefunktion umgesetzt.
 - Tagesprogramme in das Markdown-/Accordion-Modell überführt.
-- Mietwagen 01.–10.10. als Mobilitätsstrategie festgelegt.
+- Mietwagen 01.–10.10. als Mobilitätsstrategie und Cars4Rent Ford Bronco Sport 4WD als konkretes Fahrzeug ausgewählt und auf der Website eingetragen.
 - Tag 7/8 auf Uplisziche + spontane Gori/Kutaisi-Entscheidung umgestellt.
 - Vardzia aus dem Programm entfernt, Sehenswürdigkeitsseite bleibt erhalten.
 - drei gebuchte Hotels im aktuellen Plan verankert.
