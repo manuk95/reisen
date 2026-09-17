@@ -27,7 +27,11 @@ Grundroute: Tbilisi → Mtskheta → Stepantsminda/Kazbegi → Uplisziche → Go
 
 ### Mobilität
 
-Ein durchgehender **Mietwagen vom 01.10. bis 10.10.2026 ist gewählt, aber noch nicht gebucht**. Übernahme in Tbilisi vor der Fahrt nach Kazbegi; Station und Zeit werden nach Buchung ergänzt. Rückgabe ist am 10. Oktober geografisch fix am Batumi International Airport vor dem Abflug um 22:40 Uhr; genaue Zeit folgt mit der Buchung. Für vertraglich ausgeschlossene oder anspruchsvolle Bergpisten kann weiterhin ein lokaler 4×4-Fahrer sinnvoll sein.
+**Ausgewählter Mietwagen (Kundenportal/Vertragsentwurf Stand 17.09.2026):** Cars4Rent, Ford Bronco Sport 4WD, Automatik, Modelljahr 2021–2022, Kategorie Easy Off-Road. Abholung **01.10.2026, 08:00 Uhr**, **26 Shalva Dadiani Street, Tbilisi** (Innenstadt, nicht Flughafen). Rückgabe **10.10.2026, 18:00 Uhr**, Batumi International Airport. Portal-Gesamtpreis **€714**: €531 Grundmiete, €59 Zusatzzeit, €31 + €57 Lieferung/Abholung und €36 Servicegebühr. Barzahlung in GEL ausgewählt. Keine Kaution laut Angebot, unbegrenzte Kilometer und registrierte Fahrer, €0 Selbstbehalt nur bei gedeckten Schäden; Reifenschaden Easy Off-Road €100/Reifen, Schlüsselverlust €100. Kartenzahlung laut Vertrag 3,5 % zusätzlich. Voll/voll, Treibstoff extra.
+
+**Status sorgfältig unterscheiden:** Fahrzeug und Zeiten sind ausgewählt und im Kundenportal hinterlegt. Eine abschliessend unterschriebene Vereinbarung und die Zahlung sind durch die vorliegenden Angaben noch nicht nachgewiesen; bis zur Bestätigung nicht als «gebucht und bezahlt» kennzeichnen. Im Vertrag fehlen beziehungsweise widersprechen sich einzelne Angaben (insbesondere Enddatum im Hauptvertrag, 4WD/Ersatzfahrzeug, Kündigungsfristen, weitreichende Mängelklauseln). Dies vor Unterschrift beziehungsweise Übergabe klären. Keine privaten Buchungsnummern, persönlichen Ausweisangaben, Zahlungsdaten oder Originalverträge in dieses öffentliche Repository übernehmen.
+
+Auf der Seite `/georgien/fahrten/` stehen Details zu Übergabe, Versicherung und Strassenausschlüssen. Ein lokaler 4×4-Fahrer bleibt eine Option für vertraglich ausgeschlossene oder ungeeignete Bergpisten, insbesondere Trusso/Juta nur nach Freigabe der konkreten Strecke. Die Standardroute braucht keine Vardzia-/Zekari-Schleife.
 
 ### Unterkünfte
 
