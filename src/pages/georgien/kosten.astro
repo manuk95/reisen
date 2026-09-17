@@ -3,9 +3,9 @@ import GuidePage from '../../components/GuidePage.astro';
 const base = import.meta.env.BASE_URL;
 ---
 
-<GuidePage title="Kostenübersicht" lead="Aktueller Kostenstand für zwei Personen · Reise 28. September bis 11. Oktober 2026 · Stand 8. September 2026.">
+<GuidePage title="Kostenübersicht" lead="Aktueller Kostenstand für zwei Personen · Reise 28. September bis 11. Oktober 2026 · Mietwagenstand 17. September 2026.">
   <div class="alert">
-    <strong>Aktueller Stand:</strong> Flüge sowie Silver 39 Corner, Baza Kazbegi und Paragraph sind gebucht. Offen bleiben die zwei spontanen Hotelnächte 04.–06.10., der Mietwagen 01.–10.10. und einzelne Aktivitäten. Vardzia gehört nicht zum Reiseprogramm und wird nicht eingerechnet.
+    <strong>Aktueller Stand:</strong> Flüge sowie Silver 39 Corner, Baza Kazbegi und Paragraph sind gebucht. Für den Mietwagen ist der Ford Bronco Sport 4WD bei Cars4Rent ausgewählt; das Kundenportal zeigt €714 Gesamtpreis. Elektronische Vertragsunterzeichnung und endgültiger Zahlungsstand sind noch nicht bestätigt. Offen bleiben zwei spontane Hotelnächte 04.–06.10. und einzelne Aktivitäten. Vardzia gehört nicht zum Programm.
   </div>
 
   <h2>1 · Bereits gebuchte Kosten</h2>
@@ -18,11 +18,11 @@ const base = import.meta.env.BASE_URL;
         <tr><td><a href={`${base}georgien/hotels/baza-kazbegi/`}>Baza Kazbegi</a></td><td>01.10.–04.10. · 3 Nächte</td><td><strong>gebucht</strong></td><td><strong>CHF 229</strong></td></tr>
         <tr><td><a href={`${base}georgien/hotels/paragraph/`}>Paragraph Resort & Spa Shekvetili</a></td><td>06.10.–10.10. · 4 Nächte</td><td><strong>gebucht</strong></td><td><strong>CHF 681</strong></td></tr>
       </tbody>
-      <tfoot><tr><th colspan="3">Bekannte Fixkosten</th><th>CHF 2'049</th></tr></tfoot>
+      <tfoot><tr><th colspan="3">Bekannte, gebuchte Fixkosten (ohne Mietwagen)</th><th>CHF 2'049</th></tr></tfoot>
     </table>
   </div>
 
-  <p>Davon entfallen <strong>CHF 1'149</strong> auf die bereits gebuchten Hotels. Private Buchungsnummern und Belege werden nicht auf der öffentlichen Website gespeichert.</p>
+  <p>Davon entfallen <strong>CHF 1'149</strong> auf die gebuchten Hotels. Für den Mietwagen wird der ausgewiesene EUR-Preis separat geführt, damit keine unbelegte CHF-Fixsumme entsteht. Private Buchungsnummern und Belege werden nicht veröffentlicht.</p>
 
   <h2>2 · Zwei flexible Hotelnächte</h2>
   <div class="table-scroll">
@@ -34,32 +34,34 @@ const base = import.meta.env.BASE_URL;
       </tbody>
     </table>
   </div>
-  <p>Diese beiden Nächte werden erst nach der tatsächlichen Auswahl in die Fixkosten übernommen. Die frühere 2+2-Küstenhotelstrategie ist erledigt; vom 6. bis 10. Oktober ist Paragraph durchgehend gebucht.</p>
+  <p>Diese Nächte werden erst nach der tatsächlichen Auswahl in die Fixkosten übernommen. Die frühere 2+2-Küstenhotelstrategie ist erledigt; 6.–10. Oktober ist Paragraph durchgehend gebucht.</p>
 
-  <h2>3 · Mietwagen 01.–10.10.</h2>
-  <p>Der Mietwagen ist als Mobilitätsstrategie entschieden, aber noch nicht gebucht. Details stehen auf <a href={`${base}georgien/fahrten/`}>Fahrten & Strassen</a>.</p>
+  <h2>3 · Ausgewählter Mietwagen: 01.–10.10.</h2>
+  <p><strong>Cars4Rent · Ford Bronco Sport 4WD (Modell 2021–2022), Automatik</strong>. Übernahme <strong>01.10. um 08:00 Uhr</strong> an der <strong>26 Shalva Dadiani Street, Tbilisi</strong> (nicht am Flughafen), Rückgabe <strong>10.10. um 18:00 Uhr am Batumi International Airport</strong>. <a href={`${base}georgien/fahrten/`}>Mietbedingungen, Strassenfreigaben und Übergabehinweise ansehen.</a></p>
 
   <div class="table-scroll">
     <table>
-      <thead><tr><th>Position</th><th>Planungsstand</th></tr></thead>
+      <thead><tr><th>Position</th><th>Kosten gemäss Kundenportal vom 17.09.</th></tr></thead>
       <tbody>
-        <tr><td>Mietwagen / 10 Kalendertage</td><td>Anbieter und Fahrzeugklasse offen</td></tr>
-        <tr><td>Einweg Tbilisi → Batumi Airport</td><td>muss in der Offerte enthalten sein</td></tr>
-        <tr><td>Versicherung / Selbstbehalt</td><td>vor Buchung konkret vergleichen</td></tr>
-        <tr><td>Treibstoff / Parkieren</td><td>abhängig von Fahrzeug und endgültigen Ausflügen</td></tr>
-        <tr><td>Lokaler Fahrer für Bergpiste</td><td>nur falls Trusso/Juta mit dem Mietwagen vertraglich nicht erlaubt sind</td></tr>
+        <tr><td>Grundmiete für gewählte Daten</td><td>€531</td></tr>
+        <tr><td>Zusätzliche Mietzeit (9 Tage + 10 Stunden)</td><td>€59</td></tr>
+        <tr><td>Lieferung / Abholung</td><td>€31 + €57</td></tr>
+        <tr><td>Servicegebühr</td><td>€36</td></tr>
+        <tr><td>Barzahlung gewählt / Kartenzuschlag</td><td>€0 / bei Kartenzahlung 3,5 % zusätzlich</td></tr>
       </tbody>
+      <tfoot><tr><th>Ausgewiesener Mietwagen-Gesamtpreis</th><th>€714</th></tr></tfoot>
     </table>
   </div>
 
-  <p><strong>Arbeitsbudget Mobilität:</strong> weiterhin etwa <strong>CHF 500–850 für zwei</strong>. Dieser Bereich ist keine Offerte und wird nach der Mietwagenbuchung durch die effektiven Kosten ersetzt.</p>
+  <p><strong>Status:</strong> Fahrzeug und Konditionen ausgewählt, Endpreis im Kundenportal ausgewiesen; die definitive Vertragsunterzeichnung beziehungsweise Zahlung ist nicht bestätigt. Bezahlung laut Vertrag bei Übernahme in GEL zum offiziellen Tageskurs. Keine Kaution laut Angebot, unbegrenzte Kilometer und angemeldete Zusatzfahrer ohne Aufpreis. Versicherung mit €0 Selbstbehalt für gedeckte Schäden; Reifen bei Easy Off-Road mit €100 pro beschädigtem Reifen ausserhalb der Deckung. Treibstoff, Parkieren, gegebenenfalls lokale Fahrer und mögliche Zusatzkosten sind <strong>nicht</strong> Teil der €714.</p>
+
+  <p><strong>Offene Mobilitätskosten:</strong> Treibstoff und Parkieren abhängig von Strecken; lokaler Fahrer nur, falls eine geplante Bergpiste für den Mietwagen vertraglich ausgeschlossen oder ungeeignet ist. Kein zusätzliches pauschales Mietwagen-Arbeitsbudget von CHF 500–850 mehr verwenden – der konkrete ausgewählte Tarif von €714 ersetzt diese frühere Schätzung.</p>
 
   <h2>4 · Essen und Getränke</h2>
-  <p><strong>Planungsbudget für zwei: CHF 550–900.</strong> Der Bereich berücksichtigt einfache lokale Mittagessen, mehrere bessere Abendessen, Wein und die teureren Restaurantmöglichkeiten im Paragraph. Frühstück kann je nach gebuchtem Tarif bereits enthalten sein.</p>
+  <p><strong>Planungsbudget für zwei: CHF 550–900.</strong> Der Bereich berücksichtigt einfache lokale Mittagessen, mehrere bessere Abendessen, Wein und teurere Restaurantmöglichkeiten im Paragraph. Frühstück kann je nach gebuchtem Tarif bereits enthalten sein.</p>
 
   <h2>5 · Eintritte und Aktivitäten</h2>
-  <p><strong>Planungsbudget für zwei: CHF 200–400.</strong> Enthalten sind Reserven für Museen, Schwefelbad, Höhle, Seilbahnen, spontane Unterhaltung oder Wellness. Nur tatsächlich gewählte Aktivitäten werden später als effektive Kosten übernommen.</p>
-
+  <p><strong>Planungsbudget für zwei: CHF 200–400.</strong> Museen, Schwefelbad, Höhle, Seilbahnen, Unterhaltung oder Wellness. Nur tatsächlich gewählte Aktivitäten werden später als effektive Kosten übernommen.</p>
   <div class="table-scroll">
     <table>
       <thead><tr><th>Programmpunkt</th><th>Status</th></tr></thead>
@@ -73,37 +75,38 @@ const base = import.meta.env.BASE_URL;
       </tbody>
     </table>
   </div>
-
-  <p><strong>Vardzia wird bewusst nicht aufgeführt:</strong> Die Sehenswürdigkeitsseite bleibt im Reiseführer, aber der Ort ist nicht Teil des aktuellen Programms und verursacht deshalb in dieser Reiseplanung weder Eintritts- noch Fahrtkosten.</p>
+  <p>Vardzia wird bewusst nicht budgetiert: Der Ort ist nicht Teil der aktuellen Reise.</p>
 
   <h2>6 · Reserve und noch nicht eingerechnete Kosten</h2>
-  <p><strong>Reserve: CHF 250–450 für zwei.</strong> Sie deckt kleinere Preisänderungen, zusätzliche Taxis, Trinkgelder, Snacks, spontane Ausgaben und kleinere Abweichungen ab.</p>
-  <p>Noch nicht als Fixkosten eingerechnet sind:</p>
+  <p><strong>Reserve: CHF 250–450 für zwei.</strong> Für kleinere Preisänderungen, zusätzliche Taxis, Trinkgelder, Snacks und spontane Ausgaben.</p>
   <ul>
-    <li>die zwei flexiblen Hotelnächte,</li>
-    <li>der tatsächlich gebuchte Mietwagen,</li>
-    <li>SBB-An-/Abreise, abhängig von den vorhandenen Abos/Tickets,</li>
+    <li>zwei flexible Hotelnächte,</li>
+    <li>tatsächliche Umrechnung der €714 in GEL/CHF bei Mietbeginn und allfällige Kartengebühr,</li>
+    <li>Mietwagen-Treibstoff, Parkieren und allenfalls lokaler Fahrer,</li>
+    <li>SBB-An-/Abreise je nach vorhandenen Abos und Tickets,</li>
     <li>eSIM/Roaming, Souvenirs und Shopping,</li>
     <li>optionale Spa-Behandlungen oder Massagen.</li>
   </ul>
 
   <h2>7 · Aktuelles Arbeitsszenario</h2>
   <ul>
-    <li>Flüge: <strong>CHF 900 fix</strong></li>
-    <li>Silver 39 Corner: <strong>CHF 239 fix</strong></li>
-    <li>Baza Kazbegi: <strong>CHF 229 fix</strong></li>
+    <li>Flüge: <strong>CHF 900 gebucht</strong></li>
+    <li>Silver 39 Corner: <strong>CHF 239 gebucht</strong></li>
+    <li>Baza Kazbegi: <strong>CHF 229 gebucht</strong></li>
     <li>04.–06.10.: <strong>zwei spontane Nächte</strong></li>
-    <li>Paragraph: <strong>CHF 681 fix</strong></li>
-    <li>Mobilität: <strong>Mietwagen 01.–10.10.</strong>, noch zu buchen</li>
+    <li>Paragraph: <strong>CHF 681 gebucht</strong></li>
+    <li>Cars4Rent Ford Bronco Sport 4WD, 01.–10.10.: <strong>€714 laut Kundenportal; Vertragsabschluss prüfen</strong></li>
+    <li>Mietwagen-Treibstoff/Parkieren: <strong>offen</strong></li>
     <li>Essen/Trinken: <strong>CHF 550–900</strong></li>
     <li>Eintritte/Aktivitäten: <strong>CHF 200–400</strong></li>
     <li>Reserve: <strong>CHF 250–450</strong></li>
   </ul>
-  <p>Eine endgültige Gesamtsumme ist erst sinnvoll, sobald der Mietwagen und die beiden flexiblen Nächte bekannt sind. Bis dahin werden keine veralteten Hotel-, Fahrer- oder 2+2-Szenarien mehr als aktuelle Reiseplanung dargestellt.</p>
+  <p>Die CHF-Fixkosten der bereits gebuchten Leistungen und der EUR-Mietwagenpreis bleiben getrennt ausgewiesen, bis die tatsächliche Zahlung feststeht. Eine belastbare vollständige Gesamtsumme folgt nach den zwei flexiblen Nächten und den restlichen Ausgaben.</p>
 
   <h2>Quellen und Datenstand</h2>
-  <p>Zeitabhängige Preise werden kurz vor der Nutzung oder Buchung nochmals geprüft. Wechselkurse, Treibstoffpreise und einzelne Eintrittspreise sind deshalb bewusst nicht als dauerhafte Fixwerte behandelt.</p>
+  <p>Mietwagenpreis und Zeiten laut persönlichem Cars4Rent-Kundenportal vom 17.09.2026; öffentlich keine Buchungs- oder Ausweisdaten. Wechselkurse, Treibstoffpreise und Eintrittspreise sind zeitabhängig.</p>
   <ul>
+    <li><a href="https://cars4rent.ge/en/articles/terms/" rel="noopener noreferrer" target="_blank">Cars4Rent – allgemeine Mietbedingungen</a></li>
     <li><a href="https://nbg.gov.ge/en/monetary-policy/currency" rel="noopener noreferrer" target="_blank">National Bank of Georgia – Wechselkurse</a></li>
     <li><a href="https://www.gulf.ge/en/home" rel="noopener noreferrer" target="_blank">Gulf Georgia – Treibstoffpreise</a></li>
     <li><a href="https://chreli-abano.ge/?lan=en" rel="noopener noreferrer" target="_blank">Chreli-Abano – Schwefelbad</a></li>
