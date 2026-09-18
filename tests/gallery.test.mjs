@@ -21,6 +21,6 @@ test('single image has no controls and lists use the primary image', () => {
 
 test('knowledge pages render images-array galleries without legacy image', () => {
   const page=readFileSync(new URL('../src/pages/georgien/wissen/[slug].astro',import.meta.url),'utf8');
-  assert.match(page,/entry\.data\.images\.length>0\|\|entry\.data\.image/);
-  assert.match(page,/legacy=\{entry\.data\.image\?/);
+  assert.match(page,/entry\.data\.images\.length\s*>\s*0\s*\|\|\s*entry\.data\.image/);
+  assert.match(page,/legacy=\{entry\.data\.image\s*\?/);
 });
