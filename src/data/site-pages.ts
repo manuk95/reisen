@@ -14,7 +14,11 @@ export const mainNavigation: Array<{ label: string; items?: NavigationItem[]; pa
   ] },
   { label: 'Kosten', items: [{ label: 'Kostenübersicht', path: 'georgien/kosten/' }] },
   { label: 'Essen & Trinken', items: [{ label: 'Kulinarik', path: 'georgien/genuss/' }] },
-  { label: 'Wissen über Georgien', path: 'georgien/wissen/' },
+  { label: 'Wissen über Georgien', items: [
+    { label: 'Allgemeines', path: 'georgien/wissen/' },
+    { label: 'Packliste', path: 'georgien/wissen/packliste/' },
+    { label: 'Sprache', path: 'georgien/wissen/sprache/' },
+  ] },
   { label: 'Suche', path: 'suche/' },
 ];
 
