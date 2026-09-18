@@ -32,9 +32,9 @@ const url = new URL(Astro.url.pathname, Astro.site);
     <nav id="mainMenu" class="drawer" aria-label="Hauptmenü" hidden>
       <div class="drawer-head"><strong>Reiseführer Georgien 2026</strong><button id="menuClose" aria-label="Menü schliessen">×</button></div>
       {mainNavigation.map((group) => group.items ? (
-        <details open={group.label === 'Entdecken'}>
+        <details open={group.label === 'Entdecken' || group.items.some((item) => Astro.url.pathname === `${base}${item.path}`)}>
           <summary>{group.label}</summary>
-          {group.items.map((item) => <a class:list={{ active: Astro.url.pathname === `${base}${item.path}` }} href={`${base}${item.path}`}>{item.label}</a>)}
+          {group.items.map((item) => <a class:list={{ active: Astro.url.pathname === `${base}${item.path}` }} aria-current={Astro.url.pathname === `${base}${item.path}` ? 'page' : undefined} href={`${base}${item.path}`}>{item.label}</a>)}
         </details>
       ) : <a class:list={{ active: Astro.url.pathname === `${base}${group.path}` }} href={`${base}${group.path}`}>{group.label}</a>)}
     </nav>

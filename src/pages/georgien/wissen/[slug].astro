@@ -1,4 +1,97 @@
 ---
-import Base from '../../../layouts/Base.astro';import ItemGallery from '../../../components/ItemGallery.astro';import DayLinks from '../../../components/DayLinks.astro';import {getCollection,render} from 'astro:content';export async function getStaticPaths(){return (await getCollection('wissen')).map(entry=>({params:{slug:entry.data.slug},props:{entry}}))}const {entry}=Astro.props;const {Content}=await render(entry);const base=import.meta.env.BASE_URL;
+import Base from '../../../layouts/Base.astro';
+import ItemGallery from '../../../components/ItemGallery.astro';
+import DayLinks from '../../../components/DayLinks.astro';
+import '../../../styles/language.css';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  return (await getCollection('wissen')).map((entry) => ({ params: { slug: entry.data.slug }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const isLanguage = entry.data.slug === 'sprache';
+const languageSections = [
+  { label: 'Hintergrundwissen', id: 'hintergrundwissen' },
+  { label: 'Grundwortschatz', id: 'grundwortschatz' },
+  { label: 'Sätze', id: 'sätze' },
+  { label: 'Ortsnamen', id: 'ortsnamen' },
+];
 ---
-<Base title={entry.data.title}><div class="wrap"><p><a href={`${base}georgien/`}>Georgien</a> / <a href={`${base}georgien/wissen/`}>Wissen</a></p><span class="badge">{entry.data.status.replaceAll('-',' ')}</span><h1>{entry.data.title}</h1><p class="meta">{entry.data.region} · Stand {entry.data.updated.toLocaleDateString('de-CH')}</p>{(entry.data.images.length>0||entry.data.image)&&<ItemGallery title={entry.data.title} images={entry.data.images} legacy={entry.data.image?{src:entry.data.image,alt:entry.data.imageAlt||`Neutrales Platzhalterbild für ${entry.data.title}`,credit:entry.data.imageCredit,source:entry.data.imageSource,license:entry.data.imageLicense,edit:entry.data.imageEdit}:undefined} />}<p class="lead">{entry.data.summary}</p><article class="prose"><Content /></article><DayLinks days={entry.data.days} /><h2>Quellen</h2><ul>{entry.data.sources.map((s:any)=><li><a href={s.url} rel="external noopener noreferrer" target="_blank">{s.label}</a></li>)}</ul></div></Base>
+<Base title={entry.data.title}>
+  <div class="wrap">
+    <p><a href={`${base}georgien/`}>Georgien</a> / <a href={`${base}georgien/wissen/`}>Wissen</a></p>
+    <span class="badge">{entry.data.status.replaceAll('-', ' ')}</span>
+    <h1>{entry.data.title}</h1>
+    <p class="meta">{entry.data.region} · Stand {entry.data.updated.toLocaleDateString('de-CH')}</p>
+    {(entry.data.images.length > 0 || entry.data.image) && <ItemGallery title={entry.data.title} images={entry.data.images} legacy={entry.data.image ? { src: entry.data.image, alt: entry.data.imageAlt || `Neutrales Platzhalterbild für ${entry.data.title}`, credit: entry.data.imageCredit, source: entry.data.imageSource, license: entry.data.imageLicense, edit: entry.data.imageEdit } : undefined} />}
+    <p class="lead">{entry.data.summary}</p>
+    {isLanguage && (
+      <nav class="language-switcher" data-language-switcher aria-label="Themen im Sprachführer">
+        {languageSections.map((section) => <a href={`#${section.id}`}>{section.label}</a>)}
+      </nav>
+    )}
+    <article id={isLanguage ? 'language-content' : undefined} class:list={['prose', { 'language-content': isLanguage }]}><Content /></article>
+    <DayLinks days={entry.data.days} />
+    <h2>Quellen</h2>
+    <ul>{entry.data.sources.map((s: any) => <li><a href={s.url} rel="external noopener noreferrer" target="_blank">{s.label}</a></li>)}</ul>
+  </div>
+</Base>
+
+<script>
+  // Ohne JavaScript sind alle vier Abschnitte sichtbar und über die Links erreichbar.
+  const navigation = document.querySelector<HTMLElement>('[data-language-switcher]');
+  const article = document.querySelector<HTMLElement>('#language-content');
+  if (navigation && article) {
+    const links = Array.from(navigation.querySelectorAll<HTMLAnchorElement>('a[href^="#"]'));
+    const keys = links.map((link) => decodeURIComponent(link.hash.slice(1)));
+    const panels = new Map<string, HTMLElement>();
+    let currentPanel: HTMLElement | null = null;
+
+    for (const element of Array.from(article.children)) {
+      if (element.tagName === 'H2' && keys.includes(element.id)) {
+        const panel = document.createElement('section');
+        panel.className = 'language-panel';
+        panel.dataset.languageKey = element.id;
+        panel.setAttribute('aria-labelledby', element.id);
+        article.insertBefore(panel, element);
+        panel.append(element);
+        panels.set(element.id, panel);
+        currentPanel = panel;
+      } else if (currentPanel) {
+        currentPanel.append(element);
+      }
+    }
+
+    if (panels.size === links.length) {
+      function selectedKey() {
+        const hash = decodeURIComponent(window.location.hash.slice(1));
+        const nested = hash ? document.getElementById(hash)?.closest<HTMLElement>('.language-panel') : null;
+        return panels.has(hash) ? hash : nested?.dataset.languageKey || keys[0];
+      }
+
+      function activate(key: string) {
+        for (const [id, panel] of panels) panel.hidden = id !== key;
+        for (const link of links) {
+          if (decodeURIComponent(link.hash.slice(1)) === key) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        }
+      }
+
+      for (const link of links) link.addEventListener('click', (event) => {
+        event.preventDefault();
+        const key = decodeURIComponent(link.hash.slice(1));
+        window.history.pushState(null, '', link.hash);
+        activate(key);
+        document.getElementById(key)?.scrollIntoView({ block: 'start' });
+      });
+
+      const sync = () => activate(selectedKey());
+      window.addEventListener('popstate', sync);
+      window.addEventListener('hashchange', sync);
+      sync();
+    }
+  }
+</script>
