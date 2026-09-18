@@ -4,93 +4,171 @@ slug: sprache
 trip: georgien-2026
 country: Georgien
 region: "Georgien"
-summary: "Hintergrundwissen zu Georgische Sprache und Schrift."
+summary: "Georgisch verstehen und unterwegs anwenden: Schrift und Aussprache, Grundwortschatz, höfliche Reisesätze und die Namen unserer Reiseorte."
 categories: [kultur]
 status: empfohlen
 days: []
 related: []
-sources: [{label: "Geostat und Quellenverzeichnis der Reiseplanung", url: "https://www.geostat.ge/en"}]
-updated: 2026-08-03
+sources:
+  - {label: "UNESCO – Living culture of three writing systems of the Georgian alphabet", url: "https://ich.unesco.org/en/RL/living-culture-of-three-writing-systems-of-the-georgian-alphabet-01205"}
+  - {label: "Wikivoyage – Georgian phrasebook", url: "https://en.wikivoyage.org/wiki/Georgian_phrasebook"}
+  - {label: "EasyGeorgian – 20 Georgian phrases for travelers", url: "https://easygeorgian.com/blog/georgian-phrases-for-travelers/"}
+  - {label: "Georgian 101 – Eating", url: "https://www.101languages.net/georgian/eating.html"}
+  - {label: "Georgia Travel – Truso-Tal", url: "https://georgia.travel/ka/%E1%83%97%E1%83%A0%E1%83%A3%E1%83%A1%E1%83%9D%E1%83%A1-%E1%83%AE%E1%83%94%E1%83%9D%E1%83%91%E1%83%90"}
+updated: 2026-09-19
 ---
 
-## 5.1 Georgisch und die kartwelische Sprachfamilie
+## Hintergrundwissen
 
-Georgisch heisst kartuli ena und gehört mit Mingrelisch, Lasisch und Swanisch zur eigenständigen kartwelischen Sprachfamilie. Es ist weder slawisch noch indoeuropäisch. Russisch ist historisch verbreitet, Englisch vor allem bei jüngeren Menschen und im Tourismus.
+### Georgisch und die kartwelische Sprachfamilie
 
-## 5.2 Das georgische Alphabet
+Georgisch heisst **ქართული ენა (kartuli ena)**. Es gehört zur kartwelischen Sprachfamilie, ebenso wie Mingrelisch, Lasisch und Swanisch. Es ist weder eine slawische noch eine indoeuropäische Sprache. Für die Reise sind ein paar georgische Wörter und eine gut lesbare Übersetzung auf dem Handy besonders nützlich.
 
-Das moderne Mchedruli-Alphabet besitzt 33 Buchstaben. Es unterscheidet nicht zwischen Gross- und Kleinbuchstaben. Die drei georgischen Schriftsysteme Asomtavruli, Nuskhuri und Mkhedruli sind UNESCO-Kulturerbe.
+### Drei Schriftsysteme und 33 Buchstaben
 
-## 5.3 Aussprache und Betonung
+Im Alltag begegnet uns vor allem **Mchedruli (Mkhedruli)** mit 33 Buchstaben. Anders als im Deutschen verwendet dieses normale Alphabet keine getrennten Gross- und Kleinbuchstaben. Die drei historisch gewachsenen Schriftsysteme Asomtawruli (auch Mrgvlovani genannt), Nuschuri und Mchedruli wurden 2016 in die UNESCO-Liste des immateriellen Kulturerbes aufgenommen.
 
-Georgisch hat markante Konsonantencluster. kh ist ein rauer Kehllaut, ts und tsch sind häufig, q/k/p/t können glottalisiert sein. Betonung ist meist schwach und weniger bedeutungsentscheidend als im Deutschen.
+Beispiel: **საქართველო (Sakartvelo)** bedeutet Georgien, **თბილისი (Tbilisi)** ist die Hauptstadt.
 
-## 5.4 Ortsnamen richtig aussprechen
+### Aussprache: eine praktische Lesehilfe
 
-Tbilisi ungefähr tbilisi; Mtskheta beginnt tatsächlich mit m-ts-ch; Stepantsminda = Stepan-zminda; Kazbegi = Kas-begi; Kutaisi = Ku-ta-isi; Batumi = Ba-tumi.
+Die Umschrift auf dieser Seite ist eine **Annäherung, keine Lautschrift**. Einige wichtige Unterschiede:
 
-## 5.5 Ortsnamen-Bestandteile
+- **kh** klingt ungefähr wie «ch» in «Bach»; **gh** ist ein stimmhafter Kehllaut.
+- **sh** entspricht «sch», **ch** ungefähr «tsch»; **ts** klingt wie «z» in «Zeit».
+- **q** sowie manche mit k, p oder t wiedergegebenen Laute werden anders, zum Teil mit einem zusätzlichen Verschluss, gebildet als im Deutschen.
+- Konsonanten können ohne Zwischenvokal aufeinanderfolgen. Bei **Mtskheta** das anfängliche «Mts» nicht zu «Mets» verlängern.
+- Die Betonung ist häufig wenig ausgeprägt. Ortsnamen weiter unten sind zur leichteren Orientierung grob in Sprechgruppen aufgeteilt.
 
--tsminda bedeutet heilig; -khevi Tal/Schlucht; -tskaro Quelle; -mta Berg; -tavi Kopf/Anfang; -sheni gebaut/Siedlung. Diese Bausteine machen viele Namen verständlicher.
+### So kommunizieren wir höflich
 
-## 5.6 Grundwortschatz für die Reise
+Mit **გამარჯობა (gamarjoba)** beginnen, bei einer Bitte **თუ შეიძლება (tu sheidzleba)** ergänzen und mit **მადლობა (madloba)** danken. Für eine besonders herzliche Danksagung eignet sich **დიდი მადლობა (didi madloba)**. Englisch ist im Tourismus eine mögliche Verständigungssprache; nicht voraussetzen, dass jede Person Englisch oder Russisch spricht. Georgische Texte bei Bedarf direkt auf dem Bildschirm zeigen.
 
-<div class="table-scroll">
+## Grundwortschatz
+
+Die dritte Spalte hilft beim Aussprechen; bei Bedarf die georgische Spalte vorzeigen.
+
+### Begrüssung und Höflichkeit
 
 | Deutsch | Georgisch | Umschrift |
 |---|---|---|
-| Hallo | გამარჯობა | gamarjoba |
+| Hallo / Guten Tag | გამარჯობა | gamarjoba |
 | Guten Morgen | დილა მშვიდობისა | dila mshvidobisa |
 | Guten Abend | საღამო მშვიდობისა | saghamo mshvidobisa |
 | Auf Wiedersehen | ნახვამდის | nakhvamdis |
 | Danke | მადლობა | madloba |
-| Bitte | გთხოვთ | gtkhovt |
+| Vielen Dank | დიდი მადლობა | didi madloba |
+| Bitte (bei einer Bitte) | თუ შეიძლება | tu sheidzleba |
+| Bitte (höfliche Aufforderung) | გთხოვთ | gtkhovt |
 | Gern geschehen | არაფრის | arapris |
+| Entschuldigung (jemanden ansprechen) | უკაცრავად | ukatsravad |
+| Entschuldigung / tut mir leid | ბოდიში | bodishi |
 | Ja / Nein | დიახ / არა | diakh / ara |
-| Entschuldigung | ბოდიში | bodishi |
-| Ich verstehe nicht | ვერ გავიგე | ver gavige |
-| Sprechen Sie Englisch? | ინგლისურად ლაპარაკობთ? | inglisurad laparakobt? |
-| Wo ist ...? | სად არის ...? | sad aris ...? |
-| Links / rechts | მარცხნივ / მარჯვნივ | martskhniv / marjvniv |
-| Geradeaus | პირდაპირ | pirdapir |
-| Wie viel kostet es? | რა ღირს? | ra ghirs? |
-| Zu teuer | ძალიან ძვირია | dzalian dzviria |
-| Die Rechnung, bitte | ანგარიშს გთხოვთ | angarishs gtkhovt |
+
+### Im Restaurant und beim Einkaufen
+
+| Deutsch | Georgisch | Umschrift |
+|---|---|---|
 | Wasser | წყალი | tskali |
 | Wein | ღვინო | ghvino |
-| Bier | ლუდი | ludi |
 | Kaffee / Tee | ყავა / ჩაი | qava / chai |
-| Ohne Zucker | უშაქროდ | ushakrod |
-| Ohne Nüsse | თხილეულის გარეშე | tkhileulis gareshe |
+| Brot | პური | puri |
+| Käse | ყველი | qveli |
 | Vegetarisch | ვეგეტარიანული | vegetarianuli |
+| Ohne Nüsse | თხილეულის გარეშე | tkhileulis gareshe |
+| Ohne Zucker | უშაქროდ | ushakrod |
 | Sehr lecker | ძალიან გემრიელია | dzalian gemrielia |
+| Wie viel kostet es? | რა ღირს? | ra ghirs? |
+| Die Rechnung | ანგარიში | angarishi |
+| Eins / Zwei / Drei | ერთი / ორი / სამი | erti / ori / sami |
+| Fünf / Zehn | ხუთი / ათი | khuti / ati |
+
+### Orientierung und Hilfe
+
+| Deutsch | Georgisch | Umschrift |
+|---|---|---|
+| Wo? / Wo ist ...? | სად? / სად არის ...? | sad? / sad aris ...? |
+| Links / Rechts | მარცხნივ / მარჯვნივ | martskhniv / marjvniv |
+| Geradeaus | პირდაპირ | pirdapir |
+| Hotel / Restaurant | სასტუმრო / რესტორანი | sastumro / restorani |
 | Toilette | ტუალეტი | tualeti |
-| Hotel | სასტუმრო | sastumro |
-| Restaurant | რესტორანი | restorani |
 | Tankstelle | ბენზინგასამართი სადგური | benzingasamarti sadguri |
-| Apotheke | აფთიაქი | aptiaki |
-| Arzt / Ärztin | ექიმი | ekimi |
-| Krankenhaus | საავადმყოფო | saavadmqopo |
-| Polizei | პოლიცია | politsia |
+| Apotheke / Arzt | აფთიაქი / ექიმი | aptiaki / ekimi |
+| Krankenhaus / Polizei | საავადმყოფო / პოლიცია | saavadmqopo / politsia |
 | Hilfe! | დახმარება! | dakhmareba! |
-| Ich habe Diabetes | დიაბეტი მაქვს | diabeti makvs |
-| Ich brauche Zucker | შაქარი მჭირდება | shakari mchirdeba |
-| Prost / auf das Leben | გაუმარჯოს | gaumarjos |
 
-</div>
+## Sätze
 
-## 5.7 Zahlen, Preise und Speisekarten
+Kurze, höfliche Formulierungen zum Verwenden oder Vorzeigen. Sie sind überwiegend in der höflichen Anrede gehalten. Die Übersetzung gibt die **beabsichtigte Aussage im jeweiligen Reisekontext** wieder, nicht immer jedes Wort einzeln.
 
-Preise werden meist in GEL geschrieben. Auf Speisekarten helfen Fotos und Übersetzungsapps; Allergien oder medizinische Anforderungen besser schriftlich auf Georgisch mitführen.
+### Freundlich ins Gespräch kommen
 
-## 5.8 Strassenschilder lesen
+| Deutsch | Georgisch | Umschrift |
+|---|---|---|
+| Guten Tag! | გამარჯობა! | gamarjoba! |
+| Wie geht es Ihnen? | როგორ ხართ? | rogor khart? |
+| Schön, Sie kennenzulernen. | ძალიან სასიამოვნოა. | dzalian sasiamovnoa. |
+| Vielen Dank für Ihre Hilfe. | გმადლობთ დახმარებისთვის. | gmadlobt dakhmarebistvis. |
+| Danke, das ist sehr nett von Ihnen. | დიდი მადლობა, ძალიან კეთილი ხართ. | didi madloba, dzalian ketili khart. |
+| Auf Wiedersehen und vielen Dank! | ნახვამდის, დიდი მადლობა! | nakhvamdis, didi madloba! |
 
-Wichtige Wegweiser sind meist georgisch und lateinisch beschriftet. Offlinekarte dennoch herunterladen, da Ortsumschriften variieren.
+### Restaurant, Café und Gastfreundschaft
 
-## 5.9 Namen und Höflichkeit
+| Deutsch | Georgisch | Umschrift |
+|---|---|---|
+| Das Essen war sehr lecker. | ძალიან გემრიელი იყო. | dzalian gemrieli iqo. |
+| Es schmeckt sehr gut. | ძალიან გემრიელია. | dzalian gemrielia. |
+| Ein Wasser, bitte. | ერთი წყალი, თუ შეიძლება. | erti tskali, tu sheidzleba. |
+| Zwei Kaffee, bitte. | ორი ყავა, თუ შეიძლება. | ori qava, tu sheidzleba. |
+| Die Rechnung, bitte. | ანგარიში, თუ შეიძლება. | angarishi, tu sheidzleba. |
+| Bitte ohne Nüsse. | თხილეულის გარეშე, თუ შეიძლება. | tkhileulis gareshe, tu sheidzleba. |
+| Prost! | გაუმარჯოს! | gaumarjos! |
 
-Vornamen werden rasch verwendet. Ein freundliches gamarjoba und madloba wirkt stärker als perfekte Grammatik. In Kirchen leise sprechen und Kleidungsvorgaben respektieren.
+**Wichtig:** Bei Allergien genügt ein Satz aus dem Sprachführer nicht als Sicherheitsbestätigung. Zutaten und Kreuzkontakt ausdrücklich mit dem Personal klären.
 
-## 5.10 Russisch und Englisch
+### Nachfragen und unterwegs zurechtkommen
 
-Russisch kann praktisch sein, ist politisch aber sensibel. Nicht automatisch annehmen, dass jemand Russisch sprechen möchte; zuerst Englisch oder ein paar georgische Wörter versuchen.
+| Deutsch | Georgisch | Umschrift |
+|---|---|---|
+| Entschuldigung, sprechen Sie Englisch? | უკაცრავად, ინგლისურად ლაპარაკობთ? | ukatsravad, inglisurad laparakobt? |
+| Ich habe es nicht verstanden. | ვერ გავიგე. | ver gavige. |
+| Können Sie das bitte wiederholen? | შეგიძლიათ გაიმეოროთ, თუ შეიძლება? | shegidzliat gaimeorot, tu sheidzleba? |
+| Können Sie bitte langsamer sprechen? | შეგიძლიათ ნელა ილაპარაკოთ? | shegidzliat nela ilaparakot? |
+| Wo ist die Toilette? | სად არის ტუალეტი? | sad aris tualeti? |
+| Wo ist das Hotel? | სად არის სასტუმრო? | sad aris sastumro? |
+| Wie viel kostet es? | რა ღირს? | ra ghirs? |
+| Kann ich mit Karte bezahlen? | ბარათით გადახდა შეიძლება? | baratit gadakhda sheidzleba? |
+| Ich brauche Hilfe. | დახმარება მჭირდება. | dakhmareba mchirdeba. |
+
+### Persönliche Angaben für den Notfall
+
+| Deutsch | Georgisch | Umschrift |
+|---|---|---|
+| Ich habe Diabetes. | დიაბეტი მაქვს. | diabeti makvs. |
+| Ich brauche Zucker. | შაქარი მჭირდება. | shakari mchirdeba. |
+
+Für medizinische Anliegen zusätzlich eine genau formulierte Notfallinformation mitführen. Die beiden Sätze ersetzen keine medizinische Übersetzung.
+
+## Ortsnamen
+
+Die Namen sind an **unsere tatsächliche Reiseroute** angelehnt. Das georgische Schriftbild hilft beim Abgleich mit Schildern und Karten. Die Trennstriche in der letzten Spalte sind nur eine grobe Sprechhilfe.
+
+| Ort / Bezeichnung | Georgisch | Sprechhilfe |
+|---|---|---|
+| Georgien – Sakartvelo | საქართველო | Sa-kart-ve-lo |
+| Tbilisi (Tiflis) | თბილისი | Tbi-li-si |
+| Mtskheta | მცხეთა | Mts-khe-ta |
+| Ananuri | ანანური | A-na-nu-ri |
+| Gudauri | გუდაური | Gu-da-u-ri |
+| Stepantsminda | სტეფანწმინდა | Ste-pants-min-da |
+| Kazbegi | ყაზბეგი | Qaz-be-gi |
+| Gergeti | გერგეტი | Ger-ge-ti |
+| Truso-Tal | თრუსოს ხეობა | Tru-sos khe-o-ba |
+| Juta | ჯუთა | Dschu-ta |
+| Uplisziche (Uplistsikhe) | უფლისციხე | Up-lis-tsi-khe |
+| Gori | გორი | Go-ri |
+| Kutaisi | ქუთაისი | Ku-ta-i-si |
+| Shekvetili | შეკვეთილი | Schek-ve-ti-li |
+| Batumi | ბათუმი | Ba-tu-mi |
+
+**Zwei nützliche Namensbestandteile:** *tsminda* (წმინდა) bedeutet «heilig» und *kheoba* (ხეობა) «Tal». Bei **Stepantsminda** steckt also der heilige Stephan im Namen; **Trusos kheoba** bezeichnet das Truso-Tal. Umschriften von Ortsnamen können je nach Karte leicht variieren.
