@@ -5,7 +5,7 @@ import dayPlan from './src/markdown/day-plan.mjs';
 
 export default defineConfig({
   site: 'https://manuk95.github.io',
-  base: '/reisen',
+  base:'/reisen',
   output: 'static',
   markdown: { rehypePlugins: [autoLink, dayPlan] },
   integrations: [mdx()],
