@@ -15,6 +15,6 @@ image: images/georgia-route.svg
 imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
-Schweizer Staatsangehörige reisen touristisch visumfrei. Der Reisepass wurde erneuert; vor Abreise das gültige Dokument mitnehmen und die aktuellen Einreiseanforderungen bei den zuständigen Stellen kontrollieren. Für die Reise ist eine Kranken- und Unfallversicherung mit mindestens GEL 30’000 Deckung erforderlich; den englischen oder georgischen Nachweis ausgedruckt und digital mitführen.
+Schweizer Staatsangehörige reisen touristisch visumfrei. Vor Abreise den gültigen Reisepass mitnehmen und die aktuellen Einreiseanforderungen bei den zuständigen Stellen kontrollieren. Für die Reise ist eine Kranken- und Unfallversicherung mit mindestens GEL 30’000 Deckung erforderlich; den englischen oder georgischen Nachweis ausgedruckt und digital mitführen.
 
 Aktuelle Regeln unmittelbar vor Abreise offiziell kontrollieren.
