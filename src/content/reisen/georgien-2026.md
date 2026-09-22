@@ -13,7 +13,7 @@ sources:
     url: "https://georgia.travel/"
   - label: "Cars4Rent – Mietbedingungen"
     url: "https://cars4rent.ge/en/articles/terms/"
-updated: 2026-09-17
+updated: 2026-09-22
 start: 2026-09-28
 end: 2026-10-11
 travellers: [Manuel, Martina]
@@ -22,4 +22,4 @@ hero: /reisen/images/georgia-route.svg
 ---
 Die Reise verbindet vier Landschafts- und Kulturräume. Silver 39 Corner, Baza Kazbegi und Paragraph sind gebucht. Tag 7 führt über Uplisziche mit spontaner Nacht in Gori oder Kutaisi; auch die folgende Nacht bleibt flexibel. Als durchgehender Mietwagen ist ein **Ford Bronco Sport 4WD (Automatik, 2021–2022) bei Cars4Rent** ausgewählt: **01.10.2026, 08:00 Uhr** Übernahme in Tbilisi an der 26 Shalva Dadiani Street; **10.10.2026, 18:00 Uhr** Rückgabe am Batumi International Airport. Das Kundenportal zeigt **€714 Gesamtpreis**; elektronische Vertragsunterzeichnung und endgültiger Zahlungsstand bleiben zu kontrollieren. [Details zur Miete, Versicherung und Strassenfreigabe](/reisen/georgien/fahrten/). Die vier Paragraph-Nächte bleiben ruhig, romantisch und erholsam.
 
-> **Wichtig:** Manuels im November 2026 ablaufender Reisepass sollte vor der Reise erneuert werden. Seit 1. Januar 2026 ist eine Kranken- und Unfallversicherung mit mindestens GEL 30’000 Deckung obligatorisch.
+> **Einreise:** Gültigen Reisepass und Nachweis über die vorgeschriebene Kranken- und Unfallversicherung mit mindestens GEL 30’000 Deckung mitführen.
