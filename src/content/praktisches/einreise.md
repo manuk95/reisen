@@ -4,17 +4,17 @@ slug: einreise
 trip: georgien-2026
 country: Georgien
 region: "Georgien"
-summary: "Schweizer Staatsangehörige reisen touristisch visumfrei. Den im November 2026 ablaufenden Reisepass vor Abflug erneuern."
+summary: "Einreise und Reiseversicherung für Schweizer Staatsangehörige: gültigen Reisepass, aktuelle Anforderungen und Versicherungsnachweis kontrollieren."
 categories: [praktisch]
 status: empfohlen
 days: []
 related: []
 sources: [{label: "EDA Reisehinweise Georgien", url: "https://www.eda.admin.ch/de/reisehinweise-fuer-georgien"}]
-updated: 2026-08-03
+updated: 2026-09-22
 image: images/georgia-route.svg
 imageCredit: "Lokale stilisierte Georgien-Routenkarte, eigenes SVG, keine Fremdrechte"
 ---
 
-Schweizer Staatsangehörige reisen touristisch visumfrei. Den im November 2026 ablaufenden Reisepass vor Abflug erneuern. Versicherung für Gesundheit und Unfall mit mindestens GEL 30’000 Deckung für die gesamte Reise; englischen oder georgischen Nachweis ausgedruckt und digital mitführen.
+Schweizer Staatsangehörige reisen touristisch visumfrei. Der Reisepass wurde erneuert; vor Abreise das gültige Dokument mitnehmen und die aktuellen Einreiseanforderungen bei den zuständigen Stellen kontrollieren. Für die Reise ist eine Kranken- und Unfallversicherung mit mindestens GEL 30’000 Deckung erforderlich; den englischen oder georgischen Nachweis ausgedruckt und digital mitführen.
 
 Aktuelle Regeln unmittelbar vor Abreise offiziell kontrollieren.
