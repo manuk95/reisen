@@ -49,6 +49,20 @@ Ein gutes Chatschapuri lebt vom Verhältnis zwischen Teig und Käse. Es sollte n
 
 Bestellt nicht automatisch pro Person eines. Zusammen mit Pchali, Salat, Lobio oder Fleischgerichten wird ein Chatschapuri normalerweise geteilt. Das passt auch besser zur georgischen Tischkultur, bei der mehrere Speisen gleichzeitig in der Mitte stehen.
 
+
+## Typische Zutaten
+
+Als Grundrezept für ein **Imeruli Chatschapuri**:
+
+- Weizenmehl,
+- Wasser oder Milch,
+- Hefe oder Sauerteig,
+- Salz,
+- imeretischer Käse,
+- etwas Butter.
+
+Andere regionale Varianten verändern vor allem Form, Käsemischung und Belag: Megruli erhält zusätzlichen Käse obenauf, Acharuli zusätzlich Ei und Butter.
+
 ## Auf eurer Route vergleichen
 
 Probiert bewusst **Imeruli in Kutaisi** und **Acharuli in Batumi/Adscharien**. Damit erlebt ihr zwei sehr unterschiedliche regionale Interpretationen derselben Grundidee. In Tbilisi findet ihr zwar praktisch jede Variante, aber der regionale Vergleich ist spannender.
