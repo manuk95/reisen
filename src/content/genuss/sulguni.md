@@ -28,6 +28,18 @@ Elastischer, salziger Käse, frisch oder geräuchert; zentral für westgeorgisch
 
 Typische Hauptzutaten sind **Kuh- oder Büffelmilch**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für die traditionelle Käseherstellung werden im Wesentlichen verwendet:
+
+- Kuh-, Büffel-, Schaf- oder Mischmilch,
+- Starterkultur beziehungsweise Säuerung,
+- Lab,
+- Salz.
+
+Sulguni ist ein handwerklich hergestellter Brühkäse. Die eigentliche Käseherstellung erfordert kontrollierte Temperaturen und Erfahrung; diese Liste dient deshalb als Zutatenüberblick, nicht als vollständige Herstellungsanleitung.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in Kutaisi, Gurien und Adscharien**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
