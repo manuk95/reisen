@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Ghomi", url: "https://georgia.travel/ghomi"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Ghomi; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/ghomi.jpg
+imageAlt: "Ghomi mit georgischem Sulguni-Käse"
+imageStatus: lizenziert
+imageCredit: "Ekkatterrinna"
+imageSource: "https://commons.wikimedia.org/wiki/File:Ghomi_with_Georgian_Cheese_Sulguni.jpg"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Was ist es und wie schmeckt es?
