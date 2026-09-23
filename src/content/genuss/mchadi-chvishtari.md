@@ -29,6 +29,18 @@ Maisfladen, als Chvishtari zusätzlich mit Käse; rustikal, knusprig und sättig
 
 Typische Hauptzutaten sind **Maismehl, Wasser; bei Chvishtari Sulguni**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+**Mchadi:**
+
+- Maismehl,
+- Wasser,
+- Salz,
+- etwas Öl zum Braten beziehungsweise Backen.
+
+**Chvishtari** verwendet dieselbe Grundidee, ergänzt aber reichlich **Sulguni oder anderen schmelzenden georgischen Käse**.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **zu Lobio oder Pchali in Kutaisi**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
