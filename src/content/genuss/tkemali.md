@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Tkemali", url: "https://georgia.travel/tkemali"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Tkemali; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/tkemali.jpg
+imageAlt: "Tkemali, georgische Pflaumensauce"
+imageStatus: lizenziert
+imageCredit: "Georgi1"
+imageSource: "https://commons.wikimedia.org/wiki/File:Tkemali.JPG"
+imageLicense: "CC BY-SA 3.0"
 ---
 
 ## Was ist es und wie schmeckt es?
