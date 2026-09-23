@@ -39,6 +39,17 @@ Nüsse in eingedicktem Traubensaft; fruchtig-nussiger haltbarer Reisesnack.
 
 Typische Hauptzutaten sind **Walnüsse oder Haselnüsse und Tatara aus Traubenmost**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für die klassische Grundform:
+
+- Walnüsse oder Haselnüsse,
+- Traubenmost,
+- Weizen- oder Maismehl zum Eindicken des Mosts.
+
+Die Nüsse werden auf Fäden gezogen, wiederholt in den eingedickten Traubenmost getaucht und anschliessend getrocknet. Farbe und Geschmack hängen stark von Traubensorte und Region ab.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **auf Märkten in Tbilisi oder Kutaisi**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
