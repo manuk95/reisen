@@ -11,9 +11,24 @@ coordinates: {lat: 42.6625, lon: 44.6205}
 days: [tag-05]
 related: []
 sources: [{label: "Georgia Travel: Stepantsminda", url: "https://georgia.travel/cities-towns/stepantsminda"}]
-updated: 2026-08-07
-image: images/georgien/sehenswuerdigkeiten/gergeti.jpg
-imageAlt: "English: Mountain pasture. Gergeti Trinity Church, 14th century, Georgia. Русский: Троицкая церковь в Гергети, XIV век, Мцхета-Мтианети, Грузия."
+updated: 2026-09-23
+image: images/georgien/sehenswuerdigkeiten/gergeti-slider-1.jpg
+imageAlt: "Gergetier Dreifaltigkeitskirche vor der Berglandschaft"
+imageStatus: lizenziert
+imageCredit: "Lidia Ilona"
+imageSource: "https://commons.wikimedia.org/wiki/File:Gergeti_Trinity_Church.jpg"
+imageLicense: "CC BY 2.0"
+images:
+  - src: images/georgien/sehenswuerdigkeiten/gergeti-slider-1.jpg
+    alt: "Gergetier Dreifaltigkeitskirche vor der Berglandschaft"
+    credit: "Lidia Ilona"
+    source: "https://commons.wikimedia.org/wiki/File:Gergeti_Trinity_Church.jpg"
+    license: "CC BY 2.0"
+  - src: images/georgien/sehenswuerdigkeiten/gergeti-slider-2.jpg
+    alt: "Gergetier Dreifaltigkeitskirche in der Landschaft von Khevi"
+    credit: "Levan Gokadze"
+    source: "https://commons.wikimedia.org/wiki/File:Khevi,_Georgia_%E2%80%94_Gergeti_Trinity_Church.jpg"
+    license: "CC BY-SA 2.0"
 ---
 
 ## Warum dieses Motiv so stark wirkt
