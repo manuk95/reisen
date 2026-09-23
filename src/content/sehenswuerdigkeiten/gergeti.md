@@ -3,7 +3,7 @@ title: "Gergetier Dreifaltigkeitskirche"
 slug: gergeti
 trip: georgien-2026
 country: Georgien
-region: "Kazbegi"
+region: "Mtskheta-Mtianeti"
 summary: "Kirche aus dem 14. Jahrhundert auf rund 2'170 Metern – Georgiens ikonischste Verbindung von Sakralarchitektur und Hochkaukasus."
 categories: [kultur]
 status: empfohlen
