@@ -3,7 +3,7 @@ title: "Mtskheta"
 slug: mtskheta
 trip: georgien-2026
 country: Georgien
-region: "Kartli"
+region: "Mtskheta-Mtianeti"
 summary: "Alte Hauptstadt Kartlis und geistliches Zentrum Georgiens am Zusammenfluss von Mtkvari und Aragwi."
 categories: [kultur]
 status: empfohlen
@@ -11,7 +11,7 @@ coordinates: {lat: 41.8421, lon: 44.7215}
 days: [tag-04]
 related: []
 sources: [{label: "Georgia Travel: Mtskheta", url: "https://georgia.travel/cities-towns/mtskheta"}, {label: "UNESCO: Historical Monuments of Mtskheta", url: "https://whc.unesco.org/en/list/708/"}]
-updated: 2026-08-17
+updated: 2026-09-23
 image: images/georgien/orte/mtskheta.jpg
 imageAlt: "English: Jvari Monastery, a 6th-century Georgian Orthodox monastery. Early Medieval Georgian Orthodox church. Mtskheta, Georgia. Русский: Джвари, грузинский монастырь и храм первой половины VII века. Мцхета, Грузия."
 ---
