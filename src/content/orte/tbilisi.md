@@ -3,7 +3,7 @@ title: "Tbilisi"
 slug: tbilisi
 trip: georgien-2026
 country: Georgien
-region: "Kartli"
+region: "Tbilisi"
 summary: "Georgiens Hauptstadt verbindet Schwefelquellen, mittelalterliche Altstadt, religiöse Vielfalt, sowjetische Schichten und eine lebendige Gegenwart."
 categories: [kultur]
 status: empfohlen
@@ -11,7 +11,7 @@ coordinates: {lat: 41.6938, lon: 44.8015}
 days: [tag-01, tag-02, tag-03]
 related: []
 sources: [{label: "Georgia Travel: Tbilisi", url: "https://georgia.travel/cities-towns/tbilisi"}]
-updated: 2026-08-07
+updated: 2026-09-23
 image: images/georgien/orte/tbilisi.jpg
 imageAlt: "العربية: رؤية بانورامية لتبليسي جورجيا Deutsch: Panoramaansicht von Tiflis, Georgien Ελληνικά: Πανοραμική φωτογραφία της Τιφλίδας, Γεωργία. English: Panoramic view of Tbilisi, Georgia. Français : Vue panoramique sur Tbilisi, en Géorgie. עברית: מבט פנורמי על העיר טביליסי גאורגיה. ქართული: საქართველო დედაქალაქ თბილისის პანორამა. Русский: Панорамный вид Тбилиси, Грузия."
 ---
