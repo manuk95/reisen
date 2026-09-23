@@ -4,11 +4,11 @@ const { images = [], legacy, title } = Astro.props as { images?:GalleryImage[]; 
 const slides: GalleryImage[] = images.length ? images : legacy?.src ? [legacy] : [{src:'images/platzhalter.png',alt:`Neutrales Platzhalterbild für ${title}`}];
 const base=import.meta.env.BASE_URL;
 ---
-<figure class="item-gallery" data-gallery aria-label={`Bildergalerie: ${title}`}>
+<figure class="item-gallery" data-gallery aria-label={`Bildergalerie: ${title}`} tabindex={slides.length>1?0:undefined}>
   <div class="gallery-stage">
     {slides.map((item,index)=><div class="gallery-slide" data-slide hidden={index>0}>
       <img src={`${base}${item.src}`} alt={item.alt} loading={index===0?'eager':'lazy'} decoding="async" fetchpriority={index===0?'high':'auto'} />
-      {(item.caption||item.credit)&&<figcaption>{item.caption}{item.caption&&item.credit&&' · '}{item.credit&&(item.source?<a href={item.source} target="_blank" rel="external noopener noreferrer">{item.credit}</a>:item.credit)}{item.license&&<> · {item.license}</>}</figcaption>}
+      {(item.caption||item.credit||item.license)&&<figcaption>{item.caption}{item.caption&&item.credit&&' · '}{item.credit&&(item.source?<a href={item.source} target="_blank" rel="external noopener noreferrer">{item.credit}</a>:item.credit)}{item.license&&<> · {item.license}</>}</figcaption>}
     </div>)}
     {slides.length>1&&<><button class="gallery-button previous" type="button" data-previous aria-label="Vorheriges Bild">‹</button><button class="gallery-button next" type="button" data-next aria-label="Nächstes Bild">›</button></>}
   </div>

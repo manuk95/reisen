@@ -1,0 +1,4 @@
+---
+const { title, items, section, routeRoot } = Astro.props;
+---
+{items.length>0&&<section class="related-links"><h2>{title}</h2><ul>{items.map((item:any)=><li><a href={`${routeRoot}${section}/${item.data.slug}/`}>{item.data.title}</a>{item.data.days.length>0&&<small> · {item.data.days.join(', ')}</small>}</li>)}</ul></section>}

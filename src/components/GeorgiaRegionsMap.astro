@@ -1,0 +1,50 @@
+---
+import { georgiaRegions, geometrySource } from '../data/maps/georgia-adm1';
+import { REGION_META, deriveRegionStatus, isRoutePlace, requireRegion } from '../lib/regions.mjs';
+import { entriesForRegion } from '../lib/content-links.mjs';
+const { places, sights, trip = 'georgien-2026' } = Astro.props;
+const clean = (entry:any) => ({ title:entry.data.title, slug:entry.data.slug, trip:entry.data.trip, region:entry.data.region, status:entry.data.status, days:entry.data.days, related:entry.data.related, coordinates:entry.data.coordinates });
+const placeData = places.filter((x:any)=>x.data.trip===trip).map(clean);
+const sightData = sights.filter((x:any)=>x.data.trip===trip).map(clean);
+const meta = Object.fromEntries(REGION_META.map((region:any)=>[region.id, region]));
+const states = Object.fromEntries(REGION_META.map((region:any)=>[region.id, deriveRegionStatus(region.id, placeData, sightData)]));
+const markers = placeData.filter(isRoutePlace).map((item:any)=>({ ...item, regionId:requireRegion(item.region), x:(item.coordinates.lon-40)*110, y:(43.5-item.coordinates.lat)*160 }));
+const details = Object.fromEntries(REGION_META.map((region:any)=>[region.id, { ...region, status:states[region.id], places:entriesForRegion(region.id, placeData), sights:entriesForRegion(region.id, sightData) }]));
+const base=import.meta.env.BASE_URL;
+const statusText:any={visited:'bereist',optional:'optional relevant','off-route':'nicht auf Route'};
+---
+<section class="regions-layout" aria-labelledby="regions-heading">
+  <div class="regions-map-shell">
+    <h2 id="regions-heading">Regionen der Reise</h2>
+    <p class="map-legend"><span data-status="visited">● bereist</span><span data-status="optional">◐ optional</span><span data-status="off-route">○ nicht auf Route</span></p>
+    <svg class="regions-map" viewBox="0 0 750 490" role="img" aria-labelledby="map-title map-description">
+      <title id="map-title">Interaktive Karte der Regionen Georgiens</title>
+      <desc id="map-description">Regionen nach Reisestatus; Reiseorte sind als nummerierte Marker dargestellt.</desc>
+      <rect class="sea" width="750" height="490" rx="12" />
+      {georgiaRegions.map((region)=><g class="region-group">
+        <path class:list={['region',`status-${states[region.id]}`]} data-region={region.id} d={region.path} tabindex="0" role="button" aria-label={`${meta[region.id].label}: ${statusText[states[region.id]]}`} />
+        <text class="region-label" x={region.label[0]} y={region.label[1]} text-anchor="middle">{meta[region.id].label}</text>
+      </g>)}
+      {markers.map((marker:any,index:number)=><a href={`${base}georgien/orte/${marker.slug}/`} class="place-marker" data-marker data-region={marker.regionId} aria-label={`${marker.title}, Ort öffnen`}>
+        <circle cx={marker.x} cy={marker.y} r="13" /><text x={marker.x} y={marker.y+4} text-anchor="middle">{index+1}</text><title>{marker.title}</title>
+      </a>)}
+    </svg>
+    <ol class="marker-key">{markers.map((marker:any,index:number)=><li><span>{index+1}</span><a href={`${base}georgien/orte/${marker.slug}/`}>{marker.title}</a></li>)}</ol>
+    <p class="meta">Orientierungskarte; keine Aussage zum politischen Status umstrittener Gebiete. Quelle: <a href={geometrySource.url} rel="external noopener noreferrer">{geometrySource.label}</a> · {geometrySource.license}.</p>
+  </div>
+  <aside class="region-detail" data-region-detail aria-live="polite">
+    <h2 data-region-title>{details.tbilisi.label}</h2><p><strong>Status:</strong> <span data-region-status>{statusText[details.tbilisi.status]}</span></p>
+    <section><h3>Orte</h3><ul data-region-places></ul></section>
+    <section><h3>Sehenswürdigkeiten</h3><ul data-region-sights></ul></section>
+  </aside>
+</section>
+<script type="application/json" id="region-data" set:html={JSON.stringify({details,base})}></script>
+<script>
+  const payload=JSON.parse(document.querySelector('#region-data')?.textContent||'{}');
+  const statusLabels:Record<string,string>={visited:'bereist',optional:'optional relevant','off-route':'nicht auf Route'};
+  const renderList=(node:Element|null,items:any[],section:string)=>{if(!node)return;node.replaceChildren(...(items.length?items.map(item=>{const li=document.createElement('li'),a=document.createElement('a');a.href=`${payload.base}georgien/${section}/${item.slug}/`;a.textContent=item.title;li.append(a);if(item.status==='nicht-auf-route')li.append(' (nicht auf Route)');return li;}):[Object.assign(document.createElement('li'),{textContent:'Keine Einträge.'})]));};
+  const select=(id:string)=>{const detail=payload.details[id];if(!detail)return;document.querySelectorAll('[data-region]').forEach(node=>node.classList.toggle('selected',(node as HTMLElement).dataset.region===id));const box=document.querySelector('[data-region-detail]');box?.querySelector('[data-region-title]')?.replaceChildren(detail.label);box?.querySelector('[data-region-status]')?.replaceChildren(statusLabels[detail.status]);renderList(box?.querySelector('[data-region-places]')||null,detail.places,'orte');renderList(box?.querySelector('[data-region-sights]')||null,detail.sights,'sehenswuerdigkeiten');};
+  document.querySelectorAll<SVGElement>('.region').forEach(region=>{region.addEventListener('click',()=>select(region.dataset.region||''));region.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();select(region.dataset.region||'')}})});
+  document.querySelectorAll<SVGElement>('[data-marker]').forEach(marker=>marker.addEventListener('focus',()=>select(marker.dataset.region||'')));
+  select('tbilisi');
+</script>

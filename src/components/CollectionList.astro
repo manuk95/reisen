@@ -11,7 +11,7 @@ const base=import.meta.env.BASE_URL;
     return <article class="card">
       {showImage&&<img class="card-image" src={`${base}${image}`} alt={alt} loading="lazy" decoding="async"/>}
       {showImage&&isContext&&<p class="meta"><strong>Kontextbild</strong> · zeigt nicht den Betrieb selbst</p>}
-      {showImage&&x.data.imageCredit&&<p class="meta">Bild: <a href={x.data.imageSource} rel="external noopener noreferrer" target="_blank">{x.data.imageCredit}</a>{x.data.imageLicense&&<> · {x.data.imageLicense}</>}</p>}
+      {showImage&&(primary?.credit||x.data.imageCredit)&&<p class="meta">Bild: {(primary?.source||x.data.imageSource)?<a href={primary?.source||x.data.imageSource} rel="external noopener noreferrer" target="_blank">{primary?.credit||x.data.imageCredit}</a>:(primary?.credit||x.data.imageCredit)}{(primary?.license||x.data.imageLicense)&&<> · {primary?.license||x.data.imageLicense}</>}</p>}
       {showStatus&&<span class:list={['badge',x.data.status==='fix'&&'fix']}>{x.data.status.replaceAll('-',' ')}</span>}
       <h2><a href={`${base}georgien/${section}/${x.data.slug}/`}>{x.data.title}</a></h2>
       <p>{x.data.summary}</p>

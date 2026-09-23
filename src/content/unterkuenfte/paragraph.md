@@ -4,7 +4,7 @@ pageId: 173
 slug: paragraph
 trip: georgien-2026
 country: Georgien
-region: "Shekvetili / Gurien"
+region: "Gurien"
 summary: "Fest gebuchtes Küstenresort für vier ruhige Nächte vom 6. bis 10. Oktober 2026; Gesamtpreis CHF 681."
 categories: [hotel]
 status: gebucht
