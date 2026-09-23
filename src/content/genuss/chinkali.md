@@ -47,6 +47,22 @@ Heute findet ihr neben Fleischvarianten auch Füllungen mit Pilzen, Kartoffeln o
 
 Mit Messer und Gabel aufzuschneiden funktioniert zwar, lässt aber den Saft auslaufen und nimmt dem Gericht genau das charakteristische Element.
 
+
+## Typische Zutaten
+
+Für klassische Fleisch-Chinkali:
+
+- Weizenmehl,
+- Wasser,
+- Salz,
+- Hackfleisch, traditionell je nach Region Rind, Schwein und/oder Lamm,
+- Zwiebel,
+- Wasser oder Brühe für die saftige Füllung,
+- schwarzer Pfeffer,
+- je nach Stil Koriander oder weitere Kräuter.
+
+Vegetarische Varianten mit Pilzen, Kartoffeln oder Käse sind heute ebenfalls verbreitet.
+
 ## Wo sie für euch besonders passen
 
 In [Stepantsminda](/reisen/georgien/orte/stepantsminda/) und entlang der Heerstrasse passt Chinkali besonders gut zum historischen Ursprung als Berggericht. In Tbilisi könnt ihr anschliessend eine städtische Variante vergleichen.
