@@ -29,6 +29,23 @@ Kräftiger Fleischeintopf mit Walnüssen und Gewürzen; reichhaltig und pikant.
 
 Typische Hauptzutaten sind **Rind, Walnuss, Zwiebel und Gewürze**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für megrelisches Kharcho:
+
+- Rindfleisch,
+- Walnüsse,
+- Zwiebeln,
+- Knoblauch,
+- Ajika,
+- Koriander,
+- blauer Bockshornklee,
+- Salz und Pfeffer,
+- je nach Rezept etwas Tomate oder Tomatenpüree.
+
+Nicht mit jeder Suppenvariante namens Kharcho verwechseln: Die megrelische Version ist besonders walnussreich und kräftig.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in Kutaisi oder auf dem Weg zur Küste**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
