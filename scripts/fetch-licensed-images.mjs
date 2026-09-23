@@ -54,10 +54,20 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 async function fetchImage(file) {
   const url = `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(file)}?width=1600`;
   for (let attempt = 0; attempt < 6; attempt += 1) {
-    const response = await fetch(url, {
-      redirect: 'follow',
-      headers: { 'User-Agent': 'reisen-site-media-fetch/1.0 (GitHub Pages build; personal travel guide)' },
-    });
+    let response;
+    try {
+      response = await fetch(url, {
+        redirect: 'follow',
+        signal: AbortSignal.timeout(20000),
+        headers: { 'User-Agent': 'reisen-site-media-fetch/1.0 (GitHub Pages build; personal travel guide)' },
+      });
+    } catch (error) {
+      if (attempt === 5) throw new Error(`Bildabruf fehlgeschlagen oder Timeout: ${file}`, { cause: error });
+      const wait = 2500 * (attempt + 1);
+      console.warn(`Netzwerkfehler/Timeout für ${file}; neuer Versuch in ${wait} ms.`);
+      await sleep(wait);
+      continue;
+    }
     if (response.ok) return response;
     if (![429, 502, 503, 504].includes(response.status) || attempt === 5) {
       throw new Error(`Bildabruf fehlgeschlagen: ${file} (${response.status})`);
@@ -81,5 +91,5 @@ for (const [target, file] of media) {
   const bytes = Buffer.from(await response.arrayBuffer());
   await writeFile(target, bytes);
   console.log(`Bild geladen: ${target}`);
-  await sleep(1200);
+  await sleep(1800);
 }
