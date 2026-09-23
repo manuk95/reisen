@@ -12,10 +12,14 @@ days: [tag-02]
 related: [tbilisi]
 sources:
   - {label: "Offizielle oder fachliche Information", url: "https://tbilisi.gov.ge/"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Narikala Zipline; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/sehenswuerdigkeiten/narikala-zipline.jpg
+imageAlt: "Narikala-Festung und Seilbahn in Tbilisi"
+imageStatus: lizenziert
+imageCredit: "TheFlyingDutchman"
+imageSource: "https://commons.wikimedia.org/wiki/File:Tbilisi_aerial_tramway_Rike-Narikala.JPG"
+imageLicense: "CC BY 3.0"
+imageEdit: "Kontextbild: zeigt Narikala und die Rike-Narikala-Seilbahn; nicht die Zipline selbst."
 ---
 
 ## Besuch
