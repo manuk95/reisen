@@ -28,6 +28,22 @@ Sauce aus sauren Pflaumen mit Kräutern; frisch, fruchtig und pikant.
 
 Typische Hauptzutaten sind **Tkemali-Pflaumen, Knoblauch und Kräuter**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für Tkemali:
+
+- saure Tkemali-Pflaumen,
+- Knoblauch,
+- Koriander,
+- Dill,
+- Ombalo beziehungsweise Polei-Minze,
+- Chili,
+- Salz,
+- je nach Säure der Früchte etwas Zucker.
+
+Es gibt grüne und rote Varianten; Geschmack und Kräutermischung ändern sich je nach Reifegrad der Pflaumen und Familienrezept.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **zu Kartoffeln oder Grillfleisch auf der ganzen Route**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
