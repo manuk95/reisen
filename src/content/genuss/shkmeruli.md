@@ -28,6 +28,20 @@ Gebratenes Huhn in kräftiger Knoblauch-Milch-Sauce; cremig, salzig und intensiv
 
 Typische Hauptzutaten sind **Huhn, Knoblauch, Milch oder Rahm**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für Shkmeruli:
+
+- Poulet,
+- sehr viel Knoblauch,
+- Milch oder Rahm beziehungsweise in anderen Varianten Wasser,
+- Butter,
+- Salz,
+- schwarzer Pfeffer.
+
+Das Gericht lebt von der kräftigen Knoblauchsauce. Die genaue Sauce unterscheidet sich je nach Familien- und Restaurantrezept.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in einem traditionellen Restaurant in Tbilisi oder Kutaisi**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
