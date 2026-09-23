@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Ajapsandali", url: "https://georgia.travel/ajapsandali"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Ajapsandali; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/ajapsandali.jpg
+imageAlt: "Ajapsandali, georgisches Auberginen-Gemüsegericht"
+imageStatus: lizenziert
+imageCredit: "A.Savin, Wikipedia"
+imageSource: "https://commons.wikimedia.org/wiki/File:Adjapsandali_of_Georgian_Cuisine.jpg"
+imageLicense: "CC BY-SA 3.0"
 ---
 
 ## Was ist es und wie schmeckt es?
