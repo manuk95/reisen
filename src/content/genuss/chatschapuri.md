@@ -11,9 +11,25 @@ status: empfohlen
 days: []
 related: [tbilisi, kutaisi, batumi]
 sources: [{label: "Georgia Travel: Khachapuri – True Symbol of Georgian Cuisine", url: "https://georgia.travel/get-a-taste-of-khachapuri"}, {label: "Georgia Travel: Imeretian Khachapuri", url: "https://georgia.travel/imeretian-khachapuri"}]
-updated: 2026-08-07
-image: images/georgien/genuss/chatschapuri.jpg
-imageAlt: "English: Georgian tranditional food Khachapuri sold in Guangzhou"
+updated: 2026-09-23
+image: images/georgien/genuss/chatschapuri-imeruli.jpg
+imageAlt: "Rundes imeretisches Chatschapuri mit Käsefüllung"
+imageStatus: lizenziert
+imageCredit: "Sercut"
+imageSource: "https://commons.wikimedia.org/wiki/File:Khachapuri.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
+images:
+  - src: images/georgien/genuss/chatschapuri-imeruli.jpg
+    alt: "Rundes imeretisches Chatschapuri mit Käsefüllung"
+    credit: "Sercut"
+    source: "https://commons.wikimedia.org/wiki/File:Khachapuri.jpg"
+    license: "CC BY-SA 4.0"
+  - src: images/georgien/genuss/chatschapuri-megruli.jpg
+    alt: "Megrelisches Chatschapuri mit Käsefüllung und zusätzlichem Käse auf der Oberfläche"
+    credit: "Shayat1"
+    source: "https://commons.wikimedia.org/wiki/File:Hachapori.jpg"
+    license: "CC BY-SA 3.0"
 ---
 
 ## Nicht „das“ Chatschapuri, sondern viele
