@@ -10,7 +10,7 @@ status: empfohlen
 days: []
 related: [tbilisi, kutaisi]
 sources: [{label: "UNESCO: Ancient Georgian traditional Qvevri wine-making method", url: "https://ich.unesco.org/en/RL/ancient-georgian-traditional-%20qvevri-wine-making-method-00870"}, {label: "National Wine Agency: Qvevri Wine", url: "https://wine.gov.ge/En/KvevriWine"}]
-updated: 2026-08-07
+updated: 2026-09-23
 image: images/georgien/genuss/qvevri-wein.jpg
 imageAlt: "English: The earliest Neolithic evidence for the beginnings of a wine culture in which wine dominated social and economic life has been found in Georgia. The qvevri has a capacity of approximately 100 litres, while its shape, with a broad body and narrow base, resembles that of a modern-day qvevri."
 ---
@@ -24,6 +24,19 @@ Bei der traditionellen Methode gelangen je nach Region neben dem Saft auch Schal
 ## Kachetien ist nicht ganz Georgien
 
 Die Methode unterscheidet sich regional. In Kachetien wird typischerweise ein grösserer Anteil der Traubenbestandteile mitvergoren. In Imeretien wird traditionell weniger Trester verwendet. Für eure Reise ist das besonders interessant, weil ihr **Kachetien nicht besucht**, aber in und um [Kutaisi](/reisen/georgien/orte/kutaisi/) imeretische Qvevri-Weine probieren könnt.
+
+
+## Typische Grundlage
+
+Qvevri-Wein ist kein einzelnes Rezept. Grundlage sind:
+
+- Weintrauben,
+- Traubensaft,
+- je nach Region und Stil Schalen und Kerne,
+- teilweise auch Rappen,
+- natürlich vorkommende beziehungsweise weineigene Hefen.
+
+Entscheidend ist die Vergärung und Reifung im eingegrabenen Qvevri. Wie lange der Wein auf den festen Bestandteilen bleibt, unterscheidet sich regional und nach Weinstil.
 
 ## Bei einer Degustation vergleichen
 
