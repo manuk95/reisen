@@ -24,6 +24,16 @@ const media = [
   ['public/images/georgien/sehenswuerdigkeiten/tbilisi-digital-space.jpg', 'National Gallery, Rustaveli Avenue, Tbilisi, Georgia.jpg'],
   ['public/images/georgien/sehenswuerdigkeiten/gergeti-slider-1.jpg', 'Gergeti Trinity Church.jpg'],
   ['public/images/georgien/sehenswuerdigkeiten/gergeti-slider-2.jpg', 'Khevi, Georgia — Gergeti Trinity Church.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/leghvtakhevi.jpg', 'Leghvtakhevi.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/friedensbruecke-rike-park.jpg', 'Tbilisi Peace Bridge and Rike Park.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/sno-festung.jpg', 'Sno Fortress, Snostskali Valley, Khevi, Georgia.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/kutaisi-zentrum.jpg', '2025-06-21 Colchis Fountain, Kutaisi.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/kolkheti-nationalpark.jpg', 'Lake Paliastomi.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/batumi-altstadt.jpg', 'Batumi - Piazza.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/batumi-boulevard-miracle-park.jpg', 'Batumi2025-ali-and-nino.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/petra-festung.jpg', 'Petra Fortress, Tsikhisdziri, Georgia.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/musicians-park.jpg', 'Musicians park near BSA.jpg'],
+  ['public/images/georgien/sehenswuerdigkeiten/miniature-park.jpg', 'Shekvetili Park Mukhrani palace Gruzia 2019 14.jpg'],
 ];
 
 async function exists(path) {
