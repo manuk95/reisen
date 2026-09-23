@@ -28,6 +28,21 @@ Konzentrierte Würzpaste mit Chili, Knoblauch und Gewürzen; scharf und aromatis
 
 Typische Hauptzutaten sind **Chili, Knoblauch, Salz und Gewürze**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für eine klassische rote Ajika:
+
+- rote Peperoni oder Chili,
+- Knoblauch,
+- Salz,
+- gemahlener Koriander,
+- blauer Bockshornklee,
+- getrocknete Ringelblume,
+- je nach Variante Walnüsse und weitere Kräuter.
+
+Ajika ist eine Würzpaste und wird normalerweise in kleinen Mengen verwendet; Schärfe und Salzgehalt unterscheiden sich stark.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **vorsichtig zu Fleisch und Bohnen in Westgeorgien**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
