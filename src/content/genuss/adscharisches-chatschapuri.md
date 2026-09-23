@@ -41,6 +41,21 @@ Nicht einfach mit Messer und Gabel in Stücke schneiden. Zuerst Eigelb und Butte
 
 Die Portionen sind sehr sättigend. Für zwei Personen kann ein grosses Acharuli zusammen mit Vorspeisen bereits reichen. Varianten unterscheiden sich bei Käsemischung, Teigdicke und Buttermenge.
 
+
+## Typische Zutaten
+
+Für eine klassische Acharuli-Version:
+
+- Weizenmehl,
+- Wasser oder Milch,
+- Hefe,
+- Salz,
+- imeretischer Käse und/oder Sulguni,
+- Ei,
+- Butter.
+
+Mengen und Käsemischung unterscheiden sich je nach Bäckerei und Familie. Das Ei wird häufig erst kurz vor Ende der Backzeit beziehungsweise direkt vor dem Servieren ergänzt.
+
 ## Wo es auf eurer Reise besonders passt
 
 Probiert es spätestens in [Batumi](/reisen/georgien/orte/batumi/) oder an der adscharischen Schwarzmeerküste. Dort gehört es stärker zum regionalen Kontext als in Tbilisi. Gerade nach mehreren Tagen mit klassischen Chatschapuri-Varianten wird der Unterschied deutlich.
