@@ -3,7 +3,7 @@ title: "Shekvetili Dendrological Park"
 slug: shekvetili-dendrological-park
 trip: georgien-2026
 country: Georgien
-region: "Shekvetili / Gurien"
+region: "Gurien"
 summary: "Weitläufiger Park mit internationaler Baumsammlung und Vogelbereichen nahe dem gebuchten Küstenhotel."
 categories: [natur, entspannend, fotogen]
 status: optional
