@@ -3,7 +3,7 @@ title: "Bakuriani"
 slug: bakuriani
 trip: georgien-2026
 country: Georgien
-region: "Samtskhe-Javakheti"
+region: "Samtskhe-Dschawachetien"
 summary: "Bergkurort auf rund 1'700 Metern bei Borjomi – als Hintergrund interessant, aber nicht Teil der aktuellen Route."
 categories: [berge, natur, kurort, aktivitaeten]
 status: nicht-auf-route
