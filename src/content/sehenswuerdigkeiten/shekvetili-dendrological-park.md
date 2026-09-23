@@ -12,10 +12,14 @@ days: [tag-10, tag-11]
 related: [shekvetili]
 sources:
   - {label: "Georgia Travel: Shekvetili Dendrological Park", url: "https://georgia.travel/shekvetili-dendrological-park"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Shekvetili Dendrological Park; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/sehenswuerdigkeiten/shekvetili-dendrological-park.jpg
+imageAlt: "Parklandschaft in Shekvetili, Gurien"
+imageStatus: lizenziert
+imageCredit: "Gaga.vaa"
+imageSource: "https://commons.wikimedia.org/wiki/File:Shekvetili_Park.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Kontextbild: zeigt eine Parklandschaft in Shekvetili; das Motiv ist nicht eindeutig dem Dendrological Park zugeordnet."
 ---
 
 ## Besuch
