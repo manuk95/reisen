@@ -29,6 +29,17 @@ Sehr reichhaltiger adscharischer Käse in Butter; salzig, weich und üppig.
 
 Typische Hauptzutaten sind **adscharischer Käse und Butter**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für die einfache adscharische Grundform:
+
+- junger Käse beziehungsweise Sulguni,
+- reichlich Butter oder geklärte Butter,
+- etwas Wasser.
+
+Es existieren verschiedene Borano-Varianten; je nach Haushalt können beispielsweise Ei oder Kartoffeln hinzukommen.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in Batumi teilen statt als grosse Einzelportion**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
