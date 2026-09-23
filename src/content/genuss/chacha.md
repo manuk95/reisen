@@ -10,7 +10,7 @@ status: empfohlen
 days: []
 related: [tbilisi, kutaisi]
 sources: [{label: "Georgia Travel: Georgian Chacha", url: "https://georgia.travel/georgian-chacha-vodka"}]
-updated: 2026-08-07
+updated: 2026-09-23
 image: images/georgien/genuss/chacha.jpg
 imageAlt: "A still for distilling Chacha, or Georgian vodka- this is what a typical home chacha distillery would look like.. I tried it on a couple of occasions (not here though), and it is pretty heady stuff. This still, sitting in the glistening afternoon sun, appeared to be for display only. Chacha is a Georgian pomace brandy, a clear and strong (ranging between 40% alcohol for commercially produce to 65% for home brew), which is sometimes called 'vine vodka', 'grape vodka', or 'Georgian vodka/grappa'. It is made of grape pomace (grape residue left after making wine). The term chacha is used in Georgia to refer to grape distillate. It may be also produced from unripe or wild grapes. Other common fruits or herbs used are figs, tangerines, oranges, mulberries or tarragon. Many Georgians claim chacha has medicinal properties and is suggested as a remedy for a number of ailments. (Mtskheta, Georgia, Sept. 2016)"
 ---
@@ -26,6 +26,18 @@ Die Verbindung zum Wein ist deshalb unmittelbar: Wo Wein gemacht wird, kann auch
 Bei einer georgischen Tafel kann Chacha für Trinksprüche angeboten werden. Gastfreundschaft bedeutet aber nicht, dass ihr jedes Glas austrinken müsst. Langsam trinken oder höflich ablehnen ist sinnvoll – besonders weil hausgemachter Chacha deutlich stärker sein kann als erwartet.
 
 Aromatisierte Varianten mit Kräutern, Honig oder Früchten kommen ebenfalls vor. Für einen ersten Eindruck ist eine kleine Probe eines sauberen, klassischen Traubenbrandes interessanter als mehrere süsse Varianten.
+
+
+## Typische Grundlage
+
+Chacha wird traditionell aus den festen Resten der Weinbereitung hergestellt:
+
+- Traubenschalen,
+- Kerne,
+- teilweise Stiele und Fruchtfleischreste,
+- natürliche beziehungsweise zugesetzte Hefen für die vorgelagerte Gärung.
+
+Die anschliessende Destillation ist ein fachkundiger Herstellungsprozess und keine Küchenanleitung. Für die Reise ist vor allem interessant, Chacha in kleinen Mengen bei seriösen Produzenten oder Restaurants zu probieren.
 
 ## Für eure Reise
 
