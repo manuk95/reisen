@@ -15,7 +15,14 @@ sources:
   - {label: "EasyGeorgian – 20 Georgian phrases for travelers", url: "https://easygeorgian.com/blog/georgian-phrases-for-travelers/"}
   - {label: "Georgian 101 – Eating", url: "https://www.101languages.net/georgian/eating.html"}
   - {label: "Georgia Travel – Truso-Tal", url: "https://georgia.travel/ka/%E1%83%97%E1%83%A0%E1%83%A3%E1%83%A1%E1%83%9D%E1%83%A1-%E1%83%AE%E1%83%94%E1%83%9D%E1%83%91%E1%83%90"}
-updated: 2026-09-19
+  - {label: "Georgia Travel – Tbilisi / Abanotubani", url: "https://georgia.travel/abanotubani-in-tbilisi"}
+  - {label: "Georgia Travel – Mtatsminda", url: "https://georgia.travel/mtatsminda"}
+  - {label: "Georgia Travel – Uplisziche", url: "https://georgia.travel/uplistsikhe-cave-town"}
+  - {label: "Georgia Travel – Kutaisi", url: "https://georgia.travel/cities-towns/kutaisi"}
+  - {label: "Georgia Travel – Old Batumi", url: "https://georgia.travel/old-batumi"}
+  - {label: "NPLG – Gudauri (toponymisches Wörterbuch)", url: "https://www.nplg.gov.ge/wikidict/index.php/%E1%83%92%E1%83%A3%E1%83%93%E1%83%90%E1%83%A3%E1%83%A0%E1%83%98"}
+  - {label: "NPLG – Truso (toponymisches Wörterbuch)", url: "https://www.nplg.gov.ge/wikidict/index.php/%E1%83%97%E1%83%A0%E1%83%A3%E1%83%A1%E1%83%9D"}
+updated: 2026-09-23
 ---
 
 ## Hintergrundwissen
@@ -151,24 +158,43 @@ Für medizinische Anliegen zusätzlich eine genau formulierte Notfallinformation
 
 ## Ortsnamen
 
-Die Namen sind an **unsere tatsächliche Reiseroute** angelehnt. Das georgische Schriftbild hilft beim Abgleich mit Schildern und Karten. Die Trennstriche in der letzten Spalte sind nur eine grobe Sprechhilfe.
+Die Namen sind an **unsere tatsächliche Reiseroute** angelehnt. Neben Schrift und Aussprache ist hier vermerkt, ob der Name eine gut belegte Bedeutung hat. Bei alten Ortsnamen ohne gesicherte Etymologie wird bewusst keine scheinbar exakte Übersetzung erfunden.
 
-| Ort / Bezeichnung | Georgisch | Sprechhilfe |
-|---|---|---|
-| Georgien – Sakartvelo | საქართველო | Sa-kart-ve-lo |
-| Tbilisi (Tiflis) | თბილისი | Tbi-li-si |
-| Mtskheta | მცხეთა | Mts-khe-ta |
-| Ananuri | ანანური | A-na-nu-ri |
-| Gudauri | გუდაური | Gu-da-u-ri |
-| Stepantsminda | სტეფანწმინდა | Ste-pants-min-da |
-| Kazbegi | ყაზბეგი | Qaz-be-gi |
-| Gergeti | გერგეტი | Ger-ge-ti |
-| Truso-Tal | თრუსოს ხეობა | Tru-sos khe-o-ba |
-| Juta | ჯუთა | Dschu-ta |
-| Uplisziche (Uplistsikhe) | უფლისციხე | Up-lis-tsi-khe |
-| Gori | გორი | Go-ri |
-| Kutaisi | ქუთაისი | Ku-ta-i-si |
-| Shekvetili | შეკვეთილი | Schek-ve-ti-li |
-| Batumi | ბათუმი | Ba-tu-mi |
+| Ort / Bezeichnung | Georgisch | Sprechhilfe | Bedeutung / Herkunft |
+|---|---|---|---|
+| Georgien – Sakartvelo | საქართველო | Sa-kart-ve-lo | Georgischer Eigenname des Landes; wörtliche Kurzdeutungen sind sprachgeschichtlich komplexer als «Georgien». |
+| Tbilisi (Tiflis) | თბილისი | Tbi-li-si | Von **tbili** = «warm/heiss»; Bezug zu den warmen Schwefelquellen. |
+| Abanotubani | აბანოთუბანი | A-ba-no-tu-ba-ni | **abano** = Bad + **ubani** = Quartier: «Bäderviertel». |
+| Mtatsminda | მთაწმინდა | Mta-tsmin-da | **mta** = Berg + **tsminda** = heilig: «Heiliger Berg». |
+| Sameba | სამება | Sa-me-ba | «Dreifaltigkeit»; daher Sameba-Kathedrale = Dreifaltigkeitskathedrale. |
+| Mtskheta | მცხეთა | Mts-khe-ta | Sehr alter Name; keine einfache, allgemein gesicherte moderne Übersetzung. |
+| Dschwari / Jvari | ჯვარი | Dschwa-ri | **jvari** = «Kreuz»; Dschwari-Kloster bedeutet sinngemäss Kreuzkloster. |
+| Swetizchoweli | სვეტიცხოველი | Swe-ti-zcho-we-li | Traditionell als «lebenspendende / lebensgebende Säule» verstanden. |
+| Ananuri | ანანური | A-na-nu-ri | Alter Ortsname; keine belastbare einfache Übersetzung für den Reiseführer. |
+| Gudauri | გუდაური | Gu-da-u-ri | Toponymisches Wörterbuch: aus **Ghuda/Ghuda-Berg** + Zugehörigkeitssuffix; sinngemäss «Dorf beim Ghuda-Berg». |
+| Stepantsminda | სტეფანწმინდა | Ste-pants-min-da | **Stepan** + **tsminda**: «Heiliger Stephan / Sankt Stephan». |
+| Kazbegi | ყაზბეგი | Qaz-be-gi | Historische Bezeichnung, eng mit dem Namen Kazbegi verbunden; keine sinnvolle wörtliche Übersetzung. |
+| Gergeti | გერგეტი | Ger-ge-ti | Alter Ortsname; die genaue Etymologie ist nicht sicher genug für eine eindeutige Übersetzung. |
+| Truso-Tal | თრუსოს ხეობა | Tru-sos khe-o-ba | **kheoba** = «Tal». Für **Truso** selbst ist laut toponymischer Fachquelle keine wissenschaftlich gesicherte Etymologie bekannt. |
+| Juta | ჯუთა | Dschu-ta | Für den Ortsnamen ist keine belastbare einfache Übersetzung belegt. |
+| Uplisziche (Uplistsikhe) | უფლისციხე | Up-lis-tsi-khe | **upali** = Herr/Herrscher + **tsikhe** = Festung: «Festung des Herrschers / Herrn». |
+| Gori | გორი | Go-ri | Von **gora/gori** im Sinn von «Hügel/Anhöhe»; passend zum markanten Festungshügel. |
+| Kutaisi | ქუთაისი | Ku-ta-i-si | Georgia Travel erklärt den Namen aus **kva** («Stein»), **mta** («Berg») und **isi**; sinngemäss als Stadt «zwischen Stein und Berg». Diese Deutung ist als touristische Etymologie zu verstehen. |
+| Shekvetili | შეკვეთილი | Schek-ve-ti-li | Für den Ortsnamen wird hier keine ungesicherte wörtliche Deutung angegeben. |
+| Batumi | ბათუმი | Ba-tu-mi | Georgia Travel leitet den Namen vom griechischen **bathus** = «tief» ab, im Kontext des tiefen Hafens. |
 
-**Zwei nützliche Namensbestandteile:** *tsminda* (წმინდა) bedeutet «heilig» und *kheoba* (ხეობა) «Tal». Bei **Stepantsminda** steckt also der heilige Stephan im Namen; **Trusos kheoba** bezeichnet das Truso-Tal. Umschriften von Ortsnamen können je nach Karte leicht variieren.
+### Nützliche Namensbausteine
+
+Einige Wörter tauchen auf Schildern und Ortsnamen immer wieder auf:
+
+- **mta (მთა)** = Berg,
+- **tsminda (წმინდა)** = heilig,
+- **kheoba (ხეობა)** = Tal,
+- **tsikhe (ციხე)** = Festung/Burg,
+- **jvari (ჯვარი)** = Kreuz,
+- **ubani (უბანი)** = Quartier/Stadtviertel,
+- **abano (აბანო)** = Bad,
+- **sameba (სამება)** = Dreifaltigkeit.
+
+Damit lassen sich Namen wie **Mtatsminda**, **Stepantsminda**, **Uplisziche** oder **Abanotubani** unterwegs tatsächlich besser lesen. Bei anderen alten Toponymen ist die Herkunft dagegen umstritten oder nicht sicher geklärt; dort ist «unbekannt» besser als eine hübsche, aber erfundene Übersetzung.
+
