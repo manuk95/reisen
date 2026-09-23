@@ -12,10 +12,14 @@ days: [tag-02, tag-03]
 related: [tbilisi]
 sources:
   - {label: "Offizielle oder fachliche Information", url: "https://tbilisidigitalspace.ge/"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Tbilisi Digital Space; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/sehenswuerdigkeiten/tbilisi-digital-space.jpg
+imageAlt: "National Gallery an der Rustaveli Avenue in Tbilisi"
+imageStatus: lizenziert
+imageCredit: "JohnDodelande_Georgie"
+imageSource: "https://commons.wikimedia.org/wiki/File:National_Gallery,_Rustaveli_Avenue,_Tbilisi,_Georgia.jpg"
+imageLicense: "CC0 1.0"
+imageEdit: "Kontextbild: zeigt die Rustaveli Avenue beziehungsweise die National Gallery, nicht Tbilisi Digital Space selbst."
 ---
 
 ## Besuch
