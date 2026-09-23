@@ -28,6 +28,19 @@ Käserollen mit Minze in milchiger Sauce; kühl, salzig und kräuterfrisch.
 
 Typische Hauptzutaten sind **Sulguni, Minze und Milchprodukt**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für Gebzhalia:
+
+- junger Sulguni oder anderer elastischer Frischkäse,
+- frische Minze,
+- Matsoni, Milch oder eine milde Milch-Käse-Sauce,
+- Salz,
+- je nach Rezept etwas Knoblauch.
+
+Der Käse wird weich gemacht, mit Minze gefüllt beziehungsweise eingerollt und in der milden Sauce serviert.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in einem westgeorgischen Restaurant**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
