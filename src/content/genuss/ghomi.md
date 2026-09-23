@@ -28,6 +28,19 @@ Milder, cremiger Maisbrei als Träger für Käse und kräftige Saucen.
 
 Typische Hauptzutaten sind **Maisgriess und Wasser**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für Ghomi:
+
+- grobe Maisgrütze,
+- feines Maismehl,
+- Wasser,
+- Salz,
+- zum Servieren häufig Sulguni.
+
+Ghomi selbst ist bewusst schlicht; der Geschmack entsteht oft erst durch Käse, Saucen oder kräftige megrelische Gerichte, die dazu serviert werden.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in Westgeorgien mit Sulguni oder Kharcho**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
