@@ -28,6 +28,21 @@ Eingelegte Blütenstände der Pimpernuss; säuerlich, salzig und knackig.
 
 Typische Hauptzutaten sind **Jonjoli, Salzlake und Gewürze**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für eingelegtes Jonjoli:
+
+- junge Blütenstände beziehungsweise Knospen des Blasenstrauchs,
+- Essig,
+- Salz,
+- Wasser,
+- Zwiebeln,
+- Pflanzenöl,
+- frischer Koriander.
+
+Jonjoli wird eher als säuerliche Beilage oder Teil einer Vorspeisenplatte gegessen als als eigenständiges Hauptgericht.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **als Beilage zu Lobio oder Mzwadi**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
