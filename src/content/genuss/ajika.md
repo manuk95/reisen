@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Ajika", url: "https://georgia.travel/ajika"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Ajika; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/ajika.jpg
+imageAlt: "Georgische Ajika aus roten Peperoni und Walnüssen"
+imageStatus: lizenziert
+imageCredit: "Georgian Recipes at Georgia About"
+imageSource: "https://commons.wikimedia.org/wiki/File:Ajika_made_with_walnuts_and_red_peppers.jpg"
+imageLicense: "CC BY 3.0"
 ---
 
 ## Was ist es und wie schmeckt es?
