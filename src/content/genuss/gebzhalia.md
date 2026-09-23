@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Gebzhalia", url: "https://georgia.travel/gebzhalia"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Gebzhalia; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/gebzhalia.jpg
+imageAlt: "Gebzhalia mit Matsoni"
+imageStatus: lizenziert
+imageCredit: "Georgian Recipes at Georgia About"
+imageSource: "https://commons.wikimedia.org/wiki/File:Gebzhalia_with_matsoni.jpg"
+imageLicense: "CC BY 3.0"
 ---
 
 ## Was ist es und wie schmeckt es?
