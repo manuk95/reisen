@@ -28,6 +28,22 @@ Aromatischer Gemüseeintopf mit Aubergine, Tomate und Kräutern; saftig und leic
 
 Typische Hauptzutaten sind **Aubergine, Tomate, Peperoni, Zwiebel und Kräuter**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für eine typische Ajapsandali-Version:
+
+- Auberginen,
+- Tomaten,
+- Peperoni,
+- Zwiebeln,
+- Knoblauch,
+- Koriander, Petersilie und/oder Basilikum,
+- Pflanzenöl,
+- Salz und Pfeffer.
+
+Je nach Region kommen Kartoffeln oder Chili dazu; das Gericht kann warm oder kalt serviert werden.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **als fleischlose Mahlzeit entlang der ganzen Route**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
