@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Lobiani", url: "https://georgia.travel/lobiani"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Lobiani; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/lobiani.jpg
+imageAlt: "Lobiani, georgisches mit Bohnen gefülltes Brot"
+imageStatus: lizenziert
+imageCredit: "Eka Samkharadze"
+imageSource: "https://commons.wikimedia.org/wiki/File:Lobiani_-_bean-filled_bread.jpg"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Was ist es und wie schmeckt es?
