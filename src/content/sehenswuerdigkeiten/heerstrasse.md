@@ -3,7 +3,7 @@ title: "Georgische Heerstrasse"
 slug: heerstrasse
 trip: georgien-2026
 country: Georgien
-region: "Kaukasus"
+region: "Mtskheta-Mtianeti"
 summary: "Historische Nord-Süd-Route durch den Grossen Kaukasus – für euch nicht nur Anfahrt, sondern einer der landschaftlichen Haupttage der Reise."
 categories: [kultur]
 status: empfohlen
