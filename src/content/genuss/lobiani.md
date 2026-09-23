@@ -28,6 +28,22 @@ Herzhaftes gefülltes Brot mit gewürzten Bohnen; sättigend und unkompliziert.
 
 Typische Hauptzutaten sind **Teig, Bohnen, Zwiebel und Gewürze**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für Lobiani:
+
+- Weizenmehl,
+- Wasser,
+- Hefe,
+- Salz,
+- gekochte Bohnen,
+- Zwiebeln,
+- Pflanzenöl oder Butter,
+- schwarzer Pfeffer und weitere Gewürze nach Region.
+
+Die Bohnenfüllung kann sehr schlicht oder deutlich kräftiger gewürzt sein.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **als Snack auf einem Fahrtag**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
