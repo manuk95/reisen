@@ -13,10 +13,14 @@ related: [tbilisi]
 sources:
   - {label: "1907 Tiflis bank robbery – Überblick und Literaturhinweise", url: "https://en.wikipedia.org/wiki/1907_Tiflis_bank_robbery"}
   - {label: "Encyclopaedia Britannica: Joseph Stalin", url: "https://www.britannica.com/biography/Joseph-Stalin"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Freedom Square – Tifliser Bankraub von 1907; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/sehenswuerdigkeiten/freedom-square-bankraub-1907.jpg
+imageAlt: "Historische Ansicht des damaligen Erivansky Square in Tbilisi in den 1870er-Jahren"
+imageStatus: lizenziert
+imageCredit: "George Kennan / New York Public Library"
+imageSource: "https://commons.wikimedia.org/wiki/File:Yerevan_Square,_Tbilisi.jpg"
+imageLicense: "Public Domain"
+imageEdit: "Historisches Kontextbild: zeigt den damaligen Erivansky Square einige Jahrzehnte vor dem Bankraub von 1907."
 ---
 
 ## Besuch
