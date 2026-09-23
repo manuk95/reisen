@@ -30,18 +30,37 @@ async function exists(path) {
   try { await access(path); return true; } catch { return false; }
 }
 
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+async function fetchImage(file) {
+  const url = `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(file)}?width=1600`;
+  for (let attempt = 0; attempt < 6; attempt += 1) {
+    const response = await fetch(url, {
+      redirect: 'follow',
+      headers: { 'User-Agent': 'reisen-site-media-fetch/1.0 (GitHub Pages build; personal travel guide)' },
+    });
+    if (response.ok) return response;
+    if (![429, 502, 503, 504].includes(response.status) || attempt === 5) {
+      throw new Error(`Bildabruf fehlgeschlagen: ${file} (${response.status})`);
+    }
+    const retryAfter = Number(response.headers.get('retry-after'));
+    const wait = Number.isFinite(retryAfter) && retryAfter > 0
+      ? retryAfter * 1000
+      : 2000 * (attempt + 1);
+    console.warn(`Wikimedia antwortet mit ${response.status}; neuer Versuch für ${file} in ${wait} ms.`);
+    await sleep(wait);
+  }
+  throw new Error(`Bildabruf fehlgeschlagen: ${file}`);
+}
+
 for (const [target, file] of media) {
   if (await exists(target)) continue;
   await mkdir(dirname(target), { recursive: true });
-  const url = `https://commons.wikimedia.org/wiki/Special:Redirect/file/${encodeURIComponent(file)}?width=1600`;
-  const response = await fetch(url, {
-    redirect: 'follow',
-    headers: { 'User-Agent': 'reisen-site-media-fetch/1.0 (GitHub Pages build)' },
-  });
-  if (!response.ok) throw new Error(`Bildabruf fehlgeschlagen: ${file} (${response.status})`);
+  const response = await fetchImage(file);
   const type = response.headers.get('content-type') ?? '';
   if (!type.startsWith('image/')) throw new Error(`Unerwarteter Inhalt für ${file}: ${type}`);
   const bytes = Buffer.from(await response.arrayBuffer());
   await writeFile(target, bytes);
   console.log(`Bild geladen: ${target}`);
+  await sleep(1200);
 }
