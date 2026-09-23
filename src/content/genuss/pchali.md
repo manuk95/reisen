@@ -10,7 +10,7 @@ status: empfohlen
 days: []
 related: [tbilisi, kutaisi]
 sources: [{label: "Georgia Travel: Vegetarian Georgian Food", url: "https://georgia.travel/a-guide-to-vegetarian-georgian-food"}, {label: "Georgia Travel: Field Pkhali", url: "https://georgia.travel/field-pkhali"}]
-updated: 2026-08-07
+updated: 2026-09-23
 image: images/georgien/genuss/pchali.jpg
 imageAlt: "English: Georgian cuisine: Pkhali, Badrijani and Ajika on table"
 ---
@@ -24,6 +24,22 @@ Walnüsse sind dabei nicht nur Dekoration, sondern geben Struktur und einen gros
 ## Besonders interessant in Imeretien
 
 Westgeorgien und insbesondere Imeretien besitzt eine ausgeprägte Tradition von Kräuter- und Gemüsegerichten. Dort gibt es auch saisonales **Feld-Pchali** aus verschiedenen Wildkräutern. Für euren Aufenthalt in [Kutaisi](/reisen/georgien/orte/kutaisi/) lohnt es sich deshalb, nach regionalen Varianten zu fragen.
+
+
+## Typische Zutaten
+
+Für eine klassische Pchali-Grundmasse:
+
+- gekochtes oder blanchiertes Gemüse wie Spinat, Randen oder Kohl,
+- Walnüsse,
+- Knoblauch,
+- frischer Koriander,
+- blauer Bockshornklee,
+- Essig,
+- Salz und Pfeffer,
+- Granatapfelkerne zum Garnieren.
+
+Pchali bezeichnet eher eine Zubereitungsart als ein einziges festes Rezept; das Gemüse kann deshalb stark variieren.
 
 ## So bestellen
 
