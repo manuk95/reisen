@@ -11,10 +11,14 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Mchadi und Chvishtari", url: "https://georgia.travel/mchadi"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Mchadi und Chvishtari; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/mchadi-chvishtari.jpg
+imageAlt: "Mchadi, georgisches Maisbrot"
+imageStatus: lizenziert
+imageCredit: "Georgian Recipes at Georgia About"
+imageSource: "https://commons.wikimedia.org/wiki/File:Mchadi_2.jpg"
+imageLicense: "CC BY 3.0"
+imageEdit: "Kontextbild: zeigt Mchadi; Chvishtari ist die mit Käse angereicherte Variante."
 ---
 
 ## Was ist es und wie schmeckt es?
