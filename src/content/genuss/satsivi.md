@@ -28,6 +28,24 @@ Geflügel in kühler, dichter Walnusssauce; würzig und festlich.
 
 Typische Hauptzutaten sind **Huhn oder Truthahn, Walnuss, Knoblauch und Gewürze**. Rezepte unterscheiden sich nach Region und Küche. Am besten zunächst eine Portion zum Teilen bestellen und zusammen mit Salat, Brot oder weiteren kleinen Tellern kombinieren. Bei Allergien Zutaten ausdrücklich abklären.
 
+
+## Typische Zutaten
+
+Für Satsivi:
+
+- Truthahn oder Poulet,
+- Walnüsse,
+- Zwiebeln,
+- Knoblauch,
+- Koriander,
+- blauer Bockshornklee,
+- Gewürze wie Zimt oder Nelke je nach Rezept,
+- Brühe,
+- etwas Essig,
+- Salz und Pfeffer.
+
+Das charakteristische Element ist die dicke, würzige Walnusssauce; Satsivi wird traditionell häufig kalt beziehungsweise bei Raumtemperatur serviert.
+
 ## Auf eurer Route
 
 Sinnvoll probieren könnt ihr es **in Tbilisi als Teil einer Supra**. Name zeigen oder aussprechen lassen; Beilagen und Schärfe vor der Bestellung erfragen. Verfügbarkeit ist saison- und restaurantabhängig.
