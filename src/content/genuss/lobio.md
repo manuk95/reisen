@@ -10,7 +10,7 @@ status: empfohlen
 days: []
 related: [tbilisi, kutaisi]
 sources: [{label: "Georgia Travel: Lobio – Bean Stew", url: "https://georgia.travel/lobio-bean-stew"}]
-updated: 2026-08-07
+updated: 2026-09-23
 image: images/georgien/genuss/lobio.jpg
 imageAlt: "Русский: Лобио с гранатовым соком"
 ---
@@ -26,6 +26,23 @@ Die bekannte Restaurantversion wird häufig warm und kräftig gewürzt in einem 
 Nach mehreren käse- und fleischreichen Gerichten zeigt Lobio eine andere Seite der georgischen Küche. Es ist sättigend, meist günstig und kann eine gute vegetarische Hauptspeise sein. In Imeretien rund um [Kutaisi](/reisen/georgien/orte/kutaisi/) begegnet ihr anderen Würzungen und Beilagen als in Tbilisi.
 
 Lobio ist nicht automatisch vegan: Je nach Rezept können Butter, Fleisch oder tierische Brühe verwendet werden. Bei Bedarf ausdrücklich nachfragen. Walnüsse sind in vielen georgischen Rezepten verbreitet und bei Nussallergien besonders zu beachten.
+
+
+## Typische Zutaten
+
+Für einen klassischen Lobio-Eintopf:
+
+- rote Bohnen,
+- Zwiebeln,
+- Knoblauch,
+- frischer Koriander,
+- blauer Bockshornklee,
+- Chili oder Peperoni,
+- Salz und Pfeffer,
+- etwas Essig,
+- je nach Variante Walnüsse.
+
+Lobio wird häufig mit Mchadi, eingelegtem Gemüse und frischen Kräutern serviert.
 
 ## Dazu bestellen
 
