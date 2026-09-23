@@ -12,10 +12,14 @@ days: [tag-02, tag-03]
 related: [tbilisi]
 sources:
   - {label: "Offizielle oder fachliche Information", url: "https://museumofillusions.ge/"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Museum of Illusions Tbilisi; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/sehenswuerdigkeiten/museum-of-illusions-tbilisi.jpg
+imageAlt: "Betlemi-Viertel in der Altstadt von Tbilisi"
+imageStatus: lizenziert
+imageCredit: "Roberto Strauss"
+imageSource: "https://commons.wikimedia.org/wiki/File:Betlemi_neighborhood_in_Old_Tbilisi.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Kontextbild: zeigt das Betlemi-Viertel, in dem das Museum an der Betlemi-Strasse liegt; nicht das Museum selbst."
 ---
 
 ## Besuch
