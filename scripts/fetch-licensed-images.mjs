@@ -34,6 +34,7 @@ const media = [
   ['public/images/georgien/sehenswuerdigkeiten/petra-festung.jpg', 'Petra Fortress, Tsikhisdziri, Georgia.jpg'],
   ['public/images/georgien/sehenswuerdigkeiten/musicians-park.jpg', 'Musicians park near BSA.jpg'],
   ['public/images/georgien/sehenswuerdigkeiten/miniature-park.jpg', 'Shekvetili Park Mukhrani palace Gruzia 2019 14.jpg'],
+  ['public/images/georgien/orte/gori.jpg', 'Panoramic View from Gori Fortress.jpg'],
 ];
 
 async function exists(path) {
