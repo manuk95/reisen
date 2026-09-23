@@ -10,7 +10,7 @@ status: empfohlen
 days: []
 related: [tbilisi]
 sources: [{label: "Georgia Travel: Mtsvadi", url: "https://georgia.travel/mtsvadi"}]
-updated: 2026-08-07
+updated: 2026-09-23
 image: images/georgien/genuss/mzwadi.jpg
 imageAlt: "Georgia food"
 ---
@@ -24,6 +24,19 @@ Besonders bekannt ist die kachetische Tradition: Dort kann das Fleisch über get
 ## Mehr als ein Restaurantgericht
 
 Mzwadi gehört stark zum geselligen Kochen im Freien. Bei Familienfesten und Weinlese ist das Grillen selbst Teil des Ereignisses. Im Restaurant fehlt dieser soziale Kontext teilweise, aber ein gut gemachter Spiess vermittelt trotzdem die sehr direkte, rauchige Seite der georgischen Küche.
+
+
+## Typische Zutaten
+
+Für Mzwadi:
+
+- Schweine-, Rind- oder Lammfleisch,
+- Zwiebeln,
+- Salz,
+- schwarzer Pfeffer,
+- je nach Region Granatapfel, Essig oder Kräuter zum Servieren.
+
+Die Zubereitung ist bewusst schlicht: Entscheidend sind Fleischqualität, Glut und Gargrad, nicht eine schwere Marinade.
 
 ## Für eure Route
 
