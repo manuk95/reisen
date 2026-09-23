@@ -1,6 +1,6 @@
 # Aktueller Arbeitsplan
 
-Stand: 17. September 2026
+Stand: 23. September 2026
 
 Dieses Dokument ist die **einzige zentrale Quelle für offene Arbeiten** am Reiseführer-Projekt. Historische Pläne und Recherchestände unter `docs/archive/` sind keine aktuellen Arbeitsanweisungen.
 
@@ -29,6 +29,16 @@ Das Repository ist für **mehrere Reisen** ausgelegt. Georgien 2026 ist die erst
 **Spezifikation:** [`ANFORDERUNGEN_TAGESPLAN.md`](ANFORDERUNGEN_TAGESPLAN.md)
 
 Umgesetzt sind Single-Source-Tagesablauf aus Markdown, optionale Details, Google-Maps-/Kürzungs-/Schlechtwetterabschnitte, kompakte Tagesfakten, Sticky Tag-Navigation und Tests.
+
+## 1.2 Seite «Heute» / Tagesübersicht verbessern
+
+**Status:** OFFEN  
+**Verantwortlich:** Codex  
+**Reihenfolge:** nach Phase 9.3
+
+Die Seite `/georgien/heute/` soll als mobile Reiseübersicht aus den bereits vorhandenen Tages- und Content-Daten weiterentwickelt werden. Ziel sind aktueller Reisetag, nächster Programmpunkt, kompakter Tagesablauf, Unterkunft, Tagesfakten und relevante Direktlinks ohne parallele Datenpflege.
+
+Die technische Umsetzung erfolgt erst nach der Karten-/Regions- und Verknüpfungsarbeit aus Phase 9.3, damit dieselben Datenbeziehungen wiederverwendet werden können.
 
 ---
 
@@ -273,6 +283,24 @@ Pro Eintrag entscheiden:
 **Verantwortlich:** Codex
 
 Nur wenn der Audit echte technische Lücken zeigt.
+
+## 9.3 Karten, Regionen und Content-Verknüpfungen
+
+**Status:** OFFEN  
+**Verantwortlich:** Codex  
+**Spezifikation Regionenkarte:** [`KONZEPT_REGIONENKARTE.md`](KONZEPT_REGIONENKARTE.md)
+
+Nächstes grösseres technisches Arbeitspaket:
+
+- auf `/georgien/orte/` die lokale, interaktive SVG-Regionenkarte gemäss Spezifikation umsetzen;
+- `/georgien/karte/` vollständig aus den vorhandenen Content-Daten speisen und die aktuelle schematische Gerade-Linie-Lösung fachlich korrigieren;
+- «Entlang der Route» als echte Nähe zu einer Route beziehungsweise Routengeometrie berechnen statt über einen sehr grossen Radius;
+- Orte, Sehenswürdigkeiten, Unterkünfte und weitere relevante Inhalte stärker über vorhandene Felder wie `trip`, `days`, `region`, `related` und `coordinates` verknüpfen;
+- Regionsnormalisierung zentralisieren und unscharfe/abweichende Regionswerte technisch erkennen;
+- Bildslider mit realen Mehrbild-Einträgen technisch kontrollieren;
+- dabei gezielte Codepflege, Tests und reproduzierbare CI-Verbesserungen durchführen, ohne unnötigen Grossrefactor.
+
+Nach Abschluss dieses Arbeitspakets die Seite `/georgien/heute/` gemäss Phase 1.2 angehen.
 
 ---
 
