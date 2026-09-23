@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Churchkhela", url: "https://georgia.travel/churchkhela"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Churchkhela; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/churchkhela.jpg
+imageAlt: "Churchkhela in Kachetien, Georgien"
+imageStatus: lizenziert
+imageCredit: "Levan Gokadze"
+imageSource: "https://commons.wikimedia.org/wiki/File:Kakheti,_Georgia_%E2%80%94_Churchkhela.jpg"
+imageLicense: "CC BY-SA 2.0"
 ---
 
 ## Was ist es und wie schmeckt es?
