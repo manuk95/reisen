@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Jonjoli", url: "https://georgia.travel/jonjoli"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Jonjoli; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/jonjoli.jpg
+imageAlt: "Eingelegte Jonjoli-Blütenknospen"
+imageStatus: lizenziert
+imageCredit: "Temur888"
+imageSource: "https://commons.wikimedia.org/wiki/File:Jonjoli_bladdernut_flower_pickles.jpg"
+imageLicense: "CC0 1.0"
 ---
 
 ## Was ist es und wie schmeckt es?
