@@ -18,6 +18,17 @@ imageStatus: lizenziert
 imageCredit: "Levan Gokadze"
 imageSource: "https://commons.wikimedia.org/wiki/File:Kakheti,_Georgia_%E2%80%94_Churchkhela.jpg"
 imageLicense: "CC BY-SA 2.0"
+images:
+  - src: images/georgien/genuss/churchkhela.jpg
+    alt: "Churchkhela in Kachetien, Georgien"
+    credit: "Levan Gokadze"
+    source: "https://commons.wikimedia.org/wiki/File:Kakheti,_Georgia_%E2%80%94_Churchkhela.jpg"
+    license: "CC BY-SA 2.0"
+  - src: images/georgien/genuss/churchkhela-making.jpg
+    alt: "Herstellung von Churchkhela durch Eintauchen der Nussketten in eingedickten Traubenmost"
+    credit: "Levan Gokadze"
+    source: "https://commons.wikimedia.org/wiki/File:Making_of_Churchkhela_(6253776040).jpg"
+    license: "CC BY-SA 2.0"
 ---
 
 ## Was ist es und wie schmeckt es?
