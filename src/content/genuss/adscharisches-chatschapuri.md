@@ -10,9 +10,25 @@ status: empfohlen
 days: []
 related: [batumi]
 sources: [{label: "Georgia Travel: Ajarian Khachapuri", url: "https://georgia.travel/ship-and-sun-the-inspiration-for-ajarian-khachapuri"}]
-updated: 2026-08-07
-image: images/georgien/genuss/adscharisches-chatschapuri.jpg
-imageAlt: "English: Adjarian khachapuri is a traditional dish from the Adjara region of Georgia. It consists of a baked bread shaped like a boat and filled with melted cheese. Before serving, a raw egg and butter are placed on top, and they are mixed into the cheese while the dish is still hot. Русский: Аджарский хачапури, традиционное блюдо грузинской кухни из региона Аджария. Представляет собой выпеченную лепёшку в форме лодочки, наполненную расплавленным сыром. Перед подачей сверху добавляют сырое яйцо и кусочек масла, которые перемешивают с горячей начинкой."
+updated: 2026-09-23
+image: images/georgien/genuss/adscharisches-chatschapuri-1.jpg
+imageAlt: "Adscharisches Chatschapuri in Bootsform mit Käse, Ei und Butter"
+imageStatus: lizenziert
+imageCredit: "Eka Samkharadze"
+imageSource: "https://commons.wikimedia.org/wiki/File:Adjarian_khachapuri.jpg"
+imageLicense: "CC BY-SA 4.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
+images:
+  - src: images/georgien/genuss/adscharisches-chatschapuri-1.jpg
+    alt: "Adscharisches Chatschapuri in Bootsform mit Käse, Ei und Butter"
+    credit: "Eka Samkharadze"
+    source: "https://commons.wikimedia.org/wiki/File:Adjarian_khachapuri.jpg"
+    license: "CC BY-SA 4.0"
+  - src: images/georgien/genuss/adscharisches-chatschapuri-2.jpg
+    alt: "Serviertes adscharisches Chatschapuri mit Eigelb und Butter"
+    credit: "Helen Owl"
+    source: "https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri.jpg"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Das kulinarische Symbol der Schwarzmeerküste
