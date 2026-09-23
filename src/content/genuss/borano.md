@@ -11,10 +11,14 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Borano", url: "https://georgia.travel/borano"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Borano; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/borano.jpg
+imageAlt: "Sulguni-Käse als zentrale Zutat von Borano"
+imageStatus: lizenziert
+imageCredit: "Georgian Recipes at Georgia About"
+imageSource: "https://commons.wikimedia.org/wiki/File:Discs-of-sulguni-cheese.jpg"
+imageLicense: "CC BY 3.0"
+imageEdit: "Kontextbild: zeigt Sulguni als zentrale Borano-Zutat, nicht das fertige Gericht."
 ---
 
 ## Was ist es und wie schmeckt es?
