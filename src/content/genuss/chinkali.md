@@ -10,9 +10,25 @@ status: empfohlen
 days: []
 related: [tbilisi, stepantsminda]
 sources: [{label: "Georgia Travel: Khinkali", url: "https://georgia.travel/khinkali"}]
-updated: 2026-08-07
-image: images/georgien/genuss/chinkali.jpg
-imageAlt: "Aragvi 832 Sheppard Ave W, Toronto"
+updated: 2026-09-23
+image: images/georgien/genuss/chinkali-1.jpg
+imageAlt: "Mehrere traditionelle georgische Chinkali auf einem Teller"
+imageStatus: lizenziert
+imageCredit: "Creative Ape2012"
+imageSource: "https://commons.wikimedia.org/wiki/File:Khinkali_georgian.jpg"
+imageLicense: "CC BY-SA 2.0"
+imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltliche Bearbeitung."
+images:
+  - src: images/georgien/genuss/chinkali-1.jpg
+    alt: "Mehrere traditionelle georgische Chinkali auf einem Teller"
+    credit: "Creative Ape2012"
+    source: "https://commons.wikimedia.org/wiki/File:Khinkali_georgian.jpg"
+    license: "CC BY-SA 2.0"
+  - src: images/georgien/genuss/chinkali-2.jpg
+    alt: "Nahaufnahme traditioneller georgischer Chinkali"
+    credit: "Helen Owl"
+    source: "https://commons.wikimedia.org/wiki/File:Khinkali_-_Traditional_Georgian_food.jpg"
+    license: "CC BY-SA 4.0"
 ---
 
 ## Bergessen, das zum Nationalgericht wurde
