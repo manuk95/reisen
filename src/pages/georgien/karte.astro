@@ -1,101 +1,42 @@
 ---
 import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { specialPoints, routeStages, routeGeometry } from '../../data/route';
+import { collectionMapPoints } from '../../lib/map-points.mjs';
+const base=import.meta.env.BASE_URL;
+const definitions=[['orte','place','orte'],['sehenswuerdigkeiten','sight','sehenswuerdigkeiten'],['unterkuenfte','hotel','hotels'],['restaurants','restaurant','restaurants']] as const;
+const contentPoints=(await Promise.all(definitions.map(async([collection,type,section])=>collectionMapPoints((await getCollection(collection,({data})=>data.trip==='georgien-2026')).map(entry=>entry.data),type,section)))).flat();
+const points=[...contentPoints,...specialPoints];
 ---
 <Base title="Karte und in der Nähe">
   <div class="wrap">
-    <p class="eyebrow">Route · Etappen · Orte</p>
-    <h1>Karte</h1>
-    <aside class="alert"><strong>Online-Hinweis:</strong> Kartenkacheln benötigen Internet und werden nicht offline vorab gespeichert. Koordinaten und Einträge bleiben verfügbar.</aside>
-    <div class="filters" aria-label="Kartenfilter"><button data-filter="all">Alle</button><button data-filter="place">Orte</button><button data-filter="sight">Sehenswürdigkeiten</button><button data-filter="hotel">Unterkunft</button><button data-filter="airport">Flughäfen</button></div>
+    <p class="eyebrow">Route · Etappen · Orte</p><h1>Karte</h1>
+    <aside class="alert"><strong>Online-Hinweis:</strong> Nur die OpenStreetMap-Kartenkacheln benötigen Internet. Punkte, schematische Etappen und Distanzberechnung sind lokal im Reiseführer enthalten.</aside>
+    <p>Die Etappenlinien zeigen den <strong>schematischen Reiseverlauf</strong>, keine strassengenaue Navigation. Gori und Kutaisi bleiben als unterschiedlich gestrichelte flexible Varianten sichtbar.</p>
+    <div class="filters" aria-label="Kartenfilter"><button data-filter="all" aria-pressed="true">Alle</button><button data-filter="place">Orte</button><button data-filter="sight">Sehenswürdigkeiten</button><button data-filter="hotel">Unterkünfte</button><button data-filter="restaurant">Restaurants</button><button data-filter="airport">Flughäfen</button></div>
     <div id="map" class="map" aria-label="Interaktive Karte der Georgienroute"></div>
-    <section>
-      <h2>In der Nähe</h2>
-      <p>Dein Standort wird erst nach Betätigung erfragt, nur lokal zur Distanzberechnung verwendet und weder gespeichert noch übertragen.</p>
-      <div class="filters"><button id="locate">Standort verwenden</button><button data-radius="0.5">500 m</button><button data-radius="2">2 km</button><button data-radius="10">10 km</button><button data-radius="999">Entlang der Route</button></div>
-      <p id="geo-status" role="status">Standort nicht angefragt.</p>
-      <ol id="nearby"></ol>
-    </section>
-    <noscript>Ohne JavaScript ist die Karte nicht interaktiv. Alle Koordinaten stehen auf den redaktionellen Ortsseiten.</noscript>
+    <section><h2>In der Nähe</h2><p>Dein Standort wird erst nach Betätigung erfragt, nur lokal verwendet und weder gespeichert noch übertragen. «Entlang der Route» benötigt keinen Standort und sucht innerhalb eines 10-km-Korridors der schematischen Etappen.</p>
+      <div class="filters"><button id="locate">Standort verwenden</button><button data-radius="0.5">500 m</button><button data-radius="2">2 km</button><button data-radius="10">10 km</button><button data-route-nearby>Entlang der Route</button></div>
+      <p id="geo-status" role="status">Standort nicht angefragt.</p><ol id="nearby"></ol>
+    </section><noscript>Ohne JavaScript ist die Karte nicht interaktiv. Alle Koordinaten stehen auf den redaktionellen Detailseiten.</noscript>
   </div>
+  <script type="application/json" id="map-data" set:html={JSON.stringify({points,routeStages,routeGeometry,base})}></script>
   <script>
-    import L from 'leaflet';
-    import 'leaflet/dist/leaflet.css';
-    import { points } from '../../data/route';
-
-    type RoutePoint = (typeof points)[number];
-    type PointType = RoutePoint['type'] | 'all';
-    type Position = [number, number];
-
-    const map = L.map('map', { scrollWheelZoom: false }).setView([42.1, 43.2], 7);
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
-    const layer = L.layerGroup().addTo(map);
-    const line = L.polyline(points.map((point) => [point.lat, point.lon]), { color: '#8d2438', weight: 4 }).addTo(map);
-    map.fitBounds(line.getBounds(), { padding: [20, 20] });
-
-    function draw(filter: PointType = 'all') {
-      layer.clearLayers();
-      points
-        .filter((point) => filter === 'all' || point.type === filter)
-        .forEach((point) => L.circleMarker([point.lat, point.lon], { radius: 9, color: '#fff', weight: 2, fillColor: point.type === 'airport' ? '#8d2438' : '#173f35', fillOpacity: 1 })
-          .bindPopup(`<strong>${point.name}</strong><br>${point.lat}, ${point.lon}`)
-          .addTo(layer));
-    }
-
-    draw();
-    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach((button) => button.addEventListener('click', () => draw((button.dataset.filter ?? 'all') as PointType)));
-
-    let user: Position | undefined;
-    let radius = 10;
-    const out = document.querySelector<HTMLOListElement>('#nearby');
-    const status = document.querySelector<HTMLParagraphElement>('#geo-status');
-    const locate = document.querySelector<HTMLButtonElement>('#locate');
-
-    function km(a: number, b: number, c: number, d: number) {
-      const radians = Math.PI / 180;
-      const x = (c - a) * radians;
-      const y = (d - b) * radians;
-      const q = Math.sin(x / 2) ** 2 + Math.cos(a * radians) * Math.cos(c * radians) * Math.sin(y / 2) ** 2;
-      return 12742 * Math.asin(Math.sqrt(q));
-    }
-
-    function list() {
-      const currentUser = user;
-      if (!currentUser || !out) return;
-      const found = points
-        .map((point) => ({ ...point, d: km(currentUser[0], currentUser[1], point.lat, point.lon) }))
-        .filter((point) => point.d <= radius)
-        .sort((a, b) => a.d - b.d);
-      out.innerHTML = found.length
-        ? found.map((point) => `<li><strong>${point.name}</strong> · ${point.d.toFixed(1)} km</li>`).join('')
-        : '<li>In diesem Radius liegt kein erfasster Eintrag.</li>';
-    }
-
-    locate?.addEventListener('click', () => {
-      if (!status) return;
-      if (!navigator.geolocation) {
-        status.textContent = 'Standortfunktion wird von diesem Browser nicht unterstützt.';
-        return;
-      }
-      status.textContent = 'Standort wird angefragt …';
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          user = [position.coords.latitude, position.coords.longitude];
-          status.textContent = 'Standort nur lokal empfangen. Keine Übertragung oder Speicherung.';
-          L.circleMarker(user, { radius: 10, color: '#ad7d26' }).addTo(map).bindPopup('Dein Standort');
-          list();
-        },
-        (error) => {
-          status.textContent = error.code === 1
-            ? 'Standort nicht freigegeben. Die Route kann weiterhin ohne Standort genutzt werden.'
-            : 'Standort konnte nicht ermittelt werden. Bitte später erneut versuchen.';
-        },
-        { timeout: 10000 },
-      );
-    });
-
-    document.querySelectorAll<HTMLButtonElement>('[data-radius]').forEach((button) => button.addEventListener('click', () => {
-      radius = Number(button.dataset.radius ?? radius);
-      list();
-    }));
+    import L from 'leaflet';import 'leaflet/dist/leaflet.css';import { nearbyPoints, pointsAlongRoute } from '../../lib/geo.mjs';
+    type PointType='place'|'sight'|'hotel'|'restaurant'|'airport'|'all';type Position={lat:number;lon:number};
+    const data=JSON.parse(document.querySelector('#map-data')?.textContent||'{}');
+    const map=L.map('map',{scrollWheelZoom:false}).setView([42.1,43.2],7);L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:19}).addTo(map);
+    const layer=L.layerGroup().addTo(map),routes=L.featureGroup().addTo(map);const colors:Record<string,string>={airport:'#8d2438',place:'#173f35',sight:'#ad7d26',hotel:'#445aa0',restaurant:'#78502b'};
+    data.routeStages.forEach((stage:any,index:number)=>L.polyline(stage.coordinates,{color:stage.variant?'#ad7d26':'#8d2438',weight:4,dashArray:stage.variant?(index%2?'5 10':'12 8'):'8 7',opacity:.85}).bindTooltip(`${stage.label} · schematisch`).addTo(routes));map.fitBounds(routes.getBounds(),{padding:[20,20]});
+    const popup=(point:any)=>{const box=document.createElement('div'),strong=document.createElement('strong'),link=document.createElement('a');strong.textContent=point.name;link.href=data.base+point.href;link.textContent='Details öffnen';box.append(strong,document.createElement('br'),document.createTextNode(`${point.lat}, ${point.lon}`),document.createElement('br'),link);return box};
+    function draw(filter:PointType='all'){layer.clearLayers();data.points.filter((point:any)=>filter==='all'||point.type===filter).forEach((point:any)=>L.circleMarker([point.lat,point.lon],{radius:8,color:'#fff',weight:2,fillColor:colors[point.type],fillOpacity:1}).bindPopup(popup(point)).addTo(layer));document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button=>button.setAttribute('aria-pressed',String((button.dataset.filter||'all')===filter)))}draw();
+    document.querySelectorAll<HTMLButtonElement>('[data-filter]').forEach(button=>button.addEventListener('click',()=>draw((button.dataset.filter||'all') as PointType)));
+    let user:Position|undefined,radius=10,userMarker:ReturnType<typeof L.circleMarker>|undefined;const out=document.querySelector<HTMLOListElement>('#nearby'),status=document.querySelector<HTMLParagraphElement>('#geo-status');
+    const typeLabel:Record<string,string>={place:'Ort',sight:'Sehenswürdigkeit',hotel:'Unterkunft',restaurant:'Restaurant',airport:'Flughafen'};
+    function render(found:any[],distanceLabel='Entfernung'){if(!out)return;out.replaceChildren(...(found.length?found.map(point=>{const li=document.createElement('li'),a=document.createElement('a');a.href=data.base+point.href;a.textContent=point.name;li.append(a,document.createTextNode(` · ${typeLabel[point.type]} · ${distanceLabel}: ${point.distance<1?`${Math.round(point.distance*1000)} m`:`${point.distance.toFixed(1)} km`}`));return li}):[Object.assign(document.createElement('li'),{textContent:'Keine erfassten Einträge gefunden.'})]));}
+    function listRadius(){if(!user){if(status)status.textContent='Bitte zuerst den Standort verwenden.';return}render(nearbyPoints(data.points,user,radius));}
+    document.querySelector<HTMLButtonElement>('#locate')?.addEventListener('click',()=>{if(!status)return;if(!navigator.geolocation){status.textContent='Standortfunktion wird nicht unterstützt.';return}status.textContent='Standort wird angefragt …';navigator.geolocation.getCurrentPosition(position=>{user={lat:position.coords.latitude,lon:position.coords.longitude};status.textContent='Standort nur lokal empfangen. Keine Übertragung oder Speicherung.';userMarker?.remove();userMarker=L.circleMarker([user.lat,user.lon],{radius:10,color:'#ad7d26'}).addTo(map).bindPopup('Dein Standort');listRadius()},error=>{status.textContent=error.code===1?'Standort nicht freigegeben. Karte und Routensuche funktionieren weiterhin.':'Standort konnte nicht ermittelt werden.'},{timeout:10000})});
+    document.querySelectorAll<HTMLButtonElement>('[data-radius]').forEach(button=>button.addEventListener('click',()=>{radius=Number(button.dataset.radius||10);listRadius()}));
+    document.querySelector<HTMLButtonElement>('[data-route-nearby]')?.addEventListener('click',()=>{if(status)status.textContent='Einträge nach Abstand zur schematischen Route (10-km-Korridor).';render(pointsAlongRoute(data.points,data.routeGeometry,10),'Routenabstand')});
   </script>
 </Base>

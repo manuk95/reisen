@@ -286,7 +286,7 @@ Nur wenn der Audit echte technische Lücken zeigt.
 
 ## 9.3 Karten, Regionen und Content-Verknüpfungen
 
-**Status:** OFFEN  
+**Status:** ERLEDIGT
 **Verantwortlich:** Codex  
 **Spezifikation Regionenkarte:** [`KONZEPT_REGIONENKARTE.md`](KONZEPT_REGIONENKARTE.md)
 
@@ -301,6 +301,8 @@ Nächstes grösseres technisches Arbeitspaket:
 - dabei gezielte Codepflege, Tests und reproduzierbare CI-Verbesserungen durchführen, ohne unnötigen Grossrefactor.
 
 Nach Abschluss dieses Arbeitspakets die Seite `/georgien/heute/` gemäss Phase 1.2 angehen.
+
+Umgesetzt am 23.09.2026: lokale tastaturbedienbare SVG-Regionenkarte, zentrale Regionsnormalisierung und Validierung, aus Collections erzeugte Leaflet-Punkte, ehrlich als schematisch bezeichnete Etappen mit getrennten Gori-/Kutaisi-Varianten, echte Punkt-zu-Routen-Distanz sowie automatisch abgeleitete Verknüpfungen auf Orts- und Sehenswürdigkeitsseiten. Galerie, CI und responsive Darstellung wurden im selben Paket geprüft.
 
 ---
 

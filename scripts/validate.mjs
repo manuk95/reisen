@@ -1,4 +1,4 @@
-import fs from 'node:fs';import path from 'node:path';
+import fs from 'node:fs';import path from 'node:path';import {normalizeRegion} from '../src/lib/regions.mjs';
 const contentFiles=(dir)=>fs.readdirSync(dir,{withFileTypes:true}).flatMap(entry=>{const full=path.join(dir,entry.name);return entry.isDirectory()?contentFiles(full):/\.mdx?$/.test(entry.name)?[full]:[]});
 const frontmatter=(content)=>content.split(/^---\s*$/m)[1]||'';
 const field=(content,name)=>frontmatter(content).match(new RegExp(`^${name}:\\s*["']?(.+?)["']?\\s*$`,'m'))?.[1];
@@ -43,4 +43,5 @@ for(const root of imageCollections) for(const f of fs.readdirSync(`src/content/$
   if(!/^imageAlt:\s*\S/m.test(s))fail.push(`${root}/${f}: präziser Alternativtext fehlt`);
 }
 for(const [image,files] of used)if(files.length>1&&!/images\/platzhalter\.png$/.test(image))fail.push(`${image}: identisch auf ${files.length} Item-Seiten`);
+for(const root of ['orte','sehenswuerdigkeiten','unterkuenfte','restaurants','genuss'])for(const file of contentFiles(`src/content/${root}`)){const content=fs.readFileSync(file,'utf8'),region=field(content,'region')?.replace(/^['"]|['"]$/g,'');if(region&&!normalizeRegion(region))fail.push(`${file}: unbekannter Regionswert ${region}`)}
 if(fail.length){console.error(fail.join('\n'));process.exit(1)}

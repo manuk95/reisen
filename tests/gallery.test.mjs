@@ -16,7 +16,16 @@ test('single image has no controls and lists use the primary image', () => {
   const gallery=readFileSync(new URL('../src/components/ItemGallery.astro',import.meta.url),'utf8');
   const list=readFileSync(new URL('../src/components/CollectionList.astro',import.meta.url),'utf8');
   assert.match(gallery,/slides\.length>1/);
+  assert.match(gallery,/hidden=\{index>0\}/);
+  assert.match(gallery,/loading=\{index===0\?'eager':'lazy'\}/);
   assert.match(list,/images\?\.\[0\]/);
+});
+
+test('multi-image gallery wraps buttons and supports swipe threshold',()=>{
+  const gallery=readFileSync(new URL('../src/components/ItemGallery.astro',import.meta.url),'utf8');
+  assert.match(gallery,/\(next\+slides\.length\)%slides\.length/);
+  assert.match(gallery,/Math\.abs\(delta\)>50/);
+  assert.match(gallery,/tabindex=\{slides\.length>1\?0:undefined\}/);
 });
 
 test('knowledge pages render images-array galleries without legacy image', () => {

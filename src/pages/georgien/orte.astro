@@ -1,4 +1,9 @@
 ---
-import Base from '../../layouts/Base.astro';import List from '../../components/CollectionList.astro';import {getCollection} from 'astro:content';const items=await getCollection('orte');
+import Base from '../../layouts/Base.astro';
+import List from '../../components/CollectionList.astro';
+import GeorgiaRegionsMap from '../../components/GeorgiaRegionsMap.astro';
+import {getCollection} from 'astro:content';
+const items=await getCollection('orte',({data})=>data.trip==='georgien-2026');
+const sights=await getCollection('sehenswuerdigkeiten',({data})=>data.trip==='georgien-2026');
 ---
-<Base title="Orte"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Orte</h1><List {items} section="orte" /></div></Base>
+<Base title="Orte"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Orte und Regionen</h1><p class="lead">Die lokale Regionenkarte zeigt, welche Teile Georgiens zur Reise gehören. Region auswählen, um passende Inhalte zu sehen.</p><GeorgiaRegionsMap places={items} {sights}/><h2>Alle Orte</h2><List {items} section="orte" /></div></Base>
