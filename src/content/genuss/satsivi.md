@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Satsivi", url: "https://georgia.travel/satsivi"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Satsivi; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/satsivi.jpg
+imageAlt: "Satsivi, georgisches Poulet in Walnusssauce"
+imageStatus: lizenziert
+imageCredit: "Lesya Dolyk"
+imageSource: "https://commons.wikimedia.org/wiki/File:Satsivi_(2).jpg"
+imageLicense: "CC BY-SA 2.0"
 ---
 
 ## Was ist es und wie schmeckt es?
