@@ -11,10 +11,14 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Megrelisches Kharcho", url: "https://georgia.travel/kharcho"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Megrelisches Kharcho; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/megrelian-kharcho.jpg
+imageAlt: "Georgisches Kharcho als verwandte Kharcho-Variante"
+imageStatus: lizenziert
+imageCredit: "A.Savin, Wikipedia"
+imageSource: "https://commons.wikimedia.org/wiki/File:Kharcho_meat_soup.jpg"
+imageLicense: "CC BY-SA 3.0"
+imageEdit: "Kontextbild: zeigt Kharcho-Suppe, nicht die spezifische megrelische Eintopfvariante."
 ---
 
 ## Was ist es und wie schmeckt es?
