@@ -1,4 +1,16 @@
 ---
-import Base from '../../layouts/Base.astro';import List from '../../components/CollectionList.astro';import {getCollection} from 'astro:content';const items=await getCollection('genuss');
+import Base from '../../layouts/Base.astro';
+import List from '../../components/CollectionList.astro';
+import { getCollection } from 'astro:content';
+
+const items = (await getCollection('genuss')).sort((a, b) => a.data.title.localeCompare(b.data.title, 'de'));
 ---
-<Base title="Essen & Getränke"><div class="wrap"><p class="eyebrow">Georgien 2026</p><h1>Essen & Getränke</h1><List {items} section="genuss" showStatus={false} /></div></Base>
+<Base title="Kulinarik">
+  <div class="wrap">
+    <p class="eyebrow">Georgien 2026</p>
+    <h1>Kulinarik</h1>
+    <p class="lead">Gerichte, Käse, Saucen, Wein und Spezialitäten, die auf unserer Route besonders interessant sind. Die Detailseiten enthalten jeweils typische Zutaten und Hinweise, wo das Gericht zur Reise passt.</p>
+    <div class="alert"><strong>Neu kontrolliert:</strong> Generelles Chatschapuri und die adscharische Variante bleiben bewusst getrennt, weil die regionale Form in Batumi ein eigenes Erlebnis ist. Elarji ergänzt die westgeorgische Mais-Käse-Küche.</div>
+    <List {items} section="genuss" showStatus={false} />
+  </div>
+</Base>
