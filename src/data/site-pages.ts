@@ -11,6 +11,9 @@ export const mainNavigation: Array<{ label: string; items?: NavigationItem[]; pa
     { label: 'Karte & Route', path: 'georgien/karte/' },
     { label: 'Orte & Regionen', path: 'georgien/orte/' },
     { label: 'Sehenswürdigkeiten', path: 'georgien/sehenswuerdigkeiten/' },
+    { label: 'Restaurants', path: 'georgien/restaurants/' },
+    { label: 'Hotels', path: 'georgien/hotels/' },
+    { label: 'Aussicht', path: 'georgien/aussicht/' },
   ] },
   { label: 'Kosten', items: [{ label: 'Kostenübersicht', path: 'georgien/kosten/' }] },
   { label: 'Essen & Trinken', items: [{ label: 'Kulinarik', path: 'georgien/genuss/' }] },
@@ -33,6 +36,7 @@ export const footerNavigation: Array<{ label: string; items: NavigationItem[] }>
     { label: 'Weinland', path: 'georgien/weinland/' },
     { label: 'UNESCO', path: 'georgien/unesco/' },
     { label: 'Aktivitäten', path: 'georgien/aktivitaeten/' },
+    { label: 'Aussicht', path: 'georgien/aussicht/' },
   ] },
   { label: 'Unterwegs', items: [
     { label: 'Fahrten', path: 'georgien/fahrten/' },
