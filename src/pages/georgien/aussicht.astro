@@ -1,0 +1,122 @@
+---
+import GuidePage from '../../components/GuidePage.astro';
+const base = import.meta.env.BASE_URL;
+---
+
+<GuidePage
+  title="Aussicht"
+  lead="Aussichtspunkte, Rooftop-Bars und Restaurants mit Panorama in Tbilisi, Kutaisi und Batumi. Öffnungszeiten, Zugang und Reservation am Besuchstag nochmals prüfen."
+>
+  <div class="alert">
+    <strong>Für eure Reise:</strong> Die stärksten Gesamtblicke liefern Mtatsminda in Tbilisi, Bagrati/Gora Park in Kutaisi und Alphabetic Tower beziehungsweise ein Rooftop in Batumi. Rooftops sind Ergänzungen, keine Pflichtpunkte.
+  </div>
+
+  <h2>Tbilisi</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="badge">Aussichtspunkt</span>
+      <h3><a href={`${base}georgien/sehenswuerdigkeiten/mtatsminda/`}>Mtatsminda</a></h3>
+      <p>Der höchste klassische Stadtblick: Altstadt, Mtkvari-Tal und die weit ausgedehnten Quartiere liegen von oben gut lesbar vor euch. Besonders stark am späten Nachmittag und nach Sonnenuntergang.</p>
+      <p class="meta">Panorama · Funicular · sehr guter Gesamtblick</p>
+    </article>
+    <article class="card">
+      <span class="badge">Aussichtspunkt</span>
+      <h3><a href={`${base}georgien/sehenswuerdigkeiten/narikala/`}>Narikala und Kartlis Deda</a></h3>
+      <p>Näher an der Altstadt als Mtatsminda: Blick auf Schwefelbäder, historische Dächer, Rike Park und den Fluss. Lässt sich direkt in Tag 2 integrieren.</p>
+      <p class="meta">Altstadtblick · zu Fuss oder Seilbahn</p>
+    </article>
+    <article class="card">
+      <span class="badge">Rooftop-Restaurant</span>
+      <h3><a href="https://places.georgia.travel/en/establishments/ati-rooftop-restaurant" rel="external noopener noreferrer" target="_blank">ATI Rooftop Restaurant</a></h3>
+      <p>Restaurant, Bar und Lounge im 10. Stock des Sheraton Grand Tbilisi Metechi Palace mit weitem Blick über die Stadt. Sinnvoll für einen bewusst gehobenen Abend mit Panorama.</p>
+      <p class="meta">20 Telavi Street · Tisch mit Aussicht reservieren</p>
+    </article>
+    <article class="card">
+      <span class="badge">Sky Bar</span>
+      <h3><a href="https://www.google.com/maps/search/?api=1&query=Weather+Report+Sky+Bar+Tbilisi" rel="external noopener noreferrer" target="_blank">Weather Report Sky Bar</a></h3>
+      <p>Sky Bar im Pullman Tbilisi Axis Towers. Eher moderner Hochhausblick als Altstadtromantik; interessant, wenn ihr Tbilisi einmal aus einer anderen Perspektive sehen möchtet.</p>
+      <p class="meta">Axis Towers · Chavchavadze Avenue</p>
+    </article>
+  </div>
+
+  <h2>Kutaisi</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="badge">Aussichtspunkt</span>
+      <h3><a href={`${base}georgien/sehenswuerdigkeiten/bagrati-kathedrale/`}>Bagrati-Kathedrale</a></h3>
+      <p>Der einfachste und zugleich historisch interessanteste Panoramablick über Kutaisi. Vom Ukimerioni-Hügel seht ihr Zentrum, Rioni und die umliegenden Hügel; besonders schön gegen Abend.</p>
+      <p class="meta">Direkt über der Stadt · sehr gut mit Tag 8 kombinierbar</p>
+    </article>
+    <article class="card">
+      <span class="badge">Seilbahn / Park</span>
+      <h3><a href="https://georgia.travel/family-attractions/kutaisi-aerial-tramway" rel="external noopener noreferrer" target="_blank">Kutaisi Aerial Tramway und Gora Park</a></h3>
+      <p>Die historische Seilbahn verbindet den Bereich bei der Weissen Brücke mit Gora Park. Während der Fahrt und oben öffnet sich ein erhöhter Blick auf Rioni und Stadt.</p>
+      <p class="meta">Betriebsstatus am selben Tag prüfen</p>
+    </article>
+    <article class="card">
+      <span class="badge">Restaurant</span>
+      <h3><a href="https://www.google.com/maps/search/?api=1&query=The+View+Restaurant+%26+Bar+Kutaisi" rel="external noopener noreferrer" target="_blank">The View Restaurant & Bar</a></h3>
+      <p>Panorama-Restaurant in Kutaisi. Eher eine Option für Essen mit Aussicht als eine eigene Sehenswürdigkeit; aktuelle Öffnung und den tatsächlich verfügbaren Terrassenplatz vorab prüfen.</p>
+      <p class="meta">11 Joseb Grishashvili Street</p>
+    </article>
+    <article class="card">
+      <span class="badge">Restaurant</span>
+      <h3><a href="https://www.google.com/maps/search/?api=1&query=Panorama+Bagrati+Kutaisi" rel="external noopener noreferrer" target="_blank">Panorama Bagrati</a></h3>
+      <p>Kleine Restaurantoption im Bereich des Bagrati-Hügels. Interessant, wenn ihr Aussicht und Essen kombinieren möchtet, ohne einen zusätzlichen grossen Programmpunkt zu planen.</p>
+      <p class="meta">Nähe Bagrati · aktuelle Reservation/Öffnung prüfen</p>
+    </article>
+  </div>
+
+  <h2>Batumi</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="badge">Aussichtsplattform</span>
+      <h3><a href="https://georgia.travel/alphabetic-tower" rel="external noopener noreferrer" target="_blank">Alphabetic Tower</a></h3>
+      <p>130 Meter hoher Turm im Miracle Park mit Aussichtsbereich, offener Terrasse und rotierendem Panoramarestaurant. Sehr guter Blick auf Stadt, Berge und Schwarzes Meer.</p>
+      <p class="meta">Miracle Park · Zugang/Betrieb vor Ort prüfen</p>
+    </article>
+    <article class="card">
+      <span class="badge">Rooftop-Restaurant</span>
+      <h3><a href={`${base}georgien/restaurants/360-sky-bar/`}>360 Sky Bar</a></h3>
+      <p>Rooftop im Sheraton Batumi mit weitem 360°-Blick. Für euch eine der stärksten Optionen für einen einzelnen gehobenen und romantischen Abend in Batumi.</p>
+      <p class="meta">Panorama · Abendessen · Reservation empfehlenswert</p>
+    </article>
+    <article class="card">
+      <span class="badge">Restaurant / Bar</span>
+      <h3><a href="https://places.georgia.travel/en/establishments/umami-at-clouds" rel="external noopener noreferrer" target="_blank">Umami at Clouds</a></h3>
+      <p>Restaurant und Bar im 19. Stock mit Panorama über Stadt und Schwarzes Meer. Eher moderne, internationale Atmosphäre als klassisch georgisches Restaurant.</p>
+      <p class="meta">1 Ninoshvili Street · 19. Stock</p>
+    </article>
+    <article class="card">
+      <span class="badge">Panoramafahrt</span>
+      <h3><a href={`${base}georgien/sehenswuerdigkeiten/batumi-boulevard-miracle-park/`}>Riesenrad im Miracle Park</a></h3>
+      <p>Kurze Panoramafahrt direkt an der Küste. Besonders bei Dämmerung interessant, wenn Stadtlichter, Meer und Berge gleichzeitig sichtbar sind.</p>
+      <p class="meta">55 m · wetterabhängig</p>
+    </article>
+  </div>
+
+  <h2>Auswahl nach Stimmung</h2>
+  <div class="table-scroll">
+    <table>
+      <thead><tr><th>Wenn ihr …</th><th>Beste Option</th></tr></thead>
+      <tbody>
+        <tr><td>Tbilisi als Ganzes sehen wollt</td><td>Mtatsminda</td></tr>
+        <tr><td>Altstadt + Aussicht kombinieren wollt</td><td>Narikala / Kartlis Deda</td></tr>
+        <tr><td>Kutaisi ohne zusätzlichen Ausflug überblicken wollt</td><td>Bagrati-Kathedrale</td></tr>
+        <tr><td>in Batumi romantisch essen wollt</td><td>360 Sky Bar</td></tr>
+        <tr><td>Batumi möglichst hoch sehen wollt</td><td>Alphabetic Tower</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Quellen und Stand</h2>
+  <p>Stand 23.09.2026. Gastronomiebetriebe können Öffnungszeiten, Konzepte oder Zugänglichkeit kurzfristig ändern; vor dem Besuch nochmals kontrollieren.</p>
+  <ul>
+    <li><a href="https://georgia.travel/cities-towns/tbilisi" rel="external noopener noreferrer" target="_blank">Georgia Travel – Tbilisi</a></li>
+    <li><a href="https://places.georgia.travel/en/establishments/ati-rooftop-restaurant" rel="external noopener noreferrer" target="_blank">Georgia Travel – ATI Rooftop Restaurant</a></li>
+    <li><a href="https://georgia.travel/things-to-do-in-kutaisi" rel="external noopener noreferrer" target="_blank">Georgia Travel – Things to do in Kutaisi</a></li>
+    <li><a href="https://georgia.travel/family-attractions/kutaisi-aerial-tramway" rel="external noopener noreferrer" target="_blank">Georgia Travel – Kutaisi Aerial Tramway</a></li>
+    <li><a href="https://georgia.travel/alphabetic-tower" rel="external noopener noreferrer" target="_blank">Georgia Travel – Alphabetic Tower</a></li>
+    <li><a href="https://places.georgia.travel/en/establishments/umami-at-clouds" rel="external noopener noreferrer" target="_blank">Georgia Travel – Umami at Clouds</a></li>
+  </ul>
+</GuidePage>
