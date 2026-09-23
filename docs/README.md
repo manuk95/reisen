@@ -11,6 +11,7 @@ Für laufende Arbeiten gelten nur die folgenden Dokumente als aktive Vorgaben:
 - [`ARBEITSPLAN_AKTUELL.md`](ARBEITSPLAN_AKTUELL.md) – **einzige zentrale Quelle für offene Aufgaben, Reihenfolge und Zuständigkeit**.
 - [`PROJECT_CONTEXT.md`](PROJECT_CONTEXT.md) – dauerhafte Projektentscheidungen und stabile Eckdaten der aktuell geplanten Reisen.
 - [`ANFORDERUNGEN_TAGESPLAN.md`](ANFORDERUNGEN_TAGESPLAN.md) – aktive technische/redaktionelle Spezifikation der Tagesplan-Seiten.
+- [`KONZEPT_REGIONENKARTE.md`](KONZEPT_REGIONENKARTE.md) – aktive technische Spezifikation der interaktiven Georgien-Regionenkarte auf `/georgien/orte/`.
 
 ## Archiv
 
