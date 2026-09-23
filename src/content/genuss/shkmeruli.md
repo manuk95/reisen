@@ -11,10 +11,13 @@ days: []
 related: [tbilisi, kutaisi, batumi]
 sources:
   - {label: "Georgia Travel – Shkmeruli", url: "https://georgia.travel/shkmeruli"}
-updated: 2026-09-08
-image: images/platzhalter.png
-imageAlt: "Neutraler Platzhalter für Shkmeruli; kein rechtlich gesichertes korrektes Foto vorhanden"
-imageStatus: platzhalter
+updated: 2026-09-23
+image: images/georgien/genuss/shkmeruli.jpg
+imageAlt: "Shkmeruli, georgisches Pouletgericht mit Knoblauchsauce"
+imageStatus: lizenziert
+imageCredit: "Eka Samkharadze"
+imageSource: "https://commons.wikimedia.org/wiki/File:Shkmeruli.jpg"
+imageLicense: "CC BY-SA 4.0"
 ---
 
 ## Was ist es und wie schmeckt es?
