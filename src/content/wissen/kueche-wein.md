@@ -10,7 +10,7 @@ status: empfohlen
 days: []
 related: []
 sources: [{label: "Geostat und Quellenverzeichnis der Reiseplanung", url: "https://www.geostat.ge/en"}]
-updated: 2026-08-03
+updated: 2026-09-23
 ---
 
 ## 11.1 Grundlagen
@@ -55,7 +55,7 @@ Mineralwasser wie Borjomi, Estragonlimonade, Kaffee, Tee und Wein. Tschatscha is
 
 ## 11.11 Spezialitäten entlang der Route
 
-Tbilisi: moderne georgische Küche; Pasanauri/Kazbegi: Chinkali und Lamm; Kutaisi: Imeruli Chatschapuri, Pchali, Huhn in Walnusssauce; Adscharien: Adjaruli Chatschapuri; Gurien: Chkhaveri.
+Tbilisi: moderne georgische Küche; Pasanauri/Kazbegi: Chinkali und Lamm; Kutaisi/Imeretien: Imeruli Chatschapuri und Pchali; Westgeorgien: Ghomi, Elarji und Sulguni; Adscharien: Adjaruli Chatschapuri, Borano und Sinori; Gurien: Chkhaveri.
 
 ## 11.12 Bestelltipps
 
