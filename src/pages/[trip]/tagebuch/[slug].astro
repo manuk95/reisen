@@ -64,13 +64,40 @@ const { Content } = await render(entry);
   {points.length > 0 && <script>
     import L from 'leaflet';
     import 'leaflet/dist/leaflet.css';
-    const points = JSON.parse(document.querySelector('#diary-map-data')?.textContent || '[]');
-    const map = L.map('diary-map', { scrollWheelZoom: false });
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
-    const markers = L.featureGroup();
-    points.forEach((point: any) => L.circleMarker([point.coordinates.lat, point.coordinates.lon], { radius: 9, color: '#fff', weight: 2, fillColor: '#8d2438', fillOpacity: 1 }).bindPopup(point.label).addTo(markers));
-    markers.addTo(map);
-    if (points.length === 1) (map as any).setView([points[0].coordinates.lat, points[0].coordinates.lon], 14);
-    else map.fitBounds(markers.getBounds(), { padding: [35, 35] });
+
+    const dataElement = document.querySelector<HTMLScriptElement>('#diary-map-data');
+    const mapElement = document.querySelector<HTMLElement>('#diary-map');
+
+    if (dataElement && mapElement) {
+      try {
+        const points = JSON.parse(dataElement.textContent || '[]');
+        if (Array.isArray(points) && points.length > 0) {
+          const map = L.map(mapElement, { scrollWheelZoom: false });
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors',
+            maxZoom: 19,
+          }).addTo(map);
+
+          const markers = L.featureGroup();
+          points.forEach((point: any) => {
+            L.circleMarker([point.coordinates.lat, point.coordinates.lon], {
+              radius: 9,
+              color: '#fff',
+              weight: 2,
+              fillColor: '#8d2438',
+              fillOpacity: 1,
+            }).bindPopup(point.label).addTo(markers);
+          });
+          markers.addTo(map);
+
+          if (points.length === 1) map.setView([points[0].coordinates.lat, points[0].coordinates.lon], 14);
+          else map.fitBounds(markers.getBounds(), { padding: [35, 35], maxZoom: 16 });
+
+          requestAnimationFrame(() => map.invalidateSize());
+        }
+      } catch (error) {
+        console.error('Tagebuch-Karte konnte nicht initialisiert werden.', error);
+      }
+    }
   </script>}
 </Base>
