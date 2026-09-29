@@ -1,0 +1,32 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const trips = await getCollection('reisen');
+  return trips.map((trip) => ({ params: { trip: trip.data.routeSlug }, props: { trip } }));
+}
+
+const { trip } = Astro.props as { trip: any };
+const base = import.meta.env.BASE_URL;
+const entries = (await getCollection('tagebuch'))
+  .filter((entry) => entry.data.trip === trip.data.slug)
+  .sort((a, b) => a.data.day - b.data.day);
+---
+<Base title={`Tagebuch · ${trip.data.title}`} description={`Persönliches Reisetagebuch zu ${trip.data.title}`}>
+  <div class="wrap diary-index">
+    <p class="eyebrow">Erlebt statt geplant</p>
+    <h1>Tagebuch</h1>
+    <p class="lead">Hier halten wir Tag für Tag fest, was wir wirklich erlebt haben. Fotos, besuchte Orte und persönliche Notizen kommen während der Reise dazu.</p>
+    <div class="grid">
+      {entries.map((entry) => <article class="card diary-card">
+        <span class="badge">Tag {entry.data.day}</span>
+        <p class="diary-date">{entry.data.date.toLocaleDateString('de-CH', { weekday: 'long', day: 'numeric', month: 'long' })}</p>
+        <h2><a href={`${base}${trip.data.routeSlug}/tagebuch/${entry.data.slug}/`}>{entry.data.title}</a></h2>
+        <p>{entry.data.summary}</p>
+        <p class="diary-counts"><span>📍 {entry.data.locations.length} Orte</span><span>📷 {entry.data.images.length} Fotos</span></p>
+        <a href={`${base}${trip.data.routeSlug}/tagebuch/${entry.data.slug}/`}>Eintrag öffnen →</a>
+      </article>)}
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,76 @@
+---
+import Base from '../../../layouts/Base.astro';
+import ItemGallery from '../../../components/ItemGallery.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const [entries, trips] = await Promise.all([getCollection('tagebuch'), getCollection('reisen')]);
+  const tripsBySlug = new Map(trips.map((trip) => [trip.data.slug, trip]));
+  return entries.map((entry) => {
+    const trip = tripsBySlug.get(entry.data.trip);
+    if (!trip) throw new Error(`Tagebuch ${entry.id} verweist auf die unbekannte Reise ${entry.data.trip}.`);
+    return { params: { trip: trip.data.routeSlug, slug: entry.data.slug }, props: { entry, trip } };
+  });
+}
+
+const { entry, trip } = Astro.props as { entry: any; trip: any };
+const base = import.meta.env.BASE_URL;
+const routeRoot = `${base}${trip.data.routeSlug}/`;
+const entries = (await getCollection('tagebuch')).filter((item) => item.data.trip === entry.data.trip).sort((a, b) => a.data.day - b.data.day);
+const index = entries.findIndex((item) => item.id === entry.id);
+const previousEntry = entries[index - 1];
+const nextEntry = entries[index + 1];
+const day = (await getCollection('reisetage')).find((item) => item.data.trip === entry.data.trip && item.data.day === entry.data.day);
+const sectionNames: Record<string, string> = { unterkuenfte: 'hotels' };
+const itemUrl = (reference?: string) => {
+  if (!reference) return undefined;
+  const [collection, slug] = reference.split(':');
+  return `${routeRoot}${sectionNames[collection] ?? collection}/${slug}/`;
+};
+const points = entry.data.locations.map((location: any) => ({ ...location, itemUrl: itemUrl(location.page) }));
+const { Content } = await render(entry);
+---
+<Base title={entry.data.title} description={entry.data.summary}>
+  <div class="wrap diary-page">
+    <p><a href={`${routeRoot}tagebuch/`}>Tagebuch</a> / Tag {entry.data.day}</p>
+    <p class="eyebrow">{entry.data.date.toLocaleDateString('de-CH', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}</p>
+    <h1>{entry.data.title}</h1>
+    <p class="lead">{entry.data.summary}</p>
+
+    <nav class="day-navigation" aria-label="Tagebucheinträge wechseln">
+      {previousEntry ? <a href={`${routeRoot}tagebuch/${previousEntry.data.slug}/`}>← <span>Tag {previousEntry.data.day}</span></a> : <span />}
+      {nextEntry ? <a href={`${routeRoot}tagebuch/${nextEntry.data.slug}/`}><span>Tag {nextEntry.data.day}</span> →</a> : <span />}
+    </nav>
+
+    {entry.data.images.length > 0
+      ? <ItemGallery images={entry.data.images} title={entry.data.title} />
+      : <div class="diary-photo-placeholder" aria-label="Platz für Fotos"><span>📷</span><strong>Hier ist Platz für die Fotos dieses Tages</strong><small>Mehrere Bilder werden später als Galerie angezeigt.</small></div>}
+
+    <article class="prose diary-story"><Content /></article>
+
+    <section class="diary-locations" aria-labelledby="visited-title">
+      <p class="eyebrow">Auf unserer Spur</p>
+      <h2 id="visited-title">Hier waren wir</h2>
+      {points.length > 0 ? <>
+        <div id="diary-map" class="map diary-map" aria-label={`Karte der besuchten Orte an Tag ${entry.data.day}`}></div>
+        <ul class="location-list">{points.map((point: any) => <li class="card"><strong>{point.label}</strong><span class="location-actions"><a href={point.googleMapsUrl} target="_blank" rel="noopener noreferrer">Google Maps ↗</a>{point.itemUrl && <a href={point.itemUrl}>Im Reiseführer →</a>}</span></li>)}</ul>
+      </> : <div class="empty-map"><div class="map diary-map" aria-hidden="true"><span>📍</span></div><p>Die besuchten Orte und ihre Kartenpunkte werden nach diesem Reisetag ergänzt.</p></div>}
+      <noscript>Die Ortsliste bleibt ohne JavaScript verfügbar; die interaktive Karte benötigt JavaScript und Online-Kartenkacheln.</noscript>
+    </section>
+
+    <p class="actions"><a class="secondary" href={`${routeRoot}tag/${day?.data.slug ?? entry.data.slug}/`}>Tagesplan vergleichen →</a></p>
+  </div>
+  {points.length > 0 && <script type="application/json" id="diary-map-data" set:html={JSON.stringify(points)}></script>}
+  {points.length > 0 && <script>
+    import L from 'leaflet';
+    import 'leaflet/dist/leaflet.css';
+    const points = JSON.parse(document.querySelector('#diary-map-data')?.textContent || '[]');
+    const map = L.map('diary-map', { scrollWheelZoom: false });
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap contributors', maxZoom: 19 }).addTo(map);
+    const markers = L.featureGroup();
+    points.forEach((point: any) => L.circleMarker([point.coordinates.lat, point.coordinates.lon], { radius: 9, color: '#fff', weight: 2, fillColor: '#8d2438', fillOpacity: 1 }).bindPopup(point.label).addTo(markers));
+    markers.addTo(map);
+    if (points.length === 1) (map as any).setView([points[0].coordinates.lat, points[0].coordinates.lon], 14);
+    else map.fitBounds(markers.getBounds(), { padding: [35, 35] });
+  </script>}
+</Base>
