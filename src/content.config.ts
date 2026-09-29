@@ -44,6 +44,23 @@ const editorial = {
 const contentLoader = (collection: string) => glob({ pattern: '**/*.{md,mdx}', base: `./src/content/${collection}` });
 const trips = defineCollection({ loader: contentLoader('reisen'), schema: z.object({ ...editorial, routeSlug: z.string().regex(/^[a-z0-9-]+$/), start: z.coerce.date(), end: z.coerce.date(), travellers: z.array(z.string()), route: z.array(z.string()), hero: z.string() }) });
 const days = defineCollection({ loader: contentLoader('reisetage'), schema: z.object({ ...editorial, date: z.coerce.date(), day: z.number().int().positive(), from: z.string(), to: z.string(), character: z.string(), distance: z.string().optional(), driveTime: z.string().optional(), lodging: z.string().optional(), fixed: z.array(z.object({ time: z.string(), label: z.string() })).default([]), recommended: z.array(z.object({ time: z.string(), label: z.string() })).default([]), optional: z.array(z.string()).default([]), climate: z.string().optional(), bathing: z.string().optional(), sunrise: z.string().optional(), sunset: z.string().optional() }) });
+const diaries = defineCollection({ loader: contentLoader('tagebuch'), schema: z.object({
+  title: z.string(),
+  slug: z.string().regex(/^[a-z0-9-]+$/),
+  trip: z.string(),
+  day: z.number().int().positive(),
+  date: z.coerce.date(),
+  summary: z.string().default('Dieser Tagebucheintrag wird während der Reise ergänzt.'),
+  locations: z.array(z.object({
+    label: z.string(),
+    coordinates: coords,
+    googleMapsUrl: z.string().url(),
+    /** Optional canonical item reference, for example `orte:tbilisi`. */
+    page: z.string().regex(/^[a-z-]+:[a-z0-9-]+$/).optional(),
+  })).default([]),
+  images: z.array(image).default([]),
+  updated: z.coerce.date(),
+}) });
 const standard = (collection: string) => defineCollection({ loader: contentLoader(collection), schema: z.object(editorial) });
 
-export const collections = { reisen: trips, reisetage: days, orte: standard('orte'), sehenswuerdigkeiten: standard('sehenswuerdigkeiten'), unterkuenfte: standard('unterkuenfte'), restaurants: standard('restaurants'), genuss: standard('genuss'), wissen: standard('wissen'), praktisches: standard('praktisches') };
+export const collections = { reisen: trips, reisetage: days, tagebuch: diaries, orte: standard('orte'), sehenswuerdigkeiten: standard('sehenswuerdigkeiten'), unterkuenfte: standard('unterkuenfte'), restaurants: standard('restaurants'), genuss: standard('genuss'), wissen: standard('wissen'), praktisches: standard('praktisches') };

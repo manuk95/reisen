@@ -24,16 +24,16 @@ Das Repository ist für **mehrere Reisen** ausgelegt. Georgien 2026 ist die erst
 
 ## 1.1 Generischer Tagesplan-Renderer
 
-**Status:** ERLEDIGT  
-**Verantwortlich:** Codex  
+**Status:** ERLEDIGT
+**Verantwortlich:** Codex
 **Spezifikation:** [`ANFORDERUNGEN_TAGESPLAN.md`](ANFORDERUNGEN_TAGESPLAN.md)
 
 Umgesetzt sind Single-Source-Tagesablauf aus Markdown, optionale Details, Google-Maps-/Kürzungs-/Schlechtwetterabschnitte, kompakte Tagesfakten, Sticky Tag-Navigation und Tests.
 
 ## 1.2 Seite «Heute» / Tagesübersicht verbessern
 
-**Status:** OFFEN  
-**Verantwortlich:** Codex  
+**Status:** OFFEN
+**Verantwortlich:** Codex
 **Reihenfolge:** nach Phase 9.3
 
 Die Seite `/georgien/heute/` soll als mobile Reiseübersicht aus den bereits vorhandenen Tages- und Content-Daten weiterentwickelt werden. Ziel sind aktueller Reisetag, nächster Programmpunkt, kompakter Tagesablauf, Unterkunft, Tagesfakten und relevante Direktlinks ohne parallele Datenpflege.
@@ -46,7 +46,7 @@ Die technische Umsetzung erfolgt erst nach der Karten-/Regions- und Verknüpfung
 
 ## 2.1 Mietwagenstrategie und Fahrzeugauswahl
 
-**Status:** ERLEDIGT (Fahrzeugauswahl und Website-Eintrag); VERTRAGSABSCHLUSS PRÜFEN  
+**Status:** ERLEDIGT (Fahrzeugauswahl und Website-Eintrag); VERTRAGSABSCHLUSS PRÜFEN
 **Verantwortlich:** ChatGPT-Web
 
 Aktueller Entscheid laut Cars4Rent-Kundenportal vom 17.09.2026:
@@ -65,7 +65,7 @@ Lokale 4×4-Fahrer nur für vertraglich ausgeschlossene oder tatsächlich ungeei
 
 ## 2.2 Zeitabhängige Strassen
 
-**Status:** VOR REISE PRÜFEN  
+**Status:** VOR REISE PRÜFEN
 **Verantwortlich:** ChatGPT-Web
 
 Vor Nutzung erneut prüfen:
@@ -121,7 +121,7 @@ Vardzia bleibt als eigenständige Sehenswürdigkeitsseite im Reiseführer erhalt
 
 ## 4.1 Aktueller Kostenstand
 
-**Status:** ERLEDIGT (redaktioneller Stand 17.09.2026)  
+**Status:** ERLEDIGT (redaktioneller Stand 17.09.2026)
 **Verantwortlich:** ChatGPT-Web
 
 Die Seite `/georgien/kosten/` basiert auf dem aktuellen Reiseplan.
@@ -230,7 +230,7 @@ Die Nächte 04.–06.10. bleiben flexibel. Frühere Alternativhotels dürfen als
 
 ## 8.1 Mehrbild-Galerie
 
-**Status:** ERLEDIGT  
+**Status:** ERLEDIGT
 **Verantwortlich:** Codex
 
 - `images[]`-Schema vorhanden
@@ -243,7 +243,7 @@ Die Nächte 04.–06.10. bleiben flexibel. Frühere Alternativhotels dürfen als
 
 ## 8.2 Korrekte Bilder ergänzen
 
-**Status:** OFFEN  
+**Status:** OFFEN
 **Verantwortlich:** ChatGPT-Web / manuell
 
 Die technische Bildlogik ist vorhanden. Mehrere neue Seiten verwenden bewusst neutrale Platzhalter und Paragraph teilweise ein klar gekennzeichnetes Kontextbild. Das ist vorläufig akzeptiert.
@@ -260,7 +260,7 @@ Noch zu tun:
 
 ## 9.1 Soll-/Ist-Audit
 
-**Status:** OFFEN  
+**Status:** OFFEN
 **Verantwortlich:** ChatGPT-Web
 
 Historisches Excel-Seitenregister gegen den heutigen gewünschten Umfang prüfen.
@@ -279,7 +279,7 @@ Pro Eintrag entscheiden:
 
 ## 9.2 Technische IA-Lücken
 
-**Status:** OFFEN NUR BEI BEDARF  
+**Status:** OFFEN NUR BEI BEDARF
 **Verantwortlich:** Codex
 
 Nur wenn der Audit echte technische Lücken zeigt.
@@ -287,7 +287,7 @@ Nur wenn der Audit echte technische Lücken zeigt.
 ## 9.3 Karten, Regionen und Content-Verknüpfungen
 
 **Status:** ERLEDIGT
-**Verantwortlich:** Codex  
+**Verantwortlich:** Codex
 **Spezifikation Regionenkarte:** [`KONZEPT_REGIONENKARTE.md`](KONZEPT_REGIONENKARTE.md)
 
 Nächstes grösseres technisches Arbeitspaket:
@@ -310,7 +310,7 @@ Umgesetzt am 23.09.2026: lokale tastaturbedienbare SVG-Regionenkarte, zentrale R
 
 ## 10.1 Öffentliches Repository prüfen
 
-**Status:** OFFEN  
+**Status:** OFFEN
 **Verantwortlich:** ChatGPT-Web
 
 Kontrollieren:
@@ -330,7 +330,7 @@ Historische DOCX/PDF-Quelldokumente separat auf Risiko prüfen. Nicht ohne separ
 
 ## 11.1 Gesamtprüfung
 
-**Status:** IN ARBEIT  
+**Status:** IN ARBEIT
 **Verantwortlich:** Codex / GitHub Actions
 
 Nach PR #16 liefen `npm install`, `npm run check`, `npm run test`, `npm run build` und das GitHub-Pages-Deployment erfolgreich. Nach den redaktionellen Korrekturen vom 17. September muss der aktuelle `main` erneut grün durchlaufen.
@@ -370,3 +370,14 @@ Noch offen beziehungsweise wiederholt zu prüfen:
 # Grundregel für neue Pendenzen
 
 Neue offene Arbeiten werden **nur in dieser Datei** ergänzt. Keine zusätzlichen konkurrierenden Pendenz- oder Umsetzungskonzeptdateien im Repository anlegen.
+
+---
+
+# Phase 10 – Reisetagebuch
+
+## 10.1 Generisches Tagebuch-Grundgerüst
+
+**Status:** ERLEDIGT
+**Verantwortlich:** Codex
+
+Für jeden Reisetag existiert ein eigener, zunächst bewusst offener Tagebucheintrag. Übersicht, Vor-/Zurück-Navigation, Fotogalerie beziehungsweise Fotoplatzhalter, strukturierte besuchte Orte mit Google-Maps- und optionalem Item-Link sowie eine aus denselben Ortsdaten erzeugte Karte sind umgesetzt. Neue Einträge verwenden `templates/tagebuch.md`; Erlebnisse, eigene Fotos und tatsächlich besuchte Orte werden während der Reise ergänzt.
