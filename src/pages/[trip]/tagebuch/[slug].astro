@@ -72,7 +72,7 @@ const { Content } = await render(entry);
       try {
         const points = JSON.parse(dataElement.textContent || '[]');
         if (Array.isArray(points) && points.length > 0) {
-          const map = L.map(mapElement, { scrollWheelZoom: false });
+          const map = L.map('diary-map', { scrollWheelZoom: false });
           L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '© OpenStreetMap contributors',
             maxZoom: 19,
@@ -91,9 +91,9 @@ const { Content } = await render(entry);
           markers.addTo(map);
 
           if (points.length === 1) map.setView([points[0].coordinates.lat, points[0].coordinates.lon], 14);
-          else map.fitBounds(markers.getBounds(), { padding: [35, 35], maxZoom: 16 });
+          else map.fitBounds(markers.getBounds(), { padding: [35, 35] });
 
-          requestAnimationFrame(() => map.invalidateSize());
+          requestAnimationFrame(() => (map as any).invalidateSize());
         }
       } catch (error) {
         console.error('Tagebuch-Karte konnte nicht initialisiert werden.', error);
