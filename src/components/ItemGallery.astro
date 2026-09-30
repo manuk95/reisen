@@ -7,13 +7,118 @@ const base=import.meta.env.BASE_URL;
 <figure class="item-gallery" data-gallery aria-label={`Bildergalerie: ${title}`} tabindex={slides.length>1?0:undefined}>
   <div class="gallery-stage">
     {slides.map((item,index)=><div class="gallery-slide" data-slide hidden={index>0}>
-      <img src={`${base}${item.src}`} alt={item.alt} loading={index===0?'eager':'lazy'} decoding="async" fetchpriority={index===0?'high':'auto'} />
+      <button class="gallery-open" type="button" data-open-lightbox data-index={index} aria-label={`Bild ${index + 1} von ${slides.length} gross anzeigen`}>
+        <img src={`${base}${item.src}`} alt={item.alt} loading={index===0?'eager':'lazy'} decoding="async" fetchpriority={index===0?'high':'auto'} />
+      </button>
       {(item.caption||item.credit||item.license)&&<figcaption>{item.caption}{item.caption&&item.credit&&' · '}{item.credit&&(item.source?<a href={item.source} target="_blank" rel="external noopener noreferrer">{item.credit}</a>:item.credit)}{item.license&&<> · {item.license}</>}</figcaption>}
     </div>)}
     {slides.length>1&&<><button class="gallery-button previous" type="button" data-previous aria-label="Vorheriges Bild">‹</button><button class="gallery-button next" type="button" data-next aria-label="Nächstes Bild">›</button></>}
+    <span class="gallery-expand-hint" aria-hidden="true">⛶</span>
   </div>
   {slides.length>1&&<p class="gallery-position" aria-live="polite"><span data-current>1</span> / {slides.length}</p>}
 </figure>
-{slides.length>1&&<script>
-  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(gallery=>{const slides=[...gallery.querySelectorAll<HTMLElement>('[data-slide]')];let current=0,startX:number|undefined;const show=(next:number)=>{slides[current].hidden=true;current=(next+slides.length)%slides.length;slides[current].hidden=false;const counter=gallery.querySelector('[data-current]');if(counter)counter.textContent=String(current+1)};gallery.querySelector('[data-previous]')?.addEventListener('click',()=>show(current-1));gallery.querySelector('[data-next]')?.addEventListener('click',()=>show(current+1));gallery.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(current-1);if(e.key==='ArrowRight')show(current+1)});gallery.addEventListener('touchstart',e=>startX=e.changedTouches[0]?.clientX,{passive:true});gallery.addEventListener('touchend',e=>{if(startX===undefined)return;const delta=e.changedTouches[0].clientX-startX;if(Math.abs(delta)>50)show(current+(delta<0?1:-1));startX=undefined},{passive:true})});
-</script>}
+
+<dialog class="gallery-lightbox" data-lightbox aria-label={`Grossansicht: ${title}`}>
+  <div class="lightbox-shell">
+    <button class="lightbox-close" type="button" data-lightbox-close aria-label="Grossansicht schliessen">×</button>
+    <div class="lightbox-stage">
+      <img data-lightbox-image src="" alt="" />
+      {slides.length>1&&<>
+        <button class="lightbox-button previous" type="button" data-lightbox-previous aria-label="Vorheriges Bild">‹</button>
+        <button class="lightbox-button next" type="button" data-lightbox-next aria-label="Nächstes Bild">›</button>
+      </>}
+    </div>
+    <div class="lightbox-meta">
+      <p data-lightbox-caption></p>
+      <p class="lightbox-position" aria-live="polite"><span data-lightbox-current>1</span> / {slides.length}</p>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-gallery]').forEach(gallery=>{
+    if (gallery.dataset.galleryReady === 'true') return;
+    gallery.dataset.galleryReady = 'true';
+
+    const slides=[...gallery.querySelectorAll<HTMLElement>('[data-slide]')];
+    const lightbox=gallery.nextElementSibling as HTMLDialogElement | null;
+    const lightboxImage=lightbox?.querySelector<HTMLImageElement>('[data-lightbox-image]');
+    const lightboxCaption=lightbox?.querySelector<HTMLElement>('[data-lightbox-caption]');
+    const lightboxCounter=lightbox?.querySelector<HTMLElement>('[data-lightbox-current]');
+    let current=0;
+    let startX:number|undefined;
+    let lightboxStartX:number|undefined;
+
+    const updateLightbox=()=>{
+      if (!lightbox || !lightboxImage) return;
+      const slide=slides[current];
+      const source=slide?.querySelector<HTMLImageElement>('img');
+      const caption=slide?.querySelector<HTMLElement>('figcaption');
+      if (!source) return;
+      lightboxImage.src=source.currentSrc || source.src;
+      lightboxImage.alt=source.alt;
+      if (lightboxCaption) {
+        lightboxCaption.textContent=caption?.textContent?.trim() || '';
+        lightboxCaption.hidden=!lightboxCaption.textContent;
+      }
+      if (lightboxCounter) lightboxCounter.textContent=String(current+1);
+    };
+
+    const show=(next:number)=>{
+      if (!slides.length) return;
+      slides[current].hidden=true;
+      current=(next+slides.length)%slides.length;
+      slides[current].hidden=false;
+      const counter=gallery.querySelector('[data-current]');
+      if(counter) counter.textContent=String(current+1);
+      if (lightbox?.open) updateLightbox();
+    };
+
+    const openLightbox=(index:number)=>{
+      if (!lightbox) return;
+      show(index);
+      updateLightbox();
+      lightbox.showModal();
+      lightbox.querySelector<HTMLElement>('[data-lightbox-close]')?.focus();
+    };
+
+    gallery.querySelector('[data-previous]')?.addEventListener('click',()=>show(current-1));
+    gallery.querySelector('[data-next]')?.addEventListener('click',()=>show(current+1));
+    gallery.querySelectorAll<HTMLElement>('[data-open-lightbox]').forEach(trigger=>{
+      trigger.addEventListener('click',()=>openLightbox(Number(trigger.dataset.index || 0)));
+    });
+
+    gallery.addEventListener('keydown',e=>{
+      if(e.key==='ArrowLeft') show(current-1);
+      if(e.key==='ArrowRight') show(current+1);
+      if(e.key==='Enter' && e.target===gallery) openLightbox(current);
+    });
+    gallery.addEventListener('touchstart',e=>startX=e.changedTouches[0]?.clientX,{passive:true});
+    gallery.addEventListener('touchend',e=>{
+      if(startX===undefined)return;
+      const delta=e.changedTouches[0].clientX-startX;
+      if(Math.abs(delta)>50)show(current+(delta<0?1:-1));
+      startX=undefined;
+    },{passive:true});
+
+    lightbox?.querySelector('[data-lightbox-close]')?.addEventListener('click',()=>lightbox.close());
+    lightbox?.querySelector('[data-lightbox-previous]')?.addEventListener('click',()=>show(current-1));
+    lightbox?.querySelector('[data-lightbox-next]')?.addEventListener('click',()=>show(current+1));
+    lightbox?.addEventListener('click',e=>{if(e.target===lightbox) lightbox.close()});
+    lightbox?.addEventListener('keydown',e=>{
+      if(e.key==='ArrowLeft'){e.preventDefault();show(current-1)}
+      if(e.key==='ArrowRight'){e.preventDefault();show(current+1)}
+    });
+    lightbox?.addEventListener('touchstart',e=>lightboxStartX=e.changedTouches[0]?.clientX,{passive:true});
+    lightbox?.addEventListener('touchend',e=>{
+      if(lightboxStartX===undefined)return;
+      const delta=e.changedTouches[0].clientX-lightboxStartX;
+      if(Math.abs(delta)>50)show(current+(delta<0?1:-1));
+      lightboxStartX=undefined;
+    },{passive:true});
+    lightbox?.addEventListener('close',()=>{
+      const active=slides[current]?.querySelector<HTMLElement>('[data-open-lightbox]');
+      active?.focus();
+    });
+  });
+</script>
