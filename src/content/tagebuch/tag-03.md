@@ -75,6 +75,38 @@ images:
     alt: "Screenshot der Nachrichten zur Barbarestan-Reservation mit dem Angebot für einen Tisch um 18 Uhr"
     caption: "Nach etwas Jammern klappte es doch noch: Tisch im Barbarestan um 18:00 Uhr."
     ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/11-meidan-bazaar-innen.jpg"
+    alt: "Blick in den unterirdischen Meidan Bazaar mit Backsteinbögen, Souvenirständen und georgischer Dekoration"
+    caption: "Im atmosphärischen Meidan Bazaar unter dem Gorgasali-Platz."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/12-vorspeise-tatar-rote-bete-markknochen.jpg"
+    alt: "Vorspeise im Barbarestan mit Rinderfilet-Tatar in einer ausgehöhlten Roten Bete und Markknochen"
+    caption: "Martinas Vorspeise: „Starter with Tenderloin Tartar and Fresh Beets“."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/13-vorspeise-salmon-roll.jpg"
+    alt: "Vorspeise im Barbarestan mit Lachsrollen, eingelegtem Gemüse und grüner Sauce"
+    caption: "Manuels Vorspeise: „Salmon Rolls with Pickled Vegetables“."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/14-hauptgang-tenderloin.jpg"
+    alt: "Hauptgang im Barbarestan mit rosa gebratenem Rinderfilet, geräucherter Beilage und Schafsfrischkäse"
+    caption: "Martinas Hauptgang: „Beef Tenderloin by Kakhetian Whey“."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/15-hauptgang-seebarschrolle.jpg"
+    alt: "Hauptgang im Barbarestan mit gefüllter Seebarschrolle, Sauce und fein geschichtetem Kartoffelgratin"
+    caption: "Manuels Hauptgang: „Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/16-weinkeller-barbarestan.jpg"
+    alt: "Historischer Gewölbekeller im Barbarestan mit gedeckten Tischen, Backsteinwänden und hängenden Trockenblumen"
+    caption: "Bei der Führung durch den stimmungsvollen Wein- und Gewölbekeller."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/17-barbare-eristavi-jorjadze-portraet.jpg"
+    alt: "Gerahmtes Porträt von Barbare Eristavi-Jorjadze an einer Backsteinwand im Barbarestan"
+    caption: "Porträt von Barbare Eristavi-Jorjadze im Keller des Restaurants."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/18-barbarestan-aussen.jpg"
+    alt: "Aussenansicht des Restaurants Barbarestan bei Nacht mit beleuchtetem Eingangsbereich und altem Wagen vor dem Gebäude"
+    caption: "Zum Schluss noch ein Blick auf das Barbarestan von aussen."
+    ownPhoto: true
 updated: 2026-09-30
 ---
 
