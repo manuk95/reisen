@@ -34,7 +34,47 @@ locations:
     coordinates: { lat: 41.713186, lon: 44.794454 }
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=41.713186,44.794454"
     page: "restaurants:barbarestan"
-images: []
+images:
+  - src: "images/georgien/tagebuch/tag-03/01-fruehstueck-martina.jpg"
+    alt: "Martina sitzt beim Frühstück in Tiflis und isst ein mit Puderzucker bestäubtes Nussgebäck"
+    caption: "Kleines Frühstück in der Nähe des Hotels: Martina mit dem Nussgebäck."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/02-fruehstueck-manuel.jpg"
+    alt: "Manuel sitzt beim Frühstück in Tiflis und isst ein mit Puderzucker bestäubtes Gebäck; auf dem Tisch steht ein Kaffee"
+    caption: "Auch Manuel probiert das süsse Gebäck – dazu ein Kaffee."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/03-aussicht-ueber-tiflis.jpg"
+    alt: "Blick über die roten Dächer der Altstadt von Tiflis und die umliegenden Hügel"
+    caption: "Blick über die Altstadt von Tiflis auf dem Weg hinauf."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/04-selfie-oberhalb-tiflis.jpg"
+    alt: "Manuel und Martina machen oberhalb der Altstadt von Tiflis ein Selfie"
+    caption: "Ein Selfie oberhalb der Altstadt."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/05-wein-mit-aussicht.jpg"
+    alt: "Zwei Gläser Rotwein auf einer Aussichtsterrasse mit Blick über Tiflis und einer Seilbahngondel im Hintergrund"
+    caption: "Ein Glas Wein mit Blick über Tiflis – und die Seilbahn direkt vor uns."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/06-mutter-georgiens.jpg"
+    alt: "Die Statue Kartlis Deda, Mutter Georgiens, zwischen Bäumen oberhalb von Tiflis"
+    caption: "Kartlis Deda – die Mutter Georgiens."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/07-gasse-tiflis.jpg"
+    alt: "Steile gepflasterte Gasse in Tiflis mit traditionellen Häusern und Holzbalkonen"
+    caption: "Unterwegs durch die steilen Gassen von Tiflis."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/08-selfie-abanotubani.jpg"
+    alt: "Manuel und Martina bei einem Selfie oberhalb der Schwefelbadkuppeln von Abanotubani"
+    caption: "Abanotubani mit seinen typischen Schwefelbadkuppeln im Hintergrund."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/09-adjaruli-chatschapuri-tbilisistanbul.jpg"
+    alt: "Martina sitzt im TbilisIstanbul Restaurant Cafe vor einem adscharischen Chatschapuri mit Ei und Butter"
+    caption: "Unser Adjaruli-Chatschapuri im TbilisIstanbul."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-03/10-barbarestan-reservation.jpg"
+    alt: "Screenshot der Nachrichten zur Barbarestan-Reservation mit dem Angebot für einen Tisch um 18 Uhr"
+    caption: "Nach etwas Jammern klappte es doch noch: Tisch im Barbarestan um 18:00 Uhr."
+    ownPhoto: true
 updated: 2026-09-30
 ---
 
@@ -66,7 +106,7 @@ Eigentlich hatte der Wetterbericht bereits für etwa **14:00 Uhr Regen** angekü
 
 ### 14:50 Uhr – Chatschapuri im TbilisIstanbul
 
-Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein Chatschapuri.
+Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein **adscharisches Chatschapuri (Adjaruli)**.
 
 Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im **Barbarestan** einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
 
