@@ -4,7 +4,7 @@ slug: tag-03
 trip: georgien-2026
 day: 3
 date: 2026-09-30
-summary: "Mit der Narikala-Seilbahn über Tiflis, Mutter Georgiens, Botanischer Garten und Abanotubani – danach Chatschapuri, Meidan Bazaar und Barbarestan."
+summary: "Narikala-Seilbahn, Mutter Georgiens, Botanischer Garten und Altstadt – danach Chatschapuri, Meidan Bazaar und ein besonderer Abend im Barbarestan."
 locations:
   - label: "Rike Park · Narikala-Seilbahn"
     coordinates: { lat: 41.691722, lon: 44.811328 }
@@ -38,29 +38,81 @@ images: []
 updated: 2026-09-30
 ---
 
-## Das haben wir erlebt
+## Tagesablauf – Tag 3, Mittwoch, 30. September 2026
 
-Gegen **10:00 Uhr** starteten wir mit einem kleinen Frühstück in der Nähe unseres Hotels. In einer Bäckerei holten wir uns zwei süsse Gebäcke: ein croissantartiges, mit Nüssen gefülltes Gebäck, stark mit Puderzucker bestäubt – vermutlich mit Erdnüssen und Mandeln – sowie ein schokoladengefülltes Blätterteiggebäck.
+### Gegen 10:00 Uhr – Kleines Frühstück
 
-Danach liefen wir zu Fuss zur Talstation der **Narikala-Seilbahn im Rike Park**. Mit der Gondel ging es über den Mtkvari und die Dächer der Altstadt hinauf auf den Höhenzug bei Narikala. Oben genossen wir zunächst die Aussicht über Tiflis und machten einen gemütlichen Spaziergang.
+Wir starteten den dritten Reisetag mit einem kleinen Frühstück in der Nähe unseres Hotels. In einer Bäckerei kauften wir zwei süsse Gebäcke: ein croissantartiges, mit Nüssen gefülltes und stark mit Puderzucker bestäubtes Gebäck sowie ein schokoladengefülltes Blätterteiggebäck.
 
-Natürlich durfte auch die **Mutter Georgiens – Kartlis Deda** nicht fehlen. Anschliessend fanden wir ein Café mit einer grossartigen Aussichtsterrasse. Bei einem Glas Wein konnten wir nochmals in Ruhe über die Stadt schauen.
+### Zu Fuss zum Rike Park
 
-Von **12:50 bis ungefähr 14:15 Uhr** besuchten wir den **Nationalen Botanischen Garten Georgiens**. Der Weg führte uns immer weiter hinunter durch das weitläufige grüne Tal, bis wir den Garten schliesslich am unteren Ausgang Richtung **Abanotubani**, dem historischen Bäderviertel von Tiflis, verliessen. Den **Leghvtakhevi-Wasserfall** liessen wir diesmal aus.
+Nach dem Frühstück liefen wir zur Talstation der **Narikala-Seilbahn im Rike Park**.
 
-Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein **Chatschapuri**. Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im **Barbarestan** einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
+### Mit der Seilbahn nach Narikala
 
-Danach schlenderten wir noch etwas durch die Gassen der Altstadt und entdeckten den **Meidan Bazaar** – einen atmosphärischen unterirdischen Markt unter dem Gorgasali-Platz.
+Mit der Gondel fuhren wir über den Mtkvari und die Dächer der Altstadt hinauf zum Höhenzug bei der **Narikala-Festung**. Oben genossen wir die Aussicht über Tiflis und machten einen gemütlichen Spaziergang.
 
-Von dort gingen wir langsam zurück ins **Silver 39 Corner Hotel**. Nach dem vielen Laufen war erst einmal kurz nichts tun angesagt. Wir entspannten im Hotel und machten uns anschliessend bereit für das Abendessen.
+### Mutter Georgiens und Aussichtscafé
 
-Um **18:00 Uhr** ging es ins **Barbarestan**. Das Restaurant wird von Gault&Millau Georgia aktuell mit **16,5 von 20 Punkten** bewertet und steht damit an der Spitze der dort gelisteten Restaurants in Georgien. Das Konzept basiert auf den Rezepten von **Barbare Eristavi-Jorjadze** aus dem 19. Jahrhundert – entsprechend gespannt waren wir auf den Abend.
+Anschliessend besuchten wir die Statue **Kartlis Deda – Mutter Georgiens**. Danach fanden wir ein Café mit einer grossartigen Aussichtsterrasse. Bei einem Glas Wein schauten wir nochmals in Ruhe über die Stadt.
 
-<!-- Hier die gegessenen Gerichte ergänzen. -->
-<!-- Hier den weiteren Abend nach Barbarestan ergänzen. -->
+### 12:50–14:15 Uhr – Nationaler Botanischer Garten
 
-**Fortsetzung folgt.**
+Von **12:50 Uhr bis ungefähr 14:15 Uhr** besuchten wir den **Nationalen Botanischen Garten Georgiens**. Der Weg führte uns immer weiter hinunter durch das weitläufige grüne Tal.
 
-## Unser Fazit
+Wir verliessen den Garten am unteren Ausgang in Richtung **Abanotubani**, dem historischen Bäderviertel von Tiflis. Den **Leghvtakhevi-Wasserfall** liessen wir diesmal aus.
 
-_Der dritte Reisetag ist noch nicht abgeschlossen – das Fazit folgt später._
+Eigentlich hatte der Wetterbericht bereits für etwa **14:00 Uhr Regen** angekündigt. Davon war allerdings noch nichts zu sehen – und erstaunlicherweise sollte das noch einige Stunden so bleiben.
+
+### 14:50 Uhr – Chatschapuri im TbilisIstanbul
+
+Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein Chatschapuri.
+
+Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im **Barbarestan** einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
+
+### Meidan Bazaar und Altstadt
+
+Nach dem Essen schlenderten wir weiter durch die Gassen der Altstadt. Dabei entdeckten wir den **Meidan Bazaar**, einen atmosphärischen unterirdischen Markt unter dem Gorgasali-Platz.
+
+### Pause im Hotel
+
+Vom Meidan Bazaar gingen wir langsam zurück ins **Silver 39 Corner Hotel**. Nach dem vielen Laufen entspannten wir uns eine Weile und machten uns danach für das Abendessen bereit.
+
+### Am frühen Abend – Auf zum Barbarestan
+
+Für **18:00 Uhr** hatten wir unseren Tisch im **Barbarestan**. Eigentlich wollten wir mit einem Bolt zum Restaurant fahren. Der Verkehr stand jedoch praktisch still, weshalb wir irgendwann ausstiegen und den restlichen Weg zu Fuss zurücklegten. Das war deutlich schneller, als weiter im Stau zu warten.
+
+### Abendessen im Barbarestan
+
+Das Restaurant basiert auf den historischen Rezepten von **Barbare Eristavi-Jorjadze** aus dem 19. Jahrhundert. Die Gerichte waren aufwendig und sehr farbenfroh angerichtet.
+
+Zur Vorspeise erhielten wir eine Kombination aus einem fein geschnittenen Salat in einer ausgehöhlten Roten Bete und einem belegten Markknochen.
+
+Danach folgte ein Fischgang: eine gefüllte Fischroulade mit Kartoffelbeilage und dunkler Sauce.
+
+Bei den Hauptgängen hatten wir:
+
+- rosa gebratenes Rindfleisch mit Gemüse sowie einer grünen und einer hellen Sauce;
+- eine gefüllte Rolle mit Roter Bete, grüner Kräutersauce und Blütengarnitur.
+
+Die genauen Bezeichnungen einzelner Komponenten waren in der ausführlichen Speisekarte spezieller, als wir sie uns im Nachhinein merken konnten. Deshalb lassen sich die Teller verlässlicher anhand der tatsächlich sichtbaren und gegessenen Bestandteile beschreiben.
+
+### Führung durch den Wein- und Gewölbekeller
+
+Nach dem Essen bekamen wir überraschend noch eine Führung durch den historischen Wein- und Gewölbekeller des Restaurants.
+
+Zwischen alten Backsteinmauern, gedeckten Tischen, historischen Bildern und zahlreichen kleinen Einrichtungsdetails erfuhren wir mehr über das Restaurant. Die ungeplante Führung war sehr interessant und wurde zu einem besonderen Abschluss des Abends.
+
+### Zu Fuss zurück zum Hotel
+
+Nach dem Restaurantbesuch liefen wir zu Fuss zurück zum **Silver 39 Corner Hotel**.
+
+Und ausgerechnet jetzt kam auch noch der Regen: Der Wetterbericht hatte ihn bereits für etwa **14:00 Uhr** angekündigt, tatsächlich begann es aber erst kurz nachdem wir nach dem Abendessen wieder im Hotel waren. Damit hatten wir den ganzen Tag über erstaunlich viel Glück mit dem Wetter.
+
+Dort liessen wir unseren letzten Abend in Tiflis ausklingen.
+
+## Fazit
+
+Der dritte Reisetag verband nochmals sehr unterschiedliche Seiten von Tiflis: die Aussicht und das Grün rund um Narikala, den Botanischen Garten, die Gassen der Altstadt und zum Abschluss einen besonderen Restaurantabend im Barbarestan.
+
+Selbst der im Verkehr festgefahrene Bolt wurde zu einer kleinen Reisegeschichte. Die spontane Führung durch den historischen Keller war ein unerwarteter Höhepunkt des Tages. Und obwohl bereits für den Nachmittag Regen vorhergesagt war, blieb es genau bis zum Ende unseres Tagesprogramms trocken – besser hätte das Timing kaum sein können.
