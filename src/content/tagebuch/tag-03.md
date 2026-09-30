@@ -48,7 +48,9 @@ Natürlich durfte auch die **Mutter Georgiens – Kartlis Deda** nicht fehlen. A
 
 Von **12:50 bis ungefähr 14:15 Uhr** besuchten wir den **Nationalen Botanischen Garten Georgiens**. Der Weg führte uns immer weiter hinunter durch das weitläufige grüne Tal, bis wir den Garten schliesslich am unteren Ausgang Richtung **Abanotubani**, dem historischen Bäderviertel von Tiflis, verliessen. Den **Leghvtakhevi-Wasserfall** liessen wir diesmal aus.
 
-Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein **Chatschapuri**. Danach schlenderten wir noch etwas durch die Gassen der Altstadt und entdeckten den **Meidan Bazaar** – einen atmosphärischen unterirdischen Markt unter dem Gorgasali-Platz.
+Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein **Chatschapuri**. Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im **Barbarestan** einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
+
+Danach schlenderten wir noch etwas durch die Gassen der Altstadt und entdeckten den **Meidan Bazaar** – einen atmosphärischen unterirdischen Markt unter dem Gorgasali-Platz.
 
 Von dort gingen wir langsam zurück ins **Silver 39 Corner Hotel**. Nach dem vielen Laufen war erst einmal kurz nichts tun angesagt. Wir entspannten im Hotel und machten uns anschliessend bereit für das Abendessen.
 
