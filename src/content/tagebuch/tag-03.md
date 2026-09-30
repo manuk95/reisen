@@ -128,15 +128,13 @@ Das Restaurant basiert auf den historischen Rezepten von **Barbare Eristavi-Jorj
 
 Bei den Vorspeisen hatten wir:
 
-- **Martina:** Beef-Tatar in Roter Bete, dazu Markknochen;
-- **Manuel:** Salmon Roll.
+- **Martina:** **„Starter with Tenderloin Tartar and Fresh Beets“** – Rinderfilet-Tatar mit frischer Roter Bete. Serviert wurde das grob geschnittene Tatar in einer ganzen ausgehöhlten Roten Bete und zusätzlich mit einem Markknochen.
+- **Manuel:** **„Salmon Rolls with Pickled Vegetables“** – Lachsrollen mit eingelegtem Gemüse. Dazu wurden eine Lachspaste und eine grüne Zitrussauce serviert.
 
 Bei den Hauptgängen hatten wir:
 
-- **Martina:** geräuchertes Tenderloin;
-- **Manuel:** eine gefüllte Seebarschrolle aus dem Ofen mit Kartoffelgratin.
-
-So lässt sich unser Menü deutlich genauer festhalten als in der ersten Beschreibung – vor allem, weil wir die Speisekarte danach nochmals abgleichen konnten.
+- **Martina:** **„Beef Tenderloin by Kakhetian Whey“** – Rinderfilet mit kachetischer Molke. Sowohl das Filet als auch ein Teil der Beilage waren geräuchert. Dazu gab es Schafsfrischkäse.
+- **Manuel:** **„Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“** – gebackener Fisch mit georgischen Gewürzen und Tkemali-Sauce. Der Fisch war ein Seebarsch, zu einer Rolle geformt und mit Frischkäse sowie frischen Kräutern gefüllt. Dazu gab es einen sehr fein geschichteten Kartoffelgratin, ähnlich wie **Pommes Anna**.
 
 ### Führung durch den Wein- und Gewölbekeller
 
