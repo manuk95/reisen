@@ -78,7 +78,7 @@ images:
 updated: 2026-09-30
 ---
 
-## Tagesablauf – Tag 3, Mittwoch, 30. September 2026
+## Das haben wir erlebt
 
 ### Gegen 10:00 Uhr – Kleines Frühstück
 
@@ -151,7 +151,7 @@ Und ausgerechnet jetzt kam auch noch der Regen: Der Wetterbericht hatte ihn bere
 
 Dort liessen wir unseren letzten Abend in Tiflis ausklingen.
 
-## Fazit
+## Unser Fazit
 
 Der dritte Reisetag verband nochmals sehr unterschiedliche Seiten von Tiflis: die Aussicht und das Grün rund um Narikala, den Botanischen Garten, die Gassen der Altstadt und zum Abschluss einen besonderen Restaurantabend im Barbarestan.
 
