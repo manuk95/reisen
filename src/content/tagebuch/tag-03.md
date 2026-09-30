@@ -126,16 +126,17 @@ Für **18:00 Uhr** hatten wir unseren Tisch im **Barbarestan**. Eigentlich wollt
 
 Das Restaurant basiert auf den historischen Rezepten von **Barbare Eristavi-Jorjadze** aus dem 19. Jahrhundert. Die Gerichte waren aufwendig und sehr farbenfroh angerichtet.
 
-Zur Vorspeise erhielten wir eine Kombination aus einem fein geschnittenen Salat in einer ausgehöhlten Roten Bete und einem belegten Markknochen.
+Bei den Vorspeisen hatten wir:
 
-Danach folgte ein Fischgang: eine gefüllte Fischroulade mit Kartoffelbeilage und dunkler Sauce.
+- **Martina:** Beef-Tatar in Roter Bete, dazu Markknochen;
+- **Manuel:** Salmon Roll.
 
 Bei den Hauptgängen hatten wir:
 
-- rosa gebratenes Rindfleisch mit Gemüse sowie einer grünen und einer hellen Sauce;
-- eine gefüllte Rolle mit Roter Bete, grüner Kräutersauce und Blütengarnitur.
+- **Martina:** geräuchertes Tenderloin;
+- **Manuel:** eine gefüllte Seebarschrolle aus dem Ofen mit Kartoffelgratin.
 
-Die genauen Bezeichnungen einzelner Komponenten waren in der ausführlichen Speisekarte spezieller, als wir sie uns im Nachhinein merken konnten. Deshalb lassen sich die Teller verlässlicher anhand der tatsächlich sichtbaren und gegessenen Bestandteile beschreiben.
+So lässt sich unser Menü deutlich genauer festhalten als in der ersten Beschreibung – vor allem, weil wir die Speisekarte danach nochmals abgleichen konnten.
 
 ### Führung durch den Wein- und Gewölbekeller
 
