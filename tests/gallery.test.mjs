@@ -33,3 +33,17 @@ test('knowledge pages render images-array galleries without legacy image', () =>
   assert.match(page,/entry\.data\.images\.length\s*>\s*0\s*\|\|\s*entry\.data\.image/);
   assert.match(page,/legacy=\{entry\.data\.image\s*\?/);
 });
+
+
+test('gallery opens a fullscreen lightbox with keyboard, close and swipe controls', () => {
+  const gallery=readFileSync(new URL('../src/components/ItemGallery.astro',import.meta.url),'utf8');
+  assert.match(gallery,/data-open-lightbox/);
+  assert.match(gallery,/data-lightbox/);
+  assert.match(gallery,/showModal\(\)/);
+  assert.match(gallery,/data-lightbox-close/);
+  assert.match(gallery,/data-lightbox-previous/);
+  assert.match(gallery,/data-lightbox-next/);
+  assert.match(gallery,/lightbox.*ArrowLeft/s);
+  assert.match(gallery,/lightbox.*ArrowRight/s);
+  assert.match(gallery,/lightboxStartX/);
+});
