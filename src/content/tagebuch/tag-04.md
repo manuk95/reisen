@@ -6,7 +6,47 @@ day: 4
 date: 2026-10-01
 summary: "Von Tiflis über Chronicles of Georgia, Dschwari und Ananuri Richtung Kazbegi – mit viel Verkehr, Kaffee unterwegs und Nebel beim Gudauri-Friedensdenkmal."
 locations: []
-images: []
+images:
+  - src: "images/georgien/tagebuch/tag-04/01-ford-bronco-mietwagen.jpg"
+    alt: "Ein hellblauer Ford Bronco steht als Mietwagen in einem Hof in Tiflis"
+    caption: "Unser Ford Bronco – unser Begleiter für die nächsten Tage."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/02-chronicle-of-georgia-manuel.jpg"
+    alt: "Manuel steht mit ausgebreiteten Armen vor den monumentalen Säulen des Chronicle of Georgia"
+    caption: "Beim Chronicle of Georgia."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/03-blick-auf-mzcheta-von-jvari.jpg"
+    alt: "Blick vom Dschwari-Kloster auf Mtskheta mit der Swetizchoweli-Kathedrale"
+    caption: "Blick vom Dschwari-Kloster auf Mtskheta und die Swetizchoweli-Kathedrale."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/04-jvari-kloster.jpg"
+    alt: "Das Dschwari-Kloster mit Resten der alten Befestigung auf einer Anhöhe"
+    caption: "Das Dschwari-Kloster mit den Resten der alten Befestigung."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/05-mittagessen-shin-shemo.jpg"
+    alt: "Martina sitzt an einem Holztisch im Freien vor verschiedenen georgischen Gerichten im Shin-Shemo Restaurant"
+    caption: "Mittagessen im Shin-Shemo: typisch georgisch, aber eher durchschnittlich."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/06-ananuri-mit-see.jpg"
+    alt: "Blick über die Festung Ananuri und den türkisfarbenen Schinwali-Stausee"
+    caption: "Blick über die Festung Ananuri und den Schinwali-Stausee."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/07-stau-diskussion-gegenverkehr.jpg"
+    alt: "Mehrere Einheimische stehen auf der Strasse vor einer stehenden Fahrzeugkolonne und diskutieren im Stau"
+    caption: "Im Stau diskutierten einige Einheimische, wie die Fahrzeuge sortiert werden müssen, damit der Gegenverkehr wieder durchkommt."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/08-baustellenampel.jpg"
+    alt: "Eine Baustelle auf einer Schotterstrasse, bei der ein Arbeiter den Verkehr von Hand regelt"
+    caption: "Ein Bauarbeiter übernahm kurzerhand die Rolle einer improvisierten «Ampel» auf der Baustelle."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/09-kaffeehalt-restaurant-gorda.jpg"
+    alt: "Innenansicht der verglasten Terrasse des Restaurant Gorda mit Blick ins grüne Tal"
+    caption: "Kaffeepause im Restaurant Gorda – deutlich angenehmer als unser Mittagsstopp."
+    ownPhoto: true
+  - src: "images/georgien/tagebuch/tag-04/10-gudauri-friedensdenkmal.jpg"
+    alt: "Manuel und Martina stehen unter einem Bogen des Gudauri-Friedensdenkmals vor nebliger Bergkulisse"
+    caption: "Beim Gudauri-Friedensdenkmal – mit Nebel statt Fernsicht."
+    ownPhoto: true
 updated: 2026-10-01
 ---
 
