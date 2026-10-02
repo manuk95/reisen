@@ -26,7 +26,57 @@ locations:
   - label: "Pansheti Swimming Pool and Mineral Water Spring"
     coordinates: { lat: 42.64627, lon: 44.62939 }
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.64627,44.62939"
-images: []
+images:
+  - src: "images/georgien/tagebuch/tag-05/01-brunch-maisi-martina.webp"
+    alt: "Martina sitzt im Maisi vor einer Tasse Kaffee am gedeckten Frühstückstisch"
+    caption: "Gemütlicher Brunch im Maisi."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/02-zucchini-pancake-maisi.webp"
+    alt: "Zucchini-Pancake mit pochiertem Ei, Lachs und Hollandaise auf einem gemusterten Teller"
+    caption: "Zucchini-Pancake mit pochiertem Ei, Lachs und Hollandaise."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/03-gergeti-im-nebel.webp"
+    alt: "Die Gergeti-Dreifaltigkeitskirche steht im Nebel oberhalb eines stellenweise schneebedeckten Hangs"
+    caption: "Gergeti im Nebel – mit etwas Schnee am Hang."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/04-gergeti-kircheninneres.webp"
+    alt: "Blick nach oben in die steinerne Kuppel und das Gewölbe der Gergeti-Dreifaltigkeitskirche"
+    caption: "Ein Blick in die Kuppel der Gergeti-Dreifaltigkeitskirche."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/05-martina-rotkaeppchen.webp"
+    alt: "Martina trägt ein rotes Kopftuch vor einer Ikone und brennenden Kerzen in der Gergeti-Kirche"
+    caption: "Unser «Rotkäppchen»: Martina mit rotem Kopftuch in der Kirche."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/06-dariali-tal.webp"
+    alt: "Blick aus dem Auto auf den Fluss zwischen steilen Berghängen im Tal Richtung Dariali"
+    caption: "Unterwegs durch das Tal Richtung Dariali."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/07-dariali-kloster.webp"
+    alt: "Kirche und Glockenturm des Dariali-Klosterkomplexes vor einem bewaldeten Felshang"
+    caption: "Der Dariali-Klosterkomplex nahe der russischen Grenze."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/08-selfie-dariali-kloster.webp"
+    alt: "Manuel und Martina machen ein Selfie mit Mützen und Regenjacken vor der Kirche des Dariali-Klosters"
+    caption: "Wir beim Dariali-Kloster – gut eingepackt gegen das Wetter."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/09-stau-grenzkontrolle-russland.webp"
+    alt: "Blick von oben auf stehende Fahrzeuge bei der Grenzkontrolle Richtung Russland und ein Klostergebäude im Vordergrund"
+    caption: "Stau bei der Grenzkontrolle Richtung Russland."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/10-hoehle-oberhalb-dariali.webp"
+    alt: "Dunkler Höhleneingang in einem Felsen zwischen Bäumen und Sträuchern oberhalb des Dariali-Klosters"
+    caption: "Eine Höhle oberhalb des Dariali-Klosters."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
 updated: 2026-10-02
 ---
 
