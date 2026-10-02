@@ -11,6 +11,24 @@ concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - name: Prepare licensed media
+        run: node scripts/run-ci-step.mjs "Medienvorbereitung" npm run media
+      - name: Install locked dependencies
+        run: node scripts/run-ci-step.mjs "Installation" npm ci
+      - name: Check Astro and TypeScript
+        run: node scripts/run-ci-step.mjs "Astro-Check" npm run check
+      - name: Run tests
+        run: node scripts/run-ci-step.mjs "Tests" npm run test
   build:
     runs-on: ubuntu-latest
     steps:
@@ -29,14 +47,10 @@ jobs:
           | Phase | Ergebnis | Laufzeit | Build-Grösse | HTML-Dateien |
           | --- | --- | ---: | ---: | ---: |
           EOF
-      - name: Install locked dependencies
-        run: node scripts/run-ci-step.mjs "Installation" npm ci
       - name: Prepare licensed media
         run: node scripts/run-ci-step.mjs "Medienvorbereitung" npm run media
-      - name: Check Astro and TypeScript
-        run: node scripts/run-ci-step.mjs "Astro-Check" npm run check
-      - name: Run tests
-        run: node scripts/run-ci-step.mjs "Tests" npm run test
+      - name: Install locked dependencies
+        run: node scripts/run-ci-step.mjs "Installation" npm ci
       - name: Build site and Pagefind index
         run: node scripts/run-ci-step.mjs "Build/Pagefind" npm run build
       - name: Validate generated internal links
@@ -50,7 +64,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
+    needs: [quality, build]
     runs-on: ubuntu-latest
     steps:
       - name: Deploy GitHub Pages
