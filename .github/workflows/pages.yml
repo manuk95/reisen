@@ -54,7 +54,7 @@ jobs:
       - name: Build site and Pagefind index
         run: node scripts/run-ci-step.mjs "Build/Pagefind" npm run build
       - name: Validate generated internal links
-        run: node scripts/run-ci-step.mjs "Build-Validierung" npm run test:built
+        run: node scripts/run-ci-step.mjs "Build-Validierung" npm run validate:build
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
       - name: Upload GitHub Pages artifact
