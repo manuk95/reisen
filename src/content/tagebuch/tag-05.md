@@ -77,6 +77,46 @@ images:
     caption: "Eine Höhle oberhalb des Dariali-Klosters."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/11-kirschdessert-cafe-monastery.webp"
+    alt: "Martina sitzt im Cafe Monastery vor einem Kirschdessert mit mehreren Schichten im Glas"
+    caption: "Kirschdessert im Cafe Monastery beim Dariali-Kloster."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/12-bauarbeiten-dariali-tal.webp"
+    alt: "Blick von oben auf Bauarbeiten mit runden Fundamenten im Flussbett der Dariali-Schlucht"
+    caption: "Auf der Rückfahrt: Bauarbeiten im Tal – vermutlich für eine Brücke."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/13-martina-steinkopf-sno.webp"
+    alt: "Martina steht neben einer grossen Steinskulptur mit einem bärtigen Gesicht in Sno"
+    caption: "Martina bei den Steinköpfen von Sno."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/14-manuel-steinkopf-sno.webp"
+    alt: "Manuel steht neben einer grossen Steinskulptur mit einem bärtigen Gesicht in Sno"
+    caption: "Auch Manuel stellt sich zum Steinkopf in Sno."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/15-mineralquelle-pansheti.webp"
+    alt: "Mineralwasser fliesst aus einer Quelle mit Rohrleitungen bei Pansheti vor nebligen Berghängen"
+    caption: "Die Mineralquelle beim Pool in Pansheti."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/16-mineralwasserpool-pansheti.webp"
+    alt: "Blick auf den Mineralwasserpool bei Pansheti mit Bergen und tiefen Wolken im Hintergrund"
+    caption: "Der Mineralwasserpool bei Pansheti nach unserer abenteuerlichen Anfahrt."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/17-hauswein-hotel.webp"
+    alt: "Eine grüne unbeschriftete Weinflasche steht auf einem Holztisch im Hotelrestaurant"
+    caption: "Unsere 1-Liter-Flasche selbstgemachten Wein vom Hotel."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-05/18-netflix-filmabend.webp"
+    alt: "Zwei Gläser Rotwein und Süssigkeiten stehen vor einem Fernseher mit Netflix-Logo im holzverkleideten Hotelzimmer"
+    caption: "Hauswein, etwas Süsses und Netflix – unser gemütlicher Tagesabschluss."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
 updated: 2026-10-02
 ---
 
