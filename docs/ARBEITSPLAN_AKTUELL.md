@@ -328,6 +328,15 @@ Historische DOCX/PDF-Quelldokumente separat auf Risiko prüfen. Nicht ohne separ
 
 # Phase 11 – finale technische QA
 
+## 11.0 Deployment beschleunigen
+
+**Status:** IN ARBEIT
+**Verantwortlich:** Codex
+
+Die automatischen Wikimedia-Downloads wurden aus `pretest` und `prebuild` entfernt; `npm run media` bleibt die bewusste Vorbereitung neuer lizenzierter Bilder. Der Build erzeugt die PWA weiterhin lokal, GitHub Actions verwendet den npm-Cache und prüft die erzeugten internen Links nach dem Build separat.
+
+Für den vollständig netzwerkunabhängigen Build müssen die 41 bereits referenzierten Wikimedia-Bilder einmalig in webgerechter Qualität unter ihren bestehenden Pfaden eingecheckt werden. Die aktuelle Arbeitsumgebung blockiert sowohl Wikimedia als auch GitHub am CONNECT-Proxy mit HTTP 403; Quellen und Lizenzangaben in den Content-Dateien bleiben unverändert. Bis diese Dateien über einen funktionierenden Netzwerkzugang bezogen und geprüft sind, ist das Arbeitspaket nicht abgeschlossen.
+
 ## 11.1 Gesamtprüfung
 
 **Status:** IN ARBEIT
