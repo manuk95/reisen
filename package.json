@@ -22,7 +22,6 @@
     "typescript": "latest"
   },
   "devDependencies": {
-    "@playwright/test": "latest",
     "pagefind": "latest"
   }
 }
