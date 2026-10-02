@@ -8,8 +8,9 @@
     "prebuild": "node scripts/generate-pwa.mjs",
     "build": "astro build && pagefind --site dist",
     "preview": "astro preview",
-    "test": "node scripts/validate.mjs && node --test tests/*.test.mjs",
-    "test:built": "node scripts/validate.mjs",
+    "validate:source": "node scripts/validate-source.mjs",
+    "validate:build": "node scripts/validate-build.mjs",
+    "test": "npm run validate:source && node --test tests/*.test.mjs",
     "media": "node scripts/fetch-licensed-images.mjs"
   },
   "dependencies": {

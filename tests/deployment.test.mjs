@@ -37,11 +37,13 @@ test('Pages build caches npm and validates generated links', () => {
     'node scripts/run-ci-step.mjs "Medienvorbereitung" npm run media',
     'node scripts/run-ci-step.mjs "Installation" npm ci',
     'node scripts/run-ci-step.mjs "Build/Pagefind" npm run build',
-    'node scripts/run-ci-step.mjs "Build-Validierung" npm run test:built',
+    'node scripts/run-ci-step.mjs "Build-Validierung" npm run validate:build',
   ]);
   assert.doesNotMatch(build, /npm run (?:check|test)(?:\s|$)/);
   assert.match(build, /uses: actions\/upload-pages-artifact@v5/);
-  assert.equal(packageJson.scripts['test:built'], 'node scripts/validate.mjs');
+  assert.equal(packageJson.scripts['validate:source'], 'node scripts/validate-source.mjs');
+  assert.equal(packageJson.scripts['validate:build'], 'node scripts/validate-build.mjs');
+  assert.match(packageJson.scripts.test, /^npm run validate:source && node --test/);
 });
 
 test('Pages quality job runs checks and tests without building or uploading', () => {
@@ -54,7 +56,7 @@ test('Pages quality job runs checks and tests without building or uploading', ()
     'node scripts/run-ci-step.mjs "Astro-Check" npm run check',
     'node scripts/run-ci-step.mjs "Tests" npm run test',
   ]);
-  assert.doesNotMatch(quality, /npm run (?:build|test:built)|upload-pages-artifact/);
+  assert.doesNotMatch(quality, /npm run (?:build|validate:build)|upload-pages-artifact/);
 });
 
 test('Pages deployment waits for quality and build', () => {
