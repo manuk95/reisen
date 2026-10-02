@@ -9,43 +9,9 @@ permissions:
   id-token: write
 concurrency:
   group: pages
-  cancel-in-progress: true
+  # Let an active production deployment finish before a later push starts.
+  cancel-in-progress: false
 jobs:
-  quality:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v5
-      - name: Set up Node.js 24
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
-      - name: Restore npm download cache
-        id: npm-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-24-npm-${{ hashFiles('package-lock.json') }}
-      - name: Initialise quality summary
-        run: |
-          cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
-          ## Pages quality
-
-          **npm-Cache:** ${{ steps.npm-cache.outputs.cache-hit == 'true' && 'warm (exakter Lockfile-Treffer)' || 'kalt (kein exakter Lockfile-Treffer)' }}
-
-          | Phase | Ergebnis | Laufzeit | Build-Grösse | HTML-Dateien |
-          | --- | --- | ---: | ---: | ---: |
-          EOF
-      - name: Prepare licensed media
-        run: node scripts/run-ci-step.mjs "Medienvorbereitung" npm run media
-      - name: Install locked dependencies
-        env:
-          CI_NPM_CACHE_STATUS: ${{ steps.npm-cache.outputs.cache-hit == 'true' && 'warm' || 'kalt' }}
-        run: node scripts/run-ci-step.mjs "Installation (npm ci)" npm ci
-      - name: Check Astro and TypeScript
-        run: node scripts/run-ci-step.mjs "Qualitätsprüfung (Astro/TypeScript)" npm run check
-      - name: Run tests
-        run: node scripts/run-ci-step.mjs "Qualitätsprüfung (Tests)" npm run test
   build:
     runs-on: ubuntu-latest
     steps:
@@ -77,6 +43,10 @@ jobs:
         env:
           CI_NPM_CACHE_STATUS: ${{ steps.npm-cache.outputs.cache-hit == 'true' && 'warm' || 'kalt' }}
         run: node scripts/run-ci-step.mjs "Installation (npm ci)" npm ci
+      - name: Check Astro and TypeScript
+        run: node scripts/run-ci-step.mjs "Qualitätsprüfung (Astro/TypeScript)" npm run check
+      - name: Run tests
+        run: node scripts/run-ci-step.mjs "Qualitätsprüfung (Tests)" npm run test
       - name: Build site
         run: node scripts/run-ci-step.mjs "Build" npm run build:ci
       - name: Build Pagefind index
@@ -102,15 +72,9 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: [quality, build]
+    needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v5
-      - name: Set up Node.js 24
-        uses: actions/setup-node@v6
-        with:
-          node-version: 24
       - name: Initialise deployment summary
         run: |
           cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
@@ -132,4 +96,7 @@ jobs:
         env:
           STARTED: ${{ steps.deployment-timer.outputs.started }}
           OUTCOME: ${{ steps.deployment.outcome }}
-        run: node scripts/record-ci-action.mjs "Deployment" "$STARTED" "$OUTCOME"
+        run: |
+          duration=$(( ($(date +%s%3N) - STARTED) / 1000 ))
+          if [ "$OUTCOME" = success ]; then result='✅ erfolgreich'; else result="❌ $OUTCOME"; fi
+          printf '| Deployment | %s | %s s | – | – |\n' "$result" "$duration" >> "$GITHUB_STEP_SUMMARY"
