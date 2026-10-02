@@ -333,7 +333,7 @@ Historische DOCX/PDF-Quelldokumente separat auf Risiko prüfen. Nicht ohne separ
 **Status:** IN ARBEIT
 **Verantwortlich:** Codex
 
-Die automatischen Wikimedia-Downloads wurden aus `pretest` und `prebuild` entfernt; `npm run media` bleibt die bewusste Vorbereitung neuer lizenzierter Bilder. Der Build erzeugt die PWA weiterhin lokal, GitHub Actions verwendet den npm-Cache und prüft die erzeugten internen Links nach dem Build separat.
+Die automatischen Wikimedia-Downloads wurden aus `pretest` und `prebuild` entfernt. Solange die bereits referenzierten Dateien noch nicht eingecheckt sind, führt der Pages-Workflow `npm run media` jedoch als eigene, klar erkennbare Vorbereitungsphase aus; andernfalls bricht die anschliessende Bildvalidierung in `npm run test` korrekt ab. Der Build erzeugt die PWA weiterhin lokal, GitHub Actions verwendet den npm-Cache und prüft die erzeugten internen Links nach dem Build separat. Alle Befehlsphasen protokollieren Laufzeit, Build-Grösse und HTML-Anzahl in der GitHub-Step-Zusammenfassung.
 
 Für den vollständig netzwerkunabhängigen Build müssen die 41 bereits referenzierten Wikimedia-Bilder einmalig in webgerechter Qualität unter ihren bestehenden Pfaden eingecheckt werden. Die aktuelle Arbeitsumgebung blockiert sowohl Wikimedia als auch GitHub am CONNECT-Proxy mit HTTP 403; Quellen und Lizenzangaben in den Content-Dateien bleiben unverändert. Bis diese Dateien über einen funktionierenden Netzwerkzugang bezogen und geprüft sind, ist das Arbeitspaket nicht abgeschlossen.
 

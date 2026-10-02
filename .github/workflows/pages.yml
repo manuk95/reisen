@@ -14,19 +14,37 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-node@v6
+      - name: Check out repository
+        uses: actions/checkout@v5
+      - name: Set up Node.js 24
+        uses: actions/setup-node@v6
         with:
           node-version: 24
           cache: npm
-      - run: npm ci
-      - run: npm run check
-      - run: npm run test
-      - run: npm run build
+      - name: Initialise build summary
+        run: |
+          cat >> "$GITHUB_STEP_SUMMARY" <<'EOF'
+          ## Pages build
+
+          | Phase | Ergebnis | Laufzeit | Build-Grösse | HTML-Dateien |
+          | --- | --- | ---: | ---: | ---: |
+          EOF
+      - name: Install locked dependencies
+        run: node scripts/run-ci-step.mjs "Installation" npm ci
+      - name: Prepare licensed media
+        run: node scripts/run-ci-step.mjs "Medienvorbereitung" npm run media
+      - name: Check Astro and TypeScript
+        run: node scripts/run-ci-step.mjs "Astro-Check" npm run check
+      - name: Run tests
+        run: node scripts/run-ci-step.mjs "Tests" npm run test
+      - name: Build site and Pagefind index
+        run: node scripts/run-ci-step.mjs "Build/Pagefind" npm run build
       - name: Validate generated internal links
-        run: npm run test:built
-      - uses: actions/configure-pages@v6
-      - uses: actions/upload-pages-artifact@v5
+        run: node scripts/run-ci-step.mjs "Build-Validierung" npm run test:built
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with: {path: dist}
   deploy:
     environment:
@@ -35,7 +53,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy
+      - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
         with:
