@@ -43,7 +43,8 @@ async function buildMetrics() {
 const duration = ((Date.now() - started) / 1000).toFixed(1);
 const metrics = await buildMetrics();
 const result = exitCode === 0 ? '✅ erfolgreich' : `❌ fehlgeschlagen (${exitCode})`;
-const row = `| ${label.replaceAll('|', '\\|')} | ${result} | ${duration} s | ${metrics.size} | ${metrics.html} |\n`;
+const cache = process.env.CI_NPM_CACHE_STATUS ? `; npm-Cache: ${process.env.CI_NPM_CACHE_STATUS}` : '';
+const row = `| ${label.replaceAll('|', '\\|')} | ${result}${cache} | ${duration} s | ${metrics.size} | ${metrics.html} |\n`;
 
 if (process.env.GITHUB_STEP_SUMMARY) await appendFile(process.env.GITHUB_STEP_SUMMARY, row);
 else console.log(`CI-Metrik: ${row.trim()}`);
