@@ -5,7 +5,50 @@ trip: georgien-2026
 day: 4
 date: 2026-10-01
 summary: "Von Tiflis über Chronicle of Georgia, Dschwari und Ananuri nach Kazbegi – mit Verkehrschaos, Tieren auf der Strasse, Nebel und einem gemütlichen Abend im Hotel."
-locations: []
+locations:
+  # Ortsquelle, geprüft am 2026-10-03: https://yandex.com.ge/maps/10277/tbilisi/house/YE0YfgdjTkIGQFprfXp4dHhmbQ%3D%3D/inside/
+  - label: "Silver 39 Corner Hotel · Abreise"
+    coordinates: { lat: 41.695459, lon: 44.803771 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=41.695459,44.803771"
+    page: "unterkuenfte:silver-39-corner"
+  # Ortsquelle, geprüft am 2026-10-03: https://www.openstreetmap.org/way/1216114739
+  # Annahme: Mietwagenübernahme an der im Reiseplan dokumentierten Abholadresse; kein behaupteter Firmenhauptsitz.
+  - label: "Cars4Rent · Abholort laut Reiseplan"
+    coordinates: { lat: 41.690342, lon: 44.802348 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=26+Shalva+Dadiani+Street+Tbilisi"
+  # Ortsquelle, geprüft am 2026-10-03: https://mapcarta.com/W707446533
+  - label: "Chronicle of Georgia"
+    coordinates: { lat: 41.77059, lon: 44.81039 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=41.77059,44.81039"
+    page: "sehenswuerdigkeiten:chronicles-of-georgia"
+  # Ortsquelle, geprüft am 2026-10-03: https://mapcarta.com/W1497018777
+  - label: "Dschwari-Kloster · Jvari"
+    coordinates: { lat: 41.83834, lon: 44.73355 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=41.83834,44.73355"
+    page: "sehenswuerdigkeiten:dschwari-kloster"
+  # Ortsquelle, geprüft am 2026-10-03: https://www.openstreetmap.org/node/11447388782
+  - label: "Shin-Shemo Restaurant · შინ-შემო"
+    coordinates: { lat: 42.154104, lon: 44.727689 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.154104,44.727689"
+  # Ortsquelle, geprüft am 2026-10-03: https://georgia24.ge/en/detail/ananuri-fortress
+  - label: "Festung Ananuri · Schinwali-Stausee"
+    coordinates: { lat: 42.163768, lon: 44.703297 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.163768,44.703297"
+    page: "sehenswuerdigkeiten:ananuri-schinwali"
+  # Ortsquelle, geprüft am 2026-10-03: https://wanderlog.com/place/details/7381404
+  - label: "Restaurant Gorda · Sonda/Meneso"
+    coordinates: { lat: 42.251674, lon: 44.677181 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Restaurant+Gorda+Sonda+Georgia&query_place_id=ChIJdVc28c7jREARj8Fl9Vhbruk"
+  # Ortsquelle, geprüft am 2026-10-03: https://travelguide.ge/en/what-to-do/gudauris-panoramuli-gadasakhedi/
+  - label: "Gudauri-Friedensdenkmal · Panorama Gudauri"
+    coordinates: { lat: 42.4922, lon: 44.4529 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.4922,44.4529"
+    page: "sehenswuerdigkeiten:gudauri-kreuzpass"
+  # Ortsquelle, geprüft am 2026-10-03: https://www.ehotelsreviews.com/baza-kazbegi-14706556-en
+  - label: "Baza Kazbegi · Hotel und Abendessen"
+    coordinates: { lat: 42.65167, lon: 44.643299 }
+    googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.65167,44.643299"
+    page: "unterkuenfte:baza-kazbegi"
 images:
   - src: "images/georgien/tagebuch/tag-04/01-ford-bronco-mietwagen.jpg"
     alt: "Ein hellblauer Ford Bronco steht als Mietwagen in einem Hof in Tiflis"
