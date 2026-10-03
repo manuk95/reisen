@@ -4,7 +4,7 @@ slug: tag-04
 trip: georgien-2026
 day: 4
 date: 2026-10-01
-summary: "Von Tiflis über Chronicles of Georgia, Dschwari und Ananuri Richtung Kazbegi – mit viel Verkehr, Kaffee unterwegs und Nebel beim Gudauri-Friedensdenkmal."
+summary: "Von Tiflis über Chronicle of Georgia, Dschwari und Ananuri nach Kazbegi – mit Verkehrschaos, Tieren auf der Strasse, Nebel und einem gemütlichen Abend im Hotel."
 locations: []
 images:
   - src: "images/georgien/tagebuch/tag-04/01-ford-bronco-mietwagen.jpg"
@@ -47,7 +47,42 @@ images:
     alt: "Manuel und Martina stehen unter einem Bogen des Gudauri-Friedensdenkmals vor nebliger Bergkulisse"
     caption: "Beim Gudauri-Friedensdenkmal – mit Nebel statt Fernsicht."
     ownPhoto: true
-updated: 2026-10-01
+  - src: "images/georgien/tagebuch/tag-04/11-erinnerungsfoto-im-nebel.webp"
+    alt: "Martina und Manuel stehen vor einem herzförmigen Blumenrahmen und einer georgischen Fahne im Nebel"
+    caption: "Ein Erinnerungsfoto mit georgischer Fahne – im Nebel."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-04/12-hotelzimmer.webp"
+    alt: "Blick durch das holzverkleidete Hotelzimmer mit schrägem Dach und Vorhängen zur Balkontür"
+    caption: "Angekommen in unserem Hotelzimmer."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-04/13-balkon-bergblick.webp"
+    alt: "Blick vom Hotelbalkon über kleine Holzhäuser auf Berge, deren Gipfel in tiefen Wolken liegen"
+    caption: "Bergblick vom Balkon – die Gipfel bleiben in den Wolken."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-04/14-martina-hotelrestaurant.webp"
+    alt: "Martina sitzt im Hotelrestaurant hinter einer Bierflasche und einem gefüllten Bierglas"
+    caption: "Den Fahrtag im Hotelrestaurant ausklingen lassen."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-04/15-eingelegtes-gemuese-jonjoli.webp"
+    alt: "Eine Platte mit eingelegtem Gemüse und Jonjoli steht auf dem Tisch im Hotelrestaurant"
+    caption: "Meine Platte mit eingelegtem Gemüse, darunter Jonjoli."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-04/16-fladenbrotrolle-abendessen.webp"
+    alt: "Eine Fladenbrotrolle mit Zwiebelringen und Kräutern liegt neben einer Schale Ketchup auf einem Teller"
+    caption: "Beim Abendessen: Fladenbrotrolle mit Zwiebeln und Kräutern."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-04/17-burger-pommes-martina.webp"
+    alt: "Ein Burger im Sesambrötchen und ein Korb mit Pommes stehen auf einem Holzbrett neben Ketchup und einem Bierglas"
+    caption: "Für Martina gab es einen Burger mit Pommes."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
+updated: 2026-10-03
 ---
 
 ## Das haben wir erlebt
@@ -90,6 +125,8 @@ Zwischendurch ging gar nichts mehr.
 
 Dass sich das Chaos überhaupt wieder auflöste, war einigen Einheimischen zu verdanken, die mitten auf der Strasse den Verkehr koordinierten und die Fahrzeuge nach und nach wieder sortierten. Bemerkenswert war dabei vor allem, wie gelassen viele Beteiligte wirkten – als wäre eine solche Situation nichts besonders Aussergewöhnliches.
 
+Neben dem verrückten Verkehr mussten wir unterwegs auch auf **Kühe, Hunde und Schweine auf der Strasse** achten. Dazu kamen regelmässig **Schlaglöcher**. Die Fahrt bot also genügend Gründe, aufmerksam zu bleiben.
+
 ### 15:30 Uhr – Kaffee beim Restaurant Gorda
 
 Gegen **15:30 Uhr** hatten wir den Stau endlich hinter uns.
@@ -106,8 +143,21 @@ Inzwischen hatte sich das Wetter deutlich verändert. Während wir am Vormittag 
 
 Um **17:15 Uhr** machten wir uns schliesslich wieder auf den Weg Richtung Hotel.
 
-**Fortsetzung folgt.**
+### 17:50 Uhr – Ankunft im Hotel
+
+Um **17:50 Uhr** kamen wir schliesslich in unserem **Hotel in Kazbegi** an. Nach dem langen Fahrtag richteten wir uns erst einmal im Zimmer ein. Vom Balkon aus sahen wir auf die Berge, deren Gipfel weiterhin in den Wolken verschwanden.
+
+### Abendessen im Hotel
+
+Später gingen wir noch im **Hotelrestaurant** etwas essen.
+
+- **Martina:** ein **Burger mit Pommes**.
+- **Manuel:** eine **Platte mit eingelegtem Gemüse**, darunter **Jonjoli**.
+
+Danach gingen wir zurück ins Zimmer und schauten noch einen **Film**. Nach Verkehr, Stau und Nebel war das der passende gemütliche Abschluss unseres ersten Tages mit dem Mietwagen.
 
 ## Unser Fazit
 
-<!-- Wird ergänzt, wenn der Tag vollständig ist. -->
+Unser erster Fahrtag führte uns von Tiflis über die monumentalen Säulen des Chronicle of Georgia, das Dschwari-Kloster und die Festung Ananuri hinauf in die Berge Richtung Kazbegi.
+
+In Erinnerung bleiben neben den Sehenswürdigkeiten vor allem der verrückte Verkehr und der lange Stau. Kühe, Hunde, Schweine und Schlaglöcher sorgten unterwegs ebenfalls dafür, dass uns am Steuer nicht langweilig wurde. Nach dem nebligen Halt beim Gudauri-Friedensdenkmal freuten wir uns auf unser Zimmer, das Abendessen und einen ruhigen Filmabend.
