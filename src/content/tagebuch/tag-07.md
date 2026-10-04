@@ -102,6 +102,76 @@ images:
     credit: "Eigenes Reisefoto"
     license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/11-selfie-uplisziche.webp"
+    alt: "Manuel und Martina mit Sonnenbrillen auf den Felsen von Uplisziche; dahinter das grüne Flusstal und bewölkter Himmel"
+    caption: "Nach dem Mittagessen ging es nach Uplisziche, unserem historischen Hauptstopp des Tages. Unser gemeinsames Erinnerungsfoto in der alten Felsenstadt: Statt Schnee hatten wir nun Sonne, helle Felsen und das grüne Tal hinter uns."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/12-felsenstadt-uplisziche.webp"
+    alt: "Martina geht über die hellen Felsen von Uplisziche vor zerklüfteten Hängen mit zahlreichen Felsöffnungen"
+    caption: "Unterwegs durch Uplisziche: Martina zwischen den hellen Felsen. Die Räume und Durchgänge der alten Stadt wurden direkt aus dem Fels herausgearbeitet; überall öffneten sich kleine Höhlen und Nischen."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/13-manuel-felsenraum-uplisziche.webp"
+    alt: "Manuel steht in einer erhöhten Felsöffnung in Uplisziche; darunter befinden sich weitere Öffnungen und mehrere Besucher"
+    caption: "Manuel in einem der erhöhten Felsenräume. Von unten sieht man, wie die Öffnungen auf verschiedenen Ebenen übereinanderliegen. Rundherum erkundeten auch andere Besucher die Anlage."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/14-kirche-uplisziche.webp"
+    alt: "Blick über die hellen, ausgewaschenen Felsen von Uplisziche auf die Kirche oberhalb der Felsenstadt unter blauem Himmel"
+    caption: "Über den Felsen von Uplisziche steht die Kirche. Unter dem kräftig blauen Himmel wurde der Kontrast zum verschneiten Morgen besonders deutlich – von Schnee zu Sonne innerhalb eines Tages."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/15-vor-stalins-kindheitshaus.webp"
+    alt: "Manuel und Martina stehen gemeinsam vor dem weissen Haus mit Holzveranda, in dem Stalin seine Kindheit verbrachte"
+    caption: "Gegen 15:00 Uhr waren wir wieder in Gori und besuchten das Stalin-Museum. Hier stehen wir vor Stalins Kindheitshaus, das zum Museumskomplex gehört."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/16-manuel-stalin-statue.webp"
+    alt: "Manuel steht neben dem Sockel einer grossen Stalin-Statue im Aussenbereich des Museums in Gori"
+    caption: "Manuel neben der Stalin-Statue beim Museum in Gori. Auf ihrem hohen Sockel überragte die Figur ihn deutlich; dahinter schien die Sonne zwischen den Wolken hervor."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/17-martina-stalin-museum.webp"
+    alt: "Martina steht in einem Museumssaal mit Parkettboden, grossen historischen Wandbildern und einer Reihe Schwarzweissfotos darüber"
+    caption: "Martina im Stalin-Museum. In diesem Saal waren die Wände mit grossen historischen Bildern gestaltet; darüber verlief eine Reihe von Schwarzweissfotos. Vor den violetten Vorhängen standen einzelne Vitrinen."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/18-georgische-flagge-gori.webp"
+    alt: "Georgische Flagge über einer Gartenanlage mit einem schmalen Wasserbecken und Wegen vor dem Stalin-Museum in Gori"
+    caption: "Die georgische Flagge vor dem Stalin-Museum. Zwischen Bäumen, Beeten und dem langen Wasserbecken blickten wir hinaus in den Park – bei Sonne und blauem Himmel."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/19-abendessen-epic-hotel.webp"
+    alt: "Gebratene Stücke mit dunkelroter Sauce, Granatapfelkernen, Zwiebeln und Kräutern auf einer weissen Platte; daneben Salat und ein Glas Rotwein"
+    caption: "Abendessen im Restaurant des Epic Hotel & Spa: Auf der kleinen Platte lagen gebratene Stücke mit einer dunkelroten Sauce, Granatapfelkernen, Zwiebeln und frischen Kräutern. Daneben standen ein grosser Salat und ein Glas Rotwein."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-07/20-salat-abendessen.webp"
+    alt: "Grosser Salat auf einem blauen Teller mit Blattsalat, Brotstücken, geriebenem Käse, Tomatenspalten, schwarzen Oliven und cremigem Dressing"
+    caption: "Der Salat beim Abendessen: Blattsalat, knusprige Brotstücke und geriebener Käse mit cremigem Dressing. Dazu Tomatenspalten, schwarze Oliven und eine dunkle Sauce. Am Tellerrand sieht man auch einen Teil der Pommes."
+    ownPhoto: true
+    credit: "Eigenes Reisefoto"
+    license: "Eigenes Werk"
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
 updated: 2026-10-04
 ---
 
@@ -111,13 +181,9 @@ updated: 2026-10-04
 
 Nach dem winterlichen Start in Stepantsminda ging es Richtung [Gori](/reisen/georgien/orte/gori/). Wir hatten gehofft, das [Gudauri-Friedensdenkmal](/reisen/georgien/sehenswuerdigkeiten/gudauri-kreuzpass/) auf der Rückfahrt dieses Mal ohne Nebel sehen zu können. Aber auch daraus wurde nichts.
 
-### Nach dem Mittagessen – Uplisziche
+### Weiter nach Tskaltubo
 
-Nach dem Essen fuhren wir weiter nach [Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/). Die alte, direkt in den Fels gebaute Stadt war unser historischer Hauptstopp des Tages.
-
-### Gegen 15:00 Uhr – Stalin-Museum in Gori
-
-Gegen **15:00 Uhr** waren wir wieder im Zentrum von Gori und besuchten das [Stalin-Museum](/reisen/georgien/sehenswuerdigkeiten/stalin-museum/). Danach lag noch eine längere Fahrt vor uns: Wir verliessen Gori und machten uns auf den Weg nach Tskaltubo.
+Nach [Uplisziche](/reisen/georgien/sehenswuerdigkeiten/uplisziche/) und dem [Stalin-Museum](/reisen/georgien/sehenswuerdigkeiten/stalin-museum/) lag noch eine längere Fahrt vor uns. Wir verliessen Gori und machten uns auf den Weg nach Tskaltubo.
 
 ### Gegen 19:00 Uhr – Ankunft in Tskaltubo
 
@@ -131,6 +197,6 @@ Am Morgen war da beispielsweise ein Mann im Tankstellenshop. Obwohl unsere Zahlu
 
 In den letzten Tagen war uns ausserdem ab und zu aufgefallen, dass Mitarbeitende während der Bedienung am Handy waren – etwa beim Telefonieren, während sie uns das Essen servierten. Der Mann im Tankstellenshop scannte sogar alle Einkäufe mit einer Hand, während die andere weiterhin das Handy mit den laufenden Reels hielt.
 
-*Weitere Fotos von diesem Tag folgen.*
-
 <!-- Kartenpositionen geprüft am 04.10.2026: Restaurant Gorda https://yandex.com.ge/maps/org/restaurant_gorda/120084377431/ ; Sushi Girl https://yandex.com.ge/maps/org/sushi_girl/143503133245/ ; Uplisziche https://commons.wikimedia.org/wiki/Category:Uplistsikhe ; Epic Hotel https://www.tskaltuboepic.com/en/contact (Karteninitialisierung im HTML). Der Grund für die LKW-Kolonne ist nicht bekannt; die möglichen Ursachen sind unsere damaligen Überlegungen. -->
+
+<!-- Redaktionelle Einordnung der neuen Fotos: https://georgia.travel/uplistsikhe-cave-town und https://www.stalinmuseumi.ge/eng/museum/memorial-house/ (geprüft am 04.10.2026). Gerichte ohne unbestätigte Kartennamen anhand der sichtbaren Bestandteile beschrieben. -->
