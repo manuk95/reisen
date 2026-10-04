@@ -46,3 +46,43 @@ test('diary pages expose navigation, maps and location links', () => {
   assert.match(page, /itemUrl/);
   assert.match(page, /L\.map\('diary-map'/);
 });
+
+test('filled diary entries link mentioned destinations to canonical pages', () => {
+  const expectedLinks = {
+    'tag-01.md': ['orte/tbilisi', 'hotels/silver-39-corner', 'genuss/badrijani-nigvzit', 'genuss/pchali', 'genuss/chinkali'],
+    'tag-02.md': ['orte/tbilisi', 'sehenswuerdigkeiten/mtatsminda', 'sehenswuerdigkeiten/dry-bridge-fabrika', 'sehenswuerdigkeiten/sameba-kathedrale', 'sehenswuerdigkeiten/friedensbruecke-rike-park', 'hotels/silver-39-corner'],
+    'tag-03.md': ['orte/tbilisi', 'sehenswuerdigkeiten/friedensbruecke-rike-park', 'sehenswuerdigkeiten/altstadt-metekhi', 'sehenswuerdigkeiten/narikala', 'sehenswuerdigkeiten/schwefelbaeder', 'genuss/adscharisches-chatschapuri', 'restaurants/barbarestan', 'hotels/silver-39-corner', 'genuss/tkemali'],
+    'tag-04.md': ['hotels/silver-39-corner', 'orte/tbilisi', 'sehenswuerdigkeiten/chronicles-of-georgia', 'sehenswuerdigkeiten/dschwari-kloster', 'orte/mtskheta', 'sehenswuerdigkeiten/ananuri-schinwali', 'sehenswuerdigkeiten/gudauri-kreuzpass', 'hotels/baza-kazbegi', 'genuss/jonjoli'],
+    'tag-05.md': ['sehenswuerdigkeiten/gergeti', 'orte/stepantsminda', 'sehenswuerdigkeiten/heerstrasse', 'sehenswuerdigkeiten/dariali-gveleti', 'sehenswuerdigkeiten/sno-festung', 'sehenswuerdigkeiten/pansheti-mineralpool'],
+  };
+
+  for (const [file, routes] of Object.entries(expectedLinks)) {
+    const content = fs.readFileSync(`src/content/tagebuch/${file}`, 'utf8');
+    routes.forEach((route) => assert.match(content, new RegExp(`\\]\\(/reisen/georgien/${route}/\\)`), `${file}: missing ${route}`));
+  }
+});
+
+test('new diary links include the deployment base and resolve to existing content routes', () => {
+  const sectionCollections = { orte: 'orte', sehenswuerdigkeiten: 'sehenswuerdigkeiten', hotels: 'unterkuenfte', restaurants: 'restaurants', genuss: 'genuss' };
+
+  for (const file of diaryFiles.slice(0, 5)) {
+    const content = fs.readFileSync(`src/content/tagebuch/${file}`, 'utf8');
+    const internalLinks = [...content.matchAll(/\]\((\/[^)]+)\)/g)].map((match) => match[1]);
+    assert.ok(internalLinks.length > 0, `${file}: expected canonical links`);
+
+    for (const link of internalLinks) {
+      assert.match(link, /^\/reisen\/georgien\/(orte|sehenswuerdigkeiten|hotels|restaurants|genuss)\/[a-z0-9-]+\/$/, `${file}: invalid canonical route ${link}`);
+      const [, section, slug] = link.match(/^\/reisen\/georgien\/([^/]+)\/([^/]+)\/$/);
+      assert.ok(fs.existsSync(`src/content/${sectionCollections[section]}/${slug}.md`), `${file}: missing target for ${link}`);
+    }
+  }
+});
+
+test('diary location references cover matching day 5 guide pages without replacing map links', () => {
+  const content = fs.readFileSync('src/content/tagebuch/tag-05.md', 'utf8');
+  assert.match(content, /page: "sehenswuerdigkeiten:gergeti"/);
+  assert.match(content, /page: "sehenswuerdigkeiten:dariali-gveleti"/);
+  assert.match(content, /page: "sehenswuerdigkeiten:sno-festung"/);
+  assert.match(content, /page: "sehenswuerdigkeiten:pansheti-mineralpool"/);
+  assert.equal([...content.matchAll(/^\s+googleMapsUrl:/gm)].length, 6);
+});

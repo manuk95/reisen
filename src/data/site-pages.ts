@@ -54,5 +54,5 @@ export const mobileNavigation: NavigationItem[] = [
   { label: 'Route', path: 'georgien/reiseplan/' },
   { label: 'Karte', path: 'georgien/karte/' },
   { label: 'Entdecken', path: 'georgien/sehenswuerdigkeiten/' },
-  { label: 'Suche', path: 'suche/' },
+  { label: 'Tagebuch', path: 'georgien/tagebuch/' },
 ];

@@ -23,9 +23,11 @@ locations:
   - label: "Steinköpfe von Sno – Gigantic Sculptures"
     coordinates: { lat: 42.6055487, lon: 44.63333 }
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.6055487,44.63333"
+    page: "sehenswuerdigkeiten:sno-festung"
   - label: "Pansheti Swimming Pool and Mineral Water Spring"
     coordinates: { lat: 42.64627, lon: 44.62939 }
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=42.64627,44.62939"
+    page: "sehenswuerdigkeiten:pansheti-mineralpool"
 images:
   - src: "images/georgien/tagebuch/tag-05/01-brunch-maisi-martina.webp"
     alt: "Martina sitzt im Maisi vor einer Tasse Kaffee am gedeckten Frühstückstisch"
@@ -134,13 +136,13 @@ Bei uns gab es **Zucchini-Pancake mit pochiertem Ei, Lachs und Hollandaise**, da
 
 ### Gergeti-Dreifaltigkeitskirche im Nebel
 
-Nach dem Brunch fuhren wir hinauf zur **Gergeti-Dreifaltigkeitskirche**, die hoch über Stepantsminda liegt.
+Nach dem Brunch fuhren wir hinauf zur [**Gergeti-Dreifaltigkeitskirche**](/reisen/georgien/sehenswuerdigkeiten/gergeti/), die hoch über [Stepantsminda](/reisen/georgien/orte/stepantsminda/) liegt.
 
 Heute zeigte sie sich allerdings im Nebel. Statt des bekannten Bergpanoramas bekamen wir die Kirche mit einer deutlich nebligeren Kulisse zu sehen. Der Besuch gehörte trotzdem zu unserem Tag in Kazbegi.
 
 ### Durch die Dariali-Schlucht Richtung russische Grenze
 
-Anschliessend fuhren wir auf der **Georgischen Heerstrasse** weiter Richtung russische Grenze. Die Strecke führte uns durch die **Dariali-Schlucht** zum **Dariali-Klosterkomplex – დარიალის მონასტერი**.
+Anschliessend fuhren wir auf der [**Georgischen Heerstrasse**](/reisen/georgien/sehenswuerdigkeiten/heerstrasse/) weiter Richtung russische Grenze. Die Strecke führte uns durch die [**Dariali-Schlucht** zum **Dariali-Klosterkomplex – დარიალის მონასტერი**](/reisen/georgien/sehenswuerdigkeiten/dariali-gveleti/).
 
 Obwohl die Anlage wie ein historisches Kloster wirkt, ist sie vergleichsweise jung: Der Bau begann 2005, und die erste Kirche wurde 2011 eröffnet.
 
@@ -152,13 +154,13 @@ Um ungefähr **14:30 Uhr** fuhren wir die Bergstrasse wieder hinauf Richtung Ste
 
 ### Die Steinköpfe von Sno
 
-Unser nächster Abstecher führte uns nach **Sno**. Dort schauten wir uns die grossen **Steinskulpturen in Form von Gesichtern** an.
+Unser nächster Abstecher führte uns nach [**Sno**](/reisen/georgien/sehenswuerdigkeiten/sno-festung/). Dort schauten wir uns die grossen **Steinskulpturen in Form von Gesichtern** an.
 
 Die Köpfe sind Werke des georgischen Bildhauers **Merab Piranishvili**. Sie stellen unter anderem Persönlichkeiten aus der georgischen Literatur und Geschichte dar und stehen direkt in der offenen Landschaft.
 
 ### Zum Mineralwasserpool bei Pansheti – mit Allrad und zehntausend Fluchwörtern
 
-Danach wollten wir noch den **natürlichen Mineralwasserpool bei Pansheti** anschauen. Die Anfahrt dorthin wurde allerdings zu einem kleinen Abenteuer.
+Danach wollten wir noch den [**natürlichen Mineralwasserpool bei Pansheti**](/reisen/georgien/sehenswuerdigkeiten/pansheti-mineralpool/) anschauen. Die Anfahrt dorthin wurde allerdings zu einem kleinen Abenteuer.
 
 Was uns erwartete, war definitiv keine normale Strasse: **sehr steile Abschnitte, grosse Steine und tiefe Pfützen**. Stellenweise war die Piste so sumpfig, dass die Räder durchdrehten.
 

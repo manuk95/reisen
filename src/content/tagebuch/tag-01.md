@@ -64,18 +64,18 @@ updated: 2026-09-29
 
 Der Wecker klingelte bereits um **04:30 Uhr**. Um **05:35 Uhr** sassen wir im Zug Richtung Flughafen Zürich. Dort mussten wir noch auf die Versicherungsbestätigung für die Einreise warten – ein etwas unnötig spannender Start in den Reisetag.
 
-Danach ging es los: zuerst von Zürich nach **Belgrad**. Beim rund **zweistündigen Aufenthalt am Flughafen** vertrieben wir uns die Zeit unter anderem damit, verschiedene Sonnenbrillen anzuprobieren. Anschliessend ging es weiter nach **Tiflis**, wo wir um **18:45 Uhr Ortszeit** landeten.
+Danach ging es los: zuerst von Zürich nach **Belgrad**. Beim rund **zweistündigen Aufenthalt am Flughafen** vertrieben wir uns die Zeit unter anderem damit, verschiedene Sonnenbrillen anzuprobieren. Anschliessend ging es weiter nach [**Tiflis**](/reisen/georgien/orte/tbilisi/), wo wir um **18:45 Uhr Ortszeit** landeten.
 
-Vom Flughafen brachte uns ein schneller, aber ziemlich teurer Taxifahrer zum **Silver 39 Corner Hotel**, unserer Unterkunft für die ersten drei Nächte in Tiflis. Überraschenderweise sprach der Fahrer sogar Deutsch. Kurz nach **20:00 Uhr** konnten wir einchecken.
+Vom Flughafen brachte uns ein schneller, aber ziemlich teurer Taxifahrer zum [**Silver 39 Corner Hotel**](/reisen/georgien/hotels/silver-39-corner/), unserer Unterkunft für die ersten drei Nächte in Tiflis. Überraschenderweise sprach der Fahrer sogar Deutsch. Kurz nach **20:00 Uhr** konnten wir einchecken.
 
 Lange im Hotel blieben wir aber nicht. Für unser erstes Abendessen in Georgien gingen wir ins **Prestige Restaurant** an der **16 Kote Afkhazi Street**, nur wenige Minuten vom Hotel entfernt. Wir konnten draussen auf der Terrasse sitzen, während Live-Musik gespielt wurde, und stiessen mit einem Glas georgischem Wein auf den Beginn der Reise an.
 
 Auf dem Tisch landeten gleich mehrere georgische Klassiker:
 
-- **Badrijani nigvzit – ბადრიჯანი ნიგვზით**: Auberginenröllchen mit Walnusspaste
-- **Ispanakhis pkhali – ისპანახის ფხალი**: Spinat-Walnuss-Pkhali, bei uns als kleine Kugeln serviert
+- [**Badrijani nigvzit – ბადრიჯანი ნიგვზით**](/reisen/georgien/genuss/badrijani-nigvzit/): Auberginenröllchen mit Walnusspaste
+- [**Ispanakhis pkhali – ისპანახის ფხალი**](/reisen/georgien/genuss/pchali/): Spinat-Walnuss-Pkhali, bei uns als kleine Kugeln serviert
 - **Sakonlis qababi – საქონლის ქაბაბი**: georgischer Beef-Kebab
-- **Khinkali – ხინკალი**: die typischen georgischen Teigtaschen
+- [**Khinkali – ხინკალი**](/reisen/georgien/genuss/chinkali/): die typischen georgischen Teigtaschen
 
 Nach dem Essen war der Abend noch nicht ganz vorbei. Wir gingen noch in die **Bar Impulse** an der **4 Vertskhli Turn** und liessen dort unseren ersten Abend in Tiflis ausklingen, bevor es zurück ins Hotel ging.
 
