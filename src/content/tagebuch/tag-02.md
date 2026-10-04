@@ -88,13 +88,13 @@ Nach dem langen Anreisetag liessen wir den zweiten Reisetag gemütlich angehen u
 
 Unterwegs wollten wir in einem kleinen Shop eigentlich einen Kaffeedrink kaufen. Den gab es allerdings nicht – dafür entdeckten wir eine **2,5-Liter-Flasche Bier**, die definitiv auffälliger war als das, wonach wir gesucht hatten.
 
-Mit der **Standseilbahn** ging es danach den steilen Hang hinauf zum **Mtatsminda Park**. Schon während der Fahrt öffnete sich hinter uns immer mehr der Blick über Tiflis.
+Mit der **Standseilbahn** ging es danach den steilen Hang hinauf zum [**Mtatsminda Park**](/reisen/georgien/sehenswuerdigkeiten/mtatsminda/). Schon während der Fahrt öffnete sich hinter uns immer mehr der Blick über [Tiflis](/reisen/georgien/orte/tbilisi/).
 
 Oben angekommen probierten wir **Corndogs**, spazierten durch den Park und genossen die Aussicht über die Stadt. Natürlich durfte auch eine Runde mit dem **Riesenrad** nicht fehlen. Von dort oben wirkte Tiflis nochmals etwas grösser, und auch der markante Fernsehturm war ständig präsent.
 
 Um etwa **14:20 Uhr** verliessen wir den Mtatsminda auf einem anderen Weg als wir gekommen waren. Statt wieder mit der Standseilbahn hinunterzufahren, nahmen wir die **Rustaveli–Mtatsminda-Luftseilbahn**. Die Fahrt hinunter war selbst ein kleines Spektakel: Während die Gondel über den Hang Richtung Rustaveli Avenue schwebte, breitete sich die Stadt unter uns aus. Nach den Aussichten vom Park und vom Riesenrad bekamen wir Tiflis damit noch einmal aus einer völlig anderen Perspektive zu sehen.
 
-Von der Talstation der Luftseilbahn ging es zu Fuss weiter zum **Dry Bridge Market** und danach in Richtung **Sameba-Kathedrale**. Ein Teil des Weges führte uns während etwa **15 Minuten an einer riesigen Baustelle** entlang. Praktisch die ganze Strasse war aufgerissen. Gleichzeitig sahen wir auf diesem Abschnitt eine andere Seite von Tiflis: alte, teilweise stark heruntergekommene Gebäude direkt neben belebten Strassen und neueren Häusern.
+Von der Talstation der Luftseilbahn ging es zu Fuss weiter zum [**Dry Bridge Market**](/reisen/georgien/sehenswuerdigkeiten/dry-bridge-fabrika/) und danach in Richtung [**Sameba-Kathedrale**](/reisen/georgien/sehenswuerdigkeiten/sameba-kathedrale/). Ein Teil des Weges führte uns während etwa **15 Minuten an einer riesigen Baustelle** entlang. Praktisch die ganze Strasse war aufgerissen. Gleichzeitig sahen wir auf diesem Abschnitt eine andere Seite von Tiflis: alte, teilweise stark heruntergekommene Gebäude direkt neben belebten Strassen und neueren Häusern.
 
 Kurz vor der Kathedrale gönnten wir uns noch ein **Glas Wein**. Danach besichtigten wir die **Sameba-Kathedrale**, die grosse Dreifaltigkeitskathedrale von Tiflis.
 
@@ -112,9 +112,9 @@ Während des Essens begann irgendwo in der Stadt ein Hund zu bellen. Kurz darauf
 
 Auf unserer schönen Rooftop-Bar wurde es dann zunehmend **zugig und kühl**. Also machten wir uns wieder auf den Weg hinunter in die Altstadt. Unterwegs gönnten wir uns noch ein **Glas Rotwein**.
 
-Danach liefen wir weiter zur **Friedensbrücke** – zum Glück kannte Manuel eine Abkürzung. Von dort waren es nur noch wenige Gehminuten zurück in unsere Hood rund um das Hotel.
+Danach liefen wir weiter zur [**Friedensbrücke**](/reisen/georgien/sehenswuerdigkeiten/friedensbruecke-rike-park/) – zum Glück kannte Manuel eine Abkürzung. Von dort waren es nur noch wenige Gehminuten zurück in unsere Hood rund um das Hotel.
 
-Zum Abschluss des Abends gab es noch eine **Glace und frische Himbeeren**. Bereits gegen **21:00 Uhr** waren wir wieder zurück im **Silver 39 Corner Hotel**.
+Zum Abschluss des Abends gab es noch eine **Glace und frische Himbeeren**. Bereits gegen **21:00 Uhr** waren wir wieder zurück im [**Silver 39 Corner Hotel**](/reisen/georgien/hotels/silver-39-corner/).
 
 ## Unser Fazit
 

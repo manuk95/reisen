@@ -394,3 +394,10 @@ Neue offene Arbeiten werden **nur in dieser Datei** ergänzt. Keine zusätzliche
 **Verantwortlich:** Codex
 
 Für jeden Reisetag existiert ein eigener, zunächst bewusst offener Tagebucheintrag. Übersicht, Vor-/Zurück-Navigation, Fotogalerie beziehungsweise Fotoplatzhalter, strukturierte besuchte Orte mit Google-Maps- und optionalem Item-Link sowie eine aus denselben Ortsdaten erzeugte Karte sind umgesetzt. Neue Einträge verwenden `templates/tagebuch.md`; Erlebnisse, eigene Fotos und tatsächlich besuchte Orte werden während der Reise ergänzt.
+
+## 10.2 Kanonische Verknüpfungen der ausgefüllten Tagebucheinträge
+
+**Status:** OFFEN
+**Verantwortlich:** Codex
+
+Die ausgefüllten Tagebucheinträge werden mit den vorhandenen kanonischen Orts-, Sehenswürdigkeits-, Unterkunfts-, Restaurant- und Genussseiten verknüpft. Textlinks und strukturierte Ortsreferenzen müssen dabei dieselben fachlich passenden Ziele verwenden; mobile Navigation, Basispfad, Erreichbarkeit und statische Regressionstests werden gemeinsam kontrolliert.

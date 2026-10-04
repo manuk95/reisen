@@ -118,11 +118,11 @@ Wir starteten den dritten Reisetag mit einem kleinen Frühstück in der Nähe un
 
 ### Zu Fuss zum Rike Park
 
-Nach dem Frühstück liefen wir zur Talstation der **Narikala-Seilbahn im Rike Park**.
+Nach dem Frühstück liefen wir zur Talstation der [**Narikala-Seilbahn im Rike Park**](/reisen/georgien/sehenswuerdigkeiten/friedensbruecke-rike-park/).
 
 ### Mit der Seilbahn nach Narikala
 
-Mit der Gondel fuhren wir über den Mtkvari und die Dächer der Altstadt hinauf zum Höhenzug bei der **Narikala-Festung**. Oben genossen wir die Aussicht über Tiflis und machten einen gemütlichen Spaziergang.
+Mit der Gondel fuhren wir über den Mtkvari und die Dächer der [Altstadt](/reisen/georgien/sehenswuerdigkeiten/altstadt-metekhi/) hinauf zum Höhenzug bei der [**Narikala-Festung**](/reisen/georgien/sehenswuerdigkeiten/narikala/). Oben genossen wir die Aussicht über [Tiflis](/reisen/georgien/orte/tbilisi/) und machten einen gemütlichen Spaziergang.
 
 ### Mutter Georgiens und Aussichtscafé
 
@@ -132,15 +132,15 @@ Anschliessend besuchten wir die Statue **Kartlis Deda – Mutter Georgiens**. Da
 
 Von **12:50 Uhr bis ungefähr 14:15 Uhr** besuchten wir den **Nationalen Botanischen Garten Georgiens**. Der Weg führte uns immer weiter hinunter durch das weitläufige grüne Tal.
 
-Wir verliessen den Garten am unteren Ausgang in Richtung **Abanotubani**, dem historischen Bäderviertel von Tiflis. Den **Leghvtakhevi-Wasserfall** liessen wir diesmal aus.
+Wir verliessen den Garten am unteren Ausgang in Richtung [**Abanotubani**](/reisen/georgien/sehenswuerdigkeiten/schwefelbaeder/), dem historischen Bäderviertel von Tiflis. Den **Leghvtakhevi-Wasserfall** liessen wir diesmal aus.
 
 Eigentlich hatte der Wetterbericht bereits für etwa **14:00 Uhr Regen** angekündigt. Davon war allerdings noch nichts zu sehen – und erstaunlicherweise sollte das noch einige Stunden so bleiben.
 
 ### 14:50 Uhr – Chatschapuri im TbilisIstanbul
 
-Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein **adscharisches Chatschapuri (Adjaruli)**.
+Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein [**adscharisches Chatschapuri (Adjaruli)**](/reisen/georgien/genuss/adscharisches-chatschapuri/).
 
-Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im **Barbarestan** einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
+Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im [**Barbarestan**](/reisen/georgien/restaurants/barbarestan/) einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
 
 ### Meidan Bazaar und Altstadt
 
@@ -148,7 +148,7 @@ Nach dem Essen schlenderten wir weiter durch die Gassen der Altstadt. Dabei entd
 
 ### Pause im Hotel
 
-Vom Meidan Bazaar gingen wir langsam zurück ins **Silver 39 Corner Hotel**. Nach dem vielen Laufen entspannten wir uns eine Weile und machten uns danach für das Abendessen bereit.
+Vom Meidan Bazaar gingen wir langsam zurück ins [**Silver 39 Corner Hotel**](/reisen/georgien/hotels/silver-39-corner/). Nach dem vielen Laufen entspannten wir uns eine Weile und machten uns danach für das Abendessen bereit.
 
 ### Am frühen Abend – Auf zum Barbarestan
 
@@ -166,7 +166,7 @@ Bei den Vorspeisen hatten wir:
 Bei den Hauptgängen hatten wir:
 
 - **Martina:** **„Beef Tenderloin by Kakhetian Whey“** – Rinderfilet mit kachetischer Molke. Sowohl das Filet als auch ein Teil der Beilage waren geräuchert. Dazu gab es Schafsfrischkäse.
-- **Manuel:** **„Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“** – gebackener Fisch mit georgischen Gewürzen und Tkemali-Sauce. Der Fisch war ein Seebarsch, zu einer Rolle geformt und mit Frischkäse sowie frischen Kräutern gefüllt. Dazu gab es einen sehr fein geschichteten Kartoffelgratin, ähnlich wie **Pommes Anna**.
+- **Manuel:** **„Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“** – gebackener Fisch mit georgischen Gewürzen und [Tkemali-Sauce](/reisen/georgien/genuss/tkemali/). Der Fisch war ein Seebarsch, zu einer Rolle geformt und mit Frischkäse sowie frischen Kräutern gefüllt. Dazu gab es einen sehr fein geschichteten Kartoffelgratin, ähnlich wie **Pommes Anna**.
 
 ### Führung durch den Wein- und Gewölbekeller
 

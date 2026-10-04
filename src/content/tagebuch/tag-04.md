@@ -132,15 +132,15 @@ updated: 2026-10-03
 
 ### 07:45 Uhr – Abschied von Tiflis
 
-Der Tag begann früh: Um **7:45 Uhr checkten wir aus unserem Hotel in Tiflis aus**, und bereits um **8:00 Uhr standen wir beim Mietwagenhändler**, wo wir unseren **Ford Bronco** für die nächsten Tage übernahmen.
+Der Tag begann früh: Um **7:45 Uhr checkten wir aus unserem [Hotel](/reisen/georgien/hotels/silver-39-corner/) in [Tiflis](/reisen/georgien/orte/tbilisi/) aus**, und bereits um **8:00 Uhr standen wir beim Mietwagenhändler**, wo wir unseren **Ford Bronco** für die nächsten Tage übernahmen.
 
 ### Gegen 09:00 Uhr – Chronicle of Georgia
 
-Gegen **9:00 Uhr** erreichten wir das **Chronicle of Georgia**. Für die monumentale Anlage nahmen wir uns rund **1 Stunde und 15 Minuten Zeit**. Zu Beginn waren wir fast alleine unterwegs, was die riesigen Säulen und Figuren noch eindrücklicher wirken liess. Lange hielt die Ruhe allerdings nicht an – nach und nach kamen immer mehr Besucher dazu.
+Gegen **9:00 Uhr** erreichten wir das [**Chronicle of Georgia**](/reisen/georgien/sehenswuerdigkeiten/chronicles-of-georgia/). Für die monumentale Anlage nahmen wir uns rund **1 Stunde und 15 Minuten Zeit**. Zu Beginn waren wir fast alleine unterwegs, was die riesigen Säulen und Figuren noch eindrücklicher wirken liess. Lange hielt die Ruhe allerdings nicht an – nach und nach kamen immer mehr Besucher dazu.
 
 ### Dschwari-Kloster und Blick auf Mtskheta
 
-Anschliessend fuhren wir weiter zum **Dschwari-Kloster** oberhalb von Mtskheta. Hier war bereits deutlich mehr los: Neben vielen Individualreisenden standen auch mehrere Reisebusse auf dem Parkplatz.
+Anschliessend fuhren wir weiter zum [**Dschwari-Kloster**](/reisen/georgien/sehenswuerdigkeiten/dschwari-kloster/) oberhalb von [Mtskheta](/reisen/georgien/orte/mtskheta/). Hier war bereits deutlich mehr los: Neben vielen Individualreisenden standen auch mehrere Reisebusse auf dem Parkplatz.
 
 Vom Kloster aus hatten wir einen schönen Blick auf die ehemalige georgische Hauptstadt **Mtskheta** und auf den Zusammenfluss von **Kura und Aragwi**. Gleichzeitig öffnet sich von hier der Blick weit in die beiden Flusstäler hinein.
 
@@ -156,7 +156,7 @@ Um **13:15 Uhr** ging es weiter.
 
 ### 13:20–13:45 Uhr – Ananuri Fortress
 
-Nur wenige Minuten später erreichten wir die **Festung Ananuri**, die wir von etwa **13:20 bis 13:45 Uhr** besichtigten. Danach begann allerdings der mit Abstand mühsamste Abschnitt des Tages.
+Nur wenige Minuten später erreichten wir die [**Festung Ananuri**](/reisen/georgien/sehenswuerdigkeiten/ananuri-schinwali/), die wir von etwa **13:20 bis 13:45 Uhr** besichtigten. Danach begann allerdings der mit Abstand mühsamste Abschnitt des Tages.
 
 Nach unglaublichen **1 Stunde und 45 Minuten Fahrt waren wir gerade einmal rund 11 Kilometer von Ananuri entfernt**.
 
@@ -180,7 +180,7 @@ Nach dem Kaffee ging es weiter bergauf Richtung Gudauri.
 
 ### 16:50 Uhr – Gudauri-Friedensdenkmal
 
-Um **16:50 Uhr**, mittlerweile rund **1½ Stunden hinter unserem ursprünglichen Zeitplan**, erreichten wir das **Gudauri-Friedensdenkmal** auf über **2'300 Metern über Meer**.
+Um **16:50 Uhr**, mittlerweile rund **1½ Stunden hinter unserem ursprünglichen Zeitplan**, erreichten wir das [**Gudauri-Friedensdenkmal**](/reisen/georgien/sehenswuerdigkeiten/gudauri-kreuzpass/) auf über **2'300 Metern über Meer**.
 
 Inzwischen hatte sich das Wetter deutlich verändert. Während wir am Vormittag noch recht gute Bedingungen hatten, war nun Nebel aufgezogen und die Fernsicht entsprechend eingeschränkt. Die spektakuläre Lage hoch über dem Tal war trotzdem gut zu erkennen, nur der ganz grosse Weitblick blieb uns verwehrt.
 
@@ -188,14 +188,14 @@ Um **17:15 Uhr** machten wir uns schliesslich wieder auf den Weg Richtung Hotel.
 
 ### 17:50 Uhr – Ankunft im Hotel
 
-Um **17:50 Uhr** kamen wir schliesslich in unserem **Hotel in Kazbegi** an. Nach dem langen Fahrtag richteten wir uns erst einmal im Zimmer ein. Vom Balkon aus sahen wir auf die Berge, deren Gipfel weiterhin in den Wolken verschwanden.
+Um **17:50 Uhr** kamen wir schliesslich in unserem [**Hotel in Kazbegi**](/reisen/georgien/hotels/baza-kazbegi/) an. Nach dem langen Fahrtag richteten wir uns erst einmal im Zimmer ein. Vom Balkon aus sahen wir auf die Berge, deren Gipfel weiterhin in den Wolken verschwanden.
 
 ### Abendessen im Hotel
 
 Später gingen wir noch im **Hotelrestaurant** etwas essen.
 
 - **Martina:** ein **Burger mit Pommes**.
-- **Manuel:** eine **Platte mit eingelegtem Gemüse**, darunter **Jonjoli**.
+- **Manuel:** eine **Platte mit eingelegtem Gemüse**, darunter [**Jonjoli**](/reisen/georgien/genuss/jonjoli/).
 
 Danach gingen wir zurück ins Zimmer und schauten noch einen **Film**. Nach Verkehr, Stau und Nebel war das der passende gemütliche Abschluss unseres ersten Tages mit dem Mietwagen.
 
