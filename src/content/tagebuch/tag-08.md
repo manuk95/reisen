@@ -45,11 +45,11 @@ Um **10:00 Uhr** fuhren wir zur [Prometheus-Höhle](/reisen/georgien/sehenswuerd
 
 Die Führung durch die Höhle war sehr eindrucksvoll. Es war mit Abstand die grösste Höhle, die wir bisher gesehen hatten. Einige Hallen wirkten so riesig, dass wir ihre Höhe auf **50–60 Meter schätzten**. Auch insgesamt zog sich die Höhle über eine beeindruckend lange Strecke. Sie war gut beleuchtet, sodass die Räume und Tropfsteine besonders zur Geltung kamen.
 
-Am Ausgang kam dann die Überraschung: Wir standen praktisch direkt bei unserem Hotel. Wenn wir das vorher gewusst hätten! Anschliessend brachte uns ein Bus wieder zum Parkplatz beim Höhleneingang zurück.
+Am Ausgang kam dann die Überraschung: Wir standen direkt vor unserem Hotel. Wenn wir das vorher gewusst hätten! Anschliessend brachte uns ein Bus wieder zum Parkplatz beim Höhleneingang zurück.
 
 ### Sanatorium Sakartvelo – Eindrücklich und etwas unheimlich
 
-Danach besichtigten wir das [Sanatorium Sakartvelo](/reisen/georgien/sehenswuerdigkeiten/sanatorium-sakartvelo/). Der Ort war sehr eindrücklich, ziemlich verrückt und zugleich etwas beängstigend. Wir waren uns nicht einmal sicher, ob wir bis nach oben laufen konnten oder ob die Treppen vielleicht einstürzen würden.
+Danach besichtigten wir das [Sanatorium Sakartvelo](/reisen/georgien/sehenswuerdigkeiten/sanatorium-sakartvelo/). Der Ort war sehr eindrücklich, ziemlich verrückt und zugleich etwas beängstigend. Besonders unheimlich war die verlassene Atmosphäre: Ausser uns war niemand dort. Wir waren uns nicht einmal sicher, ob wir bis nach oben laufen konnten oder ob die Treppen vielleicht einstürzen würden.
 
 ### Ein Bier am Tsivi-See
 
@@ -73,11 +73,11 @@ Wir unterhielten uns auch mit der Frau, die uns durch die Degustation begleitete
 
 Wir folgten ihrem Tipp und besuchten das [Sanatorium Metallurgist](https://maps.app.goo.gl/QTp2rPX1b9E3ajxq9). Es war deutlich prunkvoller und etwas weniger zerstört als Sakartvelo, aber ebenso eindrucksvoll.
 
-Hier waren mehr Touristen unterwegs, was den Besuch für uns etwas entspannter machte. Am Eingang standen zwei Personen, die Eintritt verlangten und uns den richtigen Weg zeigten. Sie nannten **5 Lari pro Person**. Wir hatten insgesamt aber nur noch **3 Lari in bar** dabei. Auch das war für sie in Ordnung.
+Hier waren mehr Touristen unterwegs, was den Besuch für uns etwas entspannter machte. Am Eingang standen zwei Personen, die Eintritt verlangten und uns den richtigen Weg zeigten. Wir vermuteten, dass die beiden obdachlos waren und gar keine Berechtigung hatten, Eintritt zu verlangen. Sie nannten **5 Lari pro Person**. Wir hatten insgesamt aber nur noch **3 Lari in bar** dabei. Auch das war für sie in Ordnung.
 
 ### Abendessen im Imeretian Esquisse
 
-Nach dem zweiten Sanatorium gingen wir in die Stadt und assen im Restaurant [იმერული ესკიზები · Imeretian Esquisse](https://maps.app.goo.gl/VSvGYdNSMySDPZ51A) zu Abend. Danach kehrten wir ins Hotel zurück.
+Nach dem zweiten Sanatorium gingen wir in die Stadt und assen im Restaurant [იმერული ესკიზები · Imeretian Esquisse](https://maps.app.goo.gl/VSvGYdNSMySDPZ51A) zu Abend. Das Abendessen war eigentlich lecker. Wir sassen allerdings draussen, und immer wieder waren wilde Hunde rund um unseren Tisch. Das störte uns beim Essen sehr. Danach kehrten wir ins Hotel zurück.
 
 *Fortsetzung folgt.*
 
