@@ -73,7 +73,7 @@ Wir unterhielten uns auch mit der Frau, die uns durch die Degustation begleitete
 
 Wir folgten ihrem Tipp und besuchten das [Sanatorium Metallurgist](https://maps.app.goo.gl/QTp2rPX1b9E3ajxq9). Es war deutlich prunkvoller und etwas weniger zerstört als Sakartvelo, aber ebenso eindrucksvoll.
 
-Hier waren mehr Touristen unterwegs, was den Besuch für uns etwas entspannter machte. Am Eingang standen zwei Männer, die Eintritt verlangten und uns den richtigen Weg zeigten. Sie nannten **5 Lari pro Person**. Wir hatten insgesamt aber nur noch **3 Lari in bar** dabei. Auch das war für sie in Ordnung.
+Hier waren mehr Touristen unterwegs, was den Besuch für uns etwas entspannter machte. Am Eingang standen zwei Personen, die Eintritt verlangten und uns den richtigen Weg zeigten. Sie nannten **5 Lari pro Person**. Wir hatten insgesamt aber nur noch **3 Lari in bar** dabei. Auch das war für sie in Ordnung.
 
 ### Abendessen im Imeretian Esquisse
 
