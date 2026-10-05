@@ -36,19 +36,19 @@ locations:
     page: "restaurants:barbarestan"
 images:
   - src: "images/georgien/tagebuch/tag-03/01-fruehstueck-martina.jpg"
-    alt: "Martina sitzt beim Frühstück in Tiflis und isst ein mit Puderzucker bestäubtes Nussgebäck"
-    caption: "Kleines Frühstück in der Nähe des Hotels: Martina mit dem Nussgebäck."
+    alt: "Eine von uns sitzt beim Frühstück in Tiflis und isst ein mit Puderzucker bestäubtes Nussgebäck"
+    caption: "Unser kleines Frühstück in der Nähe des Hotels: süsses Nussgebäck."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/02-fruehstueck-manuel.jpg"
-    alt: "Manuel sitzt beim Frühstück in Tiflis und isst ein mit Puderzucker bestäubtes Gebäck; auf dem Tisch steht ein Kaffee"
-    caption: "Auch Manuel probiert das süsse Gebäck – dazu ein Kaffee."
+    alt: "Einer von uns sitzt beim Frühstück in Tiflis und isst ein mit Puderzucker bestäubtes Gebäck; auf dem Tisch steht ein Kaffee"
+    caption: "Wir probierten das süsse Gebäck – dazu gab es einen Kaffee."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/03-aussicht-ueber-tiflis.jpg"
     alt: "Blick über die roten Dächer der Altstadt von Tiflis und die umliegenden Hügel"
     caption: "Blick über die Altstadt von Tiflis auf dem Weg hinauf."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/04-selfie-oberhalb-tiflis.jpg"
-    alt: "Manuel und Martina machen oberhalb der Altstadt von Tiflis ein Selfie"
+    alt: "Wir machen oberhalb der Altstadt von Tiflis ein Selfie"
     caption: "Ein Selfie oberhalb der Altstadt."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/05-wein-mit-aussicht.jpg"
@@ -64,11 +64,11 @@ images:
     caption: "Unterwegs durch die steilen Gassen von Tiflis."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/08-selfie-abanotubani.jpg"
-    alt: "Manuel und Martina bei einem Selfie oberhalb der Schwefelbadkuppeln von Abanotubani"
+    alt: "Wir bei einem Selfie oberhalb der Schwefelbadkuppeln von Abanotubani"
     caption: "Abanotubani mit seinen typischen Schwefelbadkuppeln im Hintergrund."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/09-adjaruli-chatschapuri-tbilisistanbul.jpg"
-    alt: "Martina sitzt im TbilisIstanbul Restaurant Cafe vor einem adscharischen Chatschapuri mit Ei und Butter"
+    alt: "Eine von uns sitzt im TbilisIstanbul Restaurant Cafe vor einem adscharischen Chatschapuri mit Ei und Butter"
     caption: "Unser Adjaruli-Chatschapuri im TbilisIstanbul."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/10-barbarestan-reservation.jpg"
@@ -81,19 +81,19 @@ images:
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/12-vorspeise-tatar-rote-bete-markknochen.jpg"
     alt: "Vorspeise im Barbarestan mit Rinderfilet-Tatar in einer ausgehöhlten Roten Bete und Markknochen"
-    caption: "Martinas Vorspeise: „Starter with Tenderloin Tartar and Fresh Beets“."
+    caption: "Eine unserer Vorspeisen: „Starter with Tenderloin Tartar and Fresh Beets“."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/13-vorspeise-salmon-roll.jpg"
     alt: "Vorspeise im Barbarestan mit Lachsrollen, eingelegtem Gemüse und grüner Sauce"
-    caption: "Manuels Vorspeise: „Salmon Rolls with Pickled Vegetables“."
+    caption: "Eine weitere unserer Vorspeisen: „Salmon Rolls with Pickled Vegetables“."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/14-hauptgang-tenderloin.jpg"
     alt: "Hauptgang im Barbarestan mit rosa gebratenem Rinderfilet, geräucherter Beilage und Schafsfrischkäse"
-    caption: "Martinas Hauptgang: „Beef Tenderloin by Kakhetian Whey“."
+    caption: "Einer unserer Hauptgänge: „Beef Tenderloin by Kakhetian Whey“."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/15-hauptgang-seebarschrolle.jpg"
     alt: "Hauptgang im Barbarestan mit gefüllter Seebarschrolle, Sauce und fein geschichtetem Kartoffelgratin"
-    caption: "Manuels Hauptgang: „Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“."
+    caption: "Ein weiterer unserer Hauptgänge: „Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-03/16-weinkeller-barbarestan.jpg"
     alt: "Historischer Gewölbekeller im Barbarestan mit gedeckten Tischen, Backsteinwänden und hängenden Trockenblumen"
@@ -107,7 +107,7 @@ images:
     alt: "Aussenansicht des Restaurants Barbarestan bei Nacht mit beleuchtetem Eingangsbereich und altem Wagen vor dem Gebäude"
     caption: "Zum Schluss noch ein Blick auf das Barbarestan von aussen."
     ownPhoto: true
-updated: 2026-09-30
+updated: 2026-10-05
 ---
 
 ## Das haben wir erlebt
@@ -140,7 +140,7 @@ Eigentlich hatte der Wetterbericht bereits für etwa **14:00 Uhr Regen** angekü
 
 Um **14:50 Uhr** setzten wir uns ins **TbilisIstanbul Restaurant Cafe** und assen gemütlich ein [**adscharisches Chatschapuri (Adjaruli)**](/reisen/georgien/genuss/adscharisches-chatschapuri/).
 
-Währenddessen kümmerte ich mich bereits um unser Abendessen und versuchte, im [**Barbarestan**](/reisen/georgien/restaurants/barbarestan/) einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem ich etwas gejammert hatte, dass Martina einen so späten Restaurantbesuch nicht schaffen würde, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
+Währenddessen kümmerten wir uns bereits um unser Abendessen und versuchten, im [**Barbarestan**](/reisen/georgien/restaurants/barbarestan/) einen Tisch zu reservieren. Zuerst hiess es, dass erst um **21:00 Uhr** etwas frei sei. Nachdem wir etwas gejammert und um eine frühere Uhrzeit gebeten hatten, fanden sie dann doch noch eine Möglichkeit – und wir bekamen tatsächlich einen Tisch für **18:00 Uhr**.
 
 ### Meidan Bazaar und Altstadt
 
@@ -160,13 +160,13 @@ Das Restaurant basiert auf den historischen Rezepten von **Barbare Eristavi-Jorj
 
 Bei den Vorspeisen hatten wir:
 
-- **Martina:** **„Starter with Tenderloin Tartar and Fresh Beets“** – Rinderfilet-Tatar mit frischer Roter Bete. Serviert wurde das grob geschnittene Tatar in einer ganzen ausgehöhlten Roten Bete und zusätzlich mit einem Markknochen.
-- **Manuel:** **„Salmon Rolls with Pickled Vegetables“** – Lachsrollen mit eingelegtem Gemüse. Dazu wurden eine Lachspaste und eine grüne Zitrussauce serviert.
+- **„Starter with Tenderloin Tartar and Fresh Beets“** – Rinderfilet-Tatar mit frischer Roter Bete. Serviert wurde das grob geschnittene Tatar in einer ganzen ausgehöhlten Roten Bete und zusätzlich mit einem Markknochen.
+- **„Salmon Rolls with Pickled Vegetables“** – Lachsrollen mit eingelegtem Gemüse. Dazu wurden eine Lachspaste und eine grüne Zitrussauce serviert.
 
 Bei den Hauptgängen hatten wir:
 
-- **Martina:** **„Beef Tenderloin by Kakhetian Whey“** – Rinderfilet mit kachetischer Molke. Sowohl das Filet als auch ein Teil der Beilage waren geräuchert. Dazu gab es Schafsfrischkäse.
-- **Manuel:** **„Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“** – gebackener Fisch mit georgischen Gewürzen und [Tkemali-Sauce](/reisen/georgien/genuss/tkemali/). Der Fisch war ein Seebarsch, zu einer Rolle geformt und mit Frischkäse sowie frischen Kräutern gefüllt. Dazu gab es einen sehr fein geschichteten Kartoffelgratin, ähnlich wie **Pommes Anna**.
+- **„Beef Tenderloin by Kakhetian Whey“** – Rinderfilet mit kachetischer Molke. Sowohl das Filet als auch ein Teil der Beilage waren geräuchert. Dazu gab es Schafsfrischkäse.
+- **„Baked Fish with Georgian Spices and ‘Tkemali’ Sauce“** – gebackener Fisch mit georgischen Gewürzen und [Tkemali-Sauce](/reisen/georgien/genuss/tkemali/). Der Fisch war ein Seebarsch, zu einer Rolle geformt und mit Frischkäse sowie frischen Kräutern gefüllt. Dazu gab es einen sehr fein geschichteten Kartoffelgratin, ähnlich wie **Pommes Anna**.
 
 ### Führung durch den Wein- und Gewölbekeller
 

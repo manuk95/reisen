@@ -33,8 +33,6 @@ images:
     alt: "Steinmauern von Zakagori im Trusotal vor dem Kaukasusgebirge"
     caption: "Zakagori im Trusotal: Hier kamen wir an Tag 6 mit unserem Guide auf Südossetien zu sprechen. Das Bild zeigt unseren Ausflugsort, nicht den Verlauf einer Grenzlinie."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
 ---
 

@@ -1,7 +1,12 @@
 ---
 type GalleryImage = { src:string; alt:string; caption?:string; credit?:string; source?:string; license?:string; edit?:string; ownPhoto?:boolean };
 const { images = [], legacy, title } = Astro.props as { images?:GalleryImage[]; legacy?:GalleryImage; title:string };
-const slides: GalleryImage[] = images.length ? images : legacy?.src ? [legacy] : [{src:'images/platzhalter.png',alt:`Neutrales Platzhalterbild für ${title}`}];
+const attribution = (value?: string) => /^(Eigenes Reisefoto|Eigenes Werk)$/i.test(value?.trim() || '') ? undefined : value;
+const slides: GalleryImage[] = (images.length ? images : legacy?.src ? [legacy] : [{src:'images/platzhalter.png',alt:`Neutrales Platzhalterbild für ${title}`}]).map(item => ({
+  ...item,
+  credit: item.ownPhoto ? undefined : attribution(item.credit),
+  license: item.ownPhoto ? undefined : attribution(item.license),
+}));
 const base=import.meta.env.BASE_URL;
 ---
 <figure class="item-gallery" data-gallery aria-label={`Bildergalerie: ${title}`} tabindex={slides.length>1?0:undefined}>

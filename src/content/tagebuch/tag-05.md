@@ -30,7 +30,7 @@ locations:
     page: "sehenswuerdigkeiten:pansheti-mineralpool"
 images:
   - src: "images/georgien/tagebuch/tag-05/01-brunch-maisi-martina.webp"
-    alt: "Martina sitzt im Maisi vor einer Tasse Kaffee am gedeckten Frühstückstisch"
+    alt: "Eine von uns sitzt im Maisi vor einer Tasse Kaffee am gedeckten Frühstückstisch"
     caption: "Gemütlicher Brunch im Maisi."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
@@ -50,8 +50,8 @@ images:
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/05-martina-rotkaeppchen.webp"
-    alt: "Martina trägt ein rotes Kopftuch vor einer Ikone und brennenden Kerzen in der Gergeti-Kirche"
-    caption: "Unser «Rotkäppchen»: Martina mit rotem Kopftuch in der Kirche."
+    alt: "Eine von uns trägt ein rotes Kopftuch vor einer Ikone und brennenden Kerzen in der Gergeti-Kirche"
+    caption: "Unser «Rotkäppchen» mit rotem Kopftuch in der Kirche."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/06-dariali-tal.webp"
@@ -65,7 +65,7 @@ images:
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/08-selfie-dariali-kloster.webp"
-    alt: "Manuel und Martina machen ein Selfie mit Mützen und Regenjacken vor der Kirche des Dariali-Klosters"
+    alt: "Wir machen ein Selfie mit Mützen und Regenjacken vor der Kirche des Dariali-Klosters"
     caption: "Wir beim Dariali-Kloster – gut eingepackt gegen das Wetter."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
@@ -80,7 +80,7 @@ images:
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/11-kirschdessert-cafe-monastery.webp"
-    alt: "Martina sitzt im Cafe Monastery vor einem Kirschdessert mit mehreren Schichten im Glas"
+    alt: "Eine von uns sitzt im Cafe Monastery vor einem Kirschdessert mit mehreren Schichten im Glas"
     caption: "Kirschdessert im Cafe Monastery beim Dariali-Kloster."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
@@ -90,13 +90,13 @@ images:
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/13-martina-steinkopf-sno.webp"
-    alt: "Martina steht neben einer grossen Steinskulptur mit einem bärtigen Gesicht in Sno"
-    caption: "Martina bei den Steinköpfen von Sno."
+    alt: "Eine von uns steht neben einer grossen Steinskulptur mit einem bärtigen Gesicht in Sno"
+    caption: "Unser Halt bei den Steinköpfen von Sno."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/14-manuel-steinkopf-sno.webp"
-    alt: "Manuel steht neben einer grossen Steinskulptur mit einem bärtigen Gesicht in Sno"
-    caption: "Auch Manuel stellt sich zum Steinkopf in Sno."
+    alt: "Einer von uns steht neben einer grossen Steinskulptur mit einem bärtigen Gesicht in Sno"
+    caption: "Wir hielten unseren Besuch bei den Steinköpfen von Sno auf Erinnerungsfotos fest."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-05/15-mineralquelle-pansheti.webp"
@@ -119,7 +119,7 @@ images:
     caption: "Hauswein, etwas Süsses und Netflix – unser gemütlicher Tagesabschluss."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
-updated: 2026-10-02
+updated: 2026-10-05
 ---
 
 ## Das haben wir erlebt
@@ -167,7 +167,7 @@ Was uns erwartete, war definitiv keine normale Strasse: **sehr steile Abschnitte
 Dass wir es trotzdem geschafft haben, verdanken wir vor allem drei Dingen:
 
 - unserem geländegängigen **Ford Bronco**,
-- unserer **super Fahrerin Martina**,
+- unserer **super Fahrerin**,
 - und den ungefähr **zehntausend Fluchwörtern**, die während der Fahrt ausgesprochen wurden.
 
 Wie gross der technische Beitrag der Fluchwörter tatsächlich war, lässt sich im Nachhinein nur schwer beurteilen. Ausgesprochen wurden jedenfalls genügend.
@@ -184,4 +184,4 @@ Danach machten wir es uns auf dem **Sofa in unserem Zimmer** gemütlich und scha
 
 Aus dem gemütlich begonnenen Schlechtwettertag wurde doch noch ein abwechslungsreicher Ausflug: Gergeti im Nebel, der Klosterkomplex nahe der russischen Grenze, ein Kirschdessert und die steinernen Gesichter von Sno.
 
-Am meisten Gesprächsstoff lieferte allerdings die Piste zum Mineralwasserpool bei Pansheti. Unser Bronco und Martina hatten heute jedenfalls mehr zu tun, als wir am Morgen erwartet hatten. Der Abend auf dem Sofa mit Hauswein und Netflix war danach genau der passende Abschluss.
+Am meisten Gesprächsstoff lieferte allerdings die Piste zum Mineralwasserpool bei Pansheti. Die Fahrt mit unserem Bronco forderte uns jedenfalls mehr, als wir am Morgen erwartet hatten. Der Abend auf dem Sofa mit Hauswein und Netflix war danach genau der passende Abschluss.

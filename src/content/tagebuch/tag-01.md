@@ -18,16 +18,16 @@ locations:
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=41.695588,44.803601"
 images:
   - src: "images/georgien/tagebuch/tag-01/01-flug.jpg"
-    alt: "Manuel und Martina im Flugzeug auf dem Weg nach Georgien"
+    alt: "Wir im Flugzeug auf dem Weg nach Georgien"
     caption: "Los gehts: im Flugzeug Richtung Belgrad und Tiflis."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-01/02-belgrad-sonnenbrille-manuel.jpg"
-    alt: "Manuel probiert während des Umstiegs am Flughafen Belgrad eine runde Sonnenbrille an"
+    alt: "Einer von uns probiert während des Umstiegs am Flughafen Belgrad eine runde Sonnenbrille an"
     caption: "Zeitvertreib beim Umstieg in Belgrad: Sonnenbrillen anprobieren."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-01/03-belgrad-sonnenbrille-martina.jpg"
-    alt: "Martina probiert während des Umstiegs am Flughafen Belgrad eine runde Sonnenbrille an"
-    caption: "Auch Martina testet am Flughafen Belgrad eine Sonnenbrille."
+    alt: "Eine von uns probiert während des Umstiegs am Flughafen Belgrad eine runde Sonnenbrille an"
+    caption: "Auch diese Sonnenbrille probierten wir beim Umstieg in Belgrad an."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-01/04-taxi-tiflis.jpg"
     alt: "Blick aus dem Taxi auf der Fahrt vom Flughafen nach Tiflis"
@@ -42,7 +42,7 @@ images:
     caption: "Unser erster Abend im nächtlichen Tiflis."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-01/07-prestige-terrasse.jpg"
-    alt: "Manuel und Martina auf der Terrasse des Prestige Restaurant in Tiflis"
+    alt: "Wir auf der Terrasse des Prestige Restaurant in Tiflis"
     caption: "Unser erstes Abendessen in Georgien auf der Terrasse des Prestige Restaurant."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-01/08-badrijani-pkhali.jpg"
@@ -57,7 +57,7 @@ images:
     alt: "Drei georgische Khinkali auf einem Teller"
     caption: "Khinkali zum Abschluss unseres ersten georgischen Abendessens."
     ownPhoto: true
-updated: 2026-09-29
+updated: 2026-10-05
 ---
 
 ## Das haben wir erlebt

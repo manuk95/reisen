@@ -35,116 +35,84 @@ locations:
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=Maisi+Restaurant+Betlemi+18+Gergeti+Kazbegi"
 images:
   - src: "images/georgien/tagebuch/tag-06/01-manuel-quad-ausruestung.webp"
-    alt: "Manuel steht mit Helm, Schutzbrille und gelben Handschuhen neben mehreren Quads in Stepantsminda"
-    caption: "Mit Helm, Schutzbrille und leuchtend gelben Handschuhen waren wir für die Tour ausgerüstet. Manuel zwischen den Quads in Stepantsminda."
+    alt: "Einer von uns steht mit Helm, Schutzbrille und gelben Handschuhen neben mehreren Quads in Stepantsminda"
+    caption: "Mit Helm, Schutzbrille und leuchtend gelben Handschuhen waren wir zwischen den Quads in Stepantsminda für unsere Tour ausgerüstet."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/02-martina-auf-dem-quad.webp"
-    alt: "Martina sitzt mit Helm und Schutzbrille auf dem Quad und zeigt ihre gelben Handschuhe; dahinter eine Tankstelle"
-    caption: "Martina auf dem Quad: warm eingepackt und mit gut sichtbaren Handschuhen. Zunächst führte unsere Strecke noch über Asphalt."
+    alt: "Eine von uns sitzt mit Helm und Schutzbrille auf dem Quad und zeigt ihre gelben Handschuhe; dahinter eine Tankstelle"
+    caption: "Auf dem Quad waren wir warm eingepackt und mit gut sichtbaren Handschuhen ausgerüstet. Zunächst führte unsere Strecke noch über Asphalt."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/03-aussicht-trusotal.webp"
     alt: "Blick von einem Hang auf den Fluss, helle Mineralablagerungen und verschneite Berge im Trusotal"
     caption: "Gegen 12:05 Uhr hielten wir an diesem Aussichtspunkt. Unter uns lagen der Fluss und die hellen Mineralablagerungen, dahinter die bereits verschneiten Berghänge."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/04-martina-manuel-trusotal.webp"
-    alt: "Martina und Manuel stehen gemeinsam auf einem felsigen Aussichtspunkt vor schneebedeckten Bergen"
-    caption: "Unser gemeinsames Erinnerungsfoto beim Aussichtsstopp: Martina und Manuel mit dem Trusotal und den Schneebergen im Hintergrund."
+    alt: "Wir stehen gemeinsam auf einem felsigen Aussichtspunkt vor schneebedeckten Bergen"
+    caption: "Unser gemeinsames Erinnerungsfoto beim Aussichtsstopp: wir mit dem Trusotal und den Schneebergen im Hintergrund."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/05-abano-mineralsee.webp"
     alt: "Blauer Mineralwassersee unter einem Felshang mit rostrot gefärbtem Wasserlauf im Vordergrund"
     caption: "Gegen 12:56 Uhr am Abano-Mineralsee: kräftiges Blau und davor rostrote Ablagerungen. Es roch deutlich nach Schwefel, das Wasser war aber kalt. Unser Guide erzählte, der See sei sehr tief. Nach einem kurzen Halt fuhren wir weiter."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/06-wasserdurchfahrt-trusotal.webp"
     alt: "Ein Quad fährt durch einen flachen Wasserlauf im Trusotal; Pferde stehen auf der Wiese vor nebligen Bergen"
     caption: "Immer unserem Guide hinterher: Im Tal ging es auch durch Wasserläufe. Neben der Strecke standen Pferde auf den Wiesen; zwischen den Bergen lagen kleine Siedlungen und alte Mauerreste."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/07-ruinen-zakagori.webp"
     alt: "Niedrige Steinmauern der Ruinen von Zakagori mit Blick auf das weite Tal und verschneite Berge"
     caption: "Gegen 13:40 Uhr erreichten wir die Festung Zakagori. Hier stellten wir die Quads ab und erkundeten die Ruinen zu Fuss. Zwischen den alten Steinmauern öffnete sich der Blick weit über das Tal."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/08-mittagspause-abano.webp"
-    alt: "Martina und Manuel sitzen bei einem Selfie an einem Tisch im Freien mit einem runden Brot auf dem Teller"
+    alt: "Wir sitzen bei einem Selfie an einem Tisch im Freien mit einem runden Brot auf dem Teller"
     caption: "14:02–14:36 Uhr: Mittagspause beim Kloster in Abano. Im Café gab es Kaffee und ein mit Käse gefülltes Brot, das uns an Chatschapuri erinnerte, aber etwas anders war. Den genauen Namen des Gerichts kannten wir nicht."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/09-rueckfahrt-schlucht.webp"
     alt: "Schmaler steiniger Fahrweg neben dem Fluss in einer Schlucht mit bewaldetem Hang und tiefen Wolken"
     caption: "Zurück ging es durch die Schlucht statt über den Pass. Zwischen Felswand und Abhang blieb wenig Platz; Autos konnten nur an wenigen Stellen kreuzen. Wir dachten daran, wie schnell herabfallende Felsen diesen Zugang blockieren könnten. Unterwegs begann es zu regnen."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/10-bergfahrt-schneefall.webp"
     alt: "Ein Quad fährt über einen steilen grasigen Berghang im Schneefall und Nebel"
     caption: "Auf der Strasse Richtung Stepantsminda traf uns kalter Regen im Gesicht, der sich wie Schneeregen anfühlte. Danach führte uns der Guide nochmals steil über einen Berg, auf einem kaum erkennbaren Weg. Nun schneite es rundherum – ein besonders schöner Anblick zum Abschluss."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt. Schwarze Balken oben und unten entfernt; Motiv vollständig erhalten."
   - src: "images/georgien/tagebuch/tag-06/11-khabidzgina-maisi.webp"
     alt: "Goldbraune Stücke einer mit Kartoffeln und Käse gefüllten Khabidzgina auf einem Holzbrett mit Sauerrahm"
     caption: "Khabidzgina – ein Kartoffel-Käse-Pie mit goldbrauner Kruste. Dazu gab es Sauerrahm mit Knoblauch, auf der Karte als «Sourcream with garlic» beschrieben."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/12-tomato-season-maisi.webp"
     alt: "Tomatenspalten mit Croutons und dunklen Kräuterblättern auf einem schwarzen Teller im Maisi"
     caption: "«Tomato Season»: Tomaten mit Minze-Cashew-Pesto, Croutons, Beerenessig und frischen Kräutern. Auf unserem Teller lagen die kräftig roten Tomaten unter den knusprigen Brotstücken und dunklen Kräuterblättern."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/13-fischvorspeise-maisi.webp"
     alt: "Dünne helle Fischscheiben mit rosa Zitrusfilets und grünen Minzblättern in einer orangefarbenen Sauce"
     caption: "Unsere Fischvorspeise: dünne, helle Fischscheiben mit rosa Zitrusfilets und Minzblättern, angerichtet in einer orangefarbenen Sauce."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/14-pork-belly-maisi.webp"
     alt: "Zwei Stücke Schweinebauch mit einer dunkelroten Sauce, runden Früchten und grünen Blättern"
     caption: "«Pork Belly» – Schweinebauch mit einer dunkelroten Sauce und grünen Blättern. Die Sauce bedeckte die beiden Fleischstücke grosszügig."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/15-kirschdessert-maisi.webp"
     alt: "Kirschdessert mit einer hellen Creme, dunkelroter Komponente und zwei knusprigen Nussstücken auf einem weissen Teller"
     caption: "Zum Abschluss unser Kirschdessert: eine helle Creme, die dunkelrote Kirschkomponente und knusprige Nussstücke. Im Hintergrund sieht man die offene Küche des Maisi."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-06/16-stepantsminda-bei-nacht.webp"
     alt: "Die Lichter von Stepantsminda unter dunklen Wolken mit Häusern und Dächern im Vordergrund"
     caption: "Stepantsminda bei Nacht: Unter den tiefen Wolken leuchteten die Häuser im Tal. Der letzte Blick auf den Ort nach unserem langen Tag."
     ownPhoto: true
-    credit: "Eigenes Reisefoto"
-    license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
 updated: 2026-10-05
 ---
@@ -153,7 +121,7 @@ updated: 2026-10-05
 
 ### 09:26 Uhr – Erst einmal Kaffee
 
-Am Morgen fuhren wir von unserem [Hotel in Stepantsminda](/reisen/georgien/hotels/baza-kazbegi/) zum Treffpunkt für die Quad-Tour. Gleich daneben lag das Restaurant im [1740 Boutique Hotel](/reisen/georgien/hotels/1740-boutique/), wo wir vor dem Start noch einen Kaffee trinken gingen. Martina braucht am Morgen unbedingt ihren Kaffee – auch vor einer Fahrt ins Gelände.
+Am Morgen fuhren wir von unserem [Hotel in Stepantsminda](/reisen/georgien/hotels/baza-kazbegi/) zum Treffpunkt für die Quad-Tour. Gleich daneben lag das Restaurant im [1740 Boutique Hotel](/reisen/georgien/hotels/1740-boutique/), wo wir vor dem Start noch einen Kaffee trinken gingen. Unser Morgenkaffee durfte auch vor einer Fahrt ins Gelände nicht fehlen.
 
 ### Über einen kaum erkennbaren Passweg
 

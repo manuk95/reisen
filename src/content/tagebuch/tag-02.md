@@ -40,11 +40,11 @@ locations:
     page: "unterkuenfte:silver-39-corner"
 images:
   - src: "images/georgien/tagebuch/tag-02/01-bierflasche-shop.jpg"
-    alt: "Martina hält in einem Shop in Tiflis eine grosse 2,5-Liter-Flasche Bier"
+    alt: "Eine von uns hält in einem Shop in Tiflis eine grosse 2,5-Liter-Flasche Bier"
     caption: "Eigentlich wollten wir einen Kaffeedrink – dafür entdeckten wir diese 2,5-Liter-Flasche Bier."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/02-standseilbahn.jpg"
-    alt: "Manuel und Martina in der Standseilbahn auf dem Weg zum Mtatsminda Park"
+    alt: "Wir in der Standseilbahn auf dem Weg zum Mtatsminda Park"
     caption: "Mit der Standseilbahn ging es hinauf auf den Mtatsminda."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/03-aussicht-mtatsminda.jpg"
@@ -56,19 +56,19 @@ images:
     caption: "Corndogs als Zwischenverpflegung im Mtatsminda Park."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/05-fernsehturm.jpg"
-    alt: "Manuel und Martina im Mtatsminda Park vor dem Fernsehturm von Tiflis"
+    alt: "Wir im Mtatsminda Park vor dem Fernsehturm von Tiflis"
     caption: "Unterwegs im Mtatsminda Park mit dem Fernsehturm im Hintergrund."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/06-mtatsminda-park.jpg"
-    alt: "Manuel und Martina bei einem Spaziergang durch den Mtatsminda Park"
+    alt: "Wir bei einem Spaziergang durch den Mtatsminda Park"
     caption: "Spaziergang durch den Mtatsminda Park."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/07-riesenrad.jpg"
-    alt: "Manuel und Martina in einer Gondel des Riesenrads im Mtatsminda Park"
+    alt: "Wir in einer Gondel des Riesenrads im Mtatsminda Park"
     caption: "Noch einmal hoch hinaus: eine Runde mit dem Riesenrad."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/08-sameba-kathedrale.jpg"
-    alt: "Manuel und Martina vor der Sameba-Kathedrale in Tiflis"
+    alt: "Wir vor der Sameba-Kathedrale in Tiflis"
     caption: "Vor der Sameba-Kathedrale."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-02/09-rooftop-aussicht.jpg"
@@ -79,7 +79,7 @@ images:
     alt: "Die beleuchtete Friedensbrücke in Tiflis bei Nacht"
     caption: "Die beleuchtete Friedensbrücke auf dem Rückweg in unsere Hood."
     ownPhoto: true
-updated: 2026-09-29
+updated: 2026-10-05
 ---
 
 ## Das haben wir erlebt
@@ -112,7 +112,7 @@ Während des Essens begann irgendwo in der Stadt ein Hund zu bellen. Kurz darauf
 
 Auf unserer schönen Rooftop-Bar wurde es dann zunehmend **zugig und kühl**. Also machten wir uns wieder auf den Weg hinunter in die Altstadt. Unterwegs gönnten wir uns noch ein **Glas Rotwein**.
 
-Danach liefen wir weiter zur [**Friedensbrücke**](/reisen/georgien/sehenswuerdigkeiten/friedensbruecke-rike-park/) – zum Glück kannte Manuel eine Abkürzung. Von dort waren es nur noch wenige Gehminuten zurück in unsere Hood rund um das Hotel.
+Danach liefen wir weiter zur [**Friedensbrücke**](/reisen/georgien/sehenswuerdigkeiten/friedensbruecke-rike-park/) – zum Glück fanden wir eine Abkürzung. Von dort waren es nur noch wenige Gehminuten zurück in unsere Hood rund um das Hotel.
 
 Zum Abschluss des Abends gab es noch eine **Glace und frische Himbeeren**. Bereits gegen **21:00 Uhr** waren wir wieder zurück im [**Silver 39 Corner Hotel**](/reisen/georgien/hotels/silver-39-corner/).
 

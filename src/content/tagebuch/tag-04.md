@@ -55,7 +55,7 @@ images:
     caption: "Unser Ford Bronco – unser Begleiter für die nächsten Tage."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-04/02-chronicle-of-georgia-manuel.jpg"
-    alt: "Manuel steht mit ausgebreiteten Armen vor den monumentalen Säulen des Chronicle of Georgia"
+    alt: "Einer von uns steht mit ausgebreiteten Armen vor den monumentalen Säulen des Chronicle of Georgia"
     caption: "Beim Chronicle of Georgia."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-04/03-blick-auf-mzcheta-von-jvari.jpg"
@@ -67,7 +67,7 @@ images:
     caption: "Das Dschwari-Kloster mit den Resten der alten Befestigung."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-04/05-mittagessen-shin-shemo.jpg"
-    alt: "Martina sitzt an einem Holztisch im Freien vor verschiedenen georgischen Gerichten im Shin-Shemo Restaurant"
+    alt: "Eine von uns sitzt an einem Holztisch im Freien vor verschiedenen georgischen Gerichten im Shin-Shemo Restaurant"
     caption: "Mittagessen im Shin-Shemo: typisch georgisch, aber eher durchschnittlich."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-04/06-ananuri-mit-see.jpg"
@@ -87,11 +87,11 @@ images:
     caption: "Kaffeepause im Restaurant Gorda – deutlich angenehmer als unser Mittagsstopp."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-04/10-gudauri-friedensdenkmal.jpg"
-    alt: "Manuel und Martina stehen unter einem Bogen des Gudauri-Friedensdenkmals vor nebliger Bergkulisse"
+    alt: "Wir stehen unter einem Bogen des Gudauri-Friedensdenkmals vor nebliger Bergkulisse"
     caption: "Beim Gudauri-Friedensdenkmal – mit Nebel statt Fernsicht."
     ownPhoto: true
   - src: "images/georgien/tagebuch/tag-04/11-erinnerungsfoto-im-nebel.webp"
-    alt: "Martina und Manuel stehen vor einem herzförmigen Blumenrahmen und einer georgischen Fahne im Nebel"
+    alt: "Wir stehen vor einem herzförmigen Blumenrahmen und einer georgischen Fahne im Nebel"
     caption: "Ein Erinnerungsfoto mit georgischer Fahne – im Nebel."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
@@ -106,7 +106,7 @@ images:
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-04/14-martina-hotelrestaurant.webp"
-    alt: "Martina sitzt im Hotelrestaurant hinter einer Bierflasche und einem gefüllten Bierglas"
+    alt: "Eine von uns sitzt im Hotelrestaurant hinter einer Bierflasche und einem gefüllten Bierglas"
     caption: "Den Fahrtag im Hotelrestaurant ausklingen lassen."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
@@ -122,10 +122,10 @@ images:
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-04/17-burger-pommes-martina.webp"
     alt: "Ein Burger im Sesambrötchen und ein Korb mit Pommes stehen auf einem Holzbrett neben Ketchup und einem Bierglas"
-    caption: "Für Martina gab es einen Burger mit Pommes."
+    caption: "Bei unserem Abendessen gab es auch einen Burger mit Pommes."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel verkleinert; EXIF-Metadaten entfernt."
-updated: 2026-10-03
+updated: 2026-10-05
 ---
 
 ## Das haben wir erlebt
@@ -194,8 +194,8 @@ Um **17:50 Uhr** kamen wir schliesslich in unserem [**Hotel in Kazbegi**](/reise
 
 Später gingen wir noch im **Hotelrestaurant** etwas essen.
 
-- **Martina:** ein **Burger mit Pommes**.
-- **Manuel:** eine **Platte mit eingelegtem Gemüse**, darunter [**Jonjoli**](/reisen/georgien/genuss/jonjoli/).
+- ein **Burger mit Pommes**.
+- eine **Platte mit eingelegtem Gemüse**, darunter [**Jonjoli**](/reisen/georgien/genuss/jonjoli/).
 
 Danach gingen wir zurück ins Zimmer und schauten noch einen **Film**. Nach Verkehr, Stau und Nebel war das der passende gemütliche Abschluss unseres ersten Tages mit dem Mietwagen.
 
