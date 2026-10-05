@@ -40,6 +40,11 @@ images:
     caption: "Die gut beleuchteten Tropfsteine kamen besonders zur Geltung. Einige Hallen wirkten so riesig, dass wir ihre Höhe auf 50–60 Meter schätzten."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/10-prometheus-beleuchtete-tropfsteine.webp"
+    alt: "Farbig beleuchtete Stalaktiten und Stalagmiten in der Prometheus-Höhle; ein Besucherweg verläuft im unteren Bildbereich"
+    caption: "Noch ein Blick in die Prometheus-Höhle: Die Beleuchtung färbte die Tropfsteine stellenweise grün und violett. Unten führte der Besucherweg zwischen den Formationen hindurch."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
   - src: "images/georgien/tagebuch/tag-08/03-wir-prometheus-hoehle.webp"
     alt: "Unser gemeinsames Selfie vor Tropfsteinen und einem mit Geländern gesicherten Weg in der Prometheus-Höhle"
     caption: "Unser Erinnerungsfoto mitten in der Prometheus-Höhle: Hinter uns hängen lange Tropfsteine, und der Besucherweg führt mit Geländern durch die Höhle."
@@ -75,7 +80,42 @@ images:
     caption: "Diese Wandmalerei im Weinkeller von Otia’s Ezo wurde mit Wein gemalt, nicht mit gewöhnlicher Farbe. Die bräunlichen Figuren und Reben zeigen eine Szene rund um die Weinlese."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
-updated: 2026-10-05
+  - src: "images/georgien/tagebuch/tag-08/11-metallurgist-fensterhalle.webp"
+    alt: "Eine von uns sitzt auf einem Holzstuhl in einer Halle des Sanatoriums Metallurgist vor hohen Sprossenfenstern und Säulen"
+    caption: "Im Metallurgist setzten wir uns kurz in diese grosse Fensterhalle. Zwischen den hohen Säulen blickten wir durch die Sprossenfenster ins Grüne."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/12-metallurgist-spiegelbild.webp"
+    alt: "Unser gemeinsames Spiegelbild in einem fleckigen Spiegel an einer gefliesten Wand im Sanatorium Metallurgist"
+    caption: "Unser gemeinsames Spiegelbild im Metallurgist. Selbst an dieser gefliesten Wand waren die Spuren der vergangenen Jahre sichtbar."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/13-metallurgist-betten.webp"
+    alt: "Zwei Metallbetten mit gemusterten Decken neben einem Fenster in einem Raum des Sanatoriums Metallurgist"
+    caption: "In einem Raum standen noch zwei Metallbetten mit gemusterten Decken. Dieses Detail wirkte zwischen den übrigen Eindrücken des Sanatoriums besonders ungewöhnlich."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/14-metallurgist-verfallener-raum.webp"
+    alt: "Blick durch einen Türrahmen auf einen beschädigten Raum voller Schutt und ein Fenster im Sanatorium Metallurgist"
+    caption: "Auch im Metallurgist gab es stark beschädigte Räume. Hier lagen Schutt und Reste der Wände auf dem Boden; durch das Fenster war ein anderer Gebäudeflügel zu sehen."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/15-imeretian-esquisse-abendessen.webp"
+    alt: "Eine von uns sitzt im Aussenbereich des Imeretian Esquisse; vor uns stehen gefülltes Fladenbrot mit roten Zwiebeln und eine rote Sauce"
+    caption: "Am Abend sassen wir draussen im Imeretian Esquisse. Auf dem Tisch lagen Stücke von gefülltem Fladenbrot mit roten Zwiebeln; dazu gab es eine rote Sauce."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/16-imeretian-esquisse-salat.webp"
+    alt: "Tomaten-Gurken-Salat mit roten Zwiebeln und Kräutern auf unserem Tisch; daneben Teller mit Fladenbrot"
+    caption: "Zum Abendessen teilten wir auch diesen Salat mit Tomaten, Gurken, roten Zwiebeln und Kräutern."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-08/17-imeretian-esquisse-gebaeck.webp"
+    alt: "Längliches goldbraunes Gebäck mit sichtbarer heller Füllung auf einem braunen Teller und ein kleines Schälchen mit heller Sauce"
+    caption: "Ausserdem stand dieses lange, goldbraune Gebäck mit heller Füllung auf unserem Tisch. Daneben wurde eine helle Sauce serviert."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+updated: 2026-10-06
 ---
 
 ## Das haben wir erlebt
