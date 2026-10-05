@@ -8,9 +8,9 @@ summary: "Vom antiken Kolchis und Iberien über Christianisierung, Königreich, 
 categories: [kultur, geschichte]
 status: empfohlen
 days: []
-related: [mtskheta, gelati, vardzia, tbilisi]
+related: [mtskheta, gelati, vardzia, tbilisi, suedossetien]
 sources: [{label: "Encyclopaedia Britannica: Georgia history", url: "https://www.britannica.com/place/Georgia/History"}, {label: "Auswärtiges Amt: Georgien - Überblick", url: "https://www.auswaertiges-amt.de/de/service/laender/georgien-node"}]
-updated: 2026-08-03
+updated: 2026-10-05
 ---
 
 ## Vorgeschichte und frühe Besiedlung
@@ -68,6 +68,8 @@ Kriege in Abchasien und Südossetien vertrieben Hunderttausende. Die Konflikte b
 ## Krieg 2008
 
 Im August 2008 eskalierte der Konflikt um Südossetien zum Krieg mit Russland. Russland erkannte Abchasien und Südossetien als unabhängig an; Georgien und die grosse Mehrheit der Staaten betrachten sie als besetzte georgische Gebiete.
+
+Die Wissensseite [Südossetien – Besiedlung und Konfliktgeschichte](/reisen/georgien/wissen/suedossetien/) erklärt die ossetische Siedlungsgeschichte und die entscheidenden Schritte von der sowjetischen Autonomie bis zur heutigen Trennung.
 
 ## Entwicklungen seit 2012
 

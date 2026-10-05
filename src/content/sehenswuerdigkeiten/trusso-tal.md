@@ -8,9 +8,15 @@ summary: "Weites Hochgebirgstal mit Mineralquellen, Travertinen, verlassenen Sie
 categories: [natur, wandern]
 status: empfohlen
 days: [tag-06]
-related: [juta, gergeti, dariali-gveleti]
-sources: [{label: "Georgia Travel: Kazbegi National Park", url: "https://georgia.travel/kazbegi-national-park"}]
-updated: 2026-08-08
+related: [juta, gergeti, dariali-gveleti, suedossetien]
+sources:
+  - label: "Georgia Travel: Kazbegi National Park"
+    url: "https://georgia.travel/kazbegi-national-park"
+  - label: "Georgia Travel: Truso Valley"
+    url: "https://georgia.travel/truso-valley"
+  - label: "Akhaladze et al. (2021): For Comprehensive Research of Truso Valley"
+    url: "https://historyoftruso.sangu.edu.ge/wp-content/uploads/2022/03/176-1-404-1-10-20211220-2.pdf"
+updated: 2026-10-05
 image: images/georgien/sehenswuerdigkeiten/trusso-tal.jpg
 imageAlt: "Travertin- und Mineralablagerungen am Terek im Trusso-Tal"
 imageStatus: lizenziert
@@ -25,6 +31,12 @@ imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltlich
 Das Trusso-Tal westlich der Heerstrasse ist breiter und offener als die dramatische Umgebung von Gergeti. Mineralquellen bilden farbige Travertine, der Terek hat sich durch die Landschaft geschnitten, und verlassene beziehungsweise saisonal bewohnte Siedlungen erinnern an die wechselvolle Geschichte des Grenzraums.
 
 Zu den bekannten Punkten gehören mineralreiche Quellen, der Abano-See, Ruinen und Festungsreste. Weiter hinten nähert sich das Tal sensiblen Grenzbereichen.
+
+## Grenzraum und Geschichte
+
+Ossetische Gemeinschaften haben die Siedlungsgeschichte des Tals mitgeprägt. Eine historische Studie verweist auf Zuwanderung seit wahrscheinlich dem 17. Jahrhundert und auf elf ossetische Dörfer in einer Erhebung von 1780. Das Trusotal gehört zur georgisch kontrollierten Gemeinde Kazbegi; seine Siedlungsgeschichte macht es nicht zum Teil Südossetiens.
+
+Die internationale Grenze zu Russland und die administrative Trennlinie zu Südossetien sind unterschiedliche Linien. Georgia Travel weist auf Zugangsbeschränkungen oberhalb von Zakagori wegen der Nähe zur russischen Grenze hin. Den historischen Zusammenhang erklärt [Südossetien – Besiedlung und Konfliktgeschichte](/reisen/georgien/wissen/suedossetien/). Von unserem Gespräch mit dem Guide bei Zakagori erzählen wir im [Tagebuch von Tag 6](/reisen/georgien/tagebuch/tag-06/).
 
 ## Wandern statt „alles abfahren“
 

@@ -146,7 +146,7 @@ images:
     credit: "Eigenes Reisefoto"
     license: "Eigenes Werk"
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; EXIF-Metadaten entfernt."
-updated: 2026-10-04
+updated: 2026-10-05
 ---
 
 ## Das haben wir erlebt
@@ -162,6 +162,8 @@ Nach dem Aufenthalt beim Treffpunkt ging es ab etwa **10:23 Uhr** los in Richtun
 Der Weg war so schmal, steinig und holprig, dass er eher wie ein Wanderweg als wie eine Strasse aussah. Beim Blick auf den Hang dachten wir zuerst nicht, dass wir dort mit dem Quad hochfahren könnten. Es ging aber tatsächlich. Laut unserem Guide fahren dort gelegentlich sogar Autos hinüber. Für ein normalbreites Auto erschien uns die Strecke ausgesprochen eng.
 
 Wir waren begeistert von dieser ungewöhnlichen Anfahrt. Die Stationen im Tal und die Rückfahrt erzählen unsere Fotos oben – vom Aussichtsstopp bis zur letzten Bergüberquerung.
+
+Bei der Festung Zakagori befanden wir uns im Grenzgebiet zu Russland und [Südossetien](/reisen/georgien/wissen/suedossetien/). Ein Schild wies auf den Grenzbereich hin. Unser Guide erzählte uns etwas über Südossetien und die Geschichte, die zur heutigen Situation geführt hatte. Das fanden wir sehr spannend – besonders hier vor Ort, wo dieses Thema plötzlich ganz nah war.
 
 ### Gegen 16:40 Uhr – Zurück im Hotel
 
