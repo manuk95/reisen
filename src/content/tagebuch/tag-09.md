@@ -32,8 +32,58 @@ locations:
   - label: "Brevalo · Georgisches Abendessen im Paragraph"
     coordinates: { lat: 41.95247, lon: 41.76392 }
     googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=41.95247,41.76392"
-images: []
-updated: 2026-10-06
+images:
+  - src: "images/georgien/tagebuch/tag-09/01-tskaltubo-ampel-mit-herz.webp"
+    alt: "Rote Ampel in Herzform mit digitalem Countdown über einer Strasse in Tskaltubo"
+    caption: "Auf dem Weg durch Tskaltubo entdeckten wir diese Ampel: Statt eines gewöhnlichen roten Lichtes leuchtete ein Herz."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/02-kuh-autobahn-mittelstreifen.webp"
+    alt: "Eine Kuh steht auf dem begrünten, erhöhten Mittelstreifen einer Autobahn hinter einer Betonschutzwand"
+    caption: "Auf der Autobahn stand eine Kuh auf dem erhöhten Mittelstreifen. Wie sie dort hinaufgekommen war, konnten wir uns nicht erklären."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/03-argo-bergfahrt-blick-zum-meer.webp"
+    alt: "Blick aus der Argo-Seilbahn über niedrige Häuser und Hochhäuser von Batumi bis zum Schwarzen Meer"
+    caption: "Bei der Bergfahrt mit der Argo-Seilbahn blickten wir über Batumi zum Meer. Die Fahrt dauerte rund 15 Minuten – ein noch längerer Weg über der Stadt als in Tiflis."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/04-mueckenstiche-arm.webp"
+    alt: "Unterarm mit mehreren geröteten Stellen auf dem Sitzpolster der Gondel; dahinter Batumi und das Meer"
+    caption: "Die Mückenstiche hatten bei uns deutliche Spuren hinterlassen. Später brauchten wir deshalb noch etwas dagegen aus der Mall."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/05-argo-tiramisu-und-sandwich.webp"
+    alt: "Eine von uns sitzt am Tisch im Argo; vor uns stehen ein Tiramisu im Glas und ein gefülltes Sandwich"
+    caption: "Mittagspause im Argo auf 256 m ü. M.: Für uns gab es ein Tiramisu und ein Sandwich."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/06-argo-selfie-aussichtsterrasse.webp"
+    alt: "Unser gemeinsames Selfie an einem Geländer auf der Argo-Aussichtsterrasse mit einem roten Fernrohr neben uns"
+    caption: "Unser gemeinsames Erinnerungsfoto auf der Aussichtsterrasse beim Argo."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/07-argo-wir-vor-batumi-panorama.webp"
+    alt: "Wir stehen neben einem roten Aussichtsfernrohr; hinter uns liegen Batumi und das Schwarze Meer"
+    caption: "Von der Terrasse aus lag Batumi vor uns – von den grünen Hängen bis zu den Hochhäusern und dem Schwarzen Meer."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/08-argo-blick-auf-batumi-skyline.webp"
+    alt: "Blick auf die Hochhäuser von Batumi, den Alphabet Tower und das Riesenrad vor dem Schwarzen Meer"
+    caption: "Unser Blick auf die markanten Türme an der Küste. Rechts steht der Alphabet Tower mit seiner grossen Kugel; davor ist das Riesenrad zu sehen."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/09-argo-talfahrt-waescheleinen.webp"
+    alt: "Blick aus der Seilbahn auf Wohnhäuser mit roten Dächern, offenen Balkonen und aufgehängter Wäsche in Batumi"
+    caption: "Bei den Wohnhäusern sahen wir überall Wäscheleinen. Egal, wie klein der Balkon ist: Eine Leine gehört hin. In Innenhöfen wird sie zwischen den Gebäuden gespannt."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-09/10-ali-und-nino-verschmelzen.webp"
+    alt: "Die beiden aus horizontalen Metallstreifen aufgebauten Figuren von Ali und Nino überlagern sich vor blauem Himmel"
+    caption: "An der Promenade sahen wir Ali & Nino genau in dem Moment, in dem die beiden beweglichen Figuren ineinander verschmolzen."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+updated: 2026-10-07
 ---
 
 ## Das haben wir erlebt
@@ -46,19 +96,17 @@ Um **08:30 Uhr** frühstückten wir noch kurz im [Tskaltubo Epic Hotel & Spa](ht
 
 Eigentlich wollten wir im [Restaurant Argo](https://argo-batumi.ge/en/services/cafe-bar-argo) etwas zu Mittag essen und mit dem Auto hinauffahren. Die Zufahrt war jedoch gesperrt. Das sahen wir erst ungefähr **1,5 Kilometer vor dem Ziel**. Also fuhren wir wieder hinunter in die Stadt und nahmen stattdessen die [Argo-Seilbahn](https://argo-batumi.ge/en/services/argo-cable-car).
 
-Die Fahrt führte über die Stadt hinweg. Mit einer Gondel über Hochhäuser zu schweben, war schon sehr beeindruckend. Anders als in Tiflis verlief hier ein noch längerer Teil der Strecke über die Stadt. Rund **15 Minuten** dauerte die Fahrt pro Richtung.
+Die Fahrt, unsere Mittagspause und die Aussicht von oben erzählen die Fotos. Danach ging es mit der Seilbahn wieder hinunter auf Meereshöhe und zu Fuss weiter der [Promenade](/reisen/georgien/sehenswuerdigkeiten/batumi-boulevard-miracle-park/) entlang.
 
-Oben, auf **256 m ü. M.**, assen wir einen Snack und genossen die wunderbare Aussicht über Batumi. Danach fuhren wir mit der Seilbahn wieder hinunter auf Meereshöhe und liefen der [Promenade](/reisen/georgien/sehenswuerdigkeiten/batumi-boulevard-miracle-park/) entlang.
-
-### Skyline, Klimageräte und Wäscheleinen
+### Skyline, Klimageräte und Baustellen
 
 Batumi ist eine Stadt mit einer beeindruckenden Skyline und sehr vielen monströsen Bauten und Sehenswürdigkeiten. Luxusgebäude stehen direkt neben alten sowjetischen Wohnhochhäusern.
 
-Charakteristisch, wie für ganz Georgien, sind die Klimaanlagen, die wohl partout nur für einzelne Räume ausgelegt sind. Es gibt kaum ein Gebäude mit einem zentralen Aussengerät. Pro Fassade sieht man jeweils dutzende Klimageräte. Zudem sieht man bei georgischen Wohnungsbauten immer Wäscheleinen mit Wäsche draussen. Egal, wie klein der Balkon ist: Eine Wäscheleine gehört hin. Gibt es einen Innenhof, wird die Wäscheleine zwischen den Gebäuden gespannt.
+Charakteristisch, wie für ganz Georgien, sind die Klimaanlagen, die wohl partout nur für einzelne Räume ausgelegt sind. Es gibt kaum ein Gebäude mit einem zentralen Aussengerät. Pro Fassade sieht man jeweils dutzende Klimageräte.
 
 Mitten in der Stadt und auch ausserhalb gibt es zahlreiche Baustellen. Dazu sind dutzende prunkvolle Hochhausprojekte geplant, die die Skyline von Batumi weiter prägen sollen.
 
-Danach gingen wir noch in die **schönste McDonald’s-Filiale der Welt** und in die [Batumi Mall](https://www.google.com/maps/search/?api=1&query=Batumi+Mall+Zurab+Gorgiladze). Dort brauchten wir vor allem etwas gegen die Mückenstiche.
+Danach gingen wir noch in die **schönste McDonald’s-Filiale der Welt** und in die [Batumi Mall](https://www.google.com/maps/search/?api=1&query=Batumi+Mall+Zurab+Gorgiladze).
 
 ### Gegen 18:30 Uhr – Ankunft im Paragraph
 
@@ -83,3 +131,5 @@ Die rote Sauce empfanden wir als säuerlich wie Zitrone. Die grüne erinnerte un
 Danach gingen wir ins Bett.
 
 <!-- Redaktioneller Stand 06.10.2026: Erlebnisse, Uhrzeiten, Strassensperre, Stadtbeobachtungen, Superlativ zur McDonald’s-Filiale, Hotelerfahrung und Geschmacksvergleiche stammen aus unserem Reisebericht. Batumi Mall, Brevalo, Veal Chakapuli und Pork Ojakhuri wurden ausdrücklich bestätigt. Argo-Höhe und Fahrtdauer: https://argo-batumi.ge/en/services/argo-cable-car ; Restaurant und Bars: https://www.marriott.com/en-us/hotels/busak-paragraph-resort-and-spa-shekvetili-autograph-collection/dining/ ; allgemeine Gerichtsbeschreibungen, keine bestätigten vollständigen Hotelrezepte: https://georgia.travel/chakapuli und https://georgianrecipes.com/recipes/Ojakhuri-Delicious-Georgian-family-meal/ . Kartenpunkte: Epic aus Tag 8; Argo und McDonald’s aus den Kartenlinks von https://www.yell.ge/company.php?id=163289&lan=eng und https://www.yell.ge/company.php?id=127723&lan=eng ; Boulevard aus kanonischer Seite; Batumi Mall https://mapcarta.com/N4398175400 ; Paragraph https://mapcarta.com/W839950763 ; Brevalo https://mapcarta.com/N13383343893 . -->
+
+<!-- Fotos ergänzt am 07.10.2026: Erste zehn Aufnahmen in der übermittelten Reihenfolge. Beschreibungen nach Bildprüfung und unseren Angaben; keine EXIF-Aufnahmezeiten vorhanden. Ali & Nino: https://visitbatumi.com/en/monuments-951/ali-and-nino-statue . -->
