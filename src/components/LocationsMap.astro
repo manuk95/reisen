@@ -1,0 +1,38 @@
+---
+type Point = {id:string; label:string; info:string; lat:number; lon:number};
+const {id,points} = Astro.props as {id:string; points:Point[]};
+---
+<div class="locations-map" id={id} data-locations-map data-points={JSON.stringify(points)} role="region" aria-label="Karte der eindeutig lokalisierten Anlagen"></div>
+<p class="map-note" data-map-note>Die Karte benötigt JavaScript und Kartenkacheln von OpenStreetMap. Die Gebäudekarten darunter enthalten die belegten Positionen als Links.</p>
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+  for (const element of document.querySelectorAll<HTMLElement>('[data-locations-map]')) {
+    if (element.dataset.ready) continue;
+    const points=JSON.parse(element.dataset.points || '[]') as {id:string;label:string;info:string;lat:number;lon:number}[];
+    if (!points.length) continue;
+    const map=L.map(element.id,{scrollWheelZoom:false});
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}).addTo(map);
+    const markers=L.featureGroup().addTo(map);
+    for (const point of points) {
+      const popup=document.createElement('div');
+      const name=document.createElement('strong'); name.textContent=point.label;
+      const info=document.createElement('p'); info.textContent=point.info;
+      const link=document.createElement('a'); link.href=`#${point.id}`; link.textContent='Zur Gebäudekarte';
+      popup.append(name,info,link);
+      L.circleMarker([point.lat,point.lon],{radius:9,color:'#fff',weight:2,fillColor:'#7a1d30',fillOpacity:.95}).bindPopup(popup).addTo(markers);
+    }
+    map.fitBounds(markers.getBounds(),{padding:[35,35]});
+    new ResizeObserver(()=> (map as unknown as {invalidateSize:()=>void}).invalidateSize()).observe(element);
+    element.dataset.ready='true';
+    const note=element.nextElementSibling;
+    if(note) note.textContent='Alle Marker haben dieselbe Darstellung. Sie bezeichnen Gebäudepositionen, keine Eingänge oder Zugangsfreigaben.';
+  }
+</script>
+<style>
+  .locations-map{height:clamp(340px,55vh,560px);width:100%;min-width:0;border:1px solid var(--line);border-radius:.7rem;background:#cfc8b6;isolation:isolate}
+  .map-note{font-size:.9rem}
+  .locations-map :global(.leaflet-popup-content){overflow-wrap:anywhere}
+  .locations-map :global(.leaflet-container){font:inherit}
+  @media print{.locations-map{display:none}}
+</style>

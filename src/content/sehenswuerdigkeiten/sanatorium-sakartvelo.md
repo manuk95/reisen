@@ -1,20 +1,23 @@
 ---
 title: "Sanatorium Sakartvelo"
 slug: sanatorium-sakartvelo
+parent: tskaltubo-sanatorien
 trip: georgien-2026
 country: Georgien
 region: Imeretien
-summary: "Markanter konstruktivistischer Sanatoriumsbau der 1970er-Jahre in Tskaltubo – spannend als Architektur- und Fotostopp, aber nur von legal zugänglichen Bereichen aus."
+summary: "Markanter Bau der späten Sowjetmoderne, entworfen in den 1970er-Jahren und 1983 fertiggestellt in Tskaltubo – spannend als Architektur- und Fotostopp, aber nur von legal zugänglichen Bereichen aus."
 categories: [architektur, geschichte, sowjetzeit, fotografie]
 status: optional
 coordinates: {lat: 42.31581, lon: 42.59044}
 days: [tag-08]
-related: [tskaltubo, prometheus, sataplia]
+related: [tskaltubo, tskaltubo-sanatorien, prometheus, sataplia]
 sources:
+  - {label: "C20: Sakartvelo – Entwurf um 1973, Fertigstellung 1983", url: "https://abandonedrecreation.com/sakartvelo-sanatorium/"}
+  - {label: "Gemeinde Tskaltubo: Bestandsaufnahme 2022, Kapitel 4.10.2 (PDF)", url: "https://tskaltubo.gov.ge/wp-content/uploads/2022/08/kvleva-teqsturi-natsili.pdf"}
   - {label: "Tskaltubo Municipality: Geschichte des Kurorts", url: "https://tskaltubo.gov.ge/en/tsqhaltubos-istoria/"}
   - {label: "Wikimedia Commons: Sanatorium Sakartvelo", url: "https://commons.wikimedia.org/wiki/File:Tskaltubo_Sanatorium-Sakartvelo_Stefan-Applis.gif"}
   - {label: "Mapcarta / OpenStreetMap: Sanatorium Sakartvelo", url: "https://mapcarta.com/W300801352"}
-updated: 2026-08-17
+updated: 2026-10-07
 image: "images/georgien/sehenswuerdigkeiten/sanatorium-sakartvelo.jpg"
 imageAlt: "Das Sanatorium Sakartvelo in Tskaltubo mit seinem markanten gestaffelten Betonbau hinter Bäumen"
 imageStatus: "lizenziert"
@@ -26,9 +29,11 @@ imageSource: "https://commons.wikimedia.org/wiki/File:Tskaltubo_Sanatorium-Sakar
 
 ## Was ist das?
 
-Das **Sanatorium Sakartvelo** gehört zu den auffälligeren ehemaligen Kurgebäuden von [Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo/). Wikimedia Commons beschreibt den Bau als Beispiel konstruktivistischer Architektur der **1970er-Jahre**.
+Das **Sanatorium Sakartvelo** gehört zu den auffälligeren ehemaligen Kurgebäuden von [Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo/). Es ist ein Beispiel der **späten Sowjetmoderne**. Der Architekturführer C20 unterscheidet den Entwurf um **1973** von der Fertigstellung **1983**; die kommunale Bestandsaufnahme nennt die Bauphase 1974–1983. Das Architekturteam bestand aus **Merab Chkhenkeli und Revaz Janashia**.
 
 Der Ort passt gut zur Geschichte Tskaltubos: Die Stadt wurde in der Sowjetzeit zu einem Kurzentrum von unionsweiter Bedeutung ausgebaut. Nach Angaben der Stadtverwaltung entstanden insgesamt **22 Sanatorien**, eingebettet in den grosszügig geplanten Kurpark und die Thermalquellen-Infrastruktur.
+
+Mehr zur Geschichte, zur Unterbringung der Binnenvertriebenen und zu den anderen Anlagen steht in der [Übersicht über die Sanatorien von Tskaltubo](/reisen/georgien/sehenswuerdigkeiten/tskaltubo-sanatorien/).
 
 ## Warum Sakartvelo interessant ist
 

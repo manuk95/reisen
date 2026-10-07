@@ -1,0 +1,48 @@
+---
+import {sanatoria,relatedBuildings} from '../data/tskaltubo-sanatorien';
+import LocationsMap from './LocationsMap.astro';
+const all=[...sanatoria,...relatedBuildings];
+const points=all.flatMap(s=>s.location?[{id:s.id,label:s.name,info:`${s.period} · ${s.architecture}`,lat:s.location.lat,lon:s.location.lon}]:[]);
+const base=import.meta.env.BASE_URL;
+---
+<p>Diese Übersicht unterscheidet <strong>{sanatoria.length} Sanatorien</strong> sowie <strong>Filiali als Institutsanlage und Intourist als Hotel</strong>. Das sind {all.length} eindeutig zugeordnete Anlagen, keine Rekonstruktion einer vollständigen historischen Liste von 22 Sanatorien.</p>
+<nav class="building-index" aria-label="Sanatorien auf dieser Seite">
+  <ul>{all.map(s=><li><a href={`#${s.id}`}>{s.name}</a></li>)}</ul>
+</nav>
+<h3 id="sanatorienkarte">Karte der belegten Gebäudepositionen</h3>
+<p>{points.length} Anlagen lassen sich mit der historischen Bestandsaufnahme und der OpenStreetMap-Kartierung räumlich zuordnen. Für Aia und den Staatssicherheitskomplex wird hier mangels ausreichend überprüfter Position auf einen Marker verzichtet.</p>
+<LocationsMap id="tskaltubo-sanatorienkarte" {points}/>
+{[sanatoria,relatedBuildings].map((group,index)=><>
+  {index===1&&<h3 id="weitere-kurortanlagen">Weitere eindeutig zugeordnete Kurortanlagen</h3>}
+  <div class="sanatorium-list">{group.map(s=><section class="card sanatorium-card" id={s.id} aria-labelledby={`${s.id}-titel`}>
+    <h3 id={`${s.id}-titel`}>{s.name}</h3>
+    <p class="building-names"><span lang="ka">{s.georgian}</span>{s.aliases&&<> · {s.aliases}</>}</p>
+    <dl>
+      <div><dt>Bauzeit</dt><dd>{s.period}</dd></div>
+      {s.architects&&<div><dt>Architekten</dt><dd>{s.architects}</dd></div>}
+      {s.affiliation&&<div><dt>Zuordnung</dt><dd>{s.affiliation}</dd></div>}
+      <div><dt>Architektur</dt><dd>{s.architecture}</dd></div>
+      {s.protection&&<div><dt>Denkmalschutz</dt><dd>Kulturdenkmal seit 28. Mai 2021; im nationalen Register nachgewiesen.</dd></div>}
+    </dl>
+    <p>{s.history}</p>
+    {s.after1991&&<p><strong>Nach 1991:</strong> {s.after1991}</p>}
+    <p><strong>Zustand:</strong> {s.state}</p>
+    {s.use&&<p><strong>Nutzung / Projekt:</strong> {s.use}</p>}
+    {s.detail&&<p><a href={`${base}georgien/sehenswuerdigkeiten/${s.detail}/`}>Zur Detailseite {s.name} →</a></p>}
+    <p class="building-sources"><strong>Belege:</strong> {s.sources.map((r,i)=><>{i>0&&' · '}<a href={r.url} target="_blank" rel="external noopener noreferrer">{r.label}</a></>)}{s.location&&<> · <a href={s.location.osm} target="_blank" rel="external noopener noreferrer">Gebäudeposition (OpenStreetMap)</a></>}</p>
+  </section>)}</div>
+</>)}
+<style>
+  .building-index ul{columns:2;column-gap:2rem;padding-left:1.3rem}
+  .building-index li{break-inside:avoid;margin:.35rem 0;overflow-wrap:anywhere}
+  .sanatorium-list{display:grid;gap:1.25rem;margin:1.5rem 0}
+  .sanatorium-card{scroll-margin-top:6rem;min-width:0;overflow-wrap:anywhere}
+  .sanatorium-card h3{font-size:1.4rem;margin-bottom:.5rem}
+  .building-names{margin-top:0}
+  .sanatorium-card dl{margin:1rem 0}
+  .sanatorium-card dl>div{display:grid;grid-template-columns:9rem minmax(0,1fr);gap:.5rem;padding:.3rem 0}
+  .sanatorium-card dt{font-weight:750}
+  .sanatorium-card dd{margin:0}
+  .building-sources{font-size:.85rem;border-top:1px solid var(--line);padding-top:.75rem;margin-bottom:0}
+  @media(max-width:600px){.building-index ul{columns:1}.sanatorium-card dl>div{grid-template-columns:1fr;gap:.15rem}.sanatorium-card{padding:1rem}}
+</style>

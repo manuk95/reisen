@@ -18,6 +18,8 @@ const editorial = {
   pageId: z.number().int().positive().optional(),
   title: z.string(),
   slug: z.string(),
+  /** Optional parent sight for a background/detail breadcrumb hierarchy. */
+  parent: z.string().regex(/^[a-z0-9-]+$/).optional(),
   trip: z.string(),
   country: z.string(),
   region: z.string(),

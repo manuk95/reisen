@@ -8,9 +8,9 @@ summary: "Ehemaliger sowjetischer Kurort mit grosszügigem Park, monumentalen Sa
 categories: [stadt, architektur, geschichte]
 status: empfohlen
 days: [tag-07, tag-08]
-related: [prometheus, sataplia, uplisziche]
+related: [prometheus, sataplia, uplisziche, tskaltubo-sanatorien]
 sources: [{label: "Georgia Travel: Tskaltubo", url: "https://georgia.travel/cities-towns/tskaltubo"}]
-updated: 2026-08-17
+updated: 2026-10-07
 image: images/georgien/sehenswuerdigkeiten/tskaltubo.jpg
 imageAlt: "Historisches sowjetisches Sanatorium in Tskaltubo"
 imageStatus: lizenziert
@@ -29,6 +29,10 @@ Nach dem Zerfall der Sowjetunion verloren viele Gebäude ihre Funktion. In den 1
 ## Warum der Ort fotografisch fasziniert
 
 Die Mischung aus klassizistischer Monumentalarchitektur, subtropischem Grün und Verfall ist ungewöhnlich. Trotzdem sind verlassene Gebäude **kein frei zugänglicher Abenteuerspielplatz**: Eigentum, Baustellen und Einsturzgefahr respektieren.
+
+## Die Geschichte hinter den Sanatorien
+
+Die ausführliche Hintergrundseite [Tskaltubo – Die Sanatorien der sowjetischen Kurstadt](/reisen/georgien/sehenswuerdigkeiten/tskaltubo-sanatorien/) erklärt das sowjetische Kursystem, die unterschiedlichen Gebäude, den Zusammenbruch nach 1991 und das jahrzehntelange Wohnen der Binnenvertriebenen. Eine Übersicht mit Karte ordnet die belegten Anlagen und ihren dokumentierten Zustand ein.
 
 ## Für eure Tage 7 und 8
 
