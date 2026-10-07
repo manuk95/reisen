@@ -45,7 +45,9 @@ const currentTrip = (file) => fs.existsSync(file) ? field(fs.readFileSync(file, 
 
 function walk(node, parentTag, linked, currentPath, trip) {
   if (!node || typeof node !== 'object') return;
-  const tag = node.tagName || parentTag;
+  // MDX keeps authored HTML as JSX nodes; honour their tags just like HAST elements.
+  const jsxTag = ['mdxJsxFlowElement', 'mdxJsxTextElement'].includes(node.type) ? node.name : undefined;
+  const tag = node.tagName || jsxTag || parentTag;
   if (node.type === 'text' && !blocked.has(parentTag)) {
     const source = node.value; const parts = []; let last = 0; matcher.lastIndex = 0;
     for (let match; (match = matcher.exec(source));) {
