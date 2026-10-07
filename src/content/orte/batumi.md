@@ -9,9 +9,9 @@ categories: [kultur]
 status: empfohlen
 coordinates: {lat: 41.6168, lon: 41.6367}
 days: [tag-12, tag-13]
-related: []
+related: [batumi-bauboom]
 sources: [{label: "Georgia Travel: Batumi", url: "https://georgia.travel/cities-towns/batumi"}]
-updated: 2026-08-07
+updated: 2026-10-07
 image: images/georgien/orte/batumi.jpg
 imageAlt: "Deutsch: Beschreibung: Das Schiffswrack Özlem im schwarzen Meer, nördlich bei Batumi, Georgien English: Description: The Shipwreck Ozlem at Black Sea coast laying north of Batumi, Georgia Français : Description: Épave de l'Ozlem dans la Mer Noire au nord de Batoumi, en Géorgie."
 ---
@@ -21,6 +21,8 @@ imageAlt: "Deutsch: Beschreibung: Das Schiffswrack Özlem im schwarzen Meer, nö
 Batumi ist Hafenstadt, Hauptstadt der Autonomen Republik Adscharien und Georgiens sichtbarster Bade- und Ferienort. Das Stadtbild mischt Altstadtgassen, Gebäude aus der Zeit des russischen Imperiums, sowjetische Spuren, Hochhäuser und bewusst spektakuläre Neubauten. Genau diese Mischung macht Batumi interessanter als einen reinen Strandort.
 
 Der Hafen und die Lage nahe der türkischen Grenze prägten die Stadt wirtschaftlich. Das feuchte subtropische Klima erklärt gleichzeitig die üppige Vegetation, Palmen und die Nähe zum [Botanischen Garten](/reisen/georgien/sehenswuerdigkeiten/botanischer-garten-batumi/).
+
+Warum so viele Hochhäuser und Ferienapartments entstehen, wer hinter den Megaprojekten steht und welche Folgen sie für die bestehende Stadt haben könnten, erklärt die Hintergrundseite [Batumi – Bauboom, Megaprojekte und die Zukunft der Stadt](/reisen/georgien/wissen/batumi-bauboom/).
 
 ## Was ihr zu Fuss verbinden könnt
 

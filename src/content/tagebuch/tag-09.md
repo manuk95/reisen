@@ -106,6 +106,8 @@ Charakteristisch, wie für ganz Georgien, sind die Klimaanlagen, die wohl partou
 
 Mitten in der Stadt und auch ausserhalb gibt es zahlreiche Baustellen. Dazu sind dutzende prunkvolle Hochhausprojekte geplant, die die Skyline von Batumi weiter prägen sollen.
 
+Wir wollten verstehen, warum hier so viel gebaut wird und was das für Batumis Zukunft bedeutet. Der Hintergrund dazu steht auf [Batumi – Bauboom, Megaprojekte und die Zukunft der Stadt](/reisen/georgien/wissen/batumi-bauboom/).
+
 Danach gingen wir noch in die **schönste McDonald’s-Filiale der Welt** und in die [Batumi Mall](https://www.google.com/maps/search/?api=1&query=Batumi+Mall+Zurab+Gorgiladze).
 
 ### Gegen 18:30 Uhr – Ankunft im Paragraph

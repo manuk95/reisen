@@ -1,0 +1,162 @@
+---
+type View = 'overview' | 'history' | 'market' | 'projects' | 'financing' | 'comparison' | 'scenarios';
+const { view } = Astro.props as { view: View };
+const marketSource = 'https://ramad.bog.ge/s3/galt/yepiN99l-Regional-Residential-Real-Estate_ENG_2025.pdf';
+const series = [
+  { title: 'Registrierte Apartmenttransaktionen', scale: 20000, unit: '', axis: '20’000 Transaktionen', values: [{ year: '2024', value: 15195, label: '15’195' }, { year: '2025', value: 17478, label: '17’478' }], note: '+15,0 % gegenüber 2024. Verkäufe sind keine Zählung neuer Bewohner.' },
+  { title: 'Ausgewiesene Mietrendite', scale: 10, unit: '%', axis: '10 %', values: [{ year: '2024', value: 8.8, label: '8,8 %' }, { year: '2025', value: 7.4, label: '7,4 %' }], note: '−1,4 Prozentpunkte. Marktindikator, keine individuelle Nettorendite.' },
+];
+const milestones = [
+  { time: '1878–1907', title: 'Hafen- und Ölboom', text: 'Freihafen, Eisenbahn und Ölpipeline verbinden Batumi mit internationalen Märkten.', future: false },
+  { time: 'Sowjetzeit', title: 'Hafen, Industrie und Erholung', text: 'Verwaltung, Wohnviertel und Feriennutzung prägen die Stadt.', future: false },
+  { time: '2004', title: 'Politischer Wendepunkt', text: 'Abashidzes Herrschaft endet; Tbilisi stellt seine Kontrolle wieder her.', future: false },
+  { time: '2022–2025', title: 'Boom, Abschwächung, Erholung', text: 'Nach dem Nachfragehoch 2022/23 schwächt sich der Markt 2024 ab; 2025 nehmen Transaktionen wieder zu.', future: false },
+  { time: '2026', title: 'Megaprojekte und Angebotsdruck', text: 'Neue Projekte werden vermarktet; der First Tower auf Ambassadori Island ist im Bau.', future: false },
+  { time: 'Bis 2040', title: 'Nutzung und Unterhalt entscheiden', text: 'Szenariohorizont: Nachfrage, Infrastruktur und Betrieb müssen mit den Gebäuden mitwachsen.', future: true },
+];
+const projects = [
+  { zone: 'Nördlicher Küstenbereich', title: 'Ambassadori Island', metric: '84 ha', label: 'angekündigter Masterplan', status: 'First Tower im Bau', text: 'Zwei Halbinseln und eine Insel. Das Zieljahr 2029 betrifft den ersten Turm, nicht die ganze neue Stadt.', href: '#ambassadori-island-neue-stadtfläche-im-meer' },
+  { zone: 'Bestehendes Stadtgebiet', title: 'Alliance Centropolis', metric: 'Mehrere Nutzungen', label: 'Apartments · Hotel · Geschäft', status: 'Entwicklerankündigung', text: 'Hyatt Centric und World Trade Center gehören zum Projektkonzept. Eine Marke ist keine Auslastungsgarantie.', href: '#alliance-centropolis-eine-stadt-im-gebäude' },
+  { zone: 'Beim Nurigeli-See', title: 'ORBI Continental', metric: '1’700 Einheiten', label: 'laut Entwickler', status: 'Projekt wird vermarktet', text: 'Zwei Türme mit 55 und 37 Geschossen. Gesamtfortschritt und Fertigstellung sind hier nicht unabhängig bestätigt.', href: '#orbi-continental-und-avenue-mehr-apartments-im-bestehenden-stadtgebiet' },
+  { zone: 'Batumi', title: 'AVENUE by ORBI', metric: 'Apartmentprojekt', label: 'offizielle Projektübersicht', status: 'Projekt wird vermarktet', text: 'Konkrete Termine und Fortschrittsprozente werden hier nicht als gesicherte Angaben übernommen.', href: '#orbi-continental-und-avenue-mehr-apartments-im-bestehenden-stadtgebiet' },
+  { zone: 'Gonio · südlich des Zentrums', title: 'Gonio Yachts & Marina', metric: 'Rund 9’000 Wohnungen', label: 'Regierungsankündigung für Gonio', status: 'Angekündigter Küstenstandort', text: 'Marina, Hotels und Wohnungen. Die 6,6 Mrd. USD umfassen Gonio und Tbilisi zusammen.', href: '#gonio-yachts--marina-ein-neuer-küstenstandort' },
+];
+const scenarios = [
+  { number: '01', title: 'Ganzjährige Küstenstadt', assumption: 'Nachfrage, Arbeitsplätze und Infrastruktur wachsen mit.', result: 'Mehr verlässlicher Betrieb und eine breitere lokale Wirtschaft.', indicator: 'Ganzjährige Nutzung nimmt zu.', href: '#1-eine-stabilere-ganzjährig-genutzte-küstenstadt' },
+  { number: '02', title: 'Langsame Konsolidierung', assumption: 'Das Angebot wächst schneller als die Nutzung.', result: 'Mehr Konkurrenz; gute Projekte behaupten sich, andere brauchen Rabatte oder neue Nutzungen.', indicator: 'Erträge sinken, die Stadt wächst weiter.', href: '#2-weiteres-wachstum-mit-langwieriger-konsolidierung' },
+  { number: '03', title: 'Zwei Stadtwelten', assumption: 'Neue Küstenprojekte wachsen, bestehende Quartiere bleiben zurück.', result: 'Private Anlagen und öffentliche Alltagsräume entwickeln sich unterschiedlich.', indicator: 'Der sichtbare Kontrast bleibt bestehen.', href: '#3-zwei-sehr-unterschiedliche-stadtwelten' },
+  { number: '04', title: 'Immobilienkorrektur', assumption: 'Käufe oder touristische Nachfrage fallen deutlich.', result: 'Preise und Mieterträge sinken; einzelne Baustellen oder Betriebe geraten unter Druck.', indicator: 'Verzögerungen und Verkaufsdruck nehmen zu.', href: '#4-eine-deutliche-immobilienkorrektur' },
+];
+---
+
+<div class={`batumi-visual batumi-${view}`}>
+  {view === 'overview' && <aside class="overview" aria-label="Batumis Bauboom auf einen Blick">
+    <p class="visual-kicker">Auf einen Blick</p>
+    <p class="overview-title">Die Skyline wächst.<br />Die Nutzung muss mitwachsen.</p>
+    <div class="overview-grid">
+      <a href="#warum-so-viele-neue-gebäude-entstehen"><span class="step-number" aria-hidden="true">01</span><strong>Warum der Boom?</strong><span>Feriengäste, Anleger und Zweitwohnungen schaffen zusätzliche Nachfrage.</span></a>
+      <a href="#was-die-zahlen-tatsächlich-zeigen"><span class="step-number" aria-hidden="true">02</span><strong>Wo liegt das Risiko?</strong><span>Mehr Apartments konkurrieren um Gäste, Erträge und Infrastruktur.</span></a>
+      <a href="#mögliche-szenarien-bis-2040"><span class="step-number" aria-hidden="true">03</span><strong>Was folgt daraus?</strong><span>Mehrere Entwicklungen sind möglich – auch gleichzeitig in verschiedenen Quartieren.</span></a>
+    </div>
+    <p class="visual-note">Einordnung: Es handelt sich um eine Tourismus- und Immobilienentwicklung. Der Vergleich mit einer breit aufgestellten Metropole bleibt eine offene Zukunftsfrage.</p>
+  </aside>}
+
+  {view === 'history' && <figure aria-label="Zeitachse der Stadtentwicklung">
+    <figcaption><strong>Vom Hafenboom zur Apartmentstadt</strong><span class="visual-note">Historische Wendepunkte und ein offener Zukunftshorizont</span></figcaption>
+    <ol class="history-track">{milestones.map(item => <li class:list={{ future: item.future }}>
+      <span class="history-time">{item.time}</span><div><strong>{item.title}</strong><p>{item.text}</p>{item.future && <span class="neutral-label">Szenario, keine Vorhersage</span>}</div>
+    </li>)}</ol>
+    <p class="visual-note">Quellen: Georgia Travel, OSZE-Jahrbuch 2004, Galt & Taggart und Ambassadori-Baustellenbericht; Einordnung und Zukunftshorizont siehe Text.</p>
+  </figure>}
+
+  {view === 'market' && <>
+    <div class="stat-grid">
+      <div class="stat"><strong>17’478</strong><span>registrierte Transaktionen 2025</span><small>Primär- und Sekundärmarkt</small></div>
+      <div class="stat"><strong>≈ 12’400</strong><span>unverkaufte Apartments Ende 2025</span><small>Entwicklerstichprobe · keine Leerstandsquote</small></div>
+      <div class="stat"><strong>52 %</strong><span>ausländische Käufer 2025</span><small>Entwicklerstichprobe · nicht der gesamte Markt</small></div>
+    </div>
+    <div class="chart-grid">{series.map(chart => <figure class="bar-chart" aria-label={`${chart.title}, Vergleich 2024 und 2025`}>
+      <figcaption><strong>{chart.title}</strong></figcaption>
+      <div class="bar-axis" aria-hidden="true"><span>0{chart.unit}</span><span>{chart.axis}</span></div>
+      {chart.values.map((item, index) => <div class="bar-row"><span class="bar-year">{item.year}</span><div class="bar-track" aria-hidden="true"><span class:list={['bar-fill', { current: index === 1 }]} style={`width:${item.value / chart.scale * 100}%`}></span></div><strong class="bar-value">{item.label}</strong></div>)}
+      <p class="visual-note">{chart.note}</p>
+    </figure>)}</div>
+    <p class="visual-note">Die Balken beginnen jeweils bei null; ihre Skalen sind unterschiedlich. <a href={marketSource} target="_blank" rel="external noopener noreferrer">Galt & Taggart, 6. März 2026, S. 2–4 und 7</a>. Marktgebiet einschliesslich Makhinjauri und Gonio–Kvariati. Zahlen sind Berichtsstände, keine Live-Daten.</p>
+  </>}
+
+  {view === 'projects' && <figure>
+    <figcaption><strong>Fünf Projekte, verschiedene Stadtbereiche</strong><span class="visual-note">Räumliche Einordnung, keine massstabsgetreue Karte. Bau- und Marketingangaben sind ausdrücklich bezeichnet.</span></figcaption>
+    <div class="project-grid">{projects.map(project => <section class="project-card" aria-label={project.title}>
+      <p class="project-zone">{project.zone}</p><h3>{project.title}</h3><p class="project-metric">{project.metric}<small>{project.label}</small></p><span class="neutral-label">{project.status}</span><p>{project.text}</p><a href={project.href}>Einordnung und Quellen →</a>
+    </section>)}</div>
+  </figure>}
+
+  {view === 'financing' && <figure>
+    <figcaption><strong>Ein Apartment, drei verschiedene Erfolgsfragen</strong><span class="visual-note">Allgemeines Modell: kein Nachweis der Finanzierung eines bestimmten Projekts.</span></figcaption>
+    <ol class="model-track">
+      <li><span class="step-number" aria-hidden="true">01</span><strong>Kaufen</strong><p>Ein Anleger bezahlt für eine künftige Wohnung.</p><small>Frage: Wird das Produkt verkauft?</small></li>
+      <li><span class="step-number" aria-hidden="true">02</span><strong>Bauen</strong><p>Käuferzahlungen können zur Finanzierung beitragen.</p><small>Frage: Wird das Gebäude fertig?</small></li>
+      <li><span class="step-number" aria-hidden="true">03</span><strong>Nutzen</strong><p>Bewohner oder Gäste müssen die Wohnung später tatsächlich nutzen.</p><small>Frage: Funktioniert der Betrieb?</small></li>
+    </ol>
+    <p class="model-result"><strong>Verkauft ≠ fertiggestellt ≠ wirtschaftlich genutzt</strong><span>Jede Stufe beantwortet eine andere Frage. Ein Verkaufserfolg garantiert keinen späteren Vermietungserfolg.</span></p>
+  </figure>}
+
+  {view === 'comparison' && <figure>
+    <figcaption><strong>Ähnliche Türme, unterschiedliche Grundlagen</strong></figcaption>
+    <div class="comparison-grid">
+      <section><p class="visual-kicker">Batumi · betrachtete Megaprojekte</p><h3>Meerblick + Apartments</h3><ul><li>Tourismus und Feriennutzung</li><li>Immobilienkäufe und Zweitwohnungen</li><li>Hotel-, Freizeit- und Marinaangebote</li></ul><p>Das ist der Schwerpunkt dieser Projekte, keine vollständige Beschreibung der Stadtwirtschaft.</p></section>
+      <section><p class="visual-kicker">Singapur · Wirtschaftsmodell</p><h3>Breite produktive Wirtschaft</h3><ul><li>Verarbeitende Industrie</li><li>Internationaler Logistikstandort</li><li>Unternehmens- und Technologieökosystem</li></ul><p>Eine vergleichbare Skyline allein belegt keine vergleichbare wirtschaftliche Grundlage.</p></section>
+    </div>
+    <p class="visual-note">Analytischer Vergleich auf Basis der Projektquellen und des Singapore Economic Development Board; keine quantitative Grössenrangliste.</p>
+  </figure>}
+
+  {view === 'scenarios' && <figure>
+    <figcaption><strong>Vier mögliche Richtungen bis 2040</strong><span class="visual-note">Keine Rangfolge oder Eintrittswahrscheinlichkeit. Szenarien können sich in verschiedenen Quartieren überlagern.</span></figcaption>
+    <div class="scenario-grid">{scenarios.map(scenario => <section class="scenario-card">
+      <span class="scenario-number" aria-hidden="true">{scenario.number}</span><h3>{scenario.title}</h3><p><strong>Annahme:</strong> {scenario.assumption}</p><p>{scenario.result}</p><p class="scenario-indicator"><strong>Erkennbar daran:</strong> {scenario.indicator}</p><a href={scenario.href}>Szenario im Detail →</a>
+    </section>)}</div>
+  </figure>}
+</div>
+
+<style>
+  .batumi-visual{margin:1.5rem 0 2rem;--visual-accent:var(--wine);--visual-soft:var(--paper);font-size:1rem;line-height:1.55}
+  .batumi-visual figure{margin:0}
+  .batumi-visual figcaption{margin:0 0 1rem;line-height:1.5}
+  .batumi-visual figcaption>strong{font-size:1.2rem;color:var(--green);display:block}
+  .visual-kicker{font-weight:800;font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:0 0 .55rem}
+  .visual-note{font-size:.85rem;color:var(--muted);line-height:1.6;margin:.85rem 0 0;display:block}
+  .overview{padding:clamp(1rem,3vw,2rem);border:1px solid var(--line);border-left:5px solid var(--visual-accent);border-radius:.65rem;background:var(--visual-soft)}
+  .overview-title{font-family:Georgia,serif;font-size:clamp(1.5rem,4vw,2.2rem);line-height:1.2;color:var(--green);margin:.3rem 0 1.4rem}
+  .overview-grid,.stat-grid,.model-track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+  .overview-grid a{display:flex;flex-direction:column;gap:.45rem;text-decoration:none;color:var(--ink);min-width:0;border-top:1px solid var(--line);padding:.9rem 0;min-height:44px}
+  .overview-grid a:hover strong{text-decoration:underline}
+  .step-number{font-size:.82rem;letter-spacing:.06em;font-weight:800;color:var(--visual-accent)}
+  .overview-grid span:last-child{font-size:.9rem}
+  .history-track{list-style:none;padding:0;margin:0}
+  .history-track li{display:grid;grid-template-columns:7.8rem minmax(0,1fr);position:relative;gap:1rem;padding:0 0 1.35rem 1.5rem;margin-left:.4rem;border-left:2px solid var(--line)}
+  .history-track li::before{content:'';position:absolute;top:.35rem;left:-.4rem;width:.65rem;height:.65rem;background:var(--visual-accent);border:2px solid var(--sand);border-radius:50%}
+  .history-track .future{border-left-style:dashed}
+  .history-track .future::before{background:var(--sand);border-color:var(--visual-accent)}
+  .history-time{font-weight:800;color:var(--visual-accent);font-size:.9rem}
+  .history-track p{font-size:.9rem;margin:.2rem 0 .4rem}
+  .neutral-label{display:inline-block;font-size:.74rem;font-weight:750;border:1px solid var(--line);border-radius:.3rem;padding:.25rem .45rem;color:var(--muted)}
+  .stat-grid{margin-bottom:1.25rem}
+  .stat{padding:1rem;background:var(--visual-soft);border:1px solid var(--line);border-radius:.6rem;display:flex;flex-direction:column;gap:.4rem;min-width:0}
+  .stat>strong{font-size:clamp(1.35rem,3vw,1.8rem);color:var(--green);line-height:1.2}
+  .stat>span{font-size:.88rem;font-weight:750}
+  .stat small{font-size:.75rem;color:var(--muted);line-height:1.5}
+  .chart-grid,.comparison-grid,.scenario-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+  .bar-chart{padding:1rem;border:1px solid var(--line);border-radius:.6rem;background:var(--visual-soft);min-width:0}
+  .bar-chart figcaption>strong{font:750 .95rem system-ui;color:var(--ink)}
+  .bar-axis{display:flex;justify-content:space-between;margin:1rem 0 .4rem 3rem;padding-right:4.5rem;color:var(--muted);font-size:.7rem;gap:.4rem}
+  .bar-row{display:grid;grid-template-columns:2.5rem minmax(0,1fr) 4rem;gap:.5rem;align-items:center;margin:.65rem 0;font-size:.8rem}
+  .bar-track{height:1rem;background:var(--line);border-radius:.15rem;overflow:hidden}
+  .bar-fill{height:100%;display:block;background:var(--green);opacity:.55}
+  .bar-fill.current{background:var(--visual-accent);opacity:1}
+  .bar-value{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+  .project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}
+  .project-card,.scenario-card,.comparison-grid>section{padding:1.1rem;border:1px solid var(--line);background:var(--visual-soft);border-radius:.6rem;min-width:0;overflow-wrap:anywhere}
+  .project-card:last-child{grid-column:1/-1}
+  .project-zone{font-size:.72rem;font-weight:800;letter-spacing:.025em;color:var(--muted);margin:0 0 .5rem}
+  .project-card h3,.scenario-card h3,.comparison-grid h3{font-size:1.25rem;line-height:1.25;margin:0 0 .8rem}
+  .project-metric{font-size:1.1rem;font-weight:800;color:var(--green);margin:0 0 .8rem}
+  .project-metric small{display:block;color:var(--muted);font-size:.75rem;font-weight:500;margin-top:.2rem}
+  .project-card>p:not(.project-zone):not(.project-metric),.scenario-card p,.comparison-grid p,.comparison-grid li{font-size:.9rem}
+  .project-card>a,.scenario-card>a{display:inline-flex;align-items:center;min-height:44px;font-size:.85rem;font-weight:750}
+  .model-track{padding:0;list-style:none;gap:1.3rem;margin:1rem 0}
+  .model-track li{position:relative;padding:1rem;border:1px solid var(--line);border-radius:.6rem;background:var(--visual-soft);min-width:0}
+  .model-track li:not(:last-child)::after{content:'→';position:absolute;right:-1.1rem;top:1.2rem;color:var(--visual-accent);font-size:1.15rem}
+  .model-track strong{display:block;margin:.3rem 0;font-size:1.1rem;color:var(--green)}
+  .model-track p{font-size:.9rem;margin:.3rem 0 .7rem}
+  .model-track small{font-size:.78rem;color:var(--muted);display:block;border-top:1px solid var(--line);padding-top:.55rem}
+  .model-result{padding:1rem;border-left:3px solid var(--visual-accent);background:var(--visual-soft)}
+  .model-result strong,.model-result span{display:block}
+  .model-result span{font-size:.88rem;margin-top:.4rem}
+  .comparison-grid ul{padding-left:1.2rem}
+  .scenario-number{display:block;font-size:1.4rem;color:var(--visual-accent);font-weight:800;margin-bottom:.5rem}
+  .scenario-indicator{padding-top:.75rem;border-top:1px solid var(--line)}
+  .batumi-visual a:focus-visible{outline:3px solid var(--visual-accent);outline-offset:3px;border-radius:.2rem}
+  @media(max-width:700px){.stat-grid{grid-template-columns:1fr}.stat{display:grid;grid-template-columns:6.5rem minmax(0,1fr);column-gap:.8rem}.stat>strong{grid-row:1/3}.stat small{grid-column:2}.overview-grid,.model-track{grid-template-columns:1fr}.overview-grid a{display:grid;grid-template-columns:2rem minmax(0,1fr);gap:.3rem .5rem}.overview-grid a .step-number{grid-row:1/3}.overview-grid a span:last-child{grid-column:2}.model-track li:not(:last-child)::after{content:'↓';right:auto;left:1rem;top:auto;bottom:-1.25rem}.chart-grid{grid-template-columns:1fr}.bar-axis{padding-right:4.5rem}.history-track li{grid-template-columns:1fr;gap:.15rem}.history-track strong{font-size:.95rem}}
+  @media(max-width:540px){.project-grid,.scenario-grid,.comparison-grid{grid-template-columns:1fr}.project-card:last-child{grid-column:auto}.stat>strong{font-size:1.4rem}.overview-title{font-size:1.65rem}}
+  @media print{.batumi-visual{break-inside:auto}.stat,.bar-chart,.project-card,.scenario-card,.comparison-grid>section,.model-track li,.history-track li{break-inside:avoid}.bar-track,.bar-fill{print-color-adjust:exact;-webkit-print-color-adjust:exact}.overview-grid a{text-decoration:none}}
+</style>

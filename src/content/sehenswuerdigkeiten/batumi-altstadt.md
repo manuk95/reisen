@@ -9,12 +9,12 @@ categories: [stadt, architektur, kultur, spaziergang]
 status: empfohlen
 coordinates: {lat: 41.650926, lon: 41.636132}
 days: [tag-12]
-related: [botanischer-garten-batumi, batumi-boulevard-miracle-park]
+related: [botanischer-garten-batumi, batumi-boulevard-miracle-park, batumi-bauboom]
 sources:
   - {label: "Georgia Travel: Batumi Piazza", url: "https://georgia.travel/family-attractions/batumi-piazza"}
   - {label: "Georgia Travel: Batumi Europe Square", url: "https://georgia.travel/family-attractions/batumi-europe-square"}
   - {label: "Georgia Travel: Batumi", url: "https://georgia.travel/cities-towns/batumi"}
-updated: 2026-09-23
+updated: 2026-10-07
 image: images/georgien/sehenswuerdigkeiten/batumi-altstadt.jpg
 imageAlt: "Piazza im historischen Zentrum von Batumi"
 imageStatus: lizenziert
@@ -29,6 +29,8 @@ imageEdit: "Auf höchstens 1600 Pixel Kantenlänge verkleinert; keine inhaltlich
 Die **Piazza** ist ein relativ junger Platz mit bewusst mediterran wirkender Architektur und Mosaiken. Wenige Gehminuten entfernt liegt der **Europaplatz** mit der Medea-Statue und einer Mischung aus historischer und moderner Architektur.
 
 Dazwischen lohnt es sich, nicht nur von Punkt zu Punkt zu laufen: Das kompakte Zentrum enthält unter anderem die astronomische Uhr, ältere Fassaden, Cafés und kleine Seitenstrassen.
+
+Den Gegensatz zwischen älteren Stadtvierteln und neuen Hochhäusern ordnet die Hintergrundseite [Batumis Bauboom und Megaprojekte](/reisen/georgien/wissen/batumi-bauboom/) ein.
 
 ## Für Tag 12
 

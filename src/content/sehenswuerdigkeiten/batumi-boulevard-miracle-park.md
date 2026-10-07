@@ -9,12 +9,12 @@ categories: [stadt, meer, spaziergang, architektur, romantisch]
 status: empfohlen
 coordinates: {lat: 41.655022, lon: 41.643372}
 days: [tag-12]
-related: [batumi-altstadt, botanischer-garten-batumi]
+related: [batumi-altstadt, botanischer-garten-batumi, batumi-bauboom]
 sources:
   - {label: "Georgia Travel: Miracle Park", url: "https://georgia.travel/family-attractions/batumis-miracle-park"}
   - {label: "Georgia Travel: Ali & Nino", url: "https://georgia.travel/the-legend-of-ali-and-nino"}
   - {label: "Georgia Travel: Batumi", url: "https://georgia.travel/cities-towns/batumi"}
-updated: 2026-09-23
+updated: 2026-10-07
 image: images/georgien/sehenswuerdigkeiten/batumi-boulevard-miracle-park.jpg
 imageAlt: "Bewegliche Ali-und-Nino-Skulptur am Batumi Boulevard"
 imageStatus: lizenziert
@@ -35,6 +35,8 @@ Dort stehen mehrere der bekanntesten modernen Wahrzeichen der Stadt:
 - das Riesenrad,
 - der Leuchtturm,
 - weitere Skulpturen und Aussichtspunkte.
+
+Hinter der auffälligen Skyline steht ein weitreichender Stadtumbau. Mehr dazu auf [Batumi – Bauboom, Megaprojekte und die Zukunft der Stadt](/reisen/georgien/wissen/batumi-bauboom/).
 
 ## Für Tag 12
 
