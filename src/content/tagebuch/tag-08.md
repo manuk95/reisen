@@ -115,7 +115,7 @@ images:
     caption: "Ausserdem stand dieses lange, goldbraune Gebäck mit heller Füllung auf unserem Tisch. Daneben wurde eine helle Sauce serviert."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1440 Pixel Kantenlänge verkleinert; Metadaten entfernt."
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 
 ## Das haben wir erlebt
@@ -139,6 +139,8 @@ Unser nächster Halt war das [Sanatorium Sakartvelo](/reisen/georgien/sehenswuer
 ### Ein Bier am Tsivi-See
 
 Nach dem Sanatorium gingen wir an den **Tsivi-See** und tranken im [Chef Café](https://maps.app.goo.gl/aGvoFzPjcpP8fXob6) ein Bier.
+
+Am Tsivi-See wirkte Tskaltubo auf uns wie eine ziemlich normale Stadt. Hinter uns lagen jedoch sehr breite Strassen, ein grosser Park und grosse Kreisel. Für uns waren das Indizien dafür, dass die Stadt für einen viel grösseren Kur- und Tourismusbetrieb angelegt worden war. Wir hatten das Gefühl, dass heute nur noch ein Bruchteil der früheren Gäste diesen Ort besucht. Mehr zum Hintergrund steht unter [Tskaltubo – Die Sanatorien der sowjetischen Kurstadt](/reisen/georgien/sehenswuerdigkeiten/tskaltubo-sanatorien/).
 
 ### Gegen 14:30 Uhr – Degustation bei Otia’s Ezo
 
@@ -166,7 +168,6 @@ Zurück im Hotel gingen wir noch kurz ins Spa. Das Dampfbad und die Sauna musste
 
 Wir vermuteten, dass die Nebensaison dabei eine Rolle spielte. Bei Vollbetrieb konnten wir uns nur schwer vorstellen, wie das Hotel mit dieser Organisation funktionieren würde.
 
-*Fortsetzung folgt.*
 
 <!-- Redaktioneller Stand 05.10.2026: Erlebnisse, Uhrzeiten, Höhenschätzung und Zahlung am Metallurgist stammen aus unserem Reisebericht. Die Zahlung ist kein bestätigter offizieller Eintrittspreis. Kartenpunkte: Prometheus und Sakartvelo aus den kanonischen Reiseführerseiten; Hotel aus https://www.tskaltuboepic.com/en/contact ; Chef Café und Metallurgist aus den Google-Maps-Plus-Codes 8HJ48JJ5+348 beziehungsweise 8HJ48HGV+4FF der übermittelten Links (nahe Tskaltubo aufgelöst); Otia’s Ezo/Hausmuseum https://mapcarta.com/W798872179 und Betreiber https://www.otiasezo.com/ ; Imeretian Esquisse https://mapcarta.com/N11805237104 . -->
 
