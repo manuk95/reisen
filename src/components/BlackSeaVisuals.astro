@@ -1,0 +1,221 @@
+---
+import { oceanPath } from '../data/black-sea-map';
+import { animals, depthStops } from '../data/black-sea';
+type View = 'intro' | 'map' | 'depth' | 'bosporus' | 'animals' | 'coast';
+const { view } = Astro.props as { view: View };
+const base = import.meta.env.BASE_URL;
+const project = (lon: number, lat: number) => ({ x: (lon - 25) / 18 * 800, y: (47 - lat) / 8 * 470 });
+const countries = [
+  { name: 'Rumänien', lon: 27.9, lat: 46.0 }, { name: 'Bulgarien', lon: 27.2, lat: 43.2 },
+  { name: 'Ukraine', lon: 32, lat: 46.6 }, { name: 'Russland', lon: 39.4, lat: 45.6 },
+  { name: 'Georgien', lon: 41.6, lat: 43.0 }, { name: 'Türkei', lon: 34.3, lat: 40.0 },
+];
+---
+
+{view === 'intro' && <div class="sea-visual sea-intro">
+  <figure class="sea-photo">
+    <img src={`${base}images/georgien/wissen/schwarzes-meer-nasa-2026.webp`} width="1440" height="1067" alt="Satellitenaufnahme des gesamten Schwarzen Meeres mit türkisfarbenen Planktonwirbeln zwischen dunkleren Wasserflächen" fetchpriority="high" decoding="async" />
+    <figcaption>Schwarz? Vom All aus manchmal türkis. Die Kalkplättchen winziger Algen streuen Licht; NASA nennt sie als wahrscheinliche Ursache dieser Blüte vom 22. Juni 2026. <a href="https://science.nasa.gov/earth/earth-observatory/a-turquoise-tint-for-the-black-sea/">NASA Earth Observatory / Michala Garrison, PACE</a> · <a href="https://www.nasa.gov/nasa-brand-center/images-and-media/">NASA-Nutzungsbedingungen</a>. Für das Web verkleinert und komprimiert.</figcaption>
+  </figure>
+  <div class="sea-facts" aria-label="Drei Besonderheiten">
+    <a href="#geografie"><strong>10,5 ×</strong><span>die Fläche der Schweiz</span></a>
+    <a href="#tiefe"><strong>≈ 90 %</strong><span>des Wasservolumens ohne Sauerstoff</span></a>
+    <a href="#wracks"><strong>2’400 Jahre</strong><span>altes, intakt erhaltenes Handelsschiff</span></a>
+  </div>
+  <nav class="sea-jumps" aria-label="Themen auf dieser Seite">
+    <a href="#tiefe">In die Tiefe</a><a href="#tiere">Tiere & Giftstacheln</a><a href="#georgische-kueste">Georgische Küste</a>
+  </nav>
+</div>}
+
+{view === 'map' && <figure class="sea-visual sea-map">
+  <svg viewBox="0 0 800 470" role="img" aria-labelledby="sea-map-title sea-map-desc">
+    <title id="sea-map-title">Das Schwarze Meer und seine sechs Anrainerstaaten</title>
+    <desc id="sea-map-desc">Die Türkei liegt im Süden, Bulgarien und Rumänien im Westen, die Ukraine im Norden, Russland im Nordosten und Georgien im Osten. Der Bosporus verbindet das Meer im Südwesten mit dem Marmarameer, die Meerenge von Kertsch im Nordosten mit dem Asowschen Meer. Batumi und Shekvetili liegen an der georgischen Ostküste.</desc>
+    <rect width="800" height="470" class="sea-land" rx="12" />
+    <path d={oceanPath} class="sea-water" fill-rule="evenodd" />
+    {countries.map(c => { const p = project(c.lon, c.lat); return <text x={p.x} y={p.y} class="sea-country" text-anchor="middle">{c.name}</text>; })}
+    <text x="410" y="240" text-anchor="middle" class="sea-water-label">Schwarzes Meer</text>
+    <text x="527" y="57" class="sea-small">Asowsches Meer</text>
+    <g class="sea-marker"><circle cx="208" cy="108" r="5"/><text x="220" y="120">Donau</text></g>
+    <g class="sea-marker"><circle cx="337" cy="36" r="5"/><text x="347" y="58">Dnipro</text></g>
+    <g class="sea-marker"><circle cx="736" cy="284" r="5"/><text x="632" y="278">Rioni</text></g>
+    <g class="sea-marker"><circle cx="742" cy="298" r="5"/><text x="598" y="307">Shekvetili</text><path d="M690 302 L738 298"/></g>
+    <g class="sea-marker"><circle cx="739" cy="316" r="5"/><text x="629" y="338">Batumi</text><path d="M696 330 L735 317"/></g>
+    <g class="sea-marker"><circle cx="182" cy="339" r="5"/><text x="194" y="354">Bosporus</text></g>
+    <g class="sea-marker"><circle cx="506" cy="91" r="5"/><text x="430" y="140">Kertsch</text><path d="M486 124 L502 95"/></g>
+    <text x="75" y="387" class="sea-small">Marmarameer</text>
+    <g class="sea-marker"><circle cx="71" cy="400" r="5"/><text x="82" y="438">Dardanellen</text></g>
+  </svg>
+  <figcaption>Übersicht mit ausgewählten Flussmündungen und Orten. Küsten: <a href="https://www.naturalearthdata.com/about/terms-of-use/">Natural Earth, Public Domain</a>, 1:50 Mio., vereinfacht. Rechteckige geografische Projektion; keine politischen Grenzlinien.</figcaption>
+</figure>}
+
+{view === 'depth' && <section class="sea-visual sea-depth" data-sea-depth aria-label="Interaktives Tiefenprofil">
+  <div class="sea-panel-heading"><span class="sea-kicker">Ein Blick unter die Oberfläche</span><h3>Wie viel Meer bleibt uns verborgen?</h3></div>
+  <div class="sea-depth-grid">
+    <svg viewBox="0 0 330 420" role="img" aria-labelledby="sea-depth-title sea-depth-desc">
+      <title id="sea-depth-title">Lineare Tiefenskala von 0 bis 2’200 Metern</title>
+      <desc id="sea-depth-desc">Das obere, sauerstoffreiche Wasser nimmt nur einen kleinen Teil der Tiefe ein. Darunter liegt eine variable Übergangszone; der grösste Teil des tiefen Beckens ist sauerstofffrei. Die farbigen Schichtgrenzen sind schematisch, keine Messung.</desc>
+      <defs><linearGradient id="sea-deep-fill" x2="0" y2="1"><stop stop-color="#183e54"/><stop offset="1" stop-color="#071c2b"/></linearGradient></defs>
+      <rect x="74" y="35" width="228" height="350" rx="10" fill="url(#sea-deep-fill)" />
+      <path d="M74 35 H302 V51 H74 Z" fill="#73d4cf"/>
+      <path d="M74 51 H302 V67 H74 Z" fill="#bea872" />
+      {[0, 500, 1000, 1500, 2200].map(d => <g><text x="63" y={40 + d / 2200 * 350} text-anchor="end">{d.toLocaleString('de-CH')}</text><path d={`M70 ${35+d/2200*350}H82`} class="sea-tick" /></g>)}
+      <text x="22" y="19">Meter</text><text x="188" y="150" class="sea-in-water" text-anchor="middle">Sauerstofffreie Tiefe</text>
+      <text x="188" y="176" class="sea-in-water sea-small" text-anchor="middle">Mikroorganismen · Sulfid</text>
+      <g data-depth-marker transform="translate(0 35)"><path d="M86 0H290" class="sea-probe"/><circle cx="289" r="7" class="sea-probe-dot"/></g>
+      <text x="188" y="407" text-anchor="middle">Tiefstes Becken ≈ 2,2 km</text>
+    </svg>
+    <div class="sea-depth-reading">
+      <p class="sea-scale-note">Oben: dünne Lebensschicht.<br/>Darunter: wechselnde Übergangszone.<br/><strong>Die Tiefenskala ist linear; die Farbgrenzen sind schematisch.</strong></p>
+      <div class="sea-depth-controls" data-depth-controls hidden>
+        <label for="sea-depth-slider">Tiefe erkunden: <output id="sea-depth-value" for="sea-depth-slider" data-depth-value>0 m</output></label>
+        <input id="sea-depth-slider" type="range" min="0" max="2200" value="0" step="10" aria-describedby="sea-depth-caveat" />
+        <div class="sea-stop-buttons">{depthStops.map(s=><button type="button" data-depth-stop={s.value} aria-pressed={s.value===0}>{s.label}</button>)}</div>
+      </div>
+      <div class="sea-depth-stories" aria-live="polite" aria-atomic="true">
+        {depthStops.map((s,i)=><div data-depth-story={i} hidden={i!==0}><h4>{s.title}</h4><p>{s.text}</p></div>)}
+      </div>
+      <noscript><p>Die Tiefe ist sauerstofffrei, aber von Mikroorganismen bewohnt. Der Übergang schwankt; ein fester Grenzwert bei 150 m wäre irreführend.</p></noscript>
+    </div>
+  </div>
+  <p id="sea-depth-caveat" class="sea-caption">Illustration des offenen, tiefen Beckens, kein Tauch- oder Badeprofil eines Strandes. Die Auswahl «Übergang» bei 120 m ist ein Beispiel, keine gemessene Grenze. <a href="https://bg.copernicus.org/articles/13/1287/2016/">Capet et al., 2016</a>; <a href="https://doi.org/10.1186/1467-4866-15-3">Dubinin et al., 2014</a>.</p>
+</section>}
+
+{view === 'bosporus' && <figure class="sea-visual sea-bosporus" data-sea-flow>
+  <div class="sea-panel-heading"><span class="sea-kicker">Zwei Wege durch dieselbe Meerenge</span><h3>Oben hinaus. Unten hinein.</h3></div>
+  <div class="sea-flow-labels"><strong>Schwarzes Meer</strong><strong>Marmarameer</strong></div>
+  <div class="sea-flow-channel">
+    <div class="sea-stream sea-stream-top"><span>Salzärmeres Wasser →</span><div class="sea-moving-arrows" aria-hidden="true">→ &nbsp; → &nbsp; → &nbsp; → &nbsp; → &nbsp; → &nbsp; →</div></div>
+    <div class="sea-stream sea-stream-bottom"><span>← Dichteres, salzreicheres Wasser</span><div class="sea-moving-arrows" aria-hidden="true">← &nbsp; ← &nbsp; ← &nbsp; ← &nbsp; ← &nbsp; ← &nbsp; ←</div></div>
+  </div>
+  <button type="button" class="sea-flow-toggle" data-flow-toggle hidden aria-pressed="false">Strömung animieren</button>
+  <p class="sea-motion-note" data-motion-note hidden>Reduzierte Bewegung: Die Flussrichtungen bleiben als Pfeile sichtbar.</p>
+  <figcaption>Schematischer Normalzustand, ohne Massstab oder Geschwindigkeitsangaben. Wind und Wasserstand können die Strömungen verändern. <a href="https://doi.org/10.1029/2025JC023022">Basdurak, 2026</a>.</figcaption>
+</figure>}
+
+{view === 'animals' && <div class="sea-visual sea-animals">
+  <p class="sea-caption">Die relevantesten Tiere – keine vollständige Artenliste. «Giftstacheln» bedeutet: Gift gelangt durch einen Stich in eine Wunde, nicht durch blosses Vorbeischwimmen.</p>
+  <div class="sea-animal-grid">{animals.map(a=><details class:list={['sea-animal',{'sea-contact':a.type==='contact'}]}>
+    <summary><span class="sea-animal-tag">{a.tag}</span><strong>{a.name}</strong><span class="sea-animal-hint">Mehr erfahren <span aria-hidden="true">+</span></span></summary>
+    <p class="sea-scientific"><i>{a.scientific}</i></p><p>{a.text}</p><a href={a.source}>Fachquelle</a>{a.extraSource && <a href={a.extraSource}>Einordnung für Menschen</a>}
+  </details>)}</div>
+  <p class="sea-caption">Die Giftfisch-Studie belegt Vorkommen an der südlichen Schwarzmeerküste (Proben 2015–2016), keine Häufigkeit von Verletzungen an einem bestimmten Badestrand.</p>
+</div>}
+
+{view === 'coast' && <figure class="sea-visual sea-photo sea-coast-photo">
+  <img src={`${base}images/georgien/tagebuch/tag-09/03-argo-bergfahrt-blick-zum-meer.webp`} width="1440" height="810" loading="lazy" decoding="async" alt="Blick aus der Argo-Seilbahn über Batumi bis zum Schwarzen Meer" />
+  <figcaption>Batumi an der Ostküste: Zwischen Meer und Bergen liegt eine ausgesprochen feuchte, grüne Landschaft.</figcaption>
+</figure>}
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-sea-depth]').forEach(panel => {
+    const slider = panel.querySelector<HTMLInputElement>('input[type="range"]');
+    const value = panel.querySelector<HTMLOutputElement>('[data-depth-value]');
+    const marker = panel.querySelector<SVGGElement>('[data-depth-marker]');
+    const stories = [...panel.querySelectorAll<HTMLElement>('[data-depth-story]')];
+    const buttons = [...panel.querySelectorAll<HTMLButtonElement>('[data-depth-stop]')];
+    if (!slider || !value || !marker) return;
+    panel.querySelector<HTMLElement>('[data-depth-controls]')!.hidden = false;
+    let previous = 0;
+    const update = () => {
+      const depth = Number(slider.value);
+      value.textContent = `${depth.toLocaleString('de-CH')} m`;
+      slider.setAttribute('aria-valuetext', `${depth.toLocaleString('de-CH')} Meter`);
+      marker.setAttribute('transform', `translate(0 ${35+depth/2200*350})`);
+      const index = depth < 50 ? 0 : depth < 200 ? 1 : depth < 2000 ? 2 : 3;
+      // Only announce a new explanation when crossing a zone, not on every pixel.
+      if (index !== previous) {
+        stories.forEach((story, i) => story.hidden = i !== index);
+        previous = index;
+      }
+      buttons.forEach(b => b.setAttribute('aria-pressed', String(Number(b.dataset.depthStop) === depth)));
+    };
+    slider.addEventListener('input', update);
+    buttons.forEach(b=>b.addEventListener('click',()=>{slider.value=b.dataset.depthStop!;update();}));
+    update();
+  });
+
+  document.querySelectorAll<HTMLElement>('[data-sea-flow]').forEach(panel => {
+    const button = panel.querySelector<HTMLButtonElement>('[data-flow-toggle]');
+    const note = panel.querySelector<HTMLElement>('[data-motion-note]');
+    if (!button || !note) return;
+    const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+    let requested = false;
+    let visible = false;
+    const sync = () => {
+      panel.classList.toggle('sea-running', requested && visible && !document.hidden && !reduced.matches);
+      button.hidden = reduced.matches;
+      note.hidden = !reduced.matches;
+      button.setAttribute('aria-pressed', String(requested));
+      button.textContent = requested ? 'Animation pausieren' : 'Strömung animieren';
+    };
+    button.addEventListener('click', () => { requested = !requested; sync(); });
+    reduced.addEventListener('change', () => { if(reduced.matches) requested=false; sync(); });
+    document.addEventListener('visibilitychange', sync);
+    new IntersectionObserver(entries=>{visible=entries[0].isIntersecting;sync();},{threshold:0.1}).observe(panel);
+    sync();
+  });
+
+  // Keep optional explanations readable on paper, restoring their state afterwards.
+  const article = document.querySelector('.sea-visual')?.closest('article');
+  const disclosures = article ? [...article.querySelectorAll<HTMLDetailsElement>('details')] : [];
+  let closedForPrint: HTMLDetailsElement[] = [];
+  window.addEventListener('beforeprint', () => {
+    closedForPrint = disclosures.filter(item => !item.open);
+    closedForPrint.forEach(item => item.open = true);
+  });
+  window.addEventListener('afterprint', () => {
+    closedForPrint.forEach(item => item.open = false);
+    closedForPrint = [];
+  });
+</script>
+
+<style>
+  .sea-visual{margin:1.6rem 0;--sea-teal:#126463;--sea-deep:#173d50;color:var(--ink)}
+  :global(article:has(.sea-visual) h2[id]){scroll-margin-top:95px}
+  .sea-photo{margin:0;border:1px solid var(--line);border-radius:.7rem;overflow:hidden;background:var(--paper)}
+  .sea-photo img{display:block;width:100%;height:auto}
+  .sea-photo figcaption,.sea-caption,.sea-map figcaption,.sea-bosporus figcaption{font-size:.83rem;line-height:1.6;color:var(--muted)}
+  .sea-photo figcaption{padding:.85rem 1rem}
+  .sea-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.7rem;margin:1rem 0}
+  .sea-facts a{padding:.9rem;border:1px solid var(--line);border-radius:.6rem;text-decoration:none;background:var(--paper);color:var(--ink)}
+  .sea-facts strong{display:block;color:var(--wine);font:700 clamp(1.1rem,3vw,1.7rem) Georgia,serif;line-height:1.2;margin-bottom:.5rem}
+  .sea-facts span{font-size:.83rem;line-height:1.4;display:block}
+  .sea-jumps{display:flex;flex-wrap:wrap;gap:.5rem}.sea-jumps a{display:flex;align-items:center;min-height:44px;border:1px solid var(--line);border-radius:2rem;padding:.5rem .8rem;font-size:.9rem;text-decoration:none}
+  .sea-map{margin-inline:0}.sea-map svg{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:.7rem}
+  .sea-land{fill:var(--paper)}.sea-water{fill:#b9d8d4;stroke:#467b75;stroke-width:1.1}
+  .sea-country{font:700 21px system-ui;fill:var(--ink)}.sea-water-label{font:italic 27px Georgia;fill:#173f35}
+  .sea-small{font-size:17px}.sea-marker{fill:#852238;color:#852238;font:600 17px system-ui}.sea-marker path{fill:none;stroke:currentColor;stroke-width:1.2}
+  .sea-map figcaption{margin-top:.7rem}
+  .sea-depth,.sea-bosporus{padding:clamp(.85rem,3vw,1.5rem);background:var(--paper);border:1px solid var(--line);border-radius:.8rem}
+  .sea-panel-heading h3{font-size:clamp(1.3rem,3vw,1.7rem);margin:.3rem 0 1.2rem}.sea-kicker{font-size:.72rem;text-transform:uppercase;letter-spacing:.13em;font-weight:800;color:var(--muted)}
+  .sea-depth-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:1.2rem;align-items:start}
+  .sea-depth svg{display:block;width:100%;height:auto}.sea-depth svg text{fill:var(--ink);font:14px system-ui}.sea-depth svg .sea-in-water{fill:#e7f1f0;font-size:15px}.sea-depth svg .sea-small{font-size:12px}
+  .sea-tick{stroke:var(--ink)}.sea-probe{stroke:#f0cc79;stroke-width:2;stroke-dasharray:5 4}.sea-probe-dot{fill:#f0cc79;stroke:#173d50;stroke-width:2}
+  .sea-scale-note{font-size:.83rem;margin:0 0 1rem;color:var(--muted)}.sea-depth-controls label{display:block;font-weight:700;font-size:.9rem}.sea-depth-controls output{color:var(--wine)}
+  .sea-depth-controls input{width:100%;min-height:44px;accent-color:var(--wine);cursor:pointer;margin:0}
+  .sea-depth-controls input:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+  .sea-stop-buttons{display:flex;flex-wrap:wrap;gap:.35rem}.sea-stop-buttons button,.sea-flow-toggle{min-height:44px;border:1px solid var(--line);border-radius:.35rem;padding:.5rem .7rem;font-size:.8rem;background:var(--sand);cursor:pointer}
+  .sea-stop-buttons button[aria-pressed=true]{background:var(--wine);border-color:var(--wine);color:var(--paper)}
+  .sea-depth-stories{min-height:12rem}.sea-depth-stories h4{font:700 1.05rem Georgia,serif;margin:1rem 0 .5rem}.sea-depth-stories p{font-size:.9rem;margin:0}.sea-caption{margin-bottom:0}
+  .sea-flow-labels{display:flex;justify-content:space-between;font-size:.85rem;gap:1rem;margin-bottom:.7rem}
+  .sea-flow-channel{border-radius:.5rem;overflow:hidden}.sea-stream{position:relative;padding:.8rem 1rem 2rem;overflow:hidden;min-height:85px}
+  .sea-stream-top{background:#b9ded7;color:#183d38}.sea-stream-bottom{background:#173d50;color:#f2efe0}.sea-stream span{display:block;font-weight:750;font-size:.9rem;position:relative;z-index:1}
+  .sea-moving-arrows{position:absolute;bottom:.1rem;left:-3rem;white-space:nowrap;font-size:1.45rem;letter-spacing:.4rem;animation:sea-out 3s linear infinite;animation-play-state:paused}
+  .sea-stream-bottom .sea-moving-arrows{animation-name:sea-in}.sea-running .sea-moving-arrows{animation-play-state:running}
+  .sea-flow-toggle{margin:.8rem 0 .2rem}.sea-bosporus figcaption{margin-top:.8rem}.sea-motion-note{font-size:.83rem}
+  @keyframes sea-out{from{transform:translateX(0)}to{transform:translateX(3rem)}}@keyframes sea-in{from{transform:translateX(3rem)}to{transform:translateX(0)}}
+  .sea-animal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem;margin-top:1rem;align-items:start}
+  .sea-animal{margin:0;padding:0;border:1px solid var(--line);border-top:3px solid var(--sea-teal);border-radius:.6rem;background:var(--paper)}
+  .sea-contact{border-top-color:var(--gold)}.sea-animal summary{padding:1rem;min-height:44px;list-style:none;cursor:pointer}.sea-animal summary::-webkit-details-marker{display:none}
+  .sea-animal summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px}.sea-animal-tag{display:block;font-size:.72rem;color:var(--muted);margin-bottom:.35rem;font-weight:700}.sea-animal summary strong{font:700 1.15rem Georgia,serif;display:block}
+  .sea-animal-hint{display:flex;justify-content:space-between;font-size:.75rem;font-weight:500;margin-top:.6rem;color:var(--wine)}.sea-animal[open] .sea-animal-hint span{transform:rotate(45deg)}
+  .sea-animal>p,.sea-animal>a{margin:.5rem 1rem .9rem;font-size:.9rem}.sea-animal>a{display:inline-flex;align-items:center;min-height:44px;margin-top:0}.sea-scientific{overflow-wrap:anywhere;color:var(--muted);font-size:.8rem!important}
+  .sea-coast-photo{margin:1rem 0}.sea-coast-photo img{max-height:380px;object-fit:cover}
+  :global([data-theme=dark]) .sea-visual{--sea-teal:#9fd8c8}.sea-visual [hidden]{display:none!important}
+  :global([data-theme=dark]) .sea-water{fill:#325e62;stroke:#90bdb7}:global([data-theme=dark]) .sea-water-label,:global([data-theme=dark]) .sea-marker{fill:#fff0ca;color:#fff0ca}
+  :global([data-theme=dark]) .sea-stop-buttons button[aria-pressed=true]{color:#192821}
+  @media(max-width:540px){.sea-depth-grid{grid-template-columns:1fr}.sea-depth svg{width:min(100%,260px);margin:auto}.sea-depth-stories{min-height:0}.sea-facts{gap:.4rem}.sea-facts a{padding:.7rem .5rem}.sea-facts span{font-size:.76rem}.sea-animal-grid{grid-template-columns:1fr}.sea-flow-labels{font-size:.78rem}.sea-stream{padding-inline:.7rem}}
+  @media(prefers-reduced-motion:reduce){.sea-moving-arrows{animation:none!important}.sea-animal-hint span{transform:none!important}}
+  @media print{.sea-visual{break-inside:avoid}.sea-depth-controls,.sea-flow-toggle,.sea-jumps{display:none!important}.sea-depth-stories [hidden]{display:block!important}.sea-depth-stories h4{margin-top:.5rem}.sea-animal-grid{display:block}.sea-animal{margin:.4rem 0}.sea-animal>p{display:block!important}.sea-moving-arrows{animation:none}.sea-photo img{max-height:260px;object-fit:contain}.sea-facts a{box-shadow:none}}
+</style>

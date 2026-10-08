@@ -8,9 +8,9 @@ summary: "Hintergrundwissen zu Natur und Geografie."
 categories: [kultur]
 status: empfohlen
 days: []
-related: []
+related: [schwarzes-meer]
 sources: [{label: "Geostat und Quellenverzeichnis der Reiseplanung", url: "https://www.geostat.ge/en"}]
-updated: 2026-08-03
+updated: 2026-10-08
 ---
 
 ## 6.1 Lage zwischen Europa und Asien
@@ -24,6 +24,8 @@ Der Grosse Kaukasus im Norden schützt Westgeorgien teilweise vor kalten Luftmas
 ## 6.3 Schwarzes Meer, Flüsse und Seen
 
 Der Mtkvari/Kura fliesst durch Tbilisi Richtung Kaspisches Meer; Rioni entwässert Westgeorgien ins Schwarze Meer. Die Kolchis-Tiefebene ist feucht, sumpfig und ökologisch aussergewöhnlich.
+
+Die Hintergrundseite [Das Schwarze Meer – Leben über der dunklen Tiefe](/reisen/georgien/wissen/schwarzes-meer/) verbindet Geografie, Tiefenwasser, Tierwelt und die kolchische Küste mit interaktiven Grafiken.
 
 ## 6.4 Klima- und Vegetationszonen
 

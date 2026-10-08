@@ -306,6 +306,17 @@ Umgesetzt am 23.09.2026: lokale tastaturbedienbare SVG-Regionenkarte, zentrale R
 
 ---
 
+## 9.4 Wissensseite «Das Schwarze Meer»
+
+**Status:** ERLEDIGT
+**Verantwortlich:** Codex
+
+Umgesetzt am 08.10.2026: kompakte MDX-Hintergrundseite in der bestehenden Wissens-Collection, mit lokal gespeicherter und belegter NASA-Aufnahme, Natural-Earth-Küstenkarte, linearer Tiefenskala mit bedienbarer Tiefenwahl sowie pausierbarer Bosporus-Animation. Aufklappbare Tierkarten behandeln die relevanten Meeressäuger, Schwarmfische, Quallen und Fische mit Giftstacheln. Wissenschaftliche Unsicherheiten, Messzeiträume, die Sintflut-Hypothese und unbewiesene Magnetsand-Heilwirkungen sind gekennzeichnet. Batumi, Shekvetili, Natur und Geschichte verlinken zurück.
+
+Geprüft: `npm ci`, Astro/TypeScript, 39 bestehende Tests, Build, Pagefind und interne Links; Browser bei 390/768/1440 px, Tastatur, Dark Mode, reduzierte Bewegung, Kerninhalt ohne JavaScript, Offline nach vorherigem Besuch und Druck mit geöffneten Vertiefungen. Keine Änderungen am allgemeinen Renderer, Schema oder PWA-Verhalten.
+
+---
+
 # Phase 10 – Datenschutz
 
 ## 10.1 Öffentliches Repository prüfen

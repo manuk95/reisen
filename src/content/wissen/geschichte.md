@@ -8,9 +8,9 @@ summary: "Vom antiken Kolchis und Iberien über Christianisierung, Königreich, 
 categories: [kultur, geschichte]
 status: empfohlen
 days: []
-related: [mtskheta, gelati, vardzia, tbilisi, suedossetien]
+related: [mtskheta, gelati, vardzia, tbilisi, suedossetien, schwarzes-meer]
 sources: [{label: "Encyclopaedia Britannica: Georgia history", url: "https://www.britannica.com/place/Georgia/History"}, {label: "Auswärtiges Amt: Georgien - Überblick", url: "https://www.auswaertiges-amt.de/de/service/laender/georgien-node"}]
-updated: 2026-10-05
+updated: 2026-10-08
 ---
 
 ## Vorgeschichte und frühe Besiedlung
@@ -20,6 +20,8 @@ Dmanissi lieferte etwa 1.8 Mio. Jahre alte Homininenfunde. Im Südkaukasus entwi
 ## Kolchis, Iberien und das Goldene Vlies
 
 Westgeorgien war als Kolchis Teil der griechischen Vorstellungswelt; der Mythos von Jason und dem Goldenen Vlies wird mit Goldgewinnung in Gebirgsflüssen verbunden. Ostgeorgien bildete das Königreich Iberien/Kartli.
+
+Antike Handelswege, Kolchis und ungewöhnlich gut erhaltene Schiffswracks verbindet die Wissensseite [Das Schwarze Meer – Leben über der dunklen Tiefe](/reisen/georgien/wissen/schwarzes-meer/).
 
 ## Christianisierung
 
