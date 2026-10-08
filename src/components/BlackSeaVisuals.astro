@@ -217,5 +217,8 @@ const countries = [
   :global([data-theme=dark]) .sea-stop-buttons button[aria-pressed=true]{color:#192821}
   @media(max-width:540px){.sea-depth-grid{grid-template-columns:1fr}.sea-depth svg{width:min(100%,260px);margin:auto}.sea-depth-stories{min-height:0}.sea-facts{gap:.4rem}.sea-facts a{padding:.7rem .5rem}.sea-facts span{font-size:.76rem}.sea-animal-grid{grid-template-columns:1fr}.sea-flow-labels{font-size:.78rem}.sea-stream{padding-inline:.7rem}}
   @media(prefers-reduced-motion:reduce){.sea-moving-arrows{animation:none!important}.sea-animal-hint span{transform:none!important}}
-  @media print{.sea-visual{break-inside:avoid}.sea-depth-controls,.sea-flow-toggle,.sea-jumps{display:none!important}.sea-depth-stories [hidden]{display:block!important}.sea-depth-stories h4{margin-top:.5rem}.sea-animal-grid{display:block}.sea-animal{margin:.4rem 0}.sea-animal>p{display:block!important}.sea-moving-arrows{animation:none}.sea-photo img{max-height:260px;object-fit:contain}.sea-facts a{box-shadow:none}}
+  @media print{
+    :global(html:has(.sea-visual)){--sand:#fff;--paper:#fff;--ink:#192821;--green:#173f35;--wine:#8d2438;--gold:#ad7d26;--muted:#625e53;--line:#d4c5a9;color-scheme:light}
+    .sea-visual{break-inside:avoid}.sea-animals{break-inside:auto}.sea-depth-controls,.sea-flow-toggle,.sea-jumps{display:none!important}.sea-depth-stories [hidden]{display:block!important}.sea-depth-stories h4{margin-top:.5rem}.sea-animal-grid{display:block}.sea-animal{margin:.4rem 0;break-inside:avoid}.sea-animal>p{display:block!important}.sea-moving-arrows{animation:none}.sea-photo img{max-height:260px;object-fit:contain}.sea-facts a{box-shadow:none}
+  }
 </style>
