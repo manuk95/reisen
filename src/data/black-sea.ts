@@ -10,8 +10,8 @@ export const animals = [
 ];
 
 export const depthStops = [
-  { value: 0, label: 'Oberfläche', title: 'Hier lebt das sichtbare Meer.', text: 'Wind und Luftkontakt versorgen das obere Wasser mit Sauerstoff. Plankton, Fische, Delfine und Quallen nutzen diese Schicht. Der Salzgehalt liegt im offenen Meer typischerweise bei etwa 18.' },
+  { value: 0, label: 'Oberfläche', title: 'Hier lebt das sichtbare Meer.', text: 'Wind und Luftkontakt versorgen das obere Wasser mit Sauerstoff. Plankton, Fische, Delfine und Quallen nutzen diese Schicht. Im offenen Meer enthält es grob 18 g Salz pro Kilogramm Wasser.' },
   { value: 120, label: 'Übergang', title: 'Eine Grenze, die sich verschiebt.', text: 'In den oberen rund 200 Metern liegt der Übergang zum sauerstofffreien Wasser. Seine tatsächliche Tiefe hängt von Ort, Jahreszeit und Strömung ab. Sauerstoffverlust und das erste Auftreten von Sulfid liegen nicht zwingend auf derselben Höhe.' },
-  { value: 1000, label: 'Tiefe', title: 'Kein Sauerstoff – trotzdem Leben.', text: 'Im tiefen Becken fehlen Fische und Delfine. Mikroorganismen können hier ohne Sauerstoff leben. Beim Abbau organischer Substanz entsteht unter anderem Schwefelwasserstoff. Das dichtere Tiefenwasser hat typischerweise einen Salzgehalt von etwa 22.' },
+  { value: 1000, label: 'Tiefe', title: 'Kein Sauerstoff – trotzdem Leben.', text: 'Im tiefen Becken fehlen Fische und Delfine. Mikroorganismen können hier ohne Sauerstoff leben. Beim Abbau organischer Substanz entsteht unter anderem Schwefelwasserstoff. Das dichtere Tiefenwasser enthält grob 22 g Salz pro Kilogramm Wasser.' },
   { value: 2000, label: 'Wracks', title: 'Ein ungewöhnliches Archiv.', text: 'In mehr als 2’000 Metern Tiefe wurde das etwa 2’400 Jahre alte griechische Handelsschiff gefunden. Sauerstofffreie Bedingungen begünstigen die Erhaltung von Holz; sie garantieren aber nicht die Unversehrtheit jedes Wracks.' },
 ];
