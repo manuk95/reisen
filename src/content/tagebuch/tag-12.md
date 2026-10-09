@@ -70,7 +70,37 @@ images:
     caption: "Zu unseren Desserts tranken wir einen halbtrockenen Weisswein."
     ownPhoto: true
     edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
-updated: 2026-10-09
+  - src: "images/georgien/tagebuch/tag-12/12-musikerpark-velotour-bei-nacht.webp"
+    alt: "Eine von uns steht mit einem schwarzen Velo auf einem beleuchteten Weg zwischen den Bäumen im Musikerpark"
+    caption: "Mit den gemieteten Velos nochmals in den Musikerpark."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-12/13-musikerpark-geiger-bei-nacht.webp"
+    alt: "Beleuchtete Musikerfigur mit einer Geige und einem Bogen auf einem Sockel zwischen Bäumen"
+    caption: "Auch die Musikerfiguren waren nachts beleuchtet."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-12/14-musikerpark-dirigent-bei-nacht.webp"
+    alt: "Angestrahlte Dirigentenfigur mit erhobenen Armen und einem Taktstock vor dunklen Bäumen"
+    caption: "Ein Dirigent mitten im nächtlichen Wald."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-12/15-musikerpark-musikerverzeichnis.webp"
+    alt: "Detail der Übersichtstafel mit nummeriertem Verzeichnis der Musiker und weiterer Stationen im Park"
+    caption: "Die Übersichtstafel half uns, die Musikerfiguren zu finden."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-12/16-musikerpark-uebersichtsplan.webp"
+    alt: "Übersichtsplan des Musikerparks mit geschwungenen Wegen, nummerierten Stationen und einer Musikerliste"
+    caption: "Unsere Orientierung für die Runde durch den Park."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+  - src: "images/georgien/tagebuch/tag-12/17-musikerpark-saenger-mit-gitarre.webp"
+    alt: "Grünlich beleuchtete Sängerfigur mit Mikrofon, Gitarre und ausgestreckter Hand zwischen den Bäumen"
+    caption: "Bei unserer nächtlichen Runde klapperten wir ziemlich alle Musiker ab."
+    ownPhoto: true
+    edit: "Als WebP komprimiert, auf maximal 1600 Pixel Kantenlänge verkleinert; Metadaten entfernt."
+updated: 2026-10-10
 ---
 ## Das haben wir erlebt
 
@@ -117,3 +147,5 @@ Nach unserer nächtlichen Velotour kehrten wir ins Hotel zurück. Gegen **23:30 
 Ein warmer, entspannter Tag mit viel Wasser, einem knallroten Sonnenuntergang und einem unerwartet schönen Abschluss im beleuchteten Musikerpark. Besonders in Erinnerung bleiben uns die beiden Seabob-Fahrten und die nächtliche Runde mit den Velos.
 
 <!-- Persönlicher Reisebericht vom 09.10.2026: Ablauf, ungefähre Zeiten, Mietdauern, Speisen, Wein und Eindrücke gemäss unseren Angaben. Die Aussage zum wärmsten Tag beschreibt unser Empfinden, keine gemessene Temperatur. Musik und ausgefallene Lautsprecher sind unsere Beobachtung bei diesem Besuch, keine allgemeine Betriebszusage. Die elf Fotos enthalten keine auslesbaren Aufnahmezeiten; keine zusätzlichen Uhrzeiten aus Lichtstimmung oder Dateinamen abgeleitet. Kartenpunkte aus der bestehenden Paragraph-/Musikerpark-Zuordnung der Website. -->
+
+<!-- Sechs Nachtaufnahmen des Musikerparks ergänzt am 10.10.2026; aufgenommen bei der nächtlichen Velotour an Tag 12. Bildtexte beschreiben die sichtbaren Motive, ohne unbestätigte Künstlerzuordnungen. -->
